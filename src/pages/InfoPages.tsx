@@ -9,6 +9,7 @@ import { LeaderboardTable, SeasonSelector } from '../components/Leaderboard';
 import { Arrow, DemoDataBadge, SectionHeading } from '../components/ui/primitives';
 import { scoresBySeason } from '../data/championship';
 import { factions } from '../data/factions';
+import { grays } from '../data/lore/grays';
 import { collectibleConcepts, privacyBlocks, termsBlocks, transparencyBlocks, type InfoBlock } from '../data/pages';
 import type { FactionId } from '../data/types';
 import { useI18n } from '../i18n/I18nProvider';
@@ -74,6 +75,17 @@ export function LorePage() {
     <div className="container-x py-14 md:py-20">
       <SectionHeading as="h1" kicker={t.transmission.kicker} title={t.stub.lore.title} intro={t.stub.lore.intro} />
       <PhaseNotice phase={2} />
+      <Link
+        to="/factions/vhal-ett"
+        className="group mb-10 flex items-center justify-between gap-4 rounded-[28px] bg-graphite-800 p-6 transition-colors hover:bg-graphite-700 sm:p-7"
+      >
+        <span>
+          <span className="block text-sm font-semibold text-signal">{t.dossier.kicker}</span>
+          <span className="display mt-1 block text-2xl sm:text-3xl">{t.dossier.title}</span>
+          <span className="mt-1 block text-bone-dim">{l(grays.tagline)}</span>
+        </span>
+        <Arrow className="h-5 w-5 shrink-0 text-link transition-transform group-hover:translate-x-1" />
+      </Link>
       <div role="radiogroup" aria-label={t.war.faction} className="mb-10 flex flex-wrap gap-2">
         {(['all', ...factions.map((f) => f.id)] as const).map((id) => (
           <button

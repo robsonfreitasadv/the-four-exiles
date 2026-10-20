@@ -6,7 +6,7 @@ Imagens oficiais: `design/sheets/races.webp` (recortes em `public/images/charact
 
 ---
 
-## VHAL-ETT — Os Cinzentos · Os Escrivães (The Scribes / The Grey Scribes)
+## VHAL-ETT — Os Cinzentos · Os Escrivães (The Scribes / The Grey Scribes) · nome popular: Grays
 
 - **Planeta natal:** Hevra · **Altura:** 1,2–1,5 m · **Reivindicação no Censo:** biológica
 - **Lema:** "Procedure is protection." / "Procedimento é proteção."
@@ -16,7 +16,8 @@ Imagens oficiais: `design/sheets/races.webp` (recortes em `public/images/charact
 - **Humor:** formulários, carimbos, memorandos telepáticos, protocolos impossíveis, pausa arquivística de sete segundos.
 - **Contradição:** precisam do caos para sobreviver e já protocolaram 40.000 reclamações sobre ele.
 - **Potencial para memes:** abduções com formulário, carimbos galácticos, alienígenas aguardando autorização para invadir a Terra.
-- **Personagem em destaque:** Sete, arquivista júnior que leu o contrato inteiro (página 4.812). *Provisório.*
+- **Personagem em destaque:** Sete, indivíduo Gray e auditor do Arquivo Central (**aprovado**). Leu o contrato inteiro (página 4.812) — *provisório*.
+- **Dossiê completo:** `docs/lore/grays.md` e `grays.json` (cânone aprovado, provisório e perguntas em aberto).
 - **Visual (ficha):** cinzento de cabeça grande e olhos pretos, terno escuro, crachá, bolsa a tiracolo, tablet. Paleta cinza, prata, branco, preto.
 
 ## ILVANI — Os Nórdicos · Os Pastores (The Shepherds)

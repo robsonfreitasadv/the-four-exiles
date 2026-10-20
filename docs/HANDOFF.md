@@ -9,9 +9,11 @@ Atualize este arquivo no fim de cada sessão (chat ou código): o que foi feito,
 - Imagens oficiais das fichas aplicadas em todo o site; seção "raças em 3D" e seção da Resistência.
 - Repositório organizado como fonte única de contexto (`docs/`), com cânone, decisões e instruções para o projeto do chat.
 
+- Dossiê dos Grays trazido do chat para `docs/lore/grays.json` (fonte) e `grays.md` (resumo). O site lê o JSON e mostra o dossiê na página dos Vhal-Ett, com selos de status (cânone, provisório, em aberto), e o arquivo de lore tem um atalho para ele. Sete agora é "Auditor do Arquivo Central".
+
 **Próximos passos sugeridos**
-1. Trazer o dossiê dos Grays do projeto do chat para `docs/lore/grays.md` e aprovar.
-2. Reescrever as quatro raças no viés ufológico/conspiração (ver `docs/DECISOES.md`, em aberto) e levar o resultado ao site.
+1. **Decidir o conflito de nomes** do dossiê dos Grays (ver `docs/DECISOES.md`, em aberto). Os quatro personagens Gray com nomes de raça estão fora do site até lá.
+2. Fazer o mesmo dossiê para Ilvani, Sazhi e Xhalen-Kthrix no chat, no mesmo formato JSON (`docs/lore/<raça>.json`), para o site ler automaticamente.
 3. Fase 2: arquivo de lore completo (capítulos, transmissões, documentos) e galeria de personagens ampliada.
 4. Decidir os nomes do Soberano e do Comandante.
 

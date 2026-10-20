@@ -4,6 +4,7 @@ import { RaceArt } from '../components/art/RaceArt';
 import { withBase } from '../components/art/CharacterImage';
 import { TurnaroundViewer } from '../components/art/TurnaroundViewer';
 import { RacesShowcase } from '../components/RacesShowcase';
+import { GraysDossier } from '../components/GraysDossier';
 import { FactionCard } from '../components/FactionCard';
 import { MissionCard } from '../components/MissionCard';
 import { Arrow, SectionHeading } from '../components/ui/primitives';
@@ -199,6 +200,8 @@ export function FactionDetailPage() {
           </div>
         </div>
       </section>
+
+      {f.id === 'vhal-ett' && <GraysDossier />}
 
       {/* timeline */}
       <section className="container-x py-16 md:py-24" aria-labelledby="timeline">

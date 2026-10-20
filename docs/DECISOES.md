@@ -16,6 +16,7 @@ Ao decidir algo no chat ou no código, acrescente uma linha aqui e faça commit.
 | 2026-10-20 | A Resistência (Dora, Rui, Lívia, Júlio, Tati) faz parte do cânone; Dora tem 28 anos e é de Fortaleza. |
 | 2026-10-20 | Lemas e traços das raças vêm da ficha oficial (ex.: "Procedure is protection."). |
 | 2026-10-20 | O repositório GitHub é a fonte da verdade, compartilhada pelo Claude Code e pelo projeto do chat, nos dois computadores. |
+| 2026-10-20 | Grays (dossiê do chat, `docs/lore/grays.json`): são uma espécie; Sete é auditor do Arquivo Central; obsessão por reduzir a incerteza e controlar a informação; Zeta Reticuli como referência de folclore ufológico; tecnologia com limites claros; relações ambíguas com as outras raças e os humanos; mistério dos registros alterados e da antiga decisão galáctica. |
 
 ## Provisórias
 
@@ -26,6 +27,7 @@ Ao decidir algo no chat ou no código, acrescente uma linha aqui e faça commit.
 | 2026-10-19 | Premissa do Censo de 2049 e da cláusula 4.812-c como brecha. |
 | 2026-10-19 | Missões de demonstração (Operação Três Vias, Banquete Seco, Auditoria do Sorriso, Rendição Cortês). |
 | 2026-10-20 | Seção "raças em 3D" com giro feito a partir das vistas da ficha (não é modelo 3D real). |
+| 2026-10-20 | Grays: descrição de Hevra, variantes, seis eras, modelo da antiga decisão, programa POT-7 e cinco correntes internas. No site, aparecem com o selo "Provisório". |
 
 ## Em aberto
 
@@ -34,6 +36,8 @@ Ao decidir algo no chat ou no código, acrescente uma linha aqui e faça commit.
 | 2026-10-19 | Nome pessoal do Soberano (Sazhi) e do Comandante (Xhalen-Kthrix). |
 | 2026-10-20 | Título dos Vhal-Ett em inglês: "The Scribes" (ficha) ou "The Grey Scribes" (site). |
 | 2026-10-20 | Escrever cada raça no viés de ufólogos e teóricos da conspiração (pedido no projeto do chat), começando pelos Grays. |
-| 2026-10-20 | Dossiê dos Grays (`THE_FOUR_EXILES_GRAYS.txt` / `.json`), gerado no chat: trazer para `docs/lore/` e aprovar. |
+| 2026-10-20 | **Conflito de nomes:** o dossiê dos Grays lista personagens Gray chamados VHAL-ETT, ILVANI, SAZHI e XHALEN-KTHRIX, que no site e nas decisões aprovadas são os nomes das quatro raças. Opções: (a) manter os nomes como raças e dar outros nomes a esses personagens; (b) mudar os nomes das raças. Até a decisão, o site não mostra esses quatro personagens. |
+| 2026-10-20 | "Grays" é o nome oficial da raça VHAL-ETT ou o apelido popular dela? (O site trata como apelido.) |
+| 2026-10-20 | Grays: perguntas Q1 a Q6 do dossiê (quem alterou os registros, natureza da antiga decisão, por que a Terra aparece, origem biológica, instituições envolvidas, custos da tecnologia). |
 | 2026-10-20 | Fichas dos personagens em resolução maior (as atuais têm cerca de 1300 px de largura). |
 | 2026-10-20 | Hospedagem pública do site e domínio. |

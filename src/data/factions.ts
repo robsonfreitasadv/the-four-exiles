@@ -62,7 +62,7 @@ export const factions: Faction[] = [
     claimBasis: { en: 'Biological claim', 'pt-BR': 'Reivindicação biológica' },
     leader: {
       name: { en: 'Sete', 'pt-BR': 'Sete' },
-      role: { en: 'Junior Archivist, Census Division', 'pt-BR': 'Arquivista Júnior, Divisão do Censo' },
+      role: { en: 'Auditor of the Central Archive', 'pt-BR': 'Auditor do Arquivo Central' },
       description: {
         en: 'The only civil servant in recorded history who actually read the entire contract. Somewhere on page 4,812, there is a clause that changes everything.',
         'pt-BR': 'O único servidor público da história registrada que de fato leu o contrato inteiro. Em algum ponto da página 4.812, há uma cláusula que muda tudo.',
