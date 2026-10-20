@@ -3,27 +3,14 @@
   "configurations": [
     {
       "name": "four-exiles",
-      "runtimeExecutable": "node",
-      "runtimeArgs": [
-        "C:/Users/robson.freitas/Claude/node_modules/vite/bin/vite.js",
-        "C:/Users/robson.freitas/Claude",
-        "--port",
-        "5173",
-        "--strictPort"
-      ],
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
       "port": 5173
     },
     {
       "name": "four-exiles-static",
-      "runtimeExecutable": "node",
-      "runtimeArgs": [
-        "C:/Users/robson.freitas/Claude/node_modules/vite/bin/vite.js",
-        "preview",
-        "C:/Users/robson.freitas/Claude",
-        "--port",
-        "4173",
-        "--strictPort"
-      ],
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["vite", "preview", "--port", "4173", "--strictPort"],
       "port": 4173
     }
   ]

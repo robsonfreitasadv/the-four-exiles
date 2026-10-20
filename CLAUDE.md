@@ -1,49 +1,65 @@
-# THE FOUR EXILES — project rules
+# THE FOUR EXILES — regras para o Claude Code
 
-Original sci-fi satire site: four alien races dispute Earth in a cosmic Census, and the human Resistance led by Dora pushes back. Bilingual (EN / PT-BR), React + TypeScript + Tailwind, built with Vite. Local mock data only: no backend, wallet, token or real transactions.
+Site de sátira de ficção científica: quatro raças alienígenas disputam a Terra num Censo cósmico, e a Resistência humana, liderada por Dora, reage. Bilíngue (EN / PT-BR), React + TypeScript + Tailwind, Vite. Só dados locais simulados: sem backend, carteira, token ou transação real.
 
-## Linked places
+**O contexto do projeto está em `docs/`, compartilhado com o Claude do chat e entre computadores. Comece por `docs/CONTEXTO.md`.**
 
-| What | Where |
+## Rotina obrigatória
+
+**No início de toda sessão**
+1. `git pull` (o dono trabalha no desktop e no notebook).
+2. Ler `docs/CONTEXTO.md`, `docs/HANDOFF.md` e `docs/DECISOES.md`.
+
+**Ao terminar cada conjunto de mudanças**
+1. Atualizar `docs/HANDOFF.md` (feito, pela metade, próximos passos).
+2. Registrar decisões novas em `docs/DECISOES.md` com status: aprovada, provisória ou em aberto.
+3. Commit com mensagem clara e `git push` para `origin/main`, sem pedir confirmação.
+4. Se mudou algo visível no site, republicar a prévia (abaixo).
+
+Nada importante fica só na conversa ou na memória local: o que não está no repositório se perde no outro computador e é invisível para o projeto do chat.
+
+## Lugares vinculados
+
+| O quê | Onde |
 | --- | --- |
-| Claude project | **THE FOUR EXILES — PROJECT MASTER** (`cse_018zLyy8LsrdugSyWGkrBKAL`): lore, decisions and conversation analysis |
-| Code session | "Four Exiles MVP portal" (`local_162e76a9-cad9-4089-8c14-ce3d1a6a254c`), in the Code sidebar group of the same name |
-| Site preview | https://claude.ai/artifact/J6yY4A8qS5DLjFmF4qkBH6 |
-| Repository | https://github.com/robsonfreitasadv/the-four-exiles |
-| Local folder | `C:\Users\robson.freitas\Claude` |
+| Projeto no chat | **THE FOUR EXILES — PROJECT MASTER** (`cse_018zLyy8LsrdugSyWGkrBKAL`): lore, decisões e análise de conversas; lê esta pasta e segue `docs/INSTRUCOES_PROJETO_CHAT.md` |
+| Repositório | https://github.com/robsonfreitasadv/the-four-exiles |
+| Prévia do site | https://claude.ai/artifact/J6yY4A8qS5DLjFmF4qkBH6 |
+| Pasta local | `C:\Users\robson.freitas\Claude` (mesmo caminho no notebook; ver `docs/NOTEBOOK.md`) |
 
-Lore decided in the Claude project (for example the Grays dossier, `THE_FOUR_EXILES_GRAYS.txt` / `.json`) belongs in this repo under `docs/lore/` once it is final, so the site and the project share one source.
+## Regras do dono
 
-## Standing rules from the owner
+- **Imagens:** sempre as fichas oficiais em `design/sheets/` (`races.webp`, `resistance.webp`). Nunca trocar por imagens de banco ou geradas. Os recortes saem de `design/crop-sheets.cjs` para `public/images/characters/`; ficha nova vai para `design/sheets/` e o script é estendido.
+- **Palavra:** "raças" / "races" em todo texto para o público, nunca "facções" / "factions". Identificadores no código e URLs `/factions` ficam como estão.
+- **Idiomas:** todo texto de interface em `src/i18n/en.ts` e `src/i18n/pt-BR.ts`; registros de conteúdo usam objetos `Localized` (`{ en, 'pt-BR' }`). Converse com o dono em português.
+- **Cânone:** o site segue `docs/canon/`. Mudou o cânone, atualize os dois (`docs/canon/` e `src/data/`).
+- **Dinheiro:** dados de demonstração rotulados como fictícios. Nunca inventar token, ticker, preço ou data de lançamento. Pontos do campeonato nunca vêm de preço, volume, valor de mercado ou saldo de carteira.
 
-- **Character art:** always use the official character sheets in `design/sheets/` (`races.webp`, `resistance.webp`). Never swap in stock or generated images for these characters. Crops come from `design/crop-sheets.cjs` into `public/images/characters/`; if a new sheet arrives, add it to `design/sheets/` and extend the script.
-- **Wording:** the four civilizations are **races / raças**, never "factions / facções", in any user-facing text. Code identifiers and the `/factions` URLs stay as they are.
-- **Git:** commit and push every change set to `origin/main` (https://github.com/robsonfreitasadv/the-four-exiles) without asking.
-- **Preview link:** after visible changes, republish https://claude.ai/artifact/J6yY4A8qS5DLjFmF4qkBH6 (same URL):
-  1. `npm run build:static`
-  2. write `dist/artifact.html` (title, Google Fonts link, the built CSS/JS from `dist/assets`, `<div id="root">`)
-  3. publish it with that `url` and every file under `dist/` in `files`, setting paths that no longer exist to `null`.
-- **Language:** every UI string goes in both `src/i18n/en.ts` and `src/i18n/pt-BR.ts`; content records use `Localized` objects (`{ en, 'pt-BR' }`).
-- **Fiction and money:** label demo scores as fictional. Never invent a token, ticker, price or launch date. Championship points never come from token price, volume, market cap or wallet balances.
+## Publicar a prévia
 
-## Layout
+1. `npm run build:static`
+2. Escrever `dist/artifact.html`: `<title>The Four Exiles</title>`, link do Google Fonts (Inter + IBM Plex Mono), o CSS e o JS de `dist/assets`, `<div id="root">`.
+3. Publicar com o `url` da prévia e todos os arquivos de `dist/` em `files`, marcando como `null` os caminhos que deixaram de existir.
 
-| Path | What |
+## Estrutura
+
+| Caminho | O quê |
 | --- | --- |
-| `src/data/` | Typed mock data: `factions.ts` (races), `resistance.ts` (humans), `missions.ts`, `championship.ts`, `pages.ts` |
-| `src/i18n/` | UI dictionaries and `useI18n()` |
-| `src/components/art/` | `CharacterImage`, `RaceArt`, `TiltCard`, `TurnaroundViewer`, SVG fallbacks |
-| `src/components/` | `RacesShowcase` (3D races), `ResistanceSection`, cards, leaderboard, layout |
-| `src/pages/` | Route pages |
-| `design/` | Source sheets and crop script |
+| `docs/` | Contexto, cânone, decisões, handoff, lore, guias |
+| `src/data/` | Dados tipados: `factions.ts` (raças), `resistance.ts`, `missions.ts`, `championship.ts`, `pages.ts` |
+| `src/i18n/` | Dicionários e `useI18n()` |
+| `src/components/art/` | `CharacterImage`, `RaceArt`, `TiltCard`, `TurnaroundViewer`, SVGs de reserva |
+| `src/components/` | `RacesShowcase` (raças em 3D), `ResistanceSection`, cards, placar, layout |
+| `src/pages/` | Páginas |
+| `design/` | Fichas originais e script de recorte |
 
-## Running
+## Comandos
 
 ```
 npm install
 npm run dev            # http://localhost:5173
 npm run build
-npm run build:static   # hash routes + relative paths, for any static host
+npm run build:static   # rotas com # e caminhos relativos, para qualquer hospedagem estática
 ```
 
-Visual style: Apple-like dark product page (SF/Inter, sentence case, pill buttons, rounded 28–36px surfaces).
+Visual: página de produto estilo Apple, escura (SF/Inter, frases sem caixa-alta, botões em pílula, superfícies arredondadas de 28–36 px).

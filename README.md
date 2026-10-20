@@ -1,5 +1,7 @@
 # THE FOUR EXILES — MVP front end (Phase 1)
 
+> Contexto do projeto (cânone, decisões, onde paramos): comece por [docs/CONTEXTO.md](docs/CONTEXTO.md). Para trabalhar em outro computador: [docs/NOTEBOOK.md](docs/NOTEBOOK.md).
+
 React 18 + TypeScript + Tailwind CSS + React Router, built with Vite. No backend, no wallet, no token.
 
 ```
