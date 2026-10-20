@@ -7,13 +7,22 @@ export const factions: Faction[] = [
     code: 'VH-07',
     art: [
       {
-        src: '/images/factions/vhal-ett.jpg',
-        focus: '35% 30%',
-        alt: {
-          en: 'A grey Vhal-Ett with huge dark eyes, in a black suit and tie, reads a document at a desk under a lamp.',
-          'pt-BR': 'Um Vhal-Ett cinzento de olhos enormes e escuros, de terno e gravata pretos, lê um documento numa mesa sob um abajur.',
-        },
+        src: '/images/characters/vhal-ett.webp',
+        focus: '50% 18%',
+        alt: { en: 'A grey Vhal-Ett with a large head and black eyes, in a dark suit with an ID badge and a shoulder bag, holding a tablet.', 'pt-BR': 'Um Vhal-Ett cinzento de cabeça grande e olhos pretos, de terno escuro com crachá e bolsa a tiracolo, segurando um tablet.' },
       },
+    ],
+    sheet: {
+      expressions: ['/images/characters/vhal-ett-expr-1.webp', '/images/characters/vhal-ett-expr-2.webp', '/images/characters/vhal-ett-expr-3.webp', '/images/characters/vhal-ett-expr-4.webp'],
+      turnaround: ['/images/characters/vhal-ett-turn-1.webp', '/images/characters/vhal-ett-turn-2.webp', '/images/characters/vhal-ett-turn-3.webp', '/images/characters/vhal-ett-turn-4.webp'],
+    },
+    quote: { en: 'Procedure is protection.', 'pt-BR': 'Procedimento é proteção.' },
+    traits: [
+      { en: 'Bureaucratic', 'pt-BR': 'Burocráticos' },
+      { en: 'Methodical', 'pt-BR': 'Metódicos' },
+      { en: 'Intelligent', 'pt-BR': 'Inteligentes' },
+      { en: 'Sarcastic', 'pt-BR': 'Sarcásticos' },
+      { en: 'Persistent', 'pt-BR': 'Persistentes' },
     ],
     memes: [
       { en: 'Abductions that require a signed form first', 'pt-BR': 'Abduções que exigem formulário assinado' },
@@ -75,21 +84,22 @@ export const factions: Faction[] = [
     code: 'IL-01',
     art: [
       {
-        src: '/images/factions/ilvani-sael.jpg',
-        focus: '50% 25%',
-        alt: {
-          en: 'An Ilvani man with tousled platinum hair and bright blue eyes, in white and starry-blue armor against a night sky.',
-          'pt-BR': 'Um Ilvani de cabelo platinado despenteado e olhos azuis brilhantes, com armadura branca e azul estrelado diante do céu noturno.',
-        },
+        src: '/images/characters/ilvani.webp',
+        focus: '50% 18%',
+        alt: { en: 'A tall Ilvani with long platinum hair and glowing blue eyes, in a white and silver suit and cape, offering an open hand.', 'pt-BR': 'Um Ilvani alto de longos cabelos platinados e olhos azuis brilhantes, em traje branco e prata com capa, estendendo a mão aberta.' },
       },
-      {
-        src: '/images/factions/ilvani-shepherd.jpg',
-        focus: '50% 30%',
-        alt: {
-          en: 'An Ilvani woman with long platinum hair and blue eyes, in a pearl-white suit, with saucer ships over a golden horizon.',
-          'pt-BR': 'Uma Ilvani de longos cabelos platinados e olhos azuis, em traje branco perolado, com naves circulares sobre um horizonte dourado.',
-        },
-      },
+    ],
+    sheet: {
+      expressions: ['/images/characters/ilvani-expr-1.webp', '/images/characters/ilvani-expr-2.webp', '/images/characters/ilvani-expr-3.webp', '/images/characters/ilvani-expr-4.webp'],
+      turnaround: ['/images/characters/ilvani-turn-1.webp', '/images/characters/ilvani-turn-2.webp', '/images/characters/ilvani-turn-3.webp', '/images/characters/ilvani-turn-4.webp'],
+    },
+    quote: { en: 'A better world is possible.', 'pt-BR': 'Um mundo melhor é possível.' },
+    traits: [
+      { en: 'Visionary', 'pt-BR': 'Visionários' },
+      { en: 'Empathetic', 'pt-BR': 'Empáticos' },
+      { en: 'Persuasive', 'pt-BR': 'Persuasivos' },
+      { en: 'Paternalistic', 'pt-BR': 'Paternalistas' },
+      { en: 'Idealistic', 'pt-BR': 'Idealistas' },
     ],
     memes: [
       { en: 'Intergalactic toxic positivity', 'pt-BR': 'Positividade tóxica intergaláctica' },
@@ -100,7 +110,7 @@ export const factions: Faction[] = [
     title: { en: 'The Shepherds', 'pt-BR': 'Os Nórdicos — Os Pastores' },
     homeworld: 'Maia-Prime',
     height: '1.8–2.2 m',
-    palette: { primary: '#B8D9F2', secondary: '#243B59', accent: '#F4F6F8' },
+    palette: { primary: '#B8D9F2', secondary: '#13325f', accent: '#F4F6F8' },
     mood: { en: 'Serene · beautiful · unsettling', 'pt-BR': 'Serenos · belos · perturbadores' },
     tagline: {
       en: 'Peace on Earth. Mandatory. With a smile.',
@@ -151,13 +161,22 @@ export const factions: Faction[] = [
     code: 'SZ-99',
     art: [
       {
-        src: '/images/factions/sazhi.jpg',
-        focus: '50% 20%',
-        alt: {
-          en: 'A reptilian Sazhi sovereign with green scales and blue eyes, in golden regalia, seated on a throne holding a golden scepter.',
-          'pt-BR': 'Um soberano reptiliano Sazhi de escamas verdes e olhos azuis, com insígnias douradas, sentado no trono segurando um cetro de ouro.',
-        },
+        src: '/images/characters/sazhi.webp',
+        focus: '50% 18%',
+        alt: { en: 'A reptilian Sazhi sovereign with green scales and yellow eyes, in red-and-gold armor and a long red cape, tail curled behind.', 'pt-BR': 'Um soberano reptiliano Sazhi de escamas verdes e olhos amarelos, em armadura vermelha e dourada e longa capa vermelha, com a cauda enrolada atrás.' },
       },
+    ],
+    sheet: {
+      expressions: ['/images/characters/sazhi-expr-1.webp', '/images/characters/sazhi-expr-2.webp', '/images/characters/sazhi-expr-3.webp', '/images/characters/sazhi-expr-4.webp'],
+      turnaround: ['/images/characters/sazhi-turn-1.webp', '/images/characters/sazhi-turn-2.webp', '/images/characters/sazhi-turn-3.webp'],
+    },
+    quote: { en: 'Control the flow, control the future.', 'pt-BR': 'Controle o fluxo, controle o futuro.' },
+    traits: [
+      { en: 'Strategic', 'pt-BR': 'Estratégicos' },
+      { en: 'Ambitious', 'pt-BR': 'Ambiciosos' },
+      { en: 'Patient', 'pt-BR': 'Pacientes' },
+      { en: 'Calculating', 'pt-BR': 'Calculistas' },
+      { en: 'Cruel', 'pt-BR': 'Cruéis' },
     ],
     memes: [
       { en: 'Conspiracies so absurd they must be true', 'pt-BR': 'Conspirações tão absurdas que só podem ser verdade' },
@@ -168,7 +187,7 @@ export const factions: Faction[] = [
     title: { en: 'The Sazhath Dynasty', 'pt-BR': 'Os Reptilianos — A Dinastia de Sazhath' },
     homeworld: 'Thaxis',
     height: '2–2.5 m',
-    palette: { primary: '#73854A', secondary: '#381D20', accent: '#D7A64B' },
+    palette: { primary: '#8ea35a', secondary: '#4a140e', accent: '#D7A64B' },
     mood: { en: 'Imperial · ancient · calculating', 'pt-BR': 'Imperial · ancestral · calculista' },
     tagline: {
       en: 'Thaxis is drying up. Your oceans look delicious.',
@@ -219,13 +238,22 @@ export const factions: Faction[] = [
     code: 'XK-00',
     art: [
       {
-        src: '/images/factions/xhalen-kthrix.jpg',
-        focus: '55% 20%',
-        alt: {
-          en: 'A tall green mantis-like Xhalen-Kthrix in an ornate gold-trimmed robe, wings folded, raptorial arms raised formally.',
-          'pt-BR': 'Um Xhalen-Kthrix alto, verde e semelhante a um louva-a-deus, em manto ornamentado com detalhes dourados, asas recolhidas e braços erguidos com formalidade.',
-        },
+        src: '/images/characters/xhalen-kthrix.webp',
+        focus: '50% 18%',
+        alt: { en: 'A tall mantis-like Xhalen-Kthrix with large green compound eyes and antennae, in segmented black armor and a long coat.', 'pt-BR': 'Um Xhalen-Kthrix alto, semelhante a um louva-a-deus, com grandes olhos compostos verdes e antenas, em armadura preta segmentada e casaco longo.' },
       },
+    ],
+    sheet: {
+      expressions: ['/images/characters/xhalen-kthrix-expr-1.webp', '/images/characters/xhalen-kthrix-expr-2.webp', '/images/characters/xhalen-kthrix-expr-3.webp', '/images/characters/xhalen-kthrix-expr-4.webp'],
+      turnaround: ['/images/characters/xhalen-kthrix-turn-1.webp', '/images/characters/xhalen-kthrix-turn-2.webp', '/images/characters/xhalen-kthrix-turn-3.webp', '/images/characters/xhalen-kthrix-turn-4.webp'],
+    },
+    quote: { en: 'Discipline is freedom.', 'pt-BR': 'Disciplina é liberdade.' },
+    traits: [
+      { en: 'Discipline', 'pt-BR': 'Disciplina' },
+      { en: 'Precision', 'pt-BR': 'Precisão' },
+      { en: 'Efficient', 'pt-BR': 'Eficientes' },
+      { en: 'Ruthless', 'pt-BR': 'Impiedosos' },
+      { en: 'Loyal', 'pt-BR': 'Leais' },
     ],
     memes: [
       { en: 'Military contracts with a very long fine print', 'pt-BR': 'Contratos militares com letras miúdas muito longas' },
@@ -236,7 +264,7 @@ export const factions: Faction[] = [
     title: { en: 'The Commanders', 'pt-BR': 'Os Mantis — Os Comandantes' },
     homeworld: 'Xhalen',
     height: '≈ 2.3 m',
-    palette: { primary: '#758D7C', secondary: '#171C1B', accent: '#B8C5BD' },
+    palette: { primary: '#93b360', secondary: '#16220f', accent: '#cfe0b0' },
     mood: { en: 'Military · disciplined · threatening', 'pt-BR': 'Militares · disciplinados · ameaçadores' },
     tagline: {
       en: 'Selling weapons to all four sides. Including theirs.',

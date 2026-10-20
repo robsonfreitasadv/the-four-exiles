@@ -1,6 +1,9 @@
 import { Link, useParams } from 'react-router-dom';
 import { Emblem } from '../components/art/Emblem';
 import { RaceArt } from '../components/art/RaceArt';
+import { withBase } from '../components/art/CharacterImage';
+import { TurnaroundViewer } from '../components/art/TurnaroundViewer';
+import { RacesShowcase } from '../components/RacesShowcase';
 import { FactionCard } from '../components/FactionCard';
 import { MissionCard } from '../components/MissionCard';
 import { Arrow, SectionHeading } from '../components/ui/primitives';
@@ -44,6 +47,9 @@ export function FactionsPage() {
             ))}
           </tbody>
         </table>
+      </div>
+      <div className="-mx-4 mt-8 sm:-mx-6 lg:-mx-8">
+        <RacesShowcase />
       </div>
     </div>
   );
@@ -164,19 +170,35 @@ export function FactionDetailPage() {
         </ul>
       </section>
 
-      {/* reference gallery, when a race has more than one image */}
-      {f.art.length > 1 && (
-        <section className="container-x pt-16" aria-labelledby="gallery">
-          <h2 id="gallery" className="kicker mb-4">{t.common.placeholderArt}</h2>
-          <ul className="grid gap-4 sm:grid-cols-2">
-            {f.art.map((a, i) => (
-              <li key={a.src} className="relative aspect-[4/3] overflow-hidden rounded-[28px]">
-                <RaceArt faction={f} index={i} />
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
+      {/* 3D sheet: turntable and expressions */}
+      <section className="container-x pt-16 md:pt-24" aria-labelledby="sheet3d">
+        <p className="kicker mb-3">{t.races3d.kicker}</p>
+        <h2 id="sheet3d" className="display mb-8 text-5xl sm:text-6xl">“{l(f.quote)}”</h2>
+        <div
+          className="grid items-center gap-10 rounded-[36px] p-6 sm:p-10 md:grid-cols-[auto_1fr]"
+          style={{ background: `radial-gradient(120% 90% at 20% 10%, ${p.secondary} 0%, #0b0b0d 70%)` }}
+        >
+          <TurnaroundViewer frames={f.sheet.turnaround} name={f.name} color={p.primary} className="md:w-[240px]" />
+          <div className="min-w-0">
+            <h3 className="text-xs font-semibold text-bone-muted">{t.races3d.traits}</h3>
+            <ul className="mt-2 flex flex-wrap gap-2">
+              {f.traits.map((tr) => (
+                <li key={tr.en} className="rounded-full px-3 py-1 text-sm" style={{ background: `${p.primary}22`, color: p.accent }}>
+                  {l(tr)}
+                </li>
+              ))}
+            </ul>
+            <h3 className="mt-8 text-xs font-semibold text-bone-muted">{t.races3d.expressions}</h3>
+            <ul className="mt-2 grid grid-cols-2 gap-3 sm:grid-cols-4">
+              {f.sheet.expressions.map((src) => (
+                <li key={src} className="aspect-[66/74] overflow-hidden rounded-2xl bg-black/40">
+                  <img src={withBase(src)} alt="" loading="lazy" className="h-full w-full object-cover" />
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
 
       {/* timeline */}
       <section className="container-x py-16 md:py-24" aria-labelledby="timeline">

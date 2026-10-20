@@ -29,10 +29,20 @@ export interface ArtImage {
   focus?: string;
 }
 
+/** 3D-render reference set for a character: expression close-ups and turnaround frames, in rotation order. */
+export interface CharacterSheet {
+  expressions: string[];
+  turnaround: string[];
+}
+
 export interface Faction {
   id: FactionId;
-  /** Reference artwork; the first image is the main portrait. */
+  /** Official character art; the first image is the main portrait. */
   art: ArtImage[];
+  sheet: CharacterSheet;
+  /** The race's motto, as printed on its character sheet. */
+  quote: Localized;
+  traits: Localized[];
   /** Meme and humor angles for community content. */
   memes: Localized[];
   name: string;
@@ -88,4 +98,19 @@ export interface FactionScore {
   missions: number;
   /** Lore events, e.g. canon outcomes decided by community votes. */
   events: number;
+}
+
+/** A member of the human Resistance. */
+export interface Human {
+  id: string;
+  name: string;
+  role: Localized;
+  quote: Localized;
+  image: ArtImage;
+  /** Only the lead has a full sheet. */
+  sheet?: CharacterSheet;
+  bio?: Localized;
+  facts?: { label: Localized; value: Localized }[];
+  skills?: Localized[];
+  personality?: Localized[];
 }

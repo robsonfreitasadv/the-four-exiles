@@ -29,6 +29,7 @@ export default {
           '48%': { opacity: '0.4' },
           '50%': { opacity: '0.95' },
         },
+        fadeUp: { from: { opacity: '0', transform: 'translateY(16px) scale(0.98)' }, to: { opacity: '1', transform: 'none' } },
         marquee: { to: { transform: 'translateX(-50%)' } },
         drift: { '0%,100%': { transform: 'translateY(0)' }, '50%': { transform: 'translateY(-6px)' } },
       },

@@ -2,7 +2,9 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Emblem } from '../components/art/Emblem';
 import { RaceArt } from '../components/art/RaceArt';
-import { Portrait } from '../components/art/Portrait';
+import { TiltCard } from '../components/art/TiltCard';
+import { ResistanceSection } from '../components/ResistanceSection';
+import { withBase } from '../components/art/CharacterImage';
 import { LeaderboardTable, SeasonSelector } from '../components/Leaderboard';
 import { Arrow, DemoDataBadge, SectionHeading } from '../components/ui/primitives';
 import { scoresBySeason } from '../data/championship';
@@ -108,44 +110,33 @@ export function LorePage() {
 
 export function CharactersPage() {
   const { t, l } = useI18n();
-  const cast = [
-    ...factions.map((f) => ({
-      key: f.id,
-      faction: f,
-      name: l(f.leader.name),
-      role: l(f.leader.role),
-      bio: l(f.leader.description),
-      color: f.palette.primary,
-      affiliation: f.name,
-      to: `/factions/${f.id}`,
-    })),
-    { key: 'dora' as const, faction: undefined, name: t.census.doraTitle, role: t.census.doraRole, bio: t.census.doraBio, color: '#c8642d', affiliation: l({ en: 'Earth', 'pt-BR': 'Terra' }), to: '/' },
-  ];
   return (
-    <div className="container-x py-14 md:py-20">
-      <SectionHeading as="h1" kicker={t.common.file} title={t.stub.characters.title} intro={t.stub.characters.intro} />
-      <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {cast.map((c) => (
-          <li key={c.key} className="flex flex-col overflow-hidden rounded-[28px] bg-graphite-800">
-            <div className="relative aspect-[5/6] overflow-hidden" style={{ background: c.key === 'dora' ? '#2a1d18' : undefined }}>
-              {c.faction ? (
-                <RaceArt faction={c.faction} index={c.faction.art.length - 1} />
-              ) : (
-                <Portrait character="dora" alt={`${c.name} — ${c.role}`} className="absolute inset-x-0 bottom-0 h-[92%] w-full" />
-              )}
-            </div>
-            <div className="flex flex-1 flex-col p-5" style={{ borderTop: `4px solid ${c.color}` }}>
-              <p className="kicker" style={{ color: c.color }}>{c.affiliation}</p>
-              <h2 className="mt-2 font-display text-4xl font-semibold leading-none">{c.name}</h2>
-              <p className="mt-1 font-sans text-xs text-bone-muted">{c.role}</p>
-              <p className="mt-3 flex-1 text-[15px] leading-snug text-bone-dim">{c.bio}</p>
-              <Link to={c.to} className="link-arrow mt-4 text-bone">
-                {t.common.explore} <Arrow />
-              </Link>
-            </div>
-          </li>
-        ))}
-      </ul>
+    <div className="py-14 md:py-20">
+      <div className="container-x">
+        <SectionHeading as="h1" kicker={t.common.file} title={t.stub.characters.title} intro={t.stub.characters.intro} />
+        <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {factions.map((f) => (
+            <li key={f.id}>
+              <TiltCard className="overflow-hidden rounded-[28px] bg-graphite-800">
+                <div className="relative aspect-[310/516]">
+                  <RaceArt faction={f} />
+                </div>
+                <div className="p-5" style={{ background: `linear-gradient(to bottom, ${f.palette.secondary}, #161617)` }}>
+                  <p className="text-xs font-semibold" style={{ color: f.palette.primary }}>
+                    {l(f.title)}
+                  </p>
+                  <h2 className="display mt-1 text-3xl">{f.name}</h2>
+                  <p className="mt-2 text-[15px] text-bone/80">“{l(f.quote)}”</p>
+                  <Link to={`/factions/${f.id}`} className="link-arrow mt-3 text-[15px]">
+                    {t.common.explore} <Arrow />
+                  </Link>
+                </div>
+              </TiltCard>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <ResistanceSection />
     </div>
   );
 }
@@ -169,6 +160,9 @@ export function CollectiblesPage() {
           </li>
         ))}
       </ul>
+      <div className="relative mt-6 aspect-[437/178] overflow-hidden rounded-[28px]">
+        <img src={withBase('/images/characters/resistance-collectibles.webp')} alt={l({ en: 'Collectible card concepts: Dora and the Resistance crew over bright purple, yellow and teal backgrounds.', 'pt-BR': 'Conceitos de cards colecionáveis: Dora e a equipe da Resistência sobre fundos roxo, amarelo e verde-água.' })} loading="lazy" className="absolute inset-0 h-full w-full object-cover" />
+      </div>
       <ul className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {collectibleConcepts.map((c) => (
           <li key={c.title.en} className="rounded-[24px] bg-graphite-800 p-6">

@@ -2,21 +2,25 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Portrait } from '../components/art/Portrait';
 import { RaceArt } from '../components/art/RaceArt';
-import { FactionCard } from '../components/FactionCard';
+import { CharacterImage } from '../components/art/CharacterImage';
+import { RacesShowcase } from '../components/RacesShowcase';
+import { ResistanceSection } from '../components/ResistanceSection';
 import { LeaderboardTable, SeasonSelector } from '../components/Leaderboard';
 import { MissionCard } from '../components/MissionCard';
 import { Arrow, DemoDataBadge, Reveal, SectionHeading } from '../components/ui/primitives';
 import { scoresBySeason } from '../data/championship';
 import { factions } from '../data/factions';
 import { missions } from '../data/missions';
+import { dora } from '../data/resistance';
 import { useI18n } from '../i18n/I18nProvider';
 
 export function HomePage() {
   return (
     <>
       <Hero />
-      <FactionsSection />
+      <RacesShowcase />
       <CensusSection />
+      <ResistanceSection />
       <WarSection />
       <MissionsSection />
       <TransmissionSection />
@@ -90,36 +94,8 @@ function Hero() {
   );
 }
 
-function FactionsSection() {
-  const { t } = useI18n();
-  return (
-    <section className="bg-space-900 py-20 md:py-28" aria-label={t.factionsSection.title}>
-      <div className="container-x">
-        <SectionHeading
-          center
-          kicker={t.factionsSection.kicker}
-          title={t.factionsSection.title}
-          intro={t.factionsSection.intro}
-        />
-        <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-          {factions.map((f) => (
-            <Reveal as="li" key={f.id}>
-              <FactionCard faction={f} />
-            </Reveal>
-          ))}
-        </ul>
-        <p className="mt-10 text-center">
-          <Link to="/factions" className="link-arrow">
-            {t.nav.factions} <Arrow />
-          </Link>
-        </p>
-      </div>
-    </section>
-  );
-}
-
 function CensusSection() {
-  const { t } = useI18n();
+  const { t , l } = useI18n();
   return (
     <section className="container-x py-20 md:py-28" aria-labelledby="census-title">
       <div className="grid items-center gap-12 lg:grid-cols-[1.2fr_1fr]">
@@ -136,11 +112,14 @@ function CensusSection() {
         </Reveal>
         <Reveal as="div">
           <figure className="panel overflow-hidden">
-            <div className="relative aspect-[5/6] bg-gradient-to-b from-[#3a2418] to-[#160d09]">
-              <Portrait character="dora" alt={t.census.doraAlt} className="absolute inset-x-0 bottom-0 h-[92%] w-full" />
+            <div className="relative aspect-[5/6] bg-[#1d140f]">
+              <CharacterImage
+                image={{ ...dora.image, src: dora.sheet!.expressions[0], focus: '50% 30%' }}
+                fallback={<Portrait character="dora" alt={t.census.doraAlt} className="absolute inset-x-0 bottom-0 h-[92%] w-full" />}
+              />
             </div>
             <figcaption className="p-7">
-              <p className="text-sm font-semibold text-[#e58a52]">{t.census.doraRole}</p>
+              <p className="text-sm font-semibold text-[#e58a52]">{l(dora.role)}</p>
               <p className="display mt-1 text-4xl">{t.census.doraTitle}</p>
               <p className="mt-3 text-[17px] text-bone-dim">{t.census.doraBio}</p>
             </figcaption>

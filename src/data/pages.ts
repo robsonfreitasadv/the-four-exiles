@@ -23,7 +23,7 @@ export const transparencyBlocks: InfoBlock[] = [
   {
     title: { en: 'Experimental', 'pt-BR': 'Experimental' },
     items: [
-      { en: 'Character art is concept placeholder art and will be replaced by final illustrations.', 'pt-BR': 'As artes dos personagens são provisórias e serão substituídas por ilustrações finais.' },
+      { en: 'Character art comes from the official character sheets. The 3D turntable steps through the sheet’s turnaround views; it is not a live 3D model.', 'pt-BR': 'As artes vêm das fichas oficiais dos personagens. O giro em 3D alterna as vistas de rotação da ficha; não é um modelo 3D em tempo real.' },
       { en: 'Accepting a mission is simulated locally. Nothing is submitted and no reward is issued.', 'pt-BR': 'Aceitar uma missão é simulado localmente. Nada é enviado e nenhuma recompensa é concedida.' },
     ],
   },
