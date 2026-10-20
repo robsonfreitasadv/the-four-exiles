@@ -1,4 +1,4 @@
-import { Outlet, Route, Routes } from 'react-router-dom';
+import { Navigate, Outlet, Route, Routes } from 'react-router-dom';
 import { SiteFooter } from './components/layout/SiteFooter';
 import { SiteHeader } from './components/layout/SiteHeader';
 import { ScrollToTop } from './components/ui/primitives';
@@ -36,6 +36,8 @@ export default function App() {
       <Route element={<Layout />}>
         <Route index element={<HomePage />} />
         <Route path="factions" element={<FactionsPage />} />
+        {/* the race was renamed from VHAL-ETT (now a character) to Grays */}
+        <Route path="factions/vhal-ett" element={<Navigate to="/factions/grays" replace />} />
         <Route path="factions/:id" element={<FactionDetailPage />} />
         <Route path="lore" element={<LorePage />} />
         <Route path="characters" element={<CharactersPage />} />

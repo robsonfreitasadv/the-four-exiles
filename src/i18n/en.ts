@@ -36,7 +36,7 @@ export const en = {
     classified: 'Classified',
     file: 'File',
     notFoundTitle: 'Page not found in the Census archive',
-    notFoundBody: 'This record was either never filed, or filed by a Vhal-Ett and is still pending.',
+    notFoundBody: 'This record was either never filed, or filed by a Gray and is still pending.',
     backHome: 'Return to Earth',
     phaseNote: 'Archive in progress',
   },
@@ -64,7 +64,7 @@ export const en = {
     title: 'One signal. Four claims. Zero consensus.',
     p1: 'On 14 March 2049, every radio telescope on Earth received the same transmission: a notice that the planet had been listed in the Intergalactic Census — and that four civilizations had already filed ownership claims.',
     p2: 'The Census rules are simple. The race with the most valid claim wins the planet. Unfortunately, “valid” is defined across 9,113 pages, and nobody has read them.',
-    p3: 'Nobody except Dora — and one very slow Vhal-Ett clerk.',
+    p3: 'Nobody except Dora — and one very slow Gray clerk.',
     steps: [
       { k: '01', t: 'The Signal', d: 'A Census notice arrives in every language at once, including several dead ones.' },
       { k: '02', t: 'The Claims', d: 'Biological, historical, strategic, contractual. Four races, four legal theories.' },
@@ -198,7 +198,7 @@ export const en = {
   grays: {
     kicker: 'Civilization file · Grays',
     title: 'The Grays.',
-    intro: 'Observers, keepers of records and experts in reducing uncertainty. Everything known about the civilization behind the VHAL-ETT, from the official dossier to the files still under review.',
+    intro: 'Observers, keepers of records and experts in reducing uncertainty. Everything known about their civilization, from the official dossier to the files still under review.',
     jump: 'Jump to',
     society: 'Society',
     language: 'Language',
@@ -225,7 +225,7 @@ export const en = {
     silhouetteNote: 'Silhouettes are written proposals, not approved reference art.',
     dossier: 'Dossier',
     openFile: 'Open the full Grays file',
-    backToRace: 'VHAL-ETT race page',
+    backToRace: 'Grays race page',
   },
   factionsPage: {
     title: 'The Four Races',

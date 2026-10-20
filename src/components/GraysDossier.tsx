@@ -29,7 +29,7 @@ export function Block({ title, status, children, className = '' }: { title: stri
   );
 }
 
-/** The Grays dossier from docs/lore/grays.json, shown on the Vhal-Ett page. */
+/** The Grays dossier from docs/lore/grays.json, shown on the Grays page (/grays). */
 export function GraysDossier() {
   const { t, l, lang } = useI18n();
   const g = grays;

@@ -11,7 +11,7 @@ const INK = '#0b0d10';
 const line = { stroke: INK, strokeWidth: 5, strokeLinejoin: 'round' as const, strokeLinecap: 'round' as const };
 const thin = { stroke: INK, strokeWidth: 3, strokeLinejoin: 'round' as const, strokeLinecap: 'round' as const };
 
-/** VHAL-ETT — Sete, junior archivist. Huge head, tiny hands, enormous document. */
+/** Grays — Sete, auditor of the Central Archive. Huge head, tiny hands, enormous document. */
 export function SeteFigure() {
   return (
     <g>

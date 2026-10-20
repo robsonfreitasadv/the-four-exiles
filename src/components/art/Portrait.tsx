@@ -5,7 +5,7 @@ import { CommanderFigure, DoraFigure, SaelFigure, SeteFigure, SovereignFigure } 
 export type CharacterKey = FactionId | 'dora';
 
 export const characterFigures: Record<CharacterKey, ComponentType> = {
-  'vhal-ett': SeteFigure,
+  'grays': SeteFigure,
   ilvani: SaelFigure,
   sazhi: SovereignFigure,
   'xhalen-kthrix': CommanderFigure,

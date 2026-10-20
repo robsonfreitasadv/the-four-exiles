@@ -8,7 +8,7 @@ export type Lang = 'en' | 'pt-BR';
 /** A string available in every supported language. */
 export type Localized = Record<Lang, string>;
 
-export type FactionId = 'vhal-ett' | 'ilvani' | 'sazhi' | 'xhalen-kthrix';
+export type FactionId = 'grays' | 'ilvani' | 'sazhi' | 'xhalen-kthrix';
 
 export interface FactionPalette {
   primary: string;

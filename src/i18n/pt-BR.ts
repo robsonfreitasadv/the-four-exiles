@@ -38,7 +38,7 @@ export const ptBR: Dictionary = {
     classified: 'Confidencial',
     file: 'Dossiê',
     notFoundTitle: 'Página não encontrada no arquivo do Censo',
-    notFoundBody: 'Este registro nunca foi protocolado — ou foi protocolado por um Vhal-Ett e ainda está pendente.',
+    notFoundBody: 'Este registro nunca foi protocolado — ou foi protocolado por um Gray e ainda está pendente.',
     backHome: 'Voltar para a Terra',
     phaseNote: 'Arquivo em construção',
   },
@@ -66,7 +66,7 @@ export const ptBR: Dictionary = {
     title: 'Um sinal. Quatro reivindicações. Zero consenso.',
     p1: 'Em 14 de março de 2049, todos os radiotelescópios da Terra receberam a mesma transmissão: um aviso de que o planeta fora incluído no Censo Intergaláctico — e de que quatro civilizações já haviam protocolado pedidos de posse.',
     p2: 'As regras do Censo são simples. A raça com a reivindicação mais válida fica com o planeta. Infelizmente, “válida” é definida ao longo de 9.113 páginas, e ninguém as leu.',
-    p3: 'Ninguém exceto Dora — e um funcionário Vhal-Ett muito lento.',
+    p3: 'Ninguém exceto Dora — e um funcionário Gray muito lento.',
     steps: [
       { k: '01', t: 'O Sinal', d: 'Um aviso do Censo chega em todos os idiomas ao mesmo tempo, inclusive alguns já extintos.' },
       { k: '02', t: 'As Reivindicações', d: 'Biológica, histórica, estratégica, contratual. Quatro raças, quatro teses jurídicas.' },
@@ -200,7 +200,7 @@ export const ptBR: Dictionary = {
   grays: {
     kicker: 'Arquivo de civilização · Grays',
     title: 'Os Grays.',
-    intro: 'Observadores, guardiões de registros e especialistas em reduzir a incerteza. Tudo o que se sabe sobre a civilização por trás dos VHAL-ETT, do dossiê oficial aos arquivos ainda em análise.',
+    intro: 'Observadores, guardiões de registros e especialistas em reduzir a incerteza. Tudo o que se sabe sobre essa civilização, do dossiê oficial aos arquivos ainda em análise.',
     jump: 'Ir para',
     society: 'Sociedade',
     language: 'Linguagem',
@@ -227,7 +227,7 @@ export const ptBR: Dictionary = {
     silhouetteNote: 'As silhuetas são propostas escritas, não arte de referência aprovada.',
     dossier: 'Dossiê',
     openFile: 'Abrir o arquivo completo dos Grays',
-    backToRace: 'Página da raça VHAL-ETT',
+    backToRace: 'Página da raça Grays',
   },
   factionsPage: {
     title: 'As Quatro Raças',

@@ -138,7 +138,14 @@ export function FactionDetailPage() {
       <section className="bg-space-900" aria-labelledby="leader">
         <div className="container-x grid items-center gap-10 py-16 md:grid-cols-[auto_1fr] md:py-20">
           <div className="relative mx-auto aspect-[5/6] w-56 overflow-hidden rounded-[28px] sm:w-64" style={{ borderColor: p.primary, background: p.secondary }}>
-            <RaceArt faction={f} index={f.art.length - 1} decorative />
+            {f.id === 'grays' ? (
+              // The Grays sheet shows VHAL-ETT, not Sete, and Sete has no official art yet.
+              <div className="grid h-full place-items-center" style={{ color: p.primary }}>
+                <Emblem faction={f.id} className="h-24 w-24 opacity-80" />
+              </div>
+            ) : (
+              <RaceArt faction={f} index={f.art.length - 1} decorative />
+            )}
           </div>
           <div>
             <p className="kicker mb-3">{t.common.leader}</p>
@@ -200,7 +207,7 @@ export function FactionDetailPage() {
         </div>
       </section>
 
-      {f.id === 'vhal-ett' && (
+      {f.id === 'grays' && (
         <section className="container-x pt-16 md:pt-24">
           <Link
             to="/grays"

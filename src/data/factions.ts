@@ -2,14 +2,14 @@ import type { Faction, FactionId } from './types';
 
 export const factions: Faction[] = [
   {
-    id: 'vhal-ett',
-    name: 'VHAL-ETT',
+    id: 'grays',
+    name: 'GRAYS',
     code: 'VH-07',
     art: [
       {
         src: '/images/characters/vhal-ett.webp',
         focus: '50% 18%',
-        alt: { en: 'A grey Vhal-Ett with a large head and black eyes, in a dark suit with an ID badge and a shoulder bag, holding a tablet.', 'pt-BR': 'Um Vhal-Ett cinzento de cabeça grande e olhos pretos, de terno escuro com crachá e bolsa a tiracolo, segurando um tablet.' },
+        alt: { en: 'VHAL-ETT, a Gray with a large head and black eyes, in a dark suit with an ID badge and a shoulder bag, holding a tablet.', 'pt-BR': 'VHAL-ETT, um Gray de cabeça grande e olhos pretos, de terno escuro com crachá e bolsa a tiracolo, segurando um tablet.' },
       },
     ],
     sheet: {
@@ -48,8 +48,8 @@ export const factions: Faction[] = [
       'pt-BR': 'Burocráticos, metódicos, pessimistas e excessivamente educados. Toda decisão passa por sete comitês e um longo silêncio.',
     },
     motivation: {
-      en: 'Generations of cloning have left their genome dangerously uniform. Without fresh genetic diversity, the Vhal-Ett will archive themselves out of existence.',
-      'pt-BR': 'Gerações de clonagem deixaram seu genoma perigosamente uniforme. Sem nova diversidade genética, os Vhal-Ett vão se arquivar até a extinção.',
+      en: 'Generations of cloning have left their genome dangerously uniform. Without fresh genetic diversity, the Grays will archive themselves out of existence.',
+      'pt-BR': 'Gerações de clonagem deixaram seu genoma perigosamente uniforme. Sem nova diversidade genética, os Grays vão se arquivar até a extinção.',
     },
     comedy: {
       en: 'Forms, stamps, telepathic memoranda, impossible protocols, and the mandatory seven-second archival pause before answering anything.',

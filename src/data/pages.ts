@@ -80,7 +80,7 @@ export const termsBlocks: InfoBlock[] = [
 
 export const collectibleConcepts: { title: Localized; kind: Localized }[] = [
   { title: { en: 'Census Contract Poster', 'pt-BR': 'Pôster do Contrato do Censo' }, kind: { en: 'Print concept', 'pt-BR': 'Conceito de pôster' } },
-  { title: { en: 'Vhal-Ett Rubber Stamp', 'pt-BR': 'Carimbo Vhal-Ett' }, kind: { en: 'Merch concept', 'pt-BR': 'Conceito de produto' } },
+  { title: { en: 'Gray Rubber Stamp', 'pt-BR': 'Carimbo Gray' }, kind: { en: 'Merch concept', 'pt-BR': 'Conceito de produto' } },
   { title: { en: 'Ilvani “Everything Is Fine” Mug', 'pt-BR': 'Caneca Ilvani “Está Tudo Bem”' }, kind: { en: 'Merch concept', 'pt-BR': 'Conceito de produto' } },
   { title: { en: 'Xhalen Surrender Procedure (900 pp.)', 'pt-BR': 'Procedimento de Rendição Xhalen (900 p.)' }, kind: { en: 'Book concept', 'pt-BR': 'Conceito de livro' } },
 ];

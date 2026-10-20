@@ -2,7 +2,7 @@
 
 **Status:** em desenvolvimento · origem: projeto do chat THE FOUR EXILES — PROJECT MASTER · trazido ao repositório em 2026-10-20
 
-A fonte é [`grays.json`](grays.json). O arquivo de civilização (linguagem, economia, naves, personagens etc.) está em [`grays-civilization.json`](grays-civilization.json). Os dois aparecem na página `/grays` do site. **Edite o JSON, não este resumo.** O site lê os JSON diretamente e mostra tudo na página `/grays` (a página dos Vhal-Ett leva até ela), com o status de cada item visível. Só `CANON_APPROVED` é cânone; `PROVISIONAL` e `OPEN_QUESTION` sempre aparecem marcados.
+A fonte é [`grays.json`](grays.json). O arquivo de civilização (linguagem, economia, naves, personagens etc.) está em [`grays-civilization.json`](grays-civilization.json). Os dois aparecem na página `/grays` do site. **Edite o JSON, não este resumo.** O site lê os JSON diretamente e mostra tudo na página `/grays` (a página da raça Grays leva até ela), com o status de cada item visível. Só `CANON_APPROVED` é cânone; `PROVISIONAL` e `OPEN_QUESTION` sempre aparecem marcados.
 
 ## Cânone aprovado
 - Os Grays são uma espécie, não o nome de um personagem.
@@ -22,7 +22,7 @@ A fonte é [`grays.json`](grays.json). O arquivo de civilização (linguagem, ec
 - Correntes internas: Continuístas, Revisionistas, Doutrina de Contenção, Transicionistas, Desvinculados.
 
 ## Conflito em aberto
-O JSON lista personagens Gray chamados VHAL-ETT, ILVANI, SAZHI e XHALEN-KTHRIX. No site e nas decisões aprovadas, esses são os nomes das quatro raças. Até o dono decidir, o site **não mostra** esses quatro personagens (ver `docs/DECISOES.md`).
+**Resolvido para VHAL-ETT (2026-10-20):** Gray é a raça e VHAL-ETT é personagem; o site já mostra VHAL-ETT. **Ainda em aberto:** ILVANI, SAZHI e XHALEN-KTHRIX aparecem no JSON como personagens Gray, mas no site ainda são nomes de raças; o site não mostra esses três até o dono decidir (ver `docs/DECISOES.md`).
 
 ## Regras de continuidade
 - Não confundir a espécie Gray com o indivíduo Sete.

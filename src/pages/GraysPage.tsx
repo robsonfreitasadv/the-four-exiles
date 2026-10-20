@@ -4,6 +4,7 @@ import { TiltCard } from '../components/art/TiltCard';
 import { Block, GraysDossier, StatusBadge } from '../components/GraysDossier';
 import { Arrow, Reveal } from '../components/ui/primitives';
 import { factionById } from '../data/factions';
+import { grays } from '../data/lore/grays';
 import { graysCivilization as civ } from '../data/lore/graysCivilization';
 import { useI18n } from '../i18n/I18nProvider';
 import type { Dictionary } from '../i18n/en';
@@ -32,8 +33,9 @@ function SectionTitle({ id, children }: { id: string; children: string }) {
 /** Everything about the Grays: the dossier plus the civilization file from the chat project. */
 export function GraysPage() {
   const { t, l } = useI18n();
-  const race = factionById('vhal-ett')!;
+  const race = factionById('grays')!;
   const sete = race.leader;
+  const vhalEtt = grays.characters.find((c) => c.id === 'VHAL_ETT');
 
   const jump = (id: string) => {
     const reduce = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
@@ -46,7 +48,7 @@ export function GraysPage() {
       <header style={{ background: `linear-gradient(to bottom, ${race.palette.secondary}, #000)` }}>
         <div className="container-x grid items-center gap-10 py-12 md:grid-cols-[1.2fr_1fr] md:py-16">
           <div>
-            <Link to="/factions/vhal-ett" className="link-arrow mb-8">
+            <Link to="/factions/grays" className="link-arrow mb-8">
               <Arrow className="h-3.5 w-3.5 rotate-180" /> {t.grays.backToRace}
             </Link>
             <p className="kicker mb-3">{t.grays.kicker}</p>
@@ -190,11 +192,26 @@ export function GraysPage() {
         <section aria-labelledby="g-characters">
           <SectionTitle id="g-characters">{t.grays.characters}</SectionTitle>
           <div className="grid gap-4 lg:grid-cols-[0.9fr_2fr]">
-            {/* Sete: approved canon, with the official art */}
+            <div className="grid content-start gap-4">
+            {/* VHAL-ETT: the Gray on the official sheet */}
+            {vhalEtt && (
+              <Reveal className="overflow-hidden rounded-[28px] bg-graphite-800">
+                <div className="relative aspect-[4/3]">
+                  <RaceArt faction={race} decorative />
+                </div>
+                <div className="p-6">
+                  <div className="flex items-start justify-between gap-2">
+                    <h3 className="display text-3xl">{vhalEtt.name}</h3>
+                    <StatusBadge status={vhalEtt.status} />
+                  </div>
+                  <p className="mt-1 text-sm font-semibold" style={{ color: race.palette.primary }}>
+                    {l(vhalEtt.role)}
+                  </p>
+                </div>
+              </Reveal>
+            )}
+            {/* Sete: approved canon; no official art yet */}
             <Reveal className="overflow-hidden rounded-[28px] bg-graphite-800">
-              <div className="relative aspect-[4/3]">
-                <RaceArt faction={race} decorative />
-              </div>
               <div className="p-6">
                 <div className="flex items-start justify-between gap-2">
                   <h3 className="display text-3xl">{l(sete.name)}</h3>
@@ -206,7 +223,8 @@ export function GraysPage() {
                 <p className="mt-3 text-[15px] text-bone-dim">{l(sete.description)}</p>
               </div>
             </Reveal>
-            <ul className="grid gap-4 sm:grid-cols-2">
+            </div>
+            <ul className="grid content-start gap-4 sm:grid-cols-2">
               {civ.characters.map((c) => (
                 <Reveal as="li" key={c.id} className="flex flex-col rounded-[28px] bg-graphite-800 p-6">
                   <div className="flex items-start justify-between gap-2">

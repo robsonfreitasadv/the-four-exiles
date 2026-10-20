@@ -21,7 +21,7 @@ export function Emblem({ faction, className, title }: EmblemProps) {
       strokeLinejoin="round"
       strokeLinecap="round"
     >
-      {faction === 'vhal-ett' && (
+      {faction === 'grays' && (
         <>
           {/* the archival stamp: an eye inside a seal */}
           <circle cx="50" cy="50" r="42" />

@@ -3,7 +3,7 @@ import type { Mission } from './types';
 export const missions: Mission[] = [
   {
     slug: 'operation-triplicate',
-    faction: 'vhal-ett',
+    faction: 'grays',
     thumb: 'stamps',
     title: { en: 'Operation Triplicate', 'pt-BR': 'Operação Três Vias' },
     summary: {
@@ -16,7 +16,7 @@ export const missions: Mission[] = [
     },
     objectives: [
       { en: 'Write the most absurd bureaucratic form you can imagine.', 'pt-BR': 'Escreva o formulário burocrático mais absurdo que conseguir imaginar.' },
-      { en: 'Caption a Vhal-Ett stamp meme.', 'pt-BR': 'Crie uma legenda para um meme de carimbo Vhal-Ett.' },
+      { en: 'Caption a Gray stamp meme.', 'pt-BR': 'Crie uma legenda para um meme de carimbo Gray.' },
       { en: 'Wait seven seconds. Then wait seven more.', 'pt-BR': 'Espere sete segundos. Depois mais sete.' },
     ],
     difficulty: 'standard',

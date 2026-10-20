@@ -12,13 +12,13 @@ export const seasons: Season[] = [
 
 export const scoresBySeason: Record<string, FactionScore[]> = {
   s0: [
-    { faction: 'vhal-ett', community: 410, missions: 520, events: 60 },
+    { faction: 'grays', community: 410, missions: 520, events: 60 },
     { faction: 'ilvani', community: 690, missions: 300, events: 90 },
     { faction: 'sazhi', community: 540, missions: 410, events: 120 },
     { faction: 'xhalen-kthrix', community: 380, missions: 610, events: 40 },
   ],
   s1: [
-    { faction: 'vhal-ett', community: 820, missions: 1140, events: 150 },
+    { faction: 'grays', community: 820, missions: 1140, events: 150 },
     { faction: 'ilvani', community: 1260, missions: 640, events: 110 },
     { faction: 'sazhi', community: 990, missions: 870, events: 240 },
     { faction: 'xhalen-kthrix', community: 760, missions: 1210, events: 90 },

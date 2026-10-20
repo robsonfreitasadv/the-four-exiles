@@ -6,7 +6,9 @@ Imagens oficiais: `design/sheets/races.webp` (recortes em `public/images/charact
 
 ---
 
-## VHAL-ETT — Os Cinzentos · Os Escrivães (The Scribes / The Grey Scribes) · nome popular: Grays
+## GRAYS — Os Cinzentos · Os Escrivães (The Scribes / The Grey Scribes)
+
+> **Aprovado (2026-10-20):** Gray é a raça; **VHAL-ETT é o nome de um personagem** (um Gray, supervisora de Sete — papel provisório). A figura da ficha oficial é VHAL-ETT.
 
 - **Planeta natal:** Hevra · **Altura:** 1,2–1,5 m · **Reivindicação no Censo:** biológica
 - **Lema:** "Procedure is protection." / "Procedimento é proteção."
@@ -18,7 +20,7 @@ Imagens oficiais: `design/sheets/races.webp` (recortes em `public/images/charact
 - **Potencial para memes:** abduções com formulário, carimbos galácticos, alienígenas aguardando autorização para invadir a Terra.
 - **Personagem em destaque:** Sete, indivíduo Gray e auditor do Arquivo Central (**aprovado**). Leu o contrato inteiro (página 4.812) — *provisório*.
 - **Dossiê completo:** `docs/lore/grays.md` e `grays.json` (cânone aprovado, provisório e perguntas em aberto).
-- **Visual (ficha):** cinzento de cabeça grande e olhos pretos, terno escuro, crachá, bolsa a tiracolo, tablet. Paleta cinza, prata, branco, preto.
+- **Visual (ficha, personagem VHAL-ETT):** cinzento de cabeça grande e olhos pretos, terno escuro, crachá, bolsa a tiracolo, tablet. Paleta cinza, prata, branco, preto.
 
 ## ILVANI — Os Nórdicos · Os Pastores (The Shepherds)
 

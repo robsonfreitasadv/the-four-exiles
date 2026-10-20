@@ -3,7 +3,7 @@ import { factionById } from '../../data/factions';
 
 /**
  * Faction-specific backdrop textures, so the four portraits never sit on identical cards:
- * Vhal-Ett get ruled archival paper, Ilvani a soft halo, Sazhi an imperial lattice,
+ * Grays get ruled archival paper, Ilvani a soft halo, Sazhi an imperial lattice,
  * Xhalen-Kthrix hazard striping and a targeting reticle.
  */
 export function FactionBackdrop({ faction, className = '' }: { faction: FactionId; className?: string }) {
@@ -16,7 +16,7 @@ export function FactionBackdrop({ faction, className = '' }: { faction: FactionI
       aria-hidden="true"
     >
       <rect width="400" height="480" fill={p.secondary} />
-      {faction === 'vhal-ett' && (
+      {faction === 'grays' && (
         <g>
           {Array.from({ length: 24 }, (_, i) => (
             <line key={i} x1="0" x2="400" y1={20 + i * 20} y2={20 + i * 20} stroke={p.primary} strokeOpacity="0.12" />
