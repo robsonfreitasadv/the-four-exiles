@@ -2,6 +2,18 @@
 
 Original sci-fi satire site: four alien races dispute Earth in a cosmic Census, and the human Resistance led by Dora pushes back. Bilingual (EN / PT-BR), React + TypeScript + Tailwind, built with Vite. Local mock data only: no backend, wallet, token or real transactions.
 
+## Linked places
+
+| What | Where |
+| --- | --- |
+| Claude project | **THE FOUR EXILES — PROJECT MASTER** (`cse_018zLyy8LsrdugSyWGkrBKAL`): lore, decisions and conversation analysis |
+| Code session | "Four Exiles MVP portal" (`local_162e76a9-cad9-4089-8c14-ce3d1a6a254c`), in the Code sidebar group of the same name |
+| Site preview | https://claude.ai/artifact/J6yY4A8qS5DLjFmF4qkBH6 |
+| Repository | https://github.com/robsonfreitasadv/the-four-exiles |
+| Local folder | `C:\Users\robson.freitas\Claude` |
+
+Lore decided in the Claude project (for example the Grays dossier, `THE_FOUR_EXILES_GRAYS.txt` / `.json`) belongs in this repo under `docs/lore/` once it is final, so the site and the project share one source.
+
 ## Standing rules from the owner
 
 - **Character art:** always use the official character sheets in `design/sheets/` (`races.webp`, `resistance.webp`). Never swap in stock or generated images for these characters. Crops come from `design/crop-sheets.cjs` into `public/images/characters/`; if a new sheet arrives, add it to `design/sheets/` and extend the script.
