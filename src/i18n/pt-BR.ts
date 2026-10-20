@@ -232,6 +232,8 @@ export const ptBR: Dictionary = {
     WATER_RECYCLING: 'Reciclagem de água',
     HEAT_ARMOUR: 'Blindagem térmica',
     SWARM_LINK: 'Elo do enxame',
+    NORDIC_TRANSLATION: 'Tradução',
+    NORDIC_INFLUENCE: 'Influência',
     weakness: 'Fraqueza',
     with: 'Com',
     humans: 'os humanos',
@@ -248,6 +250,8 @@ export const ptBR: Dictionary = {
       backToRace: 'Página da raça Grays',
     },
     nordics: {
+      dossierKicker: 'Dossiê confidencial · Nórdicos',
+      dossierTitle: 'O que os arquivos dizem sobre os Nórdicos.',
       kicker: 'Arquivo de civilização · Nórdicos',
       title: 'Os Nórdicos.',
       intro: 'Anfitriões, enviados e guardiões da harmonia. Tudo o que se sabe sobre essa civilização, das festas públicas à persuasão por trás delas.',

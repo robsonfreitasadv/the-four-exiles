@@ -19,12 +19,12 @@ Imagens oficiais: `design/sheets/races.webp` (recortes em `public/images/charact
 - **Contradição:** precisam do caos para sobreviver e já protocolaram 40.000 reclamações sobre ele.
 - **Potencial para memes:** abduções com formulário, carimbos galácticos, alienígenas aguardando autorização para invadir a Terra.
 - **Personagem em destaque:** Sete, indivíduo Gray e auditor do Arquivo Central (**aprovado**). Leu o contrato inteiro (página 4.812) — *provisório*.
-- **Dossiê completo:** `docs/lore/grays.md` e `grays.json` (cânone aprovado, provisório e perguntas em aberto).
+- **Dossiê completo:** `docs/lore/grays.md` e `GRAYS.json` (cânone aprovado, provisório e perguntas em aberto).
 - **Visual (ficha, personagem VHAL-ETT):** cinzento de cabeça grande e olhos pretos, terno escuro, crachá, bolsa a tiracolo, tablet. Paleta cinza, prata, branco, preto.
 
 ## NÓRDICOS (Nordics) — Os Pastores (The Shepherds)
 
-> **Aprovado (2026-10-20):** a raça se chama Nórdicos; **ILVANI é um personagem nórdico** (a figura da ficha oficial). Arquivo de civilização: `docs/lore/nordics-civilization.json` (página `/nordics`).
+> **Aprovado (2026-10-20):** a raça se chama Nórdicos; **ILVANI é um personagem nórdico** (a figura da ficha oficial). Arquivo de civilização: `docs/lore/NORDICS_CIVILIZATION.json` (página `/nordics`).
 
 - **Planeta natal:** Maia-Prime · **Altura:** 1,8–2,2 m · **Reivindicação:** histórica
 - **Lema:** "A better world is possible." / "Um mundo melhor é possível."
@@ -38,7 +38,7 @@ Imagens oficiais: `design/sheets/races.webp` (recortes em `public/images/charact
 
 ## REPTILIANOS (Reptilians) — A Dinastia de Sazhath
 
-> **Aprovado (2026-10-20):** a raça se chama Reptilianos; **SAZHI é um personagem reptiliano** (a figura da ficha oficial, rotulada "The Sovereign"). Dossiê e civilização: `docs/lore/reptilians.json` e `reptilians-civilization.json` (página `/reptilians`).
+> **Aprovado (2026-10-20):** a raça se chama Reptilianos; **SAZHI é um personagem reptiliano** (a figura da ficha oficial, rotulada "The Sovereign"). Dossiê e civilização: `docs/lore/REPTILIANS.json` e `REPTILIANS_CIVILIZATION.json` (página `/reptilians`).
 
 - **Planeta natal:** Thaxis · **Altura:** 2–2,5 m · **Reivindicação:** estratégica
 - **Lema:** "Control the flow, control the future." / "Controle o fluxo, controle o futuro."
@@ -52,7 +52,7 @@ Imagens oficiais: `design/sheets/races.webp` (recortes em `public/images/charact
 
 ## MANTIS — Os Comandantes (The Commanders)
 
-> **Aprovado (2026-10-20):** a raça se chama Mantis; **XHALEN-KTHRIX é um personagem mantis** (a figura da ficha oficial). Dossiê e civilização: `docs/lore/mantis.json` e `mantis-civilization.json` (página `/mantis`); o chat os escreve como "Insetoides".
+> **Aprovado (2026-10-20):** a raça se chama Mantis; **XHALEN-KTHRIX é um personagem mantis** (a figura da ficha oficial). Dossiê e civilização: `docs/lore/INSECTOIDS.json` e `INSECTOIDS_CIVILIZATION.json` (página `/mantis`); o chat os escreve como "Insetoides".
 
 - **Planeta natal:** Xhalen · **Altura:** ≈ 2,3 m · **Reivindicação:** contratual
 - **Lema:** "Discipline is freedom." / "Disciplina é liberdade."

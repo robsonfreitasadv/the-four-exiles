@@ -202,7 +202,7 @@ export function CivilizationPage({ race: raceId, dossier, sheetCharacter, leader
               {civ.techLimits.items.map((item) => (
                 <Reveal as="li" key={item.id} className="rounded-[28px] bg-graphite-800 p-6">
                   <div className="mb-2 flex items-start justify-between gap-2">
-                    <h3 className="display text-xl">{t.civ[item.id as CivKey] ?? item.id}</h3>
+                    <h3 className="display min-w-0 break-words text-xl">{t.civ[item.id as CivKey] ?? item.id.replace(/_/g, ' ')}</h3>
                     <StatusBadge status={item.status} />
                   </div>
                   <p className="text-bone-dim">{l(item.limit)}</p>

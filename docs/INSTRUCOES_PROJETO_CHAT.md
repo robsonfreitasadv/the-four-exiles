@@ -22,7 +22,7 @@ Durante a conversa:
 
 No fim, ou quando eu aprovar algo:
 - Grave o resultado como arquivo na pasta do projeto: lore aprovado em docs/lore/<tema>.md, decisões em docs/DECISOES.md, estado e próximos passos em docs/HANDOFF.md.
-- Salve direto nesses caminhos, não na pasta "Claude outputs". Arquivos de civilização vão como docs/lore/<raça>-civilization.json (raça em inglês: grays, nordics, reptilians, mantis), no mesmo formato de docs/lore/nordics-civilization.json; dossiês, como docs/lore/<raça>.json. O Claude Code liga o arquivo ao site.
+- Salve direto nesses caminhos, não na pasta "Claude outputs". Use estes nomes, que o site já lê: docs/lore/GRAYS.json, GRAYS_CIVILIZATION.json, NORDICS.json, NORDICS_CIVILIZATION.json, REPTILIANS.json, REPTILIANS_CIVILIZATION.json, INSECTOIDS.json e INSECTOIDS_CIVILIZATION.json (Mantis). Atualize o arquivo existente em vez de criar outro com nome diferente.
 - Se você tiver acesso a terminal, faça git pull antes de editar e git add / git commit / git push depois. Se não tiver, diga exatamente quais arquivos mudou e me peça para pedir o commit ao Claude Code.
 - Nunca deixe uma decisão só na conversa: o que não está no repositório se perde no outro computador.
 

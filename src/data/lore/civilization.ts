@@ -1,14 +1,14 @@
 /**
- * Civilization files, one per race, maintained with the chat project in docs/lore/<race>-civilization.json.
+ * Civilization files, one per race, maintained with the chat project in docs/lore/<RACE>_CIVILIZATION.json (GRAYS, NORDICS, REPTILIANS, INSECTOIDS = Mantis).
  * Edit the JSON, not this file. Everything is PROVISIONAL unless marked CANON_APPROVED.
  * Each file may include any subset of the sections below; the page shows only what exists.
- * Government, economy, technology and characters that live in the race dossier (docs/lore/<race>.json)
+ * Government, economy, technology and characters that live in the race dossier (docs/lore/<RACE>.json)
  * are merged in here, so a race page shows everything in one place.
  */
-import graysRaw from '../../../docs/lore/grays-civilization.json';
-import mantisRaw from '../../../docs/lore/mantis-civilization.json';
-import nordicsRaw from '../../../docs/lore/nordics-civilization.json';
-import reptiliansRaw from '../../../docs/lore/reptilians-civilization.json';
+import graysRaw from '../../../docs/lore/GRAYS_CIVILIZATION.json';
+import mantisRaw from '../../../docs/lore/INSECTOIDS_CIVILIZATION.json';
+import nordicsRaw from '../../../docs/lore/NORDICS_CIVILIZATION.json';
+import reptiliansRaw from '../../../docs/lore/REPTILIANS_CIVILIZATION.json';
 import type { FactionId, Localized } from '../types';
 import { dossiers, type LoreStatus, type RaceDossier } from './dossier';
 
@@ -123,7 +123,8 @@ export const civilizations: Partial<Record<FactionId, Civilization>> = {
   // KAEL-RUUM and ZEN-VARO's relations point at ILVANI and SAZHI as Grays; those names are now
   // characters of other races (owner decision 2026-10-20), so the relations stay hidden until fixed.
   grays: toCivilization(graysRaw, dossiers.grays, { hideRelationsTo: ['Ilvani', 'Sazhi'] }),
-  nordics: toCivilization(nordicsRaw, undefined),
+  // Sael is the race's featured character (own card); the dossier's SAEL entry would duplicate him.
+  nordics: toCivilization(nordicsRaw, dossiers.nordics, { dossierCharacters: true, hideCharacters: ['SAEL'] }),
   // The dossier names KRAHL-VOR as the Sovereign, while the site follows the official sheet (SAZHI).
   // Open question for the owner (docs/DECISOES.md); KRAHL-VOR and relations to him stay hidden until then.
   reptilians: toCivilization(reptiliansRaw, dossiers.reptilians, {

@@ -22,8 +22,8 @@ Tagline: *Four species. One planet. No shared destiny.* / *Quatro espécies. Um 
 | `docs/DECISOES.md` | Registro de decisões por status: aprovada, provisória, em aberto. |
 | `docs/HANDOFF.md` | Onde paramos e próximos passos. Atualizar ao fim de cada sessão. |
 | `docs/lore/` | Dossiês de lore aprovados (ex.: dossiê dos Grays). |
-| `docs/lore/grays.json` e `grays-civilization.json` | Grays: dossiê e arquivo de civilização. O site lê esses arquivos (página `/grays`). Edite o JSON. |
-| `docs/lore/<raça>.json` e `<raça>-civilization.json` | Dossiê e arquivo de civilização de cada raça (`grays`, `nordics`, `reptilians`, `mantis`). O site lê esses arquivos nas páginas `/grays`, `/nordics`, `/reptilians` e `/mantis`. O chat chama alguns de `REPTILIANS.json` e `INSECTOIDS.json`: no repositório são `reptilians.json` e `mantis.json`. |
+| `docs/lore/GRAYS.json` e `GRAYS_CIVILIZATION.json` | Grays: dossiê e arquivo de civilização. O site lê esses arquivos (página `/grays`). Edite o JSON. |
+| `docs/lore/<RAÇA>.json` e `<RAÇA>_CIVILIZATION.json` | Dossiê e arquivo de civilização de cada raça, com os nomes que o chat usa: `GRAYS`, `NORDICS`, `REPTILIANS` e `INSECTOIDS` (= Mantis). O site lê esses arquivos nas páginas `/grays`, `/nordics`, `/reptilians` e `/mantis`. Edite o JSON. |
 | `docs/INSTRUCOES_PROJETO_CHAT.md` | Texto para colar nas instruções do projeto no chat. |
 | `docs/NOTEBOOK.md` | Como configurar e sincronizar em outro computador. |
 | `design/sheets/` | Fichas oficiais dos personagens (a única fonte de imagens). |

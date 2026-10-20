@@ -4,7 +4,7 @@ import { grays, graysCharactersShown } from '../data/lore/grays';
 import { useI18n } from '../i18n/I18nProvider';
 import { CivilizationPage } from './CivilizationPage';
 
-/** Grays: dossier (docs/lore/grays.json, lists its own characters) + civilization file. */
+/** Grays: dossier (docs/lore/GRAYS.json, lists its own characters) + civilization file. */
 export function GraysPage() {
   const { t } = useI18n();
   const vhalEtt = grays.characters.find((c) => c.id === 'VHAL_ETT');
@@ -25,13 +25,23 @@ export function GraysPage() {
   );
 }
 
-/** Nordics: civilization file only (docs/lore/nordics-civilization.json). */
+/** Nordics: dossier (docs/lore/NORDICS.json) + civilization file. */
 export function NordicsPage() {
+  const { t } = useI18n();
   // ILVANI is the Nordic on the official sheet (owner decision); Sael stays the provisional featured character.
-  return <CivilizationPage race="nordics" sheetCharacter={{ status: 'CANON_APPROVED' }} leaderStatus="PROVISIONAL" />;
+  return (
+    <CivilizationPage
+      race="nordics"
+      dossier={
+        <RaceDossier dossier={dossiers.nordics!} kicker={t.civPages.nordics.dossierKicker} title={t.civPages.nordics.dossierTitle} />
+      }
+      sheetCharacter={{ status: 'CANON_APPROVED' }}
+      leaderStatus="PROVISIONAL"
+    />
+  );
 }
 
-/** Reptilians: dossier (docs/lore/reptilians.json) + civilization file. */
+/** Reptilians: dossier (docs/lore/REPTILIANS.json) + civilization file. */
 export function ReptiliansPage() {
   const { t } = useI18n();
   return (
@@ -50,7 +60,7 @@ export function ReptiliansPage() {
   );
 }
 
-/** Mantis: dossier (docs/lore/mantis.json, written as "Insectoids") + civilization file. */
+/** Mantis: dossier (docs/lore/INSECTOIDS.json; the chat calls the Mantis "Insectoids") + civilization file. */
 export function MantisPage() {
   const { t } = useI18n();
   return (

@@ -1,11 +1,12 @@
 /**
- * Race dossiers, maintained with the chat project in docs/lore/<race>.json. Edit the JSON, not this file.
+ * Race dossiers, maintained with the chat project in docs/lore/<RACE>.json (GRAYS, NORDICS, REPTILIANS, INSECTOIDS = Mantis). Edit the JSON, not this file.
  * Status rules: only CANON_APPROVED is canon; PROVISIONAL and OPEN_QUESTION are always labeled in the UI.
  * Files differ slightly (Grays: canon.approved; others: canonLinks.items), so they are normalized here.
  */
-import graysRaw from '../../../docs/lore/grays.json';
-import mantisRaw from '../../../docs/lore/mantis.json';
-import reptiliansRaw from '../../../docs/lore/reptilians.json';
+import graysRaw from '../../../docs/lore/GRAYS.json';
+import mantisRaw from '../../../docs/lore/INSECTOIDS.json';
+import nordicsRaw from '../../../docs/lore/NORDICS.json';
+import reptiliansRaw from '../../../docs/lore/REPTILIANS.json';
 import type { FactionId, Localized } from '../types';
 
 export type LoreStatus = 'CANON_APPROVED' | 'PROVISIONAL' | 'OPEN_QUESTION';
@@ -66,5 +67,6 @@ function toDossier(raw: any): RaceDossier {
 export const dossiers: Partial<Record<FactionId, RaceDossier>> = {
   grays: toDossier(graysRaw),
   reptilians: toDossier(reptiliansRaw),
+  nordics: toDossier(nordicsRaw),
   mantis: toDossier(mantisRaw),
 };

@@ -9,20 +9,22 @@ Atualize este arquivo no fim de cada sessão (chat ou código): o que foi feito,
 - Imagens oficiais das fichas aplicadas em todo o site; seção "raças em 3D" e seção da Resistência.
 - Repositório organizado como fonte única de contexto (`docs/`), com cânone, decisões e instruções para o projeto do chat.
 
-- Dossiê dos Grays trazido do chat para `docs/lore/grays.json` (fonte) e `grays.md` (resumo). O site lê o JSON e mostra o dossiê na página `/grays`, com selos de status (cânone, provisório, em aberto), e o arquivo de lore tem um atalho para ele. Sete agora é "Auditor do Arquivo Central".
+- Dossiê dos Grays trazido do chat para `docs/lore/GRAYS.json` (fonte) e `grays.md` (resumo). O site lê o JSON e mostra o dossiê na página `/grays`, com selos de status (cânone, provisório, em aberto), e o arquivo de lore tem um atalho para ele. Sete agora é "Auditor do Arquivo Central".
 
-- Página própria dos Grays (`/grays`): dossiê + arquivo de civilização (`docs/lore/grays-civilization.json`, vindo do chat), com menu de seções e selo de status em cada bloco. A página da raça Grays e o arquivo de lore levam até ela; o rodapé tem o link "Grays".
+- Página própria dos Grays (`/grays`): dossiê + arquivo de civilização (`docs/lore/GRAYS_CIVILIZATION.json`, vindo do chat), com menu de seções e selo de status em cada bloco. A página da raça Grays e o arquivo de lore levam até ela; o rodapé tem o link "Grays".
 - **Gray é a raça; VHAL-ETT é personagem** (decisão do dono). A raça aparece como GRAYS em todo o site, em `/factions/grays` (o endereço antigo redireciona). VHAL-ETT aparece na página `/grays` com a imagem oficial; Sete fica sem imagem até ter arte própria.
 
 - **Raças pelo tipo:** Grays, Nórdicos, Reptilianos e Mantis em todo o site (`/factions/grays|nordics|reptilians|mantis`; os endereços antigos redirecionam). VHAL-ETT, ILVANI, SAZHI e XHALEN-KTHRIX são personagens das respectivas raças; cada imagem oficial tem a legenda com o nome do personagem. SAZHI é O Soberano; XHALEN-KTHRIX é O Comandante (provisório).
-- Página genérica de civilização (`src/pages/CivilizationPage.tsx`), alimentada por `docs/lore/<raça>-civilization.json`. Grays (`/grays`, com dossiê) e Nórdicos (`/nordics`) já usam. Para Reptilianos e Mantis basta o JSON + uma linha em `src/data/lore/civilization.ts` e os textos em `civPages`.
+- Página genérica de civilização (`src/pages/CivilizationPage.tsx`), alimentada pelos arquivos `docs/lore/<RAÇA>.json` e `<RAÇA>_CIVILIZATION.json` (nomes do chat).
 
 - Páginas `/reptilians` e `/mantis` com dossiê + arquivo de civilização do chat; o dossiê virou componente genérico (`RaceDossier`) e os dados de dossiê e civilização são lidos de `docs/lore/` (`src/data/lore/dossier.ts` e `civilization.ts`). Todas as raças têm página de arquivo agora.
 
+- Os arquivos que o chat gravou direto em `docs/lore/` (nomes em maiúsculas) viraram a fonte única; as cópias que eu tinha feito foram apagadas. Chegou o `NORDICS.json`, ligado à página `/nordics`. O chat também gravou `THE_FOUR_EXILES_RACAS.docx` em `docs/lore/` (mantido como está).
+
 **Próximos passos sugeridos**
 1. **Decidir quem é O Soberano** (SAZHI, como na ficha, ou KRAHL-VOR, como no dossiê) e os **planetas natais** (Thaxis/Sarrath, Xhalen/Threnn). Ver `docs/DECISOES.md`.
-2. No chat: corrigir `grays.json` (ILVANI, SAZHI e XHALEN-KTHRIX como Grays), alinhar a aparência dos Mantis com a ficha e usar "Mantis" em vez de "Insetoides".
-3. Trazer o `NORDICS.json` (personagens nórdicos, incluindo Torven) para `docs/lore/nordics.json`.
+2. No chat: corrigir `GRAYS.json` (ILVANI, SAZHI e XHALEN-KTHRIX como Grays), alinhar a aparência dos Mantis com a ficha e usar "Mantis" em vez de "Insetoides".
+3. Alinhar Sael: o site o descreve como ex-jardineiro desertor; o `NORDICS.json`, como diplomata.
 4. Aprovar ou ajustar os itens provisórios das quatro raças e os nomes de personagens propostos.
 5. Fase 2: arquivo de lore completo (capítulos, transmissões, documentos) e galeria de personagens ampliada.
 

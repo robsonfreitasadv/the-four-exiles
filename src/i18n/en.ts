@@ -230,6 +230,8 @@ export const en = {
     WATER_RECYCLING: 'Water recycling',
     HEAT_ARMOUR: 'Thermal armour',
     SWARM_LINK: 'Swarm link',
+    NORDIC_TRANSLATION: 'Translation',
+    NORDIC_INFLUENCE: 'Influence',
     weakness: 'Weakness',
     with: 'With',
     humans: 'humans',
@@ -246,6 +248,8 @@ export const en = {
       backToRace: 'Grays race page',
     },
     nordics: {
+      dossierKicker: 'Classified dossier · Nordics',
+      dossierTitle: 'What the files say about the Nordics.',
       kicker: 'Civilization file · Nordics',
       title: 'The Nordics.',
       intro: 'Hosts, envoys and keepers of harmony. Everything known about their civilization, from public festivals to the persuasion behind them.',

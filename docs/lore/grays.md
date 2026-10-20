@@ -2,7 +2,7 @@
 
 **Status:** em desenvolvimento · origem: projeto do chat THE FOUR EXILES — PROJECT MASTER · trazido ao repositório em 2026-10-20
 
-A fonte é [`grays.json`](grays.json). O arquivo de civilização (linguagem, economia, naves, personagens etc.) está em [`grays-civilization.json`](grays-civilization.json). Os dois aparecem na página `/grays` do site. **Edite o JSON, não este resumo.** O site lê os JSON diretamente e mostra tudo na página `/grays` (a página da raça Grays leva até ela), com o status de cada item visível. Só `CANON_APPROVED` é cânone; `PROVISIONAL` e `OPEN_QUESTION` sempre aparecem marcados.
+A fonte é [`GRAYS.json`](GRAYS.json). O arquivo de civilização (linguagem, economia, naves, personagens etc.) está em [`GRAYS_CIVILIZATION.json`](GRAYS_CIVILIZATION.json). Os dois aparecem na página `/grays` do site. **Edite o JSON, não este resumo.** O site lê os JSON diretamente e mostra tudo na página `/grays` (a página da raça Grays leva até ela), com o status de cada item visível. Só `CANON_APPROVED` é cânone; `PROVISIONAL` e `OPEN_QUESTION` sempre aparecem marcados.
 
 ## Cânone aprovado
 - Os Grays são uma espécie, não o nome de um personagem.

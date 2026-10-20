@@ -1,4 +1,4 @@
-/** Grays-specific views of the dossier in docs/lore/grays.json (see dossier.ts). */
+/** Grays-specific views of the dossier in docs/lore/GRAYS.json (see dossier.ts). */
 import { factions } from '../factions';
 import { dossiers } from './dossier';
 
