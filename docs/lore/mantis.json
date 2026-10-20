@@ -1,0 +1,134 @@
+{
+  "id": "insectoids",
+  "species": "insectoids",
+  "kind": "race",
+  "name": { "en": "Insectoids", "pt-BR": "Insetoides" },
+  "status": "in_development",
+  "statusNote": {
+    "en": "No Insectoid item is approved yet. Everything here is PROVISIONAL or OPEN_QUESTION and must not be presented as official canon. Cross-references to the approved Grays canon are listed explicitly.",
+    "pt-BR": "Nenhum item insetoide está aprovado ainda. Tudo aqui é PROVISIONAL ou OPEN_QUESTION e não deve ser apresentado como cânone oficial. As referências cruzadas ao cânone Gray já aprovado estão listadas explicitamente."
+  },
+  "tagline": {
+    "en": "Order is their body. Duty is their voice.",
+    "pt-BR": "A ordem é o corpo deles. O dever é a voz deles."
+  },
+  "summary": {
+    "en": "The Insectoids are one of the four races disputing Earth in the Census. Their society is organized as a network of duties, where each unit exists to fulfil a function for the whole. Their central tension is between collective discipline and the individual capacity to refuse an order that is wrong.",
+    "pt-BR": "Os Insetoides são uma das quatro raças que disputam a Terra no Censo. Sua sociedade se organiza como uma rede de deveres, em que cada unidade existe para cumprir uma função pelo todo. A tensão central está entre a disciplina coletiva e a capacidade individual de recusar uma ordem errada."
+  },
+  "canonLinks": {
+    "status": "CANON_APPROVED",
+    "description": {
+      "en": "Approved cross-references that constrain Insectoid development.",
+      "pt-BR": "Referências cruzadas aprovadas que limitam o desenvolvimento insetoide."
+    },
+    "items": [
+      {
+        "id": "GRAY_RELATION_AMBIGUOUS",
+        "status": "CANON_APPROVED",
+        "text": {
+          "en": "The Grays have ambiguous relations with the Insectoids (approved as part of the Grays canon).",
+          "pt-BR": "Os Grays mantêm relações ambíguas com os Insetoides (aprovado como parte do cânone Gray)."
+        }
+      },
+      {
+        "id": "CENTRAL_MYSTERY_INVOLVES_ALLIANCE",
+        "status": "CANON_APPROVED",
+        "text": {
+          "en": "The central mystery involves altered records and an ancient galactic decision tied to a broken alliance. Whether the Insectoids were part of that alliance is PROVISIONAL.",
+          "pt-BR": "O mistério central envolve registros alterados e uma antiga decisão galáctica ligada a uma aliança rompida. Se os Insetoides participaram dessa aliança é PROVISIONAL."
+        }
+      }
+    ]
+  },
+  "provisional": {
+    "homeworld": {
+      "status": "PROVISIONAL",
+      "name": { "en": "Threnn (working name)", "pt-BR": "Threnn (nome de trabalho)" },
+      "description": {
+        "en": "A dense, high-gravity world with deep canyon cities and vast stacked habitats. Its ecology is layered and interdependent, and its people measure worth by contribution to the colony.",
+        "pt-BR": "Um mundo denso, de alta gravidade, com cidades em cânions profundos e habitats empilhados em grande escala. A ecologia é em camadas e interdependente, e o povo mede o valor pela contribuição à colônia."
+      }
+    },
+    "appearance": {
+      "status": "PROVISIONAL",
+      "text": {
+        "en": "Segmented chitin-like armour, four arms (two primary, two auxiliary), compound eyes with a reddish sheen, mandibular speech plates. Height 1.70–2.00 m. Units wear role-coded colours on their carapaces.",
+        "pt-BR": "Armadura segmentada semelhante a quitina, quatro braços (dois principais e dois auxiliares), olhos compostos com brilho avermelhado, placas mandibulares para fala. Altura de 1,70 a 2,00 m. As unidades usam cores de função na carapaça."
+      },
+      "visualRule": {
+        "en": "Use approved character sheets only. No approved Insectoid sheet exists yet; do not use stock or generated art for Insectoid characters.",
+        "pt-BR": "Usar somente folhas oficiais de personagens. Ainda não existe folha insetoide aprovada; não usar imagens genéricas ou geradas para personagens insetoides."
+      }
+    },
+    "historicalEras": {
+      "status": "PROVISIONAL",
+      "note": {
+        "en": "Aligned with the Grays' six-era structure for cross-reference only.",
+        "pt-BR": "Alinhadas à estrutura de seis eras dos Grays apenas para referência cruzada."
+      },
+      "eras": [
+        { "id": "INSECT_ERA_I", "name": { "en": "The Colony Years", "pt-BR": "Os Anos da Colônia" } },
+        { "id": "INSECT_ERA_II", "name": { "en": "The Lattice", "pt-BR": "A Malha" } },
+        { "id": "INSECT_ERA_III", "name": { "en": "The Long Watch", "pt-BR": "A Longa Vigília" } },
+        { "id": "INSECT_ERA_IV", "name": { "en": "The Pact", "pt-BR": "O Pacto" } },
+        { "id": "INSECT_ERA_V", "name": { "en": "The Quiet Order", "pt-BR": "A Ordem Silenciosa" } },
+        { "id": "INSECT_ERA_VI", "name": { "en": "The Census Deployment", "pt-BR": "A Implantação do Censo" } }
+      ]
+    },
+    "governance": {
+      "status": "PROVISIONAL",
+      "text": {
+        "en": "Layered command network. Each colony elects a Lattice Council of function-leaders; the Council appoints a Commander for each operation. Orders are explicit and executable; commanders are judged by mission success and by the health of their units.",
+        "pt-BR": "Rede de comando em camadas. Cada colônia elege um Conselho da Malha, formado por líderes de função; o Conselho nomeia um Comandante para cada operação. As ordens são explícitas e executáveis; os comandantes são julgados pelo sucesso da missão e pela saúde de suas unidades."
+      }
+    },
+    "economy": {
+      "status": "PROVISIONAL",
+      "text": {
+        "en": "Resource and labour allocation by ledger of duties. Each unit holds a balance of obligations; surplus labour is redistributed to the colony's priority needs. Wealth is collective; individual status is rank and service record.",
+        "pt-BR": "Alocação de recursos e trabalho por registro de deveres. Cada unidade tem um saldo de obrigações; o trabalho excedente é redistribuído às necessidades prioritárias da colônia. A riqueza é coletiva; o status individual é o posto e o histórico de serviço."
+      }
+    },
+    "technology": {
+      "status": "PROVISIONAL",
+      "text": {
+        "en": "Strong in logistics, construction, security and coordinated fieldwork. Swarm-like drone coordination and distributed sensing. Weakness: coordination depends on the central link; cut the link and the swarm hesitates.",
+        "pt-BR": "Forte em logística, construção, segurança e trabalho de campo coordenado. Coordenação de drones em enxame e sensoriamento distribuído. Fraqueza: a coordenação depende do elo central; cortado o elo, o enxame hesita."
+      },
+      "limits": [
+        { "id": "SWARM_LINK", "limit": { "en": "Swarm coordination fails when the central link is jammed or destroyed; units then act on local judgment, which they are poorly trained for.", "pt-BR": "A coordenação do enxame falha quando o elo central é bloqueado ou destruído; as unidades passam a agir por julgamento local, para o qual são mal treinadas." } }
+      ]
+    },
+    "internalGroups": {
+      "status": "PROVISIONAL",
+      "note": {
+        "en": "Internal currents, not separate races.",
+        "pt-BR": "Correntes internas, não raças separadas."
+      },
+      "groups": [
+        { "id": "LATTICE_LOYALISTS", "name": { "en": "Lattice Loyalists", "pt-BR": "Leais à Malha" }, "motto": { "en": "The whole outlives the part.", "pt-BR": "O todo sobrevive à parte." } },
+        { "id": "DISSENT_CELLS", "name": { "en": "Dissent Cells", "pt-BR": "Células de Dissenso" }, "motto": { "en": "An order that cannot be questioned is a weapon, not a plan.", "pt-BR": "Uma ordem que não pode ser questionada é uma arma, não um plano." } },
+        { "id": "FIELD_ARM", "name": { "en": "Field Arm", "pt-BR": "Braço de Campo" }, "motto": { "en": "We are judged by what we protect.", "pt-BR": "Somos julgados pelo que protegemos." } }
+      ]
+    },
+    "characters": [
+      { "id": "COMMANDER_IXUL_DRA", "name": "IXUL-DRA", "status": "PROVISIONAL", "role": { "en": "Commander of the Census deployment; the Insectoid officer who clearly sees Grays' pattern of altering orders.", "pt-BR": "Comandante da implantação do Censo; a oficial insetoide que percebe com clareza o padrão de alteração de ordens dos Grays." }, "personality": { "en": "Exact, dutiful, sceptical of anything she cannot verify on the field.", "pt-BR": "Exata, dedicada ao dever, cética diante do que não consegue verificar em campo." }, "contradiction": { "en": "Insists that orders must be obeyed as given, yet quietly keeps logs of orders she was told to ignore.", "pt-BR": "Insiste que ordens devem ser cumpridas como dadas, mas guarda em silêncio registros de ordens que foi mandada ignorar." }, "relationToSete": { "en": "Shares a practical respect for his audits; disagrees on whether a commander may refuse an order.", "pt-BR": "Compartilha respeito prático pelas auditorias dele; discorda sobre se um comandante pode recusar uma ordem." }, "silhouette": { "en": "Tall; a dark carapace with rank bands and a single red mark on the left forearm.", "pt-BR": "Alta; carapaça escura com faixas de posto e uma única marca vermelha no antebraço esquerdo." } },
+      { "id": "KESSA_VERRIN", "name": "KESSA-VERRIN", "status": "PROVISIONAL", "role": { "en": "Logistics officer who schedules the colony's labour and supply for the Census operation.", "pt-BR": "Oficial de logística que programa o trabalho e o abastecimento da colônia para a operação do Censo." }, "personality": { "en": "Methodical, warm to her units, impatient with bureaucracy above her.", "pt-BR": "Metódica, afetuosa com suas unidades, impaciente com a burocracia acima dela." }, "contradiction": { "en": "Her schedules have quietly moved units away from danger; she calls it efficiency, the units call it care.", "pt-BR": "Seus cronogramas afastaram discretamente unidades do perigo; ela chama isso de eficiência, as unidades chamam de cuidado." }, "relationToHumans": { "en": "Her teams have documented human resource networks that the official reports omit.", "pt-BR": "Suas equipes documentaram redes de recursos humanos que os relatórios oficiais omitem." }, "silhouette": { "en": "Average height; grey-green carapace with ledger tablets clipped to the auxiliary arms.", "pt-BR": "Altura média; carapaça verde-acinzentada com tabletes de registro presos aos braços auxiliares." } },
+      { "id": "ORRAN_SKIL", "name": "ORRAN-SKIL", "status": "PROVISIONAL", "role": { "en": "Field sergeant of a dissent cell; the link between disciplined units and the cells that question them.", "pt-BR": "Sargento de campo de uma célula de dissenso; o elo entre unidades disciplinadas e as células que as questionam." }, "personality": { "en": "Blunt, loyal to his squad above all, distrustful of anyone who speaks well.", "pt-BR": "Direto, leal ao pelotão acima de tudo, desconfiado de quem fala bem." }, "contradiction": { "en": "Preaches against blind obedience while enforcing his squad's discipline without question.", "pt-BR": "Prega contra a obediência cega enquanto impõe a disciplina do pelotão sem questionamento." }, "relationToIxulDra": { "en": "Former subordinate who refused an order from her; she has never forgiven or forgotten.", "pt-BR": "Ex-subordinado que recusou uma ordem dela; ela nunca esqueceu nem perdoou." }, "silhouette": { "en": "Compact and heavy-armoured; a cracked dark-red mandible plate.", "pt-BR": "Compacto e fortemente blindado; uma placa mandibular vermelho-escura rachada." } },
+      { "id": "LIRA_VESS", "name": "LIRA-VESS", "status": "PROVISIONAL", "role": { "en": "Bio-tech specialist who maintains the swarm link; she knows exactly where the Grays' jamming modules were installed.", "pt-BR": "Especialista biotécnica que mantém o elo do enxame; sabe exatamente onde foram instalados os módulos de bloqueio dos Grays." }, "personality": { "en": "Curious, meticulous, quietly amused by how easily others trust a machine.", "pt-BR": "Curiosa, meticulosa, discretamente divertida com a facilidade com que outros confiam numa máquina." }, "contradiction": { "en": "Keeps the link running for the Census; she also keeps a backdoor she has never reported.", "pt-BR": "Mantém o elo funcionando para o Censo; também mantém uma porta de acesso que nunca reportou." }, "relationToGrays": { "en": "Has worked alongside Gray technicians; she distrusts them but is the only one who understands their modules.", "pt-BR": "Trabalhou ao lado de técnicos Gray; desconfia deles, mas é a única que entende os módulos deles." }, "silhouette": { "en": "Lighter build; several sensor filaments trailing from the back of the head.", "pt-BR": "Constituição mais leve; filamentos sensoriais saem da parte de trás da cabeça." } }
+    ],
+    "openQuestions": [
+      { "id": "I1", "status": "OPEN_QUESTION", "text": { "en": "Did the Insectoids take part in the ancient alliance, and what did they witness of the decision?", "pt-BR": "Os Insetoides participaram da antiga aliança, e o que testemunharam da decisão?" } },
+      { "id": "I2", "status": "OPEN_QUESTION", "text": { "en": "Can an Insectoid unit refuse an order and remain part of the Lattice?", "pt-BR": "Uma unidade insetoide pode recusar uma ordem e continuar fazendo parte da Malha?" } },
+      { "id": "I3", "status": "OPEN_QUESTION", "text": { "en": "Who installed the Grays' jamming modules in Insectoid systems, and with whose consent?", "pt-BR": "Quem instalou os módulos de bloqueio dos Grays nos sistemas insetoides, e com que consentimento?" } }
+    ]
+  },
+  "continuityRules": [
+    "Do not present any PROVISIONAL Insectoid item as official canon.",
+    "Insectoid characters beyond the approved list must be added here first.",
+    "Insectoid visual art must come from approved character sheets only; none exist yet.",
+    "Do not present Insectoids as a homogeneous hive; individuals must have distinct judgment and loyalties.",
+    "Keep the Grays-Insectoid relation consistent with the approved Grays canon (ambiguous, not allied by default)."
+  ]
+}

@@ -10,7 +10,6 @@ Ao decidir algo no chat ou no código, acrescente uma linha aqui e faça commit.
 | 2026-10-19 | As quatro raças oficiais têm as motivações e personalidades de `docs/canon/racas.md`. |
 | 2026-10-20 | **Gray é a raça; VHAL-ETT é o nome de um personagem** (um Gray). A figura da ficha oficial é VHAL-ETT. |
 | 2026-10-20 | **As raças se chamam pelo tipo:** Grays, Nórdicos (Nordics), Reptilianos (Reptilians) e Mantis. **ILVANI, SAZHI e XHALEN-KTHRIX são personagens** de cada uma dessas raças, como na ficha oficial (VHAL-ETT é Gray, ILVANI é Nórdico, SAZHI é Reptiliano, XHALEN-KTHRIX é Mantis). Endereços: `/factions/grays`, `/factions/nordics`, `/factions/reptilians`, `/factions/mantis`; os antigos redirecionam. |
-| 2026-10-20 | SAZHI é O Soberano da Dinastia de Sazhath (a ficha oficial o identifica como "The Sovereign"). |
 | 2026-10-19 | Site bilíngue (inglês padrão + português do Brasil), React + TypeScript + Tailwind, dados locais simulados. |
 | 2026-10-19 | Nada de token, carteira, transação, ticker, preço ou data de lançamento. Pontos do campeonato nunca vêm de mercado. |
 | 2026-10-20 | Usar "raças" (EN: "races") em vez de "facções" em todo texto para o público. URLs `/factions` continuam. |
@@ -33,6 +32,8 @@ Ao decidir algo no chat ou no código, acrescente uma linha aqui e faça commit.
 | 2026-10-19 | Missões de demonstração (Operação Três Vias, Banquete Seco, Auditoria do Sorriso, Rendição Cortês). |
 | 2026-10-20 | Seção "raças em 3D" com giro feito a partir das vistas da ficha (não é modelo 3D real). |
 | 2026-10-20 | Grays: descrição de Hevra, variantes, seis eras, modelo da antiga decisão, programa POT-7 e cinco correntes internas. No site, aparecem com o selo "Provisório". |
+| 2026-10-20 | Reptilianos: dossiê (`docs/lore/reptilians.json`) e arquivo de civilização (`reptilians-civilization.json`): Sarrath, aparência, seis eras, governo das grandes casas, economia das cisternas, tecnologia e limites, correntes internas, personagens SSARA-MIN, THRAXEN-OL e VESH-KARA, perguntas R1 a R3, linguagem, cultura e ritual, humor, filosofia, vida cotidiana, doutrina naval, três naves, Quietude do Calor e Sentido da Cisterna. Página `/reptilians`. |
+| 2026-10-20 | Mantis: dossiê (`docs/lore/mantis.json`, escrito no chat como "Insetoides") e arquivo de civilização (`mantis-civilization.json`): Threnn, aparência, seis eras, Conselho da Malha, economia de deveres, elo do enxame, correntes internas, personagens IXUL-DRA, KESSA-VERRIN, ORRAN-SKIL e LIRA-VESS, perguntas I1 a I3, linguagem, cultura e ritual, humor, filosofia, vida cotidiana, doutrina, três naves, Sentido de Enxame e Carapaça Imóvel. Página `/mantis`. |
 | 2026-10-20 | Civilização Nórdica (`docs/lore/nordics-civilization.json`): linguagem, arte e ritual, humor, filosofia, vida cotidiana, doutrina militar (com fraqueza), três classes de naves e propulsão, habilidades raras (Voz Ressonante, Mão Aberta) e personagens IRENN-TAL, DAMIS-ORRIN e MIREN-SOLE. Página própria no site (`/nordics`). |
 | 2026-10-20 | Civilização Grays (`docs/lore/grays-civilization.json`): linguagem, economia, arte, humor, filosofia, vida cotidiana, doutrina militar, quatro classes de naves e propulsão, limites específicos da tecnologia, habilidades raras (o Silêncio, a Câmara) e personagens TERCE-OHM, KAEL-RUUM, OPHELIA-3 e ZEN-VARO. Página própria no site (`/grays`), tudo com selo de status. |
 
@@ -40,6 +41,11 @@ Ao decidir algo no chat ou no código, acrescente uma linha aqui e faça commit.
 
 | Desde | Questão |
 | --- | --- |
+| 2026-10-20 | **Quem é O Soberano:** SAZHI (a ficha oficial diz "SAZHI — The Sovereign") ou KRAHL-VOR (dossiê dos Reptilianos)? Até decidir, o site mostra SAZHI como Soberano com selo "Em aberto" e esconde KRAHL-VOR e a relação de SSARA-MIN com ele. |
+| 2026-10-20 | **Planetas natais:** o site usa Thaxis (Reptilianos) e Xhalen (Mantis); os dossiês do chat propõem Sarrath e Threnn. Escolher um nome para cada. |
+| 2026-10-20 | **"Mantis" ou "Insetoides":** a decisão aprovada diz Mantis; os arquivos do chat dizem Insectoids/Insetoides. O site usa Mantis. |
+| 2026-10-20 | **Aparência dos Mantis:** o dossiê descreve quatro braços e olhos avermelhados, mas a ficha oficial (XHALEN-KTHRIX) mostra olhos verdes. Alinhar o texto com a ficha. Alturas também diferem (dossiê 1,70–2,00 m; site ≈ 2,3 m), assim como a dos Reptilianos (1,90–2,30 m vs 2–2,5 m). |
+| 2026-10-20 | Os arquivos do chat dizem que não existem fichas aprovadas de Reptilianos e Mantis, mas `design/sheets/races.webp` tem as quatro raças (VHAL-ETT, ILVANI, SAZHI, XHALEN-KTHRIX). O chat precisa ler essa ficha. |
 | 2026-10-20 | Título dos Grays em inglês: "The Scribes" (ficha) ou "The Grey Scribes" (site). |
 | 2026-10-20 | Escrever cada raça no viés de ufólogos e teóricos da conspiração (pedido no projeto do chat), começando pelos Grays. |
 | 2026-10-20 | **Corrigir no chat `docs/lore/grays.json`:** o dossiê ainda lista ILVANI, SAZHI e XHALEN-KTHRIX como personagens Gray (supervisora, pesquisadora, arquivista, agente), e o arquivo de civilização dá a KAEL-RUUM e ZEN-VARO relações "com Ilvani" e "com Sazhi". Pela decisão aprovada, esses três são de outras raças. O site esconde essas entradas até o dossiê ser corrigido (novos nomes para esses papéis, se forem mantidos). |

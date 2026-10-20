@@ -17,6 +17,8 @@ export const secondaryNav: { to: string; key: NavKey }[] = [
   { to: '/characters', key: 'characters' },
   { to: '/grays', key: 'grays' },
   { to: '/nordics', key: 'nordics' },
+  { to: '/reptilians', key: 'reptilians' },
+  { to: '/mantis', key: 'mantis' },
   { to: '/collectibles', key: 'collectibles' },
   { to: '/privacy', key: 'privacy' },
   { to: '/terms', key: 'terms' },

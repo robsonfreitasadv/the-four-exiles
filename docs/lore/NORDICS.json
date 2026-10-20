@@ -1,0 +1,135 @@
+{
+  "id": "nordics",
+  "species": "nordics",
+  "kind": "race",
+  "name": { "en": "Nordics", "pt-BR": "Nórdicos" },
+  "status": "in_development",
+  "statusNote": {
+    "en": "No Nordic item is approved yet. Everything here is PROVISIONAL or OPEN_QUESTION and must not be presented as official canon. Cross-references to the approved Grays canon are listed explicitly.",
+    "pt-BR": "Nenhum item nórdico está aprovado ainda. Tudo aqui é PROVISIONAL ou OPEN_QUESTION e não deve ser apresentado como cânone oficial. As referências cruzadas ao cânone Gray já aprovado estão listadas explicitamente."
+  },
+  "tagline": {
+    "en": "Consent is their weapon. Influence is their empire.",
+    "pt-BR": "O consentimento é a arma deles. A influência é o império deles."
+  },
+  "summary": {
+    "en": "The Nordics are one of the four races disputing Earth in the Galactic Census. They believe the most durable conquest is the one the conquered think they chose. Their power is cultural and diplomatic, not overt force, and their central contradiction is that their gentleness is itself a method of control.",
+    "pt-BR": "Os Nórdicos são uma das quatro raças que disputam a Terra no Censo Galáctico. Acreditam que a conquista mais durável é aquela que o conquistado acredita ter escolhido. Seu poder é cultural e diplomático, não força aberta, e a contradição central é que sua gentileza é, ela mesma, um método de controle."
+  },
+  "canonLinks": {
+    "status": "CANON_APPROVED",
+    "description": {
+      "en": "Approved cross-references that constrain Nordic development.",
+      "pt-BR": "Referências cruzadas aprovadas que limitam o desenvolvimento nórdico."
+    },
+    "items": [
+      {
+        "id": "GRAY_RELATION_AMBIGUOUS",
+        "status": "CANON_APPROVED",
+        "text": {
+          "en": "The Grays have ambiguous relations with the Nordics (approved as part of the Grays canon).",
+          "pt-BR": "Os Grays mantêm relações ambíguas com os Nórdicos (aprovado como parte do cânone Gray)."
+        }
+      },
+      {
+        "id": "CENTRAL_MYSTERY_INVOLVES_ALLIANCE",
+        "status": "CANON_APPROVED",
+        "text": {
+          "en": "The central mystery involves altered records and an ancient galactic decision tied to a broken alliance. Whether the Nordics were part of that alliance is PROVISIONAL.",
+          "pt-BR": "O mistério central envolve registros alterados e uma antiga decisão galáctica ligada a uma aliança rompida. Se os Nórdicos participaram dessa aliança é PROVISIONAL."
+        }
+      }
+    ]
+  },
+  "provisional": {
+    "homeworld": {
+      "status": "PROVISIONAL",
+      "name": { "en": "Vaelor (working name)", "pt-BR": "Vaelor (nome de trabalho)" },
+      "description": {
+        "en": "A temperate, bright world with open skies, long coastlines and cities built for openness and public assembly. Its sun is warmer and steadier than Hevra's, which shaped a culture that values visibility and trust.",
+        "pt-BR": "Um mundo temperado e luminoso, com céus abertos, longas costas e cidades construídas para abertura e assembleia pública. O sol é mais quente e estável que o de Hevra, o que moldou uma cultura que valoriza visibilidade e confiança."
+      }
+    },
+    "appearance": {
+      "status": "PROVISIONAL",
+      "text": {
+        "en": "Tall (1.85–2.10 m), fair skin with a faint luminous quality, silver-gold hair, pale eyes, elegant ceremonial garments. Expressive faces, deliberately open body language.",
+        "pt-BR": "Altos (1,85 a 2,10 m), pele clara com uma leve qualidade luminosa, cabelos prata-dourados, olhos claros, vestes cerimoniais elegantes. Rostos expressivos e linguagem corporal deliberadamente aberta."
+      },
+      "visualRule": {
+        "en": "Use approved character sheets only. No approved Nordic sheet exists yet; do not use stock or generated art for Nordic characters.",
+        "pt-BR": "Usar somente folhas oficiais de personagens. Ainda não existe folha nórdica aprovada; não usar imagens genéricas ou geradas para personagens nórdicos."
+      }
+    },
+    "historicalEras": {
+      "status": "PROVISIONAL",
+      "note": {
+        "en": "Eras are aligned with the Grays' six-era structure for cross-reference, but names and content are not yet defined.",
+        "pt-BR": "As eras estão alinhadas à estrutura de seis eras dos Grays para referência cruzada, mas nomes e conteúdo ainda não estão definidos."
+      },
+      "eras": [
+        { "id": "NORDIC_ERA_I", "name": { "en": "The Open Assembly", "pt-BR": "A Assembleia Aberta" } },
+        { "id": "NORDIC_ERA_II", "name": { "en": "The Persuasion Age", "pt-BR": "A Era da Persuasão" } },
+        { "id": "NORDIC_ERA_III", "name": { "en": "The Quiet Expansion", "pt-BR": "A Expansão Silenciosa" } },
+        { "id": "NORDIC_ERA_IV", "name": { "en": "The Accord", "pt-BR": "O Acordo" } },
+        { "id": "NORDIC_ERA_V", "name": { "en": "The Long Consent", "pt-BR": "O Longo Consentimento" } },
+        { "id": "NORDIC_ERA_VI", "name": { "en": "The Census", "pt-BR": "O Censo" } }
+      ]
+    },
+    "governance": {
+      "status": "PROVISIONAL",
+      "text": {
+        "en": "A consensus-based council system in which decisions require visible agreement. Public legitimacy is maintained through ceremony, mass assemblies and symbolic votes. Real influence rests with diplomatic networks that shape what the assemblies are allowed to debate.",
+        "pt-BR": "Sistema de conselhos baseado em consenso, em que as decisões exigem concordância visível. A legitimidade pública se mantém por cerimônia, assembleias de massa e votações simbólicas. A influência real está nas redes diplomáticas que definem o que as assembleias podem debater."
+      }
+    },
+    "economy": {
+      "status": "PROVISIONAL",
+      "text": {
+        "en": "Gift and reputation economy layered on resource exchange. Status comes from generosity and recorded good faith. Debts are social, and social debts are collected through favours, marriages of alliance and cultural exports.",
+        "pt-BR": "Economia de dádiva e reputação sobreposta à troca de recursos. O status vem da generosidade e da boa-fé registrada. Dívidas são sociais, e cobram-se por favores, alianças matrimoniais e exportações culturais."
+      }
+    },
+    "technology": {
+      "status": "PROVISIONAL",
+      "text": {
+        "en": "Advanced communication, translation and perception technology: their translators and holographic diplomacy are their best tools. Weakness: they are unprepared for sustained hostility and for parties that refuse to be charmed.",
+        "pt-BR": "Tecnologia avançada de comunicação, tradução e percepção: tradutores e diplomacia holográfica são suas melhores ferramentas. Fraqueza: estão mal preparados para hostilidade prolongada e para interlocutores que se recusam a ser conquistados pela simpatia."
+      },
+      "limits": [
+        { "id": "NORDIC_TRANSLATION", "limit": { "en": "Translation fails with concepts that have no equivalent; the Nordics may mistranslate hostility as politeness.", "pt-BR": "A tradução falha com conceitos sem equivalente; os Nórdicos podem traduzir hostilidade como cortesia." } },
+        { "id": "NORDIC_INFLUENCE", "limit": { "en": "Influence needs an audience willing to listen; it fails against individuals who distrust it on principle.", "pt-BR": "A influência exige uma audiência disposta a ouvir; falha contra indivíduos que desconfiam dela por princípio." } }
+      ]
+    },
+    "internalGroups": {
+      "status": "PROVISIONAL",
+      "note": {
+        "en": "Internal currents, not separate races.",
+        "pt-BR": "Correntes internas, não raças separadas."
+      },
+      "groups": [
+        { "id": "CONSENSUALISTS", "name": { "en": "Consensualists", "pt-BR": "Consensualistas" }, "motto": { "en": "What is freely chosen cannot be wrong.", "pt-BR": "O que é livremente escolhido não pode estar errado." } },
+        { "id": "STEWARDS", "name": { "en": "Stewards", "pt-BR": "Tutores" }, "motto": { "en": "The gentle must sometimes guide the unready.", "pt-BR": "Os gentis precisam, às vezes, guiar os despreparados." } },
+        { "id": "CHORUS", "name": { "en": "The Chorus", "pt-BR": "O Coro" }, "motto": { "en": "A single voice is a warning; a thousand are a fact.", "pt-BR": "Uma voz é um alerta; mil vozes são um fato." } }
+      ]
+    },
+    "characters": [
+      { "id": "SAEL", "name": "Sael", "status": "PROVISIONAL", "role": { "en": "Diplomat who knows the Nordic influence methods that the Grays only know statistically. Named earlier in the Grays dossier.", "pt-BR": "Diplomata que conhece os métodos de influência nórdicos que os Grays só conhecem estatisticamente. Citado antes no dossiê dos Grays." } },
+      { "id": "ELARA_VOSS", "name": "ELARA-VOSS", "status": "PROVISIONAL", "role": { "en": "Cultural envoy who exports Nordic art and ceremony to other races.", "pt-BR": "Enviada cultural que exporta arte e cerimônia nórdicas para outras raças." }, "personality": { "en": "Warm, observant, genuinely kind, and aware that kindness is an instrument.", "pt-BR": "Calorosa, atenta, genuinamente gentil, e consciente de que a gentileza é um instrumento." }, "contradiction": { "en": "Believes her work spreads beauty; her reports are used to identify which cultures are easiest to persuade.", "pt-BR": "Acredita que seu trabalho espalha beleza; seus relatórios servem para identificar quais culturas são mais fáceis de persuadir." }, "relationToSael": { "en": "Colleagues; Sael suspects her reports feed the persuasion models.", "pt-BR": "Colegas; Sael suspeita que os relatórios dela alimentam os modelos de persuasão." } },
+      { "id": "TORVEN_IR", "name": "TORVEN-IR", "status": "PROVISIONAL", "role": { "en": "Steward who believes the Nordic gentleness must sometimes be enforced for the good of the unready.", "pt-BR": "Tutor que acredita que a gentileza nórdica precisa, às vezes, ser imposta para o bem dos despreparados." }, "personality": { "en": "Dignified, patient, unshakeable in conviction.", "pt-BR": "Digno, paciente, inabalável nas convicções." }, "contradiction": { "en": "Opposes open force, yet has authorized consent-based coercion that he calls 'guidance'.", "pt-BR": "Opõe-se à força aberta, mas autorizou coerção disfarçada de consentimento, que ele chama de 'orientação'." }, "silhouette": { "en": "Tallest variant; ceremonial mantle over the shoulders.", "pt-BR": "Variante mais alta; manto cerimonial sobre os ombros." } },
+      { "id": "LYSSA_HAL", "name": "LYSSA-HAL", "status": "PROVISIONAL", "role": { "en": "Chorus voice: composer of public assemblies whose speeches are designed to make dissent sound isolated.", "pt-BR": "Voz do Coro: compositora das assembleias públicas, cujos discursos fazem a dissidência parecer isolada." }, "personality": { "en": "Charismatic, playful, a genuine artist who loves her craft.", "pt-BR": "Carismática, brincalhona, uma artista genuína que ama o próprio ofício." }, "contradiction": { "en": "Her art is authentic; its purpose is not.", "pt-BR": "Sua arte é autêntica; a finalidade dela não é." }, "relationToHumans": { "en": "Her music is among the most popular human imports, which she considers proof of success.", "pt-BR": "Sua música está entre as importações humanas mais populares, o que ela considera prova de sucesso." } }
+    ],
+    "openQuestions": [
+      { "id": "N1", "status": "OPEN_QUESTION", "text": { "en": "Did the Nordics take part in the ancient alliance, and on which side of the broken decision?", "pt-BR": "Os Nórdicos participaram da antiga aliança, e de que lado da decisão rompida?" } },
+      { "id": "N2", "status": "OPEN_QUESTION", "text": { "en": "Is consent-based persuasion a deliberate doctrine or an emergent habit that the Nordics do not see as control?", "pt-BR": "A persuasão baseada em consentimento é uma doutrina deliberada ou um hábito emergente que os Nórdicos não reconhecem como controle?" } },
+      { "id": "N3", "status": "OPEN_QUESTION", "text": { "en": "What do the Nordics do when persuasion fails?", "pt-BR": "O que os Nórdicos fazem quando a persuasão falha?" } }
+    ]
+  },
+  "continuityRules": [
+    "Do not present any PROVISIONAL Nordic item as official canon.",
+    "Nordic characters other than those approved remain PROVISIONAL.",
+    "Nordic visual art must come from approved character sheets only; none exist yet.",
+    "Keep the Grays-Nordic relation consistent with the approved Grays canon (ambiguous, not hostile by default).",
+    "Do not resolve the Nordics' role in the ancient decision; it is an open question."
+  ]
+}

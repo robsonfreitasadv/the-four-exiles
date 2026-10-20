@@ -1,0 +1,86 @@
+{
+  "id": "reptilians_civilization",
+  "species": "reptilians",
+  "status": "in_development",
+  "statusNote": {
+    "en": "All items are PROVISIONAL unless marked CANON_APPROVED. Nothing here is official canon until the user approves it.",
+    "pt-BR": "Todos os itens são PROVISIONAL, salvo quando marcados como CANON_APPROVED. Nada aqui é cânone oficial até o usuário aprovar."
+  },
+  "sections": {
+    "language": {
+      "status": "PROVISIONAL",
+      "text": {
+        "en": "Low, resonant speech with pauses used as weight. Titles and lineage are spoken before a name; oaths are sworn over water, which is why speaking near it is a formal act.",
+        "pt-BR": "Fala grave e ressonante, com pausas usadas como peso. Títulos e linhagem são pronunciados antes do nome; juramentos são feitos sobre água, por isso falar perto dela é um ato formal."
+      }
+    },
+    "culture_and_ritual": {
+      "status": "PROVISIONAL",
+      "text": {
+        "en": "Rituals of succession by combat, ceremonial water-giving and ancestral cistern-naming. Art is monumental: carved cisterns, mural records of rain that no longer falls.",
+        "pt-BR": "Rituais de sucessão por combate, doação cerimonial de água e nomeação de cisternas em homenagem a ancestrais. A arte é monumental: cisternas esculpidas e murais que registram chuvas que não caem mais."
+      }
+    },
+    "humor": {
+      "status": "PROVISIONAL",
+      "text": {
+        "en": "Dry, sardonic, often about bad bargains and the vanity of rulers.",
+        "pt-BR": "Seco, sarcástico, muitas vezes sobre maus negócios e a vaidade dos governantes."
+      },
+      "example": {
+        "en": "\"The Grays offered us a gift.\" / \"Then check the water first; their gifts are always measured.\"",
+        "pt-BR": "\"Os Grays nos ofereceram um presente.\" / \"Então confira a água primeiro; os presentes deles são sempre medidos.\""
+      }
+    },
+    "philosophy": {
+      "status": "PROVISIONAL",
+      "text": {
+        "en": "Belief that the strong must hold what is scarce, and that order is the only thing standing between a people and extinction. Opposed by those who argue order has become the cause of the scarcity.",
+        "pt-BR": "Crença de que os fortes devem manter o que é escasso, e que a ordem é a única coisa entre um povo e a extinção. Contraposta por quem argumenta que a ordem se tornou a causa da escassez."
+      }
+    },
+    "daily_life": {
+      "status": "PROVISIONAL",
+      "text": {
+        "en": "Life rationed by cistern allocation; households are bound to their house. Shade, rest and water are the most valued private goods. Sleep is communal in the hottest seasons.",
+        "pt-BR": "Vida racionada pela distribuição das cisternas; as famílias estão ligadas à sua casa. Sombra, descanso e água são os bens privados mais valiosos. O sono é coletivo nas estações mais quentes."
+      }
+    },
+    "military_doctrine": {
+      "status": "PROVISIONAL",
+      "text": {
+        "en": "Doctrine of attrition and holding ground: they fight for water sources and routes and rarely retreat from a cistern. Naval power is central; boarding actions are favoured to seize rather than destroy.",
+        "pt-BR": "Doutrina de desgaste e de manutenção do terreno: lutam por fontes de água e rotas, e raramente recuam de uma cisterna. O poder naval é central; abordagens são preferidas para tomar, não para destruir."
+      },
+      "weakness": {
+        "en": "Rigid in unfamiliar environments, especially cold or wet ones; they depend on supply lines that rivals can cut.",
+        "pt-BR": "Rígidos em ambientes desconhecidos, sobretudo frios ou úmidos; dependem de linhas de suprimento que rivais podem cortar."
+      }
+    },
+    "ships": {
+      "status": "PROVISIONAL",
+      "classes": [
+        { "id": "CISTERN_BARGE", "name": { "en": "Cistern barge", "pt-BR": "Barcaça-cisterna" }, "note": { "en": "Slow, heavy transport that carries water between settlements and fleets.", "pt-BR": "Transporte lento e pesado que leva água entre assentamentos e frotas." } },
+        { "id": "SUN_LANCER", "name": { "en": "Sun lancer", "pt-BR": "Lanceiro solar" }, "note": { "en": "Fast warship with a heat-shielded hull and boarding ramps.", "pt-BR": "Navio de guerra rápido, com casco blindado contra calor e rampas de abordagem." } },
+        { "id": "HOUSE_GALLEON", "name": { "en": "House galleon", "pt-BR": "Galeão da casa" }, "note": { "en": "Command ship of a great house; carries the house's archive and its cistern seal.", "pt-BR": "Navio de comando de uma grande casa; leva o arquivo da casa e seu selo de cisterna." } }
+      ],
+      "propulsion": {
+        "en": "Thermal drives fed by stored water as reaction mass in emergencies. Limits: water scarcity makes this a last resort, and long voyages are rationed.",
+        "pt-BR": "Propulsão térmica que usa água armazenada como massa de reação em emergências. Limites: a escassez de água torna isso último recurso, e viagens longas são racionadas."
+      }
+    },
+    "powers_rare": {
+      "status": "PROVISIONAL",
+      "items": [
+        { "id": "HEAT_STILL", "name": { "en": "Heat Stillness", "pt-BR": "Quietude do Calor" }, "description": { "en": "A trained warrior holds perfect stillness under extreme heat, resisting exhaustion longer than others. Costs water rapidly.", "pt-BR": "Um guerreiro treinado mantém imobilidade perfeita sob calor extremo, resistindo ao esgotamento por mais tempo que os outros. Consome água rapidamente." } },
+        { "id": "CISTERN_SENSE", "name": { "en": "Cistern Sense", "pt-BR": "Sentido da Cisterna" }, "description": { "en": "A hydrologist detects water sources and leaks over long distances. Fails in sealed or heavily shielded structures.", "pt-BR": "Um hidrologista detecta fontes de água e vazamentos a longa distância. Falha em estruturas lacradas ou fortemente blindadas." } }
+      ]
+    }
+  },
+  "characters": [],
+  "continuityRules": [
+    "Do not present any PROVISIONAL Reptilian item as official canon.",
+    "Characters are defined in REPTILIANS.json; add new ones there first.",
+    "Reptilian visual art must come from approved character sheets only; none exist yet."
+  ]
+}

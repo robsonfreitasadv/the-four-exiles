@@ -2,11 +2,11 @@ import type { ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 import { RaceArt } from '../components/art/RaceArt';
 import { TiltCard } from '../components/art/TiltCard';
-import { Block, StatusBadge } from '../components/GraysDossier';
+import { Block, StatusBadge } from '../components/RaceDossier';
 import { Arrow, Reveal } from '../components/ui/primitives';
 import { factionById } from '../data/factions';
 import { civilizations } from '../data/lore/civilization';
-import type { LoreStatus } from '../data/lore/grays';
+import type { LoreStatus } from '../data/lore/dossier';
 import type { FactionId, Localized } from '../data/types';
 import { useI18n } from '../i18n/I18nProvider';
 import type { Dictionary } from '../i18n/en';
@@ -194,8 +194,8 @@ export function CivilizationPage({ race: raceId, dossier, sheetCharacter, leader
         {civ.techLimits && (
           <section aria-labelledby="c-tech">
             <SectionTitle id="c-tech">{t.civ.techLimits}</SectionTitle>
-            <Reveal className="mb-4 flex items-start justify-between gap-3 rounded-[28px] bg-[#30d158]/10 p-6">
-              <p className="text-bone">{t.civ.techNote}</p>
+            <Reveal className={`mb-4 flex items-start justify-between gap-3 rounded-[28px] p-6 ${civ.techLimits.status === 'CANON_APPROVED' ? 'bg-[#30d158]/10' : 'bg-graphite-800'}`}>
+              <p className="text-bone">{civ.techLimits.note ? l(civ.techLimits.note) : t.civ.techNote}</p>
               <StatusBadge status={civ.techLimits.status} />
             </Reveal>
             <ul className="grid gap-4 sm:grid-cols-2">
@@ -228,8 +228,8 @@ export function CivilizationPage({ race: raceId, dossier, sheetCharacter, leader
         {/* characters */}
         <section aria-labelledby="c-characters">
           <SectionTitle id="c-characters">{t.civ.characters}</SectionTitle>
-          <div className="grid gap-4 lg:grid-cols-[0.9fr_2fr]">
-            <div className="grid content-start gap-4">
+          <div className={`grid gap-4 ${civ.characters.length ? 'lg:grid-cols-[0.9fr_2fr]' : ''}`}>
+            <div className={`grid content-start gap-4 ${civ.characters.length ? '' : 'md:grid-cols-2'}`}>
               {/* the character on the official sheet, with the official art */}
               <Reveal className="overflow-hidden rounded-[28px] bg-graphite-800">
                 <div className="relative aspect-[4/3]">

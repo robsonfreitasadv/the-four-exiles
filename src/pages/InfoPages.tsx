@@ -9,7 +9,7 @@ import { LeaderboardTable, SeasonSelector } from '../components/Leaderboard';
 import { Arrow, DemoDataBadge, SectionHeading } from '../components/ui/primitives';
 import { scoresBySeason } from '../data/championship';
 import { factions } from '../data/factions';
-import { grays } from '../data/lore/grays';
+import { dossiers } from '../data/lore/dossier';
 import { collectibleConcepts, privacyBlocks, termsBlocks, transparencyBlocks, type InfoBlock } from '../data/pages';
 import type { FactionId } from '../data/types';
 import { useI18n } from '../i18n/I18nProvider';
@@ -86,7 +86,7 @@ export function LorePage() {
               <span>
                 <span className="block text-sm font-semibold text-signal">{t.civPages[id].kicker}</span>
                 <span className="display mt-1 block text-2xl sm:text-3xl">{t.civPages[id].title}</span>
-                <span className="mt-1 block text-bone-dim">{id === 'grays' ? l(grays.tagline) : t.civPages[id].intro}</span>
+                <span className="mt-1 block text-bone-dim">{dossiers[id] ? l(dossiers[id]!.tagline) : t.civPages[id].intro}</span>
               </span>
               <Arrow className="h-5 w-5 shrink-0 text-link transition-transform group-hover:translate-x-1" />
             </Link>

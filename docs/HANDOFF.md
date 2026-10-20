@@ -17,11 +17,13 @@ Atualize este arquivo no fim de cada sessão (chat ou código): o que foi feito,
 - **Raças pelo tipo:** Grays, Nórdicos, Reptilianos e Mantis em todo o site (`/factions/grays|nordics|reptilians|mantis`; os endereços antigos redirecionam). VHAL-ETT, ILVANI, SAZHI e XHALEN-KTHRIX são personagens das respectivas raças; cada imagem oficial tem a legenda com o nome do personagem. SAZHI é O Soberano; XHALEN-KTHRIX é O Comandante (provisório).
 - Página genérica de civilização (`src/pages/CivilizationPage.tsx`), alimentada por `docs/lore/<raça>-civilization.json`. Grays (`/grays`, com dossiê) e Nórdicos (`/nordics`) já usam. Para Reptilianos e Mantis basta o JSON + uma linha em `src/data/lore/civilization.ts` e os textos em `civPages`.
 
+- Páginas `/reptilians` e `/mantis` com dossiê + arquivo de civilização do chat; o dossiê virou componente genérico (`RaceDossier`) e os dados de dossiê e civilização são lidos de `docs/lore/` (`src/data/lore/dossier.ts` e `civilization.ts`). Todas as raças têm página de arquivo agora.
+
 **Próximos passos sugeridos**
-1. **No chat, corrigir `docs/lore/grays.json`:** tirar ILVANI, SAZHI e XHALEN-KTHRIX da lista de personagens Gray (ou dar outros nomes a esses papéis) e ajustar as relações de KAEL-RUUM e ZEN-VARO.
-2. Trazer o `NORDICS.json` citado no arquivo nórdico (personagens nórdicos, incluindo Torven) para `docs/lore/`.
-3. Arquivos de civilização de Reptilianos e Mantis (`docs/lore/reptilians-civilization.json`, `mantis-civilization.json`).
-4. Aprovar ou ajustar os itens provisórios (Grays e Nórdicos) e os nomes de personagens propostos.
+1. **Decidir quem é O Soberano** (SAZHI, como na ficha, ou KRAHL-VOR, como no dossiê) e os **planetas natais** (Thaxis/Sarrath, Xhalen/Threnn). Ver `docs/DECISOES.md`.
+2. No chat: corrigir `grays.json` (ILVANI, SAZHI e XHALEN-KTHRIX como Grays), alinhar a aparência dos Mantis com a ficha e usar "Mantis" em vez de "Insetoides".
+3. Trazer o `NORDICS.json` (personagens nórdicos, incluindo Torven) para `docs/lore/nordics.json`.
+4. Aprovar ou ajustar os itens provisórios das quatro raças e os nomes de personagens propostos.
 5. Fase 2: arquivo de lore completo (capítulos, transmissões, documentos) e galeria de personagens ampliada.
 
 **Atenção**

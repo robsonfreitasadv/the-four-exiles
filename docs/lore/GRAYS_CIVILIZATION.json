@@ -1,0 +1,145 @@
+{
+  "id": "grays_civilization",
+  "species": "grays",
+  "status": "in_development",
+  "statusNote": {
+    "en": "All items in this file are PROVISIONAL unless marked CANON_APPROVED. Nothing here is official canon until the user approves it.",
+    "pt-BR": "Todos os itens deste arquivo são PROVISIONAL, salvo quando marcados como CANON_APPROVED. Nada aqui é cânone oficial até o usuário aprovar."
+  },
+  "sections": {
+    "language": {
+      "status": "PROVISIONAL",
+      "text": {
+        "en": "Uses discrete acoustic signals, light patterns and neural communication. Formal writing organizes relations and dependencies rather than linear sentences. Messages distinguish confirmed, inferred, unverified information, and information whose disclosure is not authorized.",
+        "pt-BR": "Usa sinais acústicos discretos, padrões de luz e comunicação neural. A escrita formal organiza relações e dependências, não frases lineares. As mensagens distinguem informação confirmada, inferida, não verificada e cuja divulgação não foi autorizada."
+      }
+    },
+    "economy": {
+      "status": "PROVISIONAL",
+      "text": {
+        "en": "No money in the human sense. Three components: access credits (scarce resources and movement), contribution index (professional impact), continuity priority (who receives resources during a crisis). The third is the most dangerous: it allows abandoning a population on a statistical projection.",
+        "pt-BR": "Sem dinheiro no sentido humano. Três componentes: créditos de acesso (recursos escassos e deslocamentos), índice de contribuição (impacto profissional) e prioridade de continuidade (quem recebe recursos em crise). O terceiro é o mais perigoso: permite abandonar uma população por projeção estatística."
+      }
+    },
+    "art": {
+      "status": "PROVISIONAL",
+      "text": {
+        "en": "Traditional art explores symmetry, mathematical patterns and light sequences. Forbidden art introduces irregularities with no measurable purpose; an asymmetrical sculpture can be treated as a political act.",
+        "pt-BR": "A arte tradicional explora simetria, padrões matemáticos e sequências de luz. A arte proscrita introduz irregularidades sem finalidade mensurável; uma escultura assimétrica pode ser tratada como ato político."
+      }
+    },
+    "humor": {
+      "status": "PROVISIONAL",
+      "text": {
+        "en": "Humor comes from literalism and excessive protocol.",
+        "pt-BR": "O humor nasce da literalidade e do excesso de protocolo."
+      },
+      "example": {
+        "en": "\"The report says the human escaped.\" / \"Correction: the human is no longer under our supervision.\" / \"So it escaped.\" / \"No. We have not finished analyzing the word 'escape'.\"",
+        "pt-BR": "\"O relatório diz que o humano fugiu.\" / \"Corrigindo: o humano deixou de permanecer sob nossa supervisão.\" / \"Então ele fugiu.\" / \"Não. Ainda não concluímos a análise da palavra 'fugir'.\""
+      }
+    },
+    "philosophy": {
+      "status": "PROVISIONAL",
+      "text": {
+        "en": "Official society considers irrelevant any belief that does not produce verifiable predictions. An old, clandestine current recognizes an uncatalogable principle called the Indeterminate.",
+        "pt-BR": "A sociedade oficial considera irrelevante qualquer crença que não produza previsões verificáveis. Uma corrente antiga e clandestina reconhece um princípio não catalogável, chamado o Indeterminado."
+      }
+    },
+    "daily_life": {
+      "status": "PROVISIONAL",
+      "text": {
+        "en": "A regulated system that offers security, healthcare and long life in exchange for obedience. Education has three phases: consistency formation, functional specialization, and reliability certification (where talents with excessive autonomy are discarded).",
+        "pt-BR": "Sistema regulado que oferece segurança, saúde e longevidade em troca de obediência. A educação tem três fases: formação de consistência, especialização funcional e certificação de confiabilidade, na qual talentos com autonomia excessiva são descartados."
+      }
+    },
+    "military_doctrine": {
+      "status": "PROVISIONAL",
+      "text": {
+        "en": "Doctrine: neutralize the enemy's reaction capacity before open combat. Weapons: containment emitters, system disruptors, localized shield projectors, interception drones. Weakness: slow against fast-changing situations and enemies without a single chain of command.",
+        "pt-BR": "Doutrina: neutralizar a capacidade de reação do adversário antes do combate aberto. Armas: emissores de contenção, disruptores de sistemas, projetores de escudo localizados e drones de interceptação. Fraqueza: lentos diante de situações que mudam rápido e de inimigos sem cadeia de comando única."
+      }
+    },
+    "ships": {
+      "status": "PROVISIONAL",
+      "classes": [
+        { "id": "OBSERVATION_PROBE", "name": { "en": "Observation probe", "pt-BR": "Sonda de observação" }, "note": { "en": "Small, uncrewed, can stay dormant for long periods.", "pt-BR": "Pequena, não tripulada, pode permanecer inativa por longos períodos." } },
+        { "id": "FIELD_DISC", "name": { "en": "Field disc", "pt-BR": "Disco de campo" }, "note": { "en": "Reduced crew; the craft most associated with human sightings.", "pt-BR": "Tripulação reduzida; a nave mais associada a avistamentos humanos." } },
+        { "id": "CONTAINMENT_CRAFT", "name": { "en": "Containment craft", "pt-BR": "Nave de contenção" }, "note": { "en": "Sensitive operations; triangular silhouette; defensive capacity.", "pt-BR": "Operações sensíveis; silhueta triangular; capacidade defensiva." } },
+        { "id": "CONTINUITY_ARK", "name": { "en": "Continuity ark", "pt-BR": "Arca de continuidade" }, "note": { "en": "Mobile complex with archives and labs; can operate for generations.", "pt-BR": "Complexo móvel com arquivos e laboratórios; pode operar por gerações." } }
+      ],
+      "propulsion": {
+        "en": "Manipulates physical fields around the hull. Limits: energy cost, detectable signature, damage from abrupt maneuvers, thermal problems in atmosphere.",
+        "pt-BR": "Manipula campos físicos ao redor do casco. Limites: custo energético, assinatura detectável, danos por manobras bruscas, problemas térmicos na atmosfera."
+      }
+    },
+    "technology_limits": {
+      "status": "CANON_APPROVED",
+      "note": {
+        "en": "Approved in principle: telepathy, containment, camouflage and biological engineering have clear limits. The specific limits below are PROVISIONAL.",
+        "pt-BR": "Aprovado em princípio: telepatia, contenção, camuflagem e engenharia biológica têm limites claros. Os limites específicos abaixo são PROVISIONAL."
+      },
+      "items": [
+        { "id": "TELEPATHY", "status": "PROVISIONAL", "limit": { "en": "Needs proximity or an established channel; transmitting a message is easier than extracting a memory; intense emotion creates noise.", "pt-BR": "Exige proximidade ou canal estabelecido; transmitir uma mensagem é mais fácil que extrair uma memória; emoção intensa gera ruído." } },
+        { "id": "CONTAINMENT", "status": "PROVISIONAL", "limit": { "en": "Consumes large amounts of energy; can fail against very resistant targets or when power is cut.", "pt-BR": "Consome muita energia; pode falhar contra alvos muito resistentes ou quando a energia é interrompida." } },
+        { "id": "CAMOUFLAGE", "status": "PROVISIONAL", "limit": { "en": "Not perfect invisibility; works poorly under some conditions.", "pt-BR": "Não é invisibilidade perfeita; funciona mal em algumas condições." } },
+        { "id": "BIO_ENGINEERING", "status": "PROVISIONAL", "limit": { "en": "Requires samples, time and tests; cannot create any desired organism instantly.", "pt-BR": "Exige amostras, tempo e testes; não cria qualquer organismo desejado instantaneamente." } }
+      ]
+    },
+    "powers_rare": {
+      "status": "PROVISIONAL",
+      "items": [
+        { "id": "SILENCE", "name": { "en": "The Silence", "pt-BR": "O Silêncio" }, "description": { "en": "A trained Gray reduces physiological signals so they are hard for humans to read. Not invisibility: hard to read and, in some conditions, hard to detect.", "pt-BR": "Um Gray treinado reduz sinais fisiológicos a níveis difíceis de interpretar. Não é invisibilidade: é difícil de ler e, em certas condições, difícil de detectar." } },
+        { "id": "THE_CHAMBER", "name": { "en": "The Chamber", "pt-BR": "A Câmara" }, "description": { "en": "A deep-concentration state in which an expert simulates complex decisions. It looks like prediction; it is calculation, and it sometimes errs.", "pt-BR": "Estado de concentração profunda em que o especialista simula decisões complexas. Parece previsão; é cálculo, e às vezes erra." } }
+      ]
+    }
+  },
+  "characters": [
+    {
+      "id": "TERCE_OHM",
+      "status": "PROVISIONAL",
+      "name": "TERCE-OHM",
+      "role": { "en": "Guardian of Copies: keeps security backups of records, including residual truth.", "pt-BR": "Guardião das Cópias: mantém cópias de segurança dos registros, incluindo a verdade residual." },
+      "personality": { "en": "Calm, almost kind; obsessed with preserving what the system discarded.", "pt-BR": "Calmo, quase afável; obcecado em preservar o que o sistema descartou." },
+      "contradiction": { "en": "Keeps forbidden copies 'just in case' and believes this is the only honest way to care for history.", "pt-BR": "Guarda cópias proibidas 'para o caso de' e acredita que essa é a única forma honesta de cuidar da história." },
+      "relationToSete": { "en": "Source of one record fragment; demands that Sete not hand it to the Archive.", "pt-BR": "Fonte de um fragmento de registro; exige que Sete não o entregue ao Arquivo." },
+      "silhouette": { "en": "Shortest operational variant; light grey uniform with a small storage device on the chest.", "pt-BR": "Variante operacional mais baixa; uniforme cinza-claro com um pequeno dispositivo de armazenamento no peito." }
+    },
+    {
+      "id": "KAEL_RUUM",
+      "status": "PROVISIONAL",
+      "name": "KAEL-RUUM",
+      "role": { "en": "Field commander supervising observation teams on Earth (POT-7).", "pt-BR": "Comandante de campo que supervisiona equipes de observação na Terra (POT-7)." },
+      "personality": { "en": "Cold and methodical; respects competent opponents; dislikes improvisation.", "pt-BR": "Frio e metódico; respeita adversários competentes; não gosta de improvisação." },
+      "contradiction": { "en": "Defends minimal intervention, yet has already ordered an operation that altered a field result.", "pt-BR": "Defende intervenção mínima, mas já ordenou uma operação que alterou um resultado de campo." },
+      "relationToIlvani": { "en": "Colleagues who disagree about what the data shows.", "pt-BR": "Colegas que discordam sobre o que os dados mostram." },
+      "silhouette": { "en": "Supervisor variant, taller; hands clasped behind the back.", "pt-BR": "Variante supervisora, mais alta; mãos cruzadas atrás das costas." }
+    },
+    {
+      "id": "OPHELIA_3",
+      "status": "PROVISIONAL",
+      "name": "OPHELIA-3",
+      "role": { "en": "Simulator: models crisis scenarios for the Routes and Alliance eras; her models guide state decisions.", "pt-BR": "Simuladora: modela cenários de crise para as eras de Rotas e Aliança; seus modelos orientam decisões de Estado." },
+      "personality": { "en": "Enthusiastic about precision, blind to human consequences; laughs at protocol jokes.", "pt-BR": "Entusiasta da precisão, sem noção das consequências humanas; ri de piadas sobre protocolo." },
+      "contradiction": { "en": "Her models justified abandoning a city, and she never checked whether the model was right.", "pt-BR": "Seus modelos justificaram o abandono de uma cidade, e ela nunca verificou se o modelo estava certo." },
+      "relationToSete": { "en": "He questions her data; she sees the audit as an obstacle, not a control.", "pt-BR": "Ele questiona os dados dela; ela vê a auditoria como obstáculo, não controle." },
+      "silhouette": { "en": "Continuity variant with neural-interface accessories on the fingers.", "pt-BR": "Variante de continuidade com acessórios de interface neural nos dedos." }
+    },
+    {
+      "id": "ZEN_VARO",
+      "status": "PROVISIONAL",
+      "name": "ZEN-VARO",
+      "role": { "en": "Revisionist historian who demands the opening of original archives.", "pt-BR": "Historiador revisionista que pede a abertura dos arquivos originais." },
+      "personality": { "en": "Patient, argumentative, fond of metaphors; believes the system can reform itself.", "pt-BR": "Paciente, argumentativo, dado a metáforas; acredita que o sistema pode se reformar." },
+      "contradiction": { "en": "Demands total transparency, yet hides from colleagues that he once accessed a restricted archive.", "pt-BR": "Exige transparência total, mas oculta dos colegas que já acessou um arquivo restrito." },
+      "relationToSazhi": { "en": "They disagree on whether disclosure should be complete or selective.", "pt-BR": "Divergem sobre se a revelação deve ser completa ou seletiva." },
+      "silhouette": { "en": "Operational variant with a small identification mark on the neck.", "pt-BR": "Variante operacional com uma pequena marca de identificação no pescoço." }
+    }
+  ],
+  "continuityRules": [
+    "Do not present any PROVISIONAL item as official canon.",
+    "Character names beyond Sete are PROVISIONAL until the user approves them.",
+    "Keep the list of existing proposals (VHAL-ETT, ILVANI, SAZHI, XHALEN-KTHRIX) in sync with grays.json; do not duplicate roles.",
+    "Visual silhouettes are descriptive proposals, not approved reference art."
+  ]
+}

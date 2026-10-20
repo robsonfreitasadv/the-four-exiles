@@ -1,0 +1,135 @@
+{
+  "id": "reptilians",
+  "species": "reptilians",
+  "kind": "race",
+  "name": { "en": "Reptilians", "pt-BR": "Reptilianos" },
+  "status": "in_development",
+  "statusNote": {
+    "en": "No Reptilian item is approved yet. Everything here is PROVISIONAL or OPEN_QUESTION and must not be presented as official canon. Cross-references to the approved Grays canon are listed explicitly.",
+    "pt-BR": "Nenhum item reptiliano está aprovado ainda. Tudo aqui é PROVISIONAL ou OPEN_QUESTION e não deve ser apresentado como cânone oficial. As referências cruzadas ao cânone Gray já aprovado estão listadas explicitamente."
+  },
+  "tagline": {
+    "en": "Territory is memory. Power is the only language that does not lie.",
+    "pt-BR": "O território é a memória. O poder é a única linguagem que não mente."
+  },
+  "summary": {
+    "en": "The Reptilians are one of the four races disputing Earth in the Census. They value territory, resources and strategic advantage above abstract principles. Their central tension is between a rigid, hereditary order that has kept them alive and a growing recognition that their water crisis may be beyond their own power to solve.",
+    "pt-BR": "Os Reptilianos são uma das quatro raças que disputam a Terra no Censo. Valorizam território, recursos e vantagem estratégica acima de princípios abstratos. A tensão central está entre uma ordem rígida e hereditária que os manteve vivos e o reconhecimento crescente de que sua crise hídrica pode estar além do próprio poder de resolvê-la."
+  },
+  "canonLinks": {
+    "status": "CANON_APPROVED",
+    "description": {
+      "en": "Approved cross-references that constrain Reptilian development.",
+      "pt-BR": "Referências cruzadas aprovadas que limitam o desenvolvimento reptiliano."
+    },
+    "items": [
+      {
+        "id": "GRAY_RELATION_AMBIGUOUS",
+        "status": "CANON_APPROVED",
+        "text": {
+          "en": "The Grays have ambiguous relations with the Reptilians (approved as part of the Grays canon).",
+          "pt-BR": "Os Grays mantêm relações ambíguas com os Reptilianos (aprovado como parte do cânone Gray)."
+        }
+      },
+      {
+        "id": "CENTRAL_MYSTERY_INVOLVES_ALLIANCE",
+        "status": "CANON_APPROVED",
+        "text": {
+          "en": "The central mystery involves altered records and an ancient galactic decision tied to a broken alliance. Whether the Reptilians were part of that alliance is PROVISIONAL.",
+          "pt-BR": "O mistério central envolve registros alterados e uma antiga decisão galáctica ligada a uma aliança rompida. Se os Reptilianos participaram dessa aliança é PROVISIONAL."
+        }
+      }
+    ]
+  },
+  "provisional": {
+    "homeworld": {
+      "status": "PROVISIONAL",
+      "name": { "en": "Sarrath (working name)", "pt-BR": "Sarrath (nome de trabalho)" },
+      "description": {
+        "en": "A hot, arid world with vast dried seabeds, deep basins where the last water gathers, and fortified cities built around cisterns. Water is the axis of every political conflict.",
+        "pt-BR": "Um mundo quente e árido, com vastos leitos de mar secos, bacias profundas onde a última água se acumula e cidades fortificadas em torno de cisternas. A água é o eixo de todo conflito político."
+      }
+    },
+    "appearance": {
+      "status": "PROVISIONAL",
+      "text": {
+        "en": "Scaled skin in dull greens and ochres, heavy build (1.90–2.30 m), broad jaw, vertical-pupil eyes that adjust sharply to light, long tail used for balance. Ceremonial markings in rows along the forearms signal rank.",
+        "pt-BR": "Pele escamosa em verdes e ocres opacos, constituição robusta (1,90 a 2,30 m), mandíbula larga, olhos de pupila vertical que se ajustam bruscamente à luz, cauda longa usada para equilíbrio. Marcas cerimoniais em fileiras nos antebraços indicam posto."
+      },
+      "visualRule": {
+        "en": "Use approved character sheets only. No approved Reptilian sheet exists yet; do not use stock or generated art for Reptilian characters. Avoid borrowing features from real reptiles beyond general anatomy, to keep the species original.",
+        "pt-BR": "Usar somente folhas oficiais de personagens. Ainda não existe folha reptiliana aprovada; não usar imagens genéricas ou geradas para personagens reptilianos. Evitar tomar traços de répteis reais além da anatomia geral, para manter a espécie original."
+      }
+    },
+    "historicalEras": {
+      "status": "PROVISIONAL",
+      "note": {
+        "en": "Aligned with the Grays' six-era structure for cross-reference only.",
+        "pt-BR": "Alinhadas à estrutura de seis eras dos Grays apenas para referência cruzada."
+      },
+      "eras": [
+        { "id": "REPT_ERA_I", "name": { "en": "The Drying", "pt-BR": "O Ressecamento" } },
+        { "id": "REPT_ERA_II", "name": { "en": "The Cistern Wars", "pt-BR": "As Guerras das Cisternas" } },
+        { "id": "REPT_ERA_III", "name": { "en": "The Dynasties", "pt-BR": "As Dinastias" } },
+        { "id": "REPT_ERA_IV", "name": { "en": "The Compact", "pt-BR": "O Compacto" } },
+        { "id": "REPT_ERA_V", "name": { "en": "The Iron Succession", "pt-BR": "A Sucessão de Ferro" } },
+        { "id": "REPT_ERA_VI", "name": { "en": "The Census Pressure", "pt-BR": "A Pressão do Censo" } }
+      ]
+    },
+    "governance": {
+      "status": "PROVISIONAL",
+      "text": {
+        "en": "A hereditary sovereignty (the Sovereign) supported by a council of great houses that control cisterns and fleets. The Sovereign holds ceremonial authority; the houses hold the real power. Succession is contested by ritual combat and political alliance.",
+        "pt-BR": "Soberania hereditária (o Soberano), apoiada por um conselho de grandes casas que controlam cisternas e frotas. O Soberano tem autoridade cerimonial; as casas têm o poder real. A sucessão é disputada por combate ritual e alianças políticas."
+      }
+    },
+    "economy": {
+      "status": "PROVISIONAL",
+      "text": {
+        "en": "Economy built on control of water and mineral routes. Debts are inherited and tracked by the houses; trade is a form of territorial claim. Wealth is measured in cisterns, not coin.",
+        "pt-BR": "Economia construída sobre o controle da água e das rotas minerais. Dívidas são herdadas e registradas pelas casas; o comércio é uma forma de reivindicação territorial. A riqueza se mede em cisternas, não em moedas."
+      }
+    },
+    "technology": {
+      "status": "PROVISIONAL",
+      "text": {
+        "en": "Strong in hydrological engineering, thermal systems, armour and ship hulls designed for heat. Weakness: no reliable biological solution to the water crisis, which keeps them dependent on partners who may not stay honest.",
+        "pt-BR": "Forte em engenharia hidrológica, sistemas térmicos, blindagem e cascos de naves projetados para calor. Fraqueza: não têm solução biológica confiável para a crise hídrica, o que os mantém dependentes de parceiros que podem não ser honestos."
+      },
+      "limits": [
+        { "id": "WATER_RECYCLING", "limit": { "en": "Recycling systems are efficient but fail under sustained population growth; they cannot scale to a whole world.", "pt-BR": "Os sistemas de reciclagem são eficientes, mas falham sob crescimento populacional sustentado; não escalam para um mundo inteiro." } },
+        { "id": "HEAT_ARMOUR", "limit": { "en": "Thermal armour is heavy and slows movement; in cold environments the species is vulnerable.", "pt-BR": "A blindagem térmica é pesada e reduz o movimento; em ambientes frios, a espécie é vulnerável." } }
+      ]
+    },
+    "internalGroups": {
+      "status": "PROVISIONAL",
+      "note": {
+        "en": "Internal currents and houses, not separate races.",
+        "pt-BR": "Correntes internas e casas, não raças separadas."
+      },
+      "groups": [
+        { "id": "SOVEREIGN_LOYALISTS", "name": { "en": "Sovereign Loyalists", "pt-BR": "Leais ao Soberano" }, "motto": { "en": "Order is the last water we have.", "pt-BR": "A ordem é a última água que temos." } },
+        { "id": "HOUSE_OF_CISTERNS", "name": { "en": "House of Cisterns", "pt-BR": "Casa das Cisternas" }, "motto": { "en": "Whoever holds the water holds the future.", "pt-BR": "Quem controla a água controla o futuro." } },
+        { "id": "THE_DRY_TRUTH", "name": { "en": "The Dry Truth", "pt-BR": "A Verdade Seca" }, "motto": { "en": "We cannot survive by pretending the seas will return.", "pt-BR": "Não sobreviveremos fingindo que os mares voltarão." } }
+      ]
+    },
+    "characters": [
+      { "id": "KRAHL_VOR", "name": "KRAHL-VOR", "status": "PROVISIONAL", "role": { "en": "The Sovereign: ceremonial ruler whose authority depends on the houses' support.", "pt-BR": "O Soberano: governante cerimonial cuja autoridade depende do apoio das casas." }, "personality": { "en": "Deliberate, proud, privately doubtful of the houses' promises.", "pt-BR": "Deliberado, orgulhoso, em particular duvida das promessas das casas." }, "contradiction": { "en": "Publicly insists the water will be restored; privately commissioned a study showing it will not.", "pt-BR": "Publicamente insiste que a água será restaurada; em privado, encomendou um estudo que mostra o contrário." }, "relationToGrays": { "en": "Suspects the Grays know a solution they refuse to share; has not yet asked them directly.", "pt-BR": "Suspeita que os Grays conhecem uma solução que se recusam a compartilhar; ainda não perguntou diretamente." }, "silhouette": { "en": "Heavy, with a long ceremonial mantle and rows of rank markings on both forearms.", "pt-BR": "Robusto, com manto cerimonial longo e fileiras de marcas de posto nos dois antebraços." } },
+      { "id": "SSARA_MIN", "name": "SSARA-MIN", "status": "PROVISIONAL", "role": { "en": "Head of the House of Cisterns; controls the largest water reserves and the fleets that guard them.", "pt-BR": "Chefe da Casa das Cisternas; controla as maiores reservas de água e as frotas que as protegem." }, "personality": { "en": "Shrewd, patient, quick to calculate advantage.", "pt-BR": "Astuta, paciente, rápida em calcular vantagens." }, "contradiction": { "en": "Her house profits from scarcity, yet she is the one most able to fund an emergency solution.", "pt-BR": "Sua casa lucra com a escassez, mas ela é quem mais pode financiar uma solução emergencial." }, "relationToKrahlVor": { "en": "Rival who backs the Sovereign only while the Sovereign remains useful.", "pt-BR": "Rival que apoia o Soberano apenas enquanto ele seja útil." }, "silhouette": { "en": "Taller than average, with a dark mantle and a gold ring at the throat.", "pt-BR": "Mais alta que a média, com manto escuro e um anel dourado na garganta." } },
+      { "id": "THRAXEN_OL", "name": "THRAXEN-OL", "status": "PROVISIONAL", "role": { "en": "Fleet commander of the Dry Truth faction of the navy; the strategist who sees the water crisis as a war to be lost slowly.", "pt-BR": "Comandante da frota da Verdade Seca na marinha; o estrategista que vê a crise hídrica como uma guerra a ser perdida lentamente." }, "personality": { "en": "Blunt, loyal to his crews, scornful of ceremony.", "pt-BR": "Direto, leal às tripulações, desdenhoso da cerimônia." }, "contradiction": { "en": "Argues the Sovereign must be replaced, yet fights harder than anyone to keep the current fleets intact.", "pt-BR": "Argumenta que o Soberano deve ser substituído, mas luta mais que ninguém para manter as frotas atuais intactas." }, "relationToSsara": { "en": "Uneasy ally; he needs her ships, she needs his crews.", "pt-BR": "Aliado incômodo; ele precisa das naves dela, ela precisa das tripulações dele." }, "silhouette": { "en": "Lean and angular; scarred ridges along the left arm; uniform in faded navy.", "pt-BR": "Magro e anguloso; cristas cicatrizadas no braço esquerdo; uniforme azul-marinho desbotado." } },
+      { "id": "VESH_KARA", "name": "VESH-KARA", "status": "PROVISIONAL", "role": { "en": "Hydrologist who maintains the cisterns and first detected the drop in the deep basins.", "pt-BR": "Hidrologista que mantém as cisternas e foi a primeira a detectar a queda nas bacias profundas." }, "personality": { "en": "Quiet, precise, tender toward her workers.", "pt-BR": "Calada, precisa, afetuosa com os trabalhadores." }, "contradiction": { "en": "Her data is the strongest evidence that the crisis is real, and the houses have buried it.", "pt-BR": "Seus dados são a prova mais forte de que a crise é real, e as casas os enterraram." }, "relationToHumans": { "en": "Has studied human water reclamation and believes it could inform a Reptilian solution, which she has not disclosed.", "pt-BR": "Estudou a recuperação de água humana e acredita que ela poderia orientar uma solução reptiliana, o que ainda não revelou." }, "silhouette": { "en": "Slender, with a narrow hood over the head and sensor-tipped gloves.", "pt-BR": "Esguia, com capuz estreito sobre a cabeça e luvas com sensores nas pontas." } }
+    ],
+    "openQuestions": [
+      { "id": "R1", "status": "OPEN_QUESTION", "text": { "en": "Did the Reptilians take part in the ancient alliance, and what was their stake in the decision?", "pt-BR": "Os Reptilianos participaram da antiga aliança, e qual era o interesse deles na decisão?" } },
+      { "id": "R2", "status": "OPEN_QUESTION", "text": { "en": "Does the Sovereign know the water crisis is irreversible, and who else knows?", "pt-BR": "O Soberano sabe que a crise hídrica é irreversível, e quem mais sabe?" } },
+      { "id": "R3", "status": "OPEN_QUESTION", "text": { "en": "Do the Grays hold a biological solution to the water crisis, and what would they demand in exchange?", "pt-BR": "Os Grays têm uma solução biológica para a crise hídrica, e o que exigiriam em troca?" } }
+    ]
+  },
+  "continuityRules": [
+    "Do not present any PROVISIONAL Reptilian item as official canon.",
+    "Reptilian characters beyond the list here must be added here first.",
+    "Reptilian visual art must come from approved character sheets only; none exist yet.",
+    "Do not present Reptilians as a single hereditary bloc; houses and factions must have distinct interests.",
+    "Keep the Grays-Reptilian relation consistent with the approved Grays canon (ambiguous, not hostile by default)."
+  ]
+}

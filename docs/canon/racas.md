@@ -38,7 +38,7 @@ Imagens oficiais: `design/sheets/races.webp` (recortes em `public/images/charact
 
 ## REPTILIANOS (Reptilians) — A Dinastia de Sazhath
 
-> **Aprovado (2026-10-20):** a raça se chama Reptilianos; **SAZHI é um personagem reptiliano: O Soberano** (a figura da ficha oficial, "The Sovereign").
+> **Aprovado (2026-10-20):** a raça se chama Reptilianos; **SAZHI é um personagem reptiliano** (a figura da ficha oficial, rotulada "The Sovereign"). Dossiê e civilização: `docs/lore/reptilians.json` e `reptilians-civilization.json` (página `/reptilians`).
 
 - **Planeta natal:** Thaxis · **Altura:** 2–2,5 m · **Reivindicação:** estratégica
 - **Lema:** "Control the flow, control the future." / "Controle o fluxo, controle o futuro."
@@ -47,12 +47,12 @@ Imagens oficiais: `design/sheets/races.webp` (recortes em `public/images/charact
 - **Personalidade:** estratégicos, cínicos, pacientes e desconfiados.
 - **Humor:** conspirações absurdas, acordos secretos, herdeiros incompetentes, disfarces humanos em que ninguém acredita.
 - **Contradição:** mestres do longo prazo que vivem perdendo para os próprios sobrinhos.
-- **Personagem em destaque:** SAZHI, O Soberano, governante da Dinastia de Sazhath (**aprovado**).
+- **Personagem em destaque:** SAZHI, O Soberano, governante da Dinastia de Sazhath. *Em aberto:* o dossiê do chat chama o Soberano de KRAHL-VOR (ver `docs/DECISOES.md`).
 - **Visual (ficha, personagem SAZHI):** reptiliano de escamas verdes e olhos amarelos, armadura vermelha e dourada, capa vermelha, cauda longa. Paleta vermelho, dourado, preto, verde.
 
 ## MANTIS — Os Comandantes (The Commanders)
 
-> **Aprovado (2026-10-20):** a raça se chama Mantis; **XHALEN-KTHRIX é um personagem mantis** (a figura da ficha oficial).
+> **Aprovado (2026-10-20):** a raça se chama Mantis; **XHALEN-KTHRIX é um personagem mantis** (a figura da ficha oficial). Dossiê e civilização: `docs/lore/mantis.json` e `mantis-civilization.json` (página `/mantis`); o chat os escreve como "Insetoides".
 
 - **Planeta natal:** Xhalen · **Altura:** ≈ 2,3 m · **Reivindicação:** contratual
 - **Lema:** "Discipline is freedom." / "Disciplina é liberdade."
