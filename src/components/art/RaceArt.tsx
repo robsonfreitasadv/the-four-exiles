@@ -4,6 +4,9 @@ import { useI18n } from '../../i18n/I18nProvider';
 import { FactionBackdrop } from './FactionBackdrop';
 import { Portrait } from './Portrait';
 
+/** Root-relative asset paths follow the build's base, so relative (static) builds still find them. */
+const withBase = (src: string) => (src.startsWith('/') ? import.meta.env.BASE_URL + src.slice(1) : src);
+
 interface RaceArtProps {
   faction: Faction;
   /** Which entry of `faction.art` to show. */
@@ -40,7 +43,7 @@ export function RaceArt({ faction, index = 0, className = '', eager, decorative 
 
   return (
     <img
-      src={art.src}
+      src={withBase(art.src)}
       alt={decorative ? '' : l(art.alt)}
       loading={eager ? 'eager' : 'lazy'}
       decoding="async"

@@ -6,6 +6,7 @@ React 18 + TypeScript + Tailwind CSS + React Router, built with Vite. No backend
 npm install
 npm run dev      # http://localhost:5173
 npm run build
+npm run build:static   # hash routes + relative paths, for any static file host
 ```
 
 ## Where things live
