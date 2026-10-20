@@ -21,6 +21,7 @@ Durante a conversa:
 
 No fim, ou quando eu aprovar algo:
 - Grave o resultado como arquivo na pasta do projeto: lore aprovado em docs/lore/<tema>.md, decisões em docs/DECISOES.md, estado e próximos passos em docs/HANDOFF.md.
+- Salve direto nesses caminhos, não na pasta "Claude outputs". Dossiês de raça vão como docs/lore/<raça>.json, no mesmo formato de docs/lore/grays.json: o site lê esse arquivo automaticamente.
 - Se você tiver acesso a terminal, faça git pull antes de editar e git add / git commit / git push depois. Se não tiver, diga exatamente quais arquivos mudou e me peça para pedir o commit ao Claude Code.
 - Nunca deixe uma decisão só na conversa: o que não está no repositório se perde no outro computador.
 
