@@ -75,17 +75,24 @@ export function LorePage() {
     <div className="container-x py-14 md:py-20">
       <SectionHeading as="h1" kicker={t.transmission.kicker} title={t.stub.lore.title} intro={t.stub.lore.intro} />
       <PhaseNotice phase={2} />
-      <Link
-        to="/grays"
-        className="group mb-10 flex items-center justify-between gap-4 rounded-[28px] bg-graphite-800 p-6 transition-colors hover:bg-graphite-700 sm:p-7"
-      >
-        <span>
-          <span className="block text-sm font-semibold text-signal">{t.dossier.kicker}</span>
-          <span className="display mt-1 block text-2xl sm:text-3xl">{t.dossier.title}</span>
-          <span className="mt-1 block text-bone-dim">{l(grays.tagline)}</span>
-        </span>
-        <Arrow className="h-5 w-5 shrink-0 text-link transition-transform group-hover:translate-x-1" />
-      </Link>
+      {/* one card per race civilization file */}
+      <ul className="mb-10 grid gap-4 md:grid-cols-2">
+        {(Object.keys(t.civPages) as (keyof typeof t.civPages)[]).map((id) => (
+          <li key={id}>
+            <Link
+              to={`/${id}`}
+              className="group flex h-full items-center justify-between gap-4 rounded-[28px] bg-graphite-800 p-6 transition-colors hover:bg-graphite-700 sm:p-7"
+            >
+              <span>
+                <span className="block text-sm font-semibold text-signal">{t.civPages[id].kicker}</span>
+                <span className="display mt-1 block text-2xl sm:text-3xl">{t.civPages[id].title}</span>
+                <span className="mt-1 block text-bone-dim">{id === 'grays' ? l(grays.tagline) : t.civPages[id].intro}</span>
+              </span>
+              <Arrow className="h-5 w-5 shrink-0 text-link transition-transform group-hover:translate-x-1" />
+            </Link>
+          </li>
+        ))}
+      </ul>
       <div role="radiogroup" aria-label={t.war.faction} className="mb-10 flex flex-wrap gap-2">
         {(['all', ...factions.map((f) => f.id)] as const).map((id) => (
           <button
@@ -98,7 +105,7 @@ export function LorePage() {
               filter === id ? 'border-bone bg-bone text-black' : 'border-graphite-500 text-bone-dim hover:border-bone hover:text-bone'
             }`}
           >
-            {id === 'all' ? t.missionPage.filterAll : factions.find((f) => f.id === id)!.name}
+            {id === 'all' ? t.missionPage.filterAll : l(factions.find((f) => f.id === id)!.name)}
           </button>
         ))}
       </div>
@@ -109,7 +116,7 @@ export function LorePage() {
             <p className="font-sans text-sm">
               <span className="text-signal">{e.year}</span>
               <Link to={`/factions/${e.faction.id}`} className="ml-3 hover:underline" style={{ color: e.faction.palette.primary }}>
-                {e.faction.name}
+                {l(e.faction.name)}
               </Link>
             </p>
             <p className="mt-1 text-lg text-bone-dim">{l(e.text)}</p>
@@ -137,7 +144,7 @@ export function CharactersPage() {
                   <p className="text-xs font-semibold" style={{ color: f.palette.primary }}>
                     {l(f.title)}
                   </p>
-                  <h2 className="display mt-1 text-3xl">{f.name}</h2>
+                  <h2 className="display mt-1 text-3xl">{l(f.name)}</h2>
                   <p className="mt-2 text-[15px] text-bone/80">“{l(f.quote)}”</p>
                   <Link to={`/factions/${f.id}`} className="link-arrow mt-3 text-[15px]">
                     {t.common.explore} <Arrow />

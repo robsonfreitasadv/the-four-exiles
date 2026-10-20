@@ -26,7 +26,7 @@ export const missions: Mission[] = [
   },
   {
     slug: 'the-dry-banquet',
-    faction: 'sazhi',
+    faction: 'reptilians',
     thumb: 'ocean',
     title: { en: 'The Dry Banquet', 'pt-BR': 'O Banquete Seco' },
     summary: {
@@ -48,19 +48,19 @@ export const missions: Mission[] = [
   },
   {
     slug: 'smile-audit',
-    faction: 'ilvani',
+    faction: 'nordics',
     thumb: 'smile',
     title: { en: 'Smile Audit', 'pt-BR': 'Auditoria do Sorriso' },
     summary: {
-      en: 'Sael has leaked an Ilvani wellness poster. Spot the hidden instructions in its cheerful slogans.',
-      'pt-BR': 'Sael vazou um cartaz de bem-estar Ilvani. Encontre as instruções escondidas nos slogans alegres.',
+      en: 'Sael has leaked a Nordic wellness poster. Spot the hidden instructions in its cheerful slogans.',
+      'pt-BR': 'Sael vazou um cartaz de bem-estar nórdico. Encontre as instruções escondidas nos slogans alegres.',
     },
     briefing: {
       en: 'The Garden Plan spreads through posters so pleasant that nobody reads them closely. Sael insists the fourth line of every poster is an order. Decode them before they are hung in every school on Earth.',
       'pt-BR': 'O Plano Jardim se espalha por cartazes tão agradáveis que ninguém os lê com atenção. Sael insiste que a quarta linha de todo cartaz é uma ordem. Decifre-os antes que sejam pendurados em todas as escolas da Terra.',
     },
     objectives: [
-      { en: 'Design a parody Ilvani propaganda poster.', 'pt-BR': 'Crie um cartaz de propaganda Ilvani em paródia.' },
+      { en: 'Design a parody Nordic propaganda poster.', 'pt-BR': 'Crie um cartaz de propaganda nórdica em paródia.' },
       { en: 'Find the hidden line in three official slogans.', 'pt-BR': 'Encontre a linha oculta em três slogans oficiais.' },
     ],
     difficulty: 'trivial',
@@ -70,7 +70,7 @@ export const missions: Mission[] = [
   },
   {
     slug: 'courteous-surrender',
-    faction: 'xhalen-kthrix',
+    faction: 'mantis',
     thumb: 'stamps',
     title: { en: 'Courteous Surrender', 'pt-BR': 'Rendição Cortês' },
     summary: {

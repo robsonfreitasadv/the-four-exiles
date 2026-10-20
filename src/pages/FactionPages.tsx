@@ -3,6 +3,7 @@ import { Emblem } from '../components/art/Emblem';
 import { RaceArt } from '../components/art/RaceArt';
 import { withBase } from '../components/art/CharacterImage';
 import { TurnaroundViewer } from '../components/art/TurnaroundViewer';
+import type { CivPageId } from './CivilizationPage';
 import { RacesShowcase } from '../components/RacesShowcase';
 import { FactionCard } from '../components/FactionCard';
 import { MissionCard } from '../components/MissionCard';
@@ -38,7 +39,7 @@ export function FactionsPage() {
             {factions.map((f) => (
               <tr key={f.id} className="border-b border-graphite-700 align-top last:border-0">
                 <th scope="row" className="p-4 font-display text-2xl font-semibold" style={{ color: f.palette.primary }}>
-                  <Link to={`/factions/${f.id}`} className="hover:underline">{f.name}</Link>
+                  <Link to={`/factions/${f.id}`} className="hover:underline">{l(f.name)}</Link>
                 </th>
                 <td className="p-4 font-sans text-xs text-bone-dim">{l(f.claimBasis)}</td>
                 <td className="p-4 text-bone-dim">{l(f.motivation)}</td>
@@ -64,6 +65,7 @@ export function FactionDetailPage() {
   const related = missions.filter((m) => m.faction === f.id);
   const others = factions.filter((o) => o.id !== f.id);
   const p = f.palette;
+  const civPage = f.id in t.civPages ? t.civPages[f.id as CivPageId] : undefined;
 
   return (
     <article style={{ ['--fc' as string]: p.primary }}>
@@ -79,7 +81,7 @@ export function FactionDetailPage() {
               {t.common.file} {f.code} · {l(f.mood)}
             </p>
             <h1 className="display text-[clamp(3rem,9vw,6.5rem)]" style={{ color: p.accent }}>
-              {f.name}
+              {l(f.name)}
             </h1>
             <p className="mt-2 font-display text-2xl font-semibold tracking-[-0.02em] sm:text-3xl" style={{ color: p.primary }}>
               {l(f.title)}
@@ -103,7 +105,7 @@ export function FactionDetailPage() {
           <div className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-[36px] shadow-2xl">
             <RaceArt faction={f} eager />
             <span className="absolute bottom-4 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-black/60 px-3 py-1 text-xs text-bone-dim backdrop-blur">
-              {t.common.placeholderArt}
+              {f.sheetCharacter} · {t.common.placeholderArt}
             </span>
           </div>
         </div>
@@ -138,8 +140,8 @@ export function FactionDetailPage() {
       <section className="bg-space-900" aria-labelledby="leader">
         <div className="container-x grid items-center gap-10 py-16 md:grid-cols-[auto_1fr] md:py-20">
           <div className="relative mx-auto aspect-[5/6] w-56 overflow-hidden rounded-[28px] sm:w-64" style={{ borderColor: p.primary, background: p.secondary }}>
-            {f.id === 'grays' ? (
-              // The Grays sheet shows VHAL-ETT, not Sete, and Sete has no official art yet.
+            {l(f.leader.name) !== f.sheetCharacter ? (
+              // The sheet shows f.sheetCharacter, not this featured character, who has no official art yet.
               <div className="grid h-full place-items-center" style={{ color: p.primary }}>
                 <Emblem faction={f.id} className="h-24 w-24 opacity-80" />
               </div>
@@ -185,7 +187,7 @@ export function FactionDetailPage() {
           className="grid items-center gap-10 rounded-[36px] p-6 sm:p-10 md:grid-cols-[auto_1fr]"
           style={{ background: `radial-gradient(120% 90% at 20% 10%, ${p.secondary} 0%, #0b0b0d 70%)` }}
         >
-          <TurnaroundViewer frames={f.sheet.turnaround} name={f.name} color={p.primary} className="md:w-[240px]" />
+          <TurnaroundViewer frames={f.sheet.turnaround} name={l(f.name)} color={p.primary} className="md:w-[240px]" />
           <div className="min-w-0">
             <h3 className="text-xs font-semibold text-bone-muted">{t.races3d.traits}</h3>
             <ul className="mt-2 flex flex-wrap gap-2">
@@ -207,17 +209,17 @@ export function FactionDetailPage() {
         </div>
       </section>
 
-      {f.id === 'grays' && (
+      {civPage && (
         <section className="container-x pt-16 md:pt-24">
           <Link
-            to="/grays"
+            to={`/${f.id}`}
             className="group flex items-center justify-between gap-6 rounded-[36px] p-8 transition-transform duration-300 hover:-translate-y-1 motion-reduce:transition-none sm:p-10"
             style={{ background: `linear-gradient(120deg, ${p.secondary}, #161617)` }}
           >
             <span>
-              <span className="kicker block">{t.grays.kicker}</span>
-              <span className="display mt-2 block text-4xl sm:text-5xl">{t.grays.openFile}</span>
-              <span className="mt-3 block max-w-2xl text-bone-dim">{t.grays.intro}</span>
+              <span className="kicker block">{civPage.kicker}</span>
+              <span className="display mt-2 block text-4xl sm:text-5xl">{civPage.openFile}</span>
+              <span className="mt-3 block max-w-2xl text-bone-dim">{civPage.intro}</span>
             </span>
             <Arrow className="h-6 w-6 shrink-0 text-link transition-transform group-hover:translate-x-1" />
           </Link>
@@ -264,7 +266,7 @@ export function FactionDetailPage() {
                 <span style={{ color: o.palette.primary }}>
                   <Emblem faction={o.id} className="h-8 w-8" />
                 </span>
-                <span className="font-display text-2xl font-semibold">{o.name}</span>
+                <span className="font-display text-2xl font-semibold">{l(o.name)}</span>
                 <Arrow className="ml-auto h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Link>
             </li>

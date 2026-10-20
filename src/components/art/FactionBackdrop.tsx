@@ -27,7 +27,7 @@ export function FactionBackdrop({ faction, className = '' }: { faction: FactionI
           </text>
         </g>
       )}
-      {faction === 'ilvani' && (
+      {faction === 'nordics' && (
         <g>
           <defs>
             <radialGradient id="ilvani-halo" cx="0.5" cy="0.38" r="0.6">
@@ -41,7 +41,7 @@ export function FactionBackdrop({ faction, className = '' }: { faction: FactionI
           ))}
         </g>
       )}
-      {faction === 'sazhi' && (
+      {faction === 'reptilians' && (
         <g>
           <defs>
             <pattern id="sazhi-lattice" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
@@ -54,7 +54,7 @@ export function FactionBackdrop({ faction, className = '' }: { faction: FactionI
           <rect x="20" y="20" width="360" height="440" fill="none" stroke={p.accent} strokeOpacity="0.2" />
         </g>
       )}
-      {faction === 'xhalen-kthrix' && (
+      {faction === 'mantis' && (
         <g>
           <defs>
             <pattern id="xk-hazard" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">

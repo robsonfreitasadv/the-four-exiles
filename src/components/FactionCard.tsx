@@ -28,7 +28,7 @@ export function FactionCard({ faction }: { faction: Faction; index?: number }) {
           <Emblem faction={faction.id} className="h-4 w-4" />
           {l(faction.title)}
         </p>
-        <h3 className="display text-[32px]">{faction.name}</h3>
+        <h3 className="display text-[32px]">{l(faction.name)}</h3>
         <p className="mt-2 text-[15px] leading-snug text-bone/80">{l(faction.tagline)}</p>
         <span className="mt-3 inline-flex items-center gap-1 text-[15px] text-link group-hover:underline">
           {t.factionsSection.explore}

@@ -4,7 +4,7 @@ import { SiteHeader } from './components/layout/SiteHeader';
 import { ScrollToTop } from './components/ui/primitives';
 import { FactionDetailPage, FactionsPage } from './pages/FactionPages';
 import { HomePage } from './pages/HomePage';
-import { GraysPage } from './pages/GraysPage';
+import { GraysPage, NordicsPage } from './pages/RaceFilePages';
 import {
   CharactersPage,
   CollectiblesPage,
@@ -16,6 +16,13 @@ import {
 } from './pages/InfoPages';
 import { MissionDetailPage, MissionsPage } from './pages/MissionPages';
 import { NotFoundPage } from './pages/NotFoundPage';
+
+const renamedRaces: Record<string, string> = {
+  'vhal-ett': 'grays',
+  ilvani: 'nordics',
+  sazhi: 'reptilians',
+  'xhalen-kthrix': 'mantis',
+};
 
 function Layout() {
   return (
@@ -36,12 +43,15 @@ export default function App() {
       <Route element={<Layout />}>
         <Route index element={<HomePage />} />
         <Route path="factions" element={<FactionsPage />} />
-        {/* the race was renamed from VHAL-ETT (now a character) to Grays */}
-        <Route path="factions/vhal-ett" element={<Navigate to="/factions/grays" replace />} />
+        {/* races were renamed after the characters on their official sheets (now characters) */}
+        {Object.entries(renamedRaces).map(([from, to]) => (
+          <Route key={from} path={`factions/${from}`} element={<Navigate to={`/factions/${to}`} replace />} />
+        ))}
         <Route path="factions/:id" element={<FactionDetailPage />} />
         <Route path="lore" element={<LorePage />} />
         <Route path="characters" element={<CharactersPage />} />
         <Route path="grays" element={<GraysPage />} />
+        <Route path="nordics" element={<NordicsPage />} />
         <Route path="galactic-war" element={<GalacticWarPage />} />
         <Route path="missions" element={<MissionsPage />} />
         <Route path="missions/:slug" element={<MissionDetailPage />} />

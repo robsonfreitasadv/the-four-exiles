@@ -58,7 +58,7 @@ function Hero() {
               key={f.id}
               to={`/factions/${f.id}`}
               className="group relative aspect-[3/4] overflow-hidden md:aspect-[9/16]"
-              aria-label={`${f.name} — ${l(f.title)}`}
+              aria-label={`${l(f.name)} — ${l(f.title)}`}
             >
               <RaceArt faction={f} eager decorative className="transition-transform duration-700 group-hover:scale-105 motion-reduce:transition-none" />
               <div
@@ -70,7 +70,7 @@ function Hero() {
                 <p className="text-xs font-semibold" style={{ color: f.palette.primary }}>
                   0{i + 1}
                 </p>
-                <p className="display text-xl sm:text-2xl">{f.name}</p>
+                <p className="display text-xl sm:text-2xl">{l(f.name)}</p>
               </div>
             </Link>
           ))}

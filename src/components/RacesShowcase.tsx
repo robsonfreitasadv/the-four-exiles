@@ -54,7 +54,7 @@ export function RacesShowcase({ headingAs = 'h2' }: { headingAs?: 'h1' | 'h2' })
                 <span style={{ color: x.palette.primary }}>
                   <Emblem faction={x.id} className="h-4 w-4" />
                 </span>
-                {x.name}
+                {l(x.name)}
               </button>
             );
           })}
@@ -72,11 +72,14 @@ export function RacesShowcase({ headingAs = 'h2' }: { headingAs?: 'h1' | 'h2' })
             <TiltCard className="overflow-hidden rounded-[28px] shadow-[0_30px_80px_-20px_rgba(0,0,0,0.8)]" max={8}>
               <div key={f.id} className="relative aspect-[310/516] w-full animate-[fadeUp_.6s_ease-out] motion-reduce:animate-none">
                 <RaceArt faction={f} />
+                <span className="absolute bottom-3 left-3 rounded-full bg-black/60 px-3 py-1 text-xs font-medium text-bone backdrop-blur">
+                  {f.sheetCharacter}
+                </span>
               </div>
             </TiltCard>
 
             {/* turntable */}
-            <TurnaroundViewer key={f.id} frames={f.sheet.turnaround} name={f.name} color={p.primary} />
+            <TurnaroundViewer key={f.id} frames={f.sheet.turnaround} name={l(f.name)} color={p.primary} />
 
             {/* identity */}
             <div className="min-w-0">
@@ -84,7 +87,7 @@ export function RacesShowcase({ headingAs = 'h2' }: { headingAs?: 'h1' | 'h2' })
                 <Emblem faction={f.id} className="h-4 w-4" />
                 {l(f.title)}
               </p>
-              <h3 className="display mt-1 text-[40px] sm:text-[48px]">{f.name}</h3>
+              <h3 className="display mt-1 text-[40px] sm:text-[48px]">{l(f.name)}</h3>
               <blockquote className="mt-4 text-2xl font-semibold leading-snug tracking-[-0.02em] text-bone">“{l(f.quote)}”</blockquote>
               <p className="mt-4 text-bone-dim">{l(f.motivation)}</p>
 

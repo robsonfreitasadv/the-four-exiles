@@ -10,7 +10,7 @@ import { useI18n } from '../i18n/I18nProvider';
 import { NotFoundPage } from './NotFoundPage';
 
 export function MissionsPage() {
-  const { t } = useI18n();
+  const { t, l } = useI18n();
   const [filter, setFilter] = useState<FactionId | 'all'>('all');
   const shown = filter === 'all' ? missions : missions.filter((m) => m.faction === filter);
 
@@ -31,7 +31,7 @@ export function MissionsPage() {
                 active ? 'border-bone bg-bone text-black' : 'border-graphite-500 text-bone-dim hover:border-bone hover:text-bone'
               }`}
             >
-              {id === 'all' ? t.missionPage.filterAll : factionById(id)!.name}
+              {id === 'all' ? t.missionPage.filterAll : l(factionById(id)!.name)}
             </button>
           );
         })}
@@ -84,7 +84,7 @@ export function MissionDetailPage() {
         <div>
           {faction && (
             <Link to={`/factions/${faction.id}`} className="kicker mb-3 inline-block hover:underline" style={{ color: faction.palette.primary }}>
-              {faction.name} · {l(faction.title)}
+              {l(faction.name)} · {l(faction.title)}
             </Link>
           )}
           <h1 className="display text-6xl sm:text-7xl lg:text-8xl">{l(mission.title)}</h1>

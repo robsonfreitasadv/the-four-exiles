@@ -50,8 +50,9 @@ export const grays: GraysDossier = {
 };
 
 /**
- * Dossier characters whose names collide with the four race names are an unresolved
- * contradiction (see docs/DECISOES.md), so the site leaves them out until the owner decides.
+ * The dossier also lists ILVANI, SAZHI and XHALEN-KTHRIX as Grays, but the owner decided (2026-10-20)
+ * that they are characters of their own races (Nordics, Reptilians, Mantis), as on the official sheet.
+ * Those entries are hidden until grays.json is corrected; VHAL-ETT, the Gray on the sheet, is shown.
  */
-const raceNames = new Set(factions.map((f) => f.name));
-export const graysCharactersShown = grays.characters.filter((c) => !raceNames.has(c.name));
+const otherRacesCharacters = new Set(factions.filter((f) => f.id !== 'grays').map((f) => f.sheetCharacter));
+export const graysCharactersShown = grays.characters.filter((c) => !otherRacesCharacters.has(c.name));

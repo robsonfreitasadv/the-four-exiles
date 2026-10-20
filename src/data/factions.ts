@@ -3,7 +3,8 @@ import type { Faction, FactionId } from './types';
 export const factions: Faction[] = [
   {
     id: 'grays',
-    name: 'GRAYS',
+    name: { en: 'GRAYS', 'pt-BR': 'GRAYS' },
+    sheetCharacter: 'VHAL-ETT',
     code: 'VH-07',
     art: [
       {
@@ -30,7 +31,7 @@ export const factions: Faction[] = [
       { en: 'Aliens waiting for authorization to invade Earth', 'pt-BR': 'Alienígenas aguardando autorização para invadir a Terra' },
       { en: 'Your seed phrase? Please submit it in triplicate. (Never do this.)', 'pt-BR': 'Sua seed phrase? Envie em três vias. (Nunca faça isso.)' },
     ],
-    title: { en: 'The Grey Scribes', 'pt-BR': 'Os Cinzentos — Os Escrivães' },
+    title: { en: 'The Grey Scribes', 'pt-BR': 'Os Escrivães' },
     homeworld: 'Hevra',
     height: '1.2–1.5 m',
     palette: { primary: '#A7ADB5', secondary: '#24272D', accent: '#E7E9EC' },
@@ -79,14 +80,15 @@ export const factions: Faction[] = [
     ],
   },
   {
-    id: 'ilvani',
-    name: 'ILVANI',
+    id: 'nordics',
+    name: { en: 'NORDICS', 'pt-BR': 'NÓRDICOS' },
+    sheetCharacter: 'ILVANI',
     code: 'IL-01',
     art: [
       {
         src: '/images/characters/ilvani.webp',
         focus: '50% 18%',
-        alt: { en: 'A tall Ilvani with long platinum hair and glowing blue eyes, in a white and silver suit and cape, offering an open hand.', 'pt-BR': 'Um Ilvani alto de longos cabelos platinados e olhos azuis brilhantes, em traje branco e prata com capa, estendendo a mão aberta.' },
+        alt: { en: 'ILVANI, a tall Nordic with long platinum hair and glowing blue eyes, in a white and silver suit and cape, offering an open hand.', 'pt-BR': 'ILVANI, um Nórdico alto de longos cabelos platinados e olhos azuis brilhantes, em traje branco e prata com capa, estendendo a mão aberta.' },
       },
     ],
     sheet: {
@@ -107,7 +109,7 @@ export const factions: Faction[] = [
       { en: '“Raise your frequency” — and quietly lower your options', 'pt-BR': '“Eleve sua frequência” — e, discretamente, perca suas opções' },
       { en: 'Good vibes only. Bad vibes will be gently relocated.', 'pt-BR': 'Só boas vibrações. As más serão gentilmente realocadas.' },
     ],
-    title: { en: 'The Shepherds', 'pt-BR': 'Os Nórdicos — Os Pastores' },
+    title: { en: 'The Shepherds', 'pt-BR': 'Os Pastores' },
     homeworld: 'Maia-Prime',
     height: '1.8–2.2 m',
     palette: { primary: '#B8D9F2', secondary: '#13325f', accent: '#F4F6F8' },
@@ -156,14 +158,15 @@ export const factions: Faction[] = [
     ],
   },
   {
-    id: 'sazhi',
-    name: 'SAZHI',
+    id: 'reptilians',
+    name: { en: 'REPTILIANS', 'pt-BR': 'REPTILIANOS' },
+    sheetCharacter: 'SAZHI',
     code: 'SZ-99',
     art: [
       {
         src: '/images/characters/sazhi.webp',
         focus: '50% 18%',
-        alt: { en: 'A reptilian Sazhi sovereign with green scales and yellow eyes, in red-and-gold armor and a long red cape, tail curled behind.', 'pt-BR': 'Um soberano reptiliano Sazhi de escamas verdes e olhos amarelos, em armadura vermelha e dourada e longa capa vermelha, com a cauda enrolada atrás.' },
+        alt: { en: 'SAZHI, the Reptilian sovereign, with green scales and yellow eyes, in red-and-gold armor and a long red cape, tail curled behind.', 'pt-BR': 'SAZHI, o soberano reptiliano, de escamas verdes e olhos amarelos, em armadura vermelha e dourada e longa capa vermelha, com a cauda enrolada atrás.' },
       },
     ],
     sheet: {
@@ -184,7 +187,7 @@ export const factions: Faction[] = [
       { en: 'Incompetent heirs and their “strategic” mistakes', 'pt-BR': 'Herdeiros incompetentes e seus erros “estratégicos”' },
       { en: 'Human disguises absolutely nobody believes', 'pt-BR': 'Disfarces humanos em que absolutamente ninguém acredita' },
     ],
-    title: { en: 'The Sazhath Dynasty', 'pt-BR': 'Os Reptilianos — A Dinastia de Sazhath' },
+    title: { en: 'The Sazhath Dynasty', 'pt-BR': 'A Dinastia de Sazhath' },
     homeworld: 'Thaxis',
     height: '2–2.5 m',
     palette: { primary: '#8ea35a', secondary: '#4a140e', accent: '#D7A64B' },
@@ -215,8 +218,8 @@ export const factions: Faction[] = [
     },
     claimBasis: { en: 'Strategic claim', 'pt-BR': 'Reivindicação estratégica' },
     leader: {
-      name: { en: 'The Sovereign', 'pt-BR': 'O Soberano' },
-      role: { en: 'Ruler of the Sazhath Dynasty', 'pt-BR': 'Governante da Dinastia de Sazhath' },
+      name: { en: 'SAZHI', 'pt-BR': 'SAZHI' },
+      role: { en: 'The Sovereign, ruler of the Sazhath Dynasty', 'pt-BR': 'O Soberano, governante da Dinastia de Sazhath' },
       description: {
         en: 'Four hundred years on the Obsidian Throne, eleven assassination attempts survived, and one heir who keeps accidentally declaring war.',
         'pt-BR': 'Quatrocentos anos no Trono de Obsidiana, onze tentativas de assassinato sobrevividas e um herdeiro que vive declarando guerra sem querer.',
@@ -233,14 +236,15 @@ export const factions: Faction[] = [
     ],
   },
   {
-    id: 'xhalen-kthrix',
-    name: 'XHALEN-KTHRIX',
+    id: 'mantis',
+    name: { en: 'MANTIS', 'pt-BR': 'MANTIS' },
+    sheetCharacter: 'XHALEN-KTHRIX',
     code: 'XK-00',
     art: [
       {
         src: '/images/characters/xhalen-kthrix.webp',
         focus: '50% 18%',
-        alt: { en: 'A tall mantis-like Xhalen-Kthrix with large green compound eyes and antennae, in segmented black armor and a long coat.', 'pt-BR': 'Um Xhalen-Kthrix alto, semelhante a um louva-a-deus, com grandes olhos compostos verdes e antenas, em armadura preta segmentada e casaco longo.' },
+        alt: { en: 'XHALEN-KTHRIX, a tall Mantis commander with large green compound eyes and antennae, in segmented black armor and a long coat.', 'pt-BR': 'XHALEN-KTHRIX, um comandante Mantis alto, semelhante a um louva-a-deus, com grandes olhos compostos verdes e antenas, em armadura preta segmentada e casaco longo.' },
       },
     ],
     sheet: {
@@ -261,7 +265,7 @@ export const factions: Faction[] = [
       { en: 'War meetings that could have been an email', 'pt-BR': 'Reuniões de guerra que poderiam ter sido um e-mail' },
       { en: 'A performance review is required before exterminating anyone', 'pt-BR': 'Avaliação de desempenho obrigatória antes de exterminar alguém' },
     ],
-    title: { en: 'The Commanders', 'pt-BR': 'Os Mantis — Os Comandantes' },
+    title: { en: 'The Commanders', 'pt-BR': 'Os Comandantes' },
     homeworld: 'Xhalen',
     height: '≈ 2.3 m',
     palette: { primary: '#93b360', secondary: '#16220f', accent: '#cfe0b0' },
@@ -292,8 +296,8 @@ export const factions: Faction[] = [
     },
     claimBasis: { en: 'Contractual claim', 'pt-BR': 'Reivindicação contratual' },
     leader: {
-      name: { en: 'The Commander', 'pt-BR': 'O Comandante' },
-      role: { en: 'Supreme Field Officer, Xhalen Expeditionary Corps', 'pt-BR': 'Oficial Supremo de Campo, Corpo Expedicionário de Xhalen' },
+      name: { en: 'XHALEN-KTHRIX', 'pt-BR': 'XHALEN-KTHRIX' },
+      role: { en: 'The Commander, Supreme Field Officer of the Xhalen Expeditionary Corps', 'pt-BR': 'O Comandante, Oficial Supremo de Campo do Corpo Expedicionário de Xhalen' },
       description: {
         en: 'Undefeated in 312 campaigns. Considers Dora the first worthy opponent in a century — and has sent her a formal letter saying so.',
         'pt-BR': 'Invicto em 312 campanhas. Considera Dora a primeira oponente digna em um século — e enviou a ela uma carta formal dizendo isso.',

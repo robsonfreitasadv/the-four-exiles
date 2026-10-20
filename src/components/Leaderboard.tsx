@@ -33,7 +33,7 @@ export function SeasonSelector({ value, onChange }: { value: string; onChange: (
 
 /** Ranked championship table with a stacked bar showing where each faction's points came from. */
 export function LeaderboardTable({ rows }: { rows: FactionScore[] }) {
-  const { t } = useI18n();
+  const { t, l } = useI18n();
   const ranked = rankScores(rows);
   const max = Math.max(...ranked.map(totalScore));
 
@@ -65,7 +65,7 @@ export function LeaderboardTable({ rows }: { rows: FactionScore[] }) {
                     <span style={{ color: f.palette.primary }}>
                       <Emblem faction={f.id} className="h-7 w-7" />
                     </span>
-                    <span className="font-display text-2xl font-semibold leading-none group-hover:underline sm:text-3xl">{f.name}</span>
+                    <span className="font-display text-2xl font-semibold leading-none group-hover:underline sm:text-3xl">{l(f.name)}</span>
                   </Link>
                   {/* source breakdown: community / missions / events */}
                   <div

@@ -30,7 +30,7 @@ export function Emblem({ faction, className, title }: EmblemProps) {
           <path d="M28 46 L72 46" strokeWidth="5" stroke="#0b0d10" />
         </>
       )}
-      {faction === 'ilvani' && (
+      {faction === 'nordics' && (
         <>
           {/* the garden: a six-petal bloom */}
           {[0, 60, 120, 180, 240, 300].map((r) => (
@@ -39,7 +39,7 @@ export function Emblem({ faction, className, title }: EmblemProps) {
           <circle cx="50" cy="50" r="9" fill="currentColor" stroke="none" />
         </>
       )}
-      {faction === 'sazhi' && (
+      {faction === 'reptilians' && (
         <>
           {/* the crown and the last drop */}
           <path d="M14 70 L18 26 L36 44 L50 16 L64 44 L82 26 L86 70 Z" />
@@ -47,7 +47,7 @@ export function Emblem({ faction, className, title }: EmblemProps) {
           <path d="M14 84 L86 84" />
         </>
       )}
-      {faction === 'xhalen-kthrix' && (
+      {faction === 'mantis' && (
         <>
           {/* the commander's chevron head */}
           <path d="M50 90 L12 22 L88 22 Z" />

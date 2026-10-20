@@ -8,7 +8,7 @@ export type Lang = 'en' | 'pt-BR';
 /** A string available in every supported language. */
 export type Localized = Record<Lang, string>;
 
-export type FactionId = 'grays' | 'ilvani' | 'sazhi' | 'xhalen-kthrix';
+export type FactionId = 'grays' | 'nordics' | 'reptilians' | 'mantis';
 
 export interface FactionPalette {
   primary: string;
@@ -37,6 +37,8 @@ export interface CharacterSheet {
 
 export interface Faction {
   id: FactionId;
+  /** Name of the character shown on the race's official sheet (e.g. VHAL-ETT for the Grays). */
+  sheetCharacter: string;
   /** Official character art; the first image is the main portrait. */
   art: ArtImage[];
   sheet: CharacterSheet;
@@ -45,7 +47,7 @@ export interface Faction {
   traits: Localized[];
   /** Meme and humor angles for community content. */
   memes: Localized[];
-  name: string;
+  name: Localized;
   title: Localized;
   homeworld: string;
   height: string;

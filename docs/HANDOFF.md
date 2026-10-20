@@ -14,12 +14,15 @@ Atualize este arquivo no fim de cada sessão (chat ou código): o que foi feito,
 - Página própria dos Grays (`/grays`): dossiê + arquivo de civilização (`docs/lore/grays-civilization.json`, vindo do chat), com menu de seções e selo de status em cada bloco. A página da raça Grays e o arquivo de lore levam até ela; o rodapé tem o link "Grays".
 - **Gray é a raça; VHAL-ETT é personagem** (decisão do dono). A raça aparece como GRAYS em todo o site, em `/factions/grays` (o endereço antigo redireciona). VHAL-ETT aparece na página `/grays` com a imagem oficial; Sete fica sem imagem até ter arte própria.
 
+- **Raças pelo tipo:** Grays, Nórdicos, Reptilianos e Mantis em todo o site (`/factions/grays|nordics|reptilians|mantis`; os endereços antigos redirecionam). VHAL-ETT, ILVANI, SAZHI e XHALEN-KTHRIX são personagens das respectivas raças; cada imagem oficial tem a legenda com o nome do personagem. SAZHI é O Soberano; XHALEN-KTHRIX é O Comandante (provisório).
+- Página genérica de civilização (`src/pages/CivilizationPage.tsx`), alimentada por `docs/lore/<raça>-civilization.json`. Grays (`/grays`, com dossiê) e Nórdicos (`/nordics`) já usam. Para Reptilianos e Mantis basta o JSON + uma linha em `src/data/lore/civilization.ts` e os textos em `civPages`.
+
 **Próximos passos sugeridos**
-1. **Decidir os nomes de ILVANI, SAZHI e XHALEN-KTHRIX** (ver `docs/DECISOES.md`, em aberto): se as raças passam a se chamar pelo tipo, como os Grays, e esses nomes viram personagens. Até lá ficam fora do site como personagens Gray.
-2. Aprovar (ou ajustar) os itens provisórios da civilização Grays e os nomes TERCE-OHM, KAEL-RUUM, OPHELIA-3 e ZEN-VARO.
-3. Fazer o mesmo dossiê para Ilvani, Sazhi e Xhalen-Kthrix no chat, no mesmo formato JSON (`docs/lore/<raça>.json`), para o site ler automaticamente.
-4. Fase 2: arquivo de lore completo (capítulos, transmissões, documentos) e galeria de personagens ampliada.
-5. Decidir os nomes do Soberano e do Comandante.
+1. **No chat, corrigir `docs/lore/grays.json`:** tirar ILVANI, SAZHI e XHALEN-KTHRIX da lista de personagens Gray (ou dar outros nomes a esses papéis) e ajustar as relações de KAEL-RUUM e ZEN-VARO.
+2. Trazer o `NORDICS.json` citado no arquivo nórdico (personagens nórdicos, incluindo Torven) para `docs/lore/`.
+3. Arquivos de civilização de Reptilianos e Mantis (`docs/lore/reptilians-civilization.json`, `mantis-civilization.json`).
+4. Aprovar ou ajustar os itens provisórios (Grays e Nórdicos) e os nomes de personagens propostos.
+5. Fase 2: arquivo de lore completo (capítulos, transmissões, documentos) e galeria de personagens ampliada.
 
 **Atenção**
 - O Claude Code faz os commits. O Claude do chat, se não tiver terminal, deixa os arquivos na pasta do projeto e pede o commit.

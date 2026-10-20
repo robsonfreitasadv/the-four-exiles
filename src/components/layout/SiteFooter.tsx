@@ -6,7 +6,7 @@ import { Logo } from './Logo';
 import { primaryNav, secondaryNav } from './navigation';
 
 export function SiteFooter() {
-  const { t } = useI18n();
+  const { t, l } = useI18n();
   return (
     <footer className="mt-24 border-t border-graphite-600 bg-void">
       <div className="container-x grid gap-12 py-14 md:grid-cols-[1.4fr_1fr_1fr]">
@@ -15,7 +15,7 @@ export function SiteFooter() {
           <p className="text-bone-dim">{t.footer.blurb}</p>
           <div className="flex gap-4">
             {factions.map((f) => (
-              <Link key={f.id} to={`/factions/${f.id}`} aria-label={f.name} style={{ color: f.palette.primary }}>
+              <Link key={f.id} to={`/factions/${f.id}`} aria-label={l(f.name)} style={{ color: f.palette.primary }}>
                 <Emblem faction={f.id} className="h-7 w-7 transition-transform hover:-translate-y-0.5" />
               </Link>
             ))}

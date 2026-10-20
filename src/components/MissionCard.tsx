@@ -28,7 +28,7 @@ export function MissionCard({ mission }: { mission: Mission }) {
       </div>
       <div className="flex flex-1 flex-col p-6">
         <p className="kicker mb-2" style={{ color }}>
-          {faction?.name ?? 'Dora'}
+          {faction ? l(faction.name) : 'Dora'}
         </p>
         <h3 className="display mb-3 text-[28px]">
           <Link to={`/missions/${mission.slug}`} className="after:absolute after:inset-0">

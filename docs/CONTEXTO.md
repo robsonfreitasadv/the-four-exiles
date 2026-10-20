@@ -23,6 +23,7 @@ Tagline: *Four species. One planet. No shared destiny.* / *Quatro espécies. Um 
 | `docs/HANDOFF.md` | Onde paramos e próximos passos. Atualizar ao fim de cada sessão. |
 | `docs/lore/` | Dossiês de lore aprovados (ex.: dossiê dos Grays). |
 | `docs/lore/grays.json` e `grays-civilization.json` | Grays: dossiê e arquivo de civilização. O site lê esses arquivos (página `/grays`). Edite o JSON. |
+| `docs/lore/nordics-civilization.json` | Nórdicos: arquivo de civilização (página `/nordics`). Outras raças seguem o mesmo formato: `docs/lore/<raça>-civilization.json`. |
 | `docs/INSTRUCOES_PROJETO_CHAT.md` | Texto para colar nas instruções do projeto no chat. |
 | `docs/NOTEBOOK.md` | Como configurar e sincronizar em outro computador. |
 | `design/sheets/` | Fichas oficiais dos personagens (a única fonte de imagens). |

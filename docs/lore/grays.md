@@ -22,7 +22,7 @@ A fonte é [`grays.json`](grays.json). O arquivo de civilização (linguagem, ec
 - Correntes internas: Continuístas, Revisionistas, Doutrina de Contenção, Transicionistas, Desvinculados.
 
 ## Conflito em aberto
-**Resolvido para VHAL-ETT (2026-10-20):** Gray é a raça e VHAL-ETT é personagem; o site já mostra VHAL-ETT. **Ainda em aberto:** ILVANI, SAZHI e XHALEN-KTHRIX aparecem no JSON como personagens Gray, mas no site ainda são nomes de raças; o site não mostra esses três até o dono decidir (ver `docs/DECISOES.md`).
+**Decidido (2026-10-20):** Gray é a raça e VHAL-ETT é personagem Gray; ILVANI, SAZHI e XHALEN-KTHRIX são personagens das raças Nórdicos, Reptilianos e Mantis. O JSON ainda lista esses três como Grays: **corrigir no chat**. Até lá, o site esconde essas três entradas e as relações de KAEL-RUUM e ZEN-VARO com eles.
 
 ## Regras de continuidade
 - Não confundir a espécie Gray com o indivíduo Sete.

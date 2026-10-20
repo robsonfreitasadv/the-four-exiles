@@ -6,9 +6,9 @@ export type CharacterKey = FactionId | 'dora';
 
 export const characterFigures: Record<CharacterKey, ComponentType> = {
   'grays': SeteFigure,
-  ilvani: SaelFigure,
-  sazhi: SovereignFigure,
-  'xhalen-kthrix': CommanderFigure,
+  nordics: SaelFigure,
+  reptilians: SovereignFigure,
+  'mantis': CommanderFigure,
   dora: DoraFigure,
 };
 

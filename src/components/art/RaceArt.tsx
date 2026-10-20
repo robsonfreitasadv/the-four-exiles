@@ -28,7 +28,7 @@ export function RaceArt({ faction, index = 0, className = '', eager, decorative 
           <FactionBackdrop faction={faction.id} />
           <Portrait
             character={faction.id}
-            alt={decorative ? '' : `${l(faction.leader.name)} — ${faction.name}`}
+            alt={decorative ? '' : `${l(faction.leader.name)} — ${l(faction.name)}`}
             className="absolute inset-x-0 bottom-0 h-[92%] w-full"
           />
         </div>
