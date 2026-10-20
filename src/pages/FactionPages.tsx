@@ -4,7 +4,6 @@ import { RaceArt } from '../components/art/RaceArt';
 import { withBase } from '../components/art/CharacterImage';
 import { TurnaroundViewer } from '../components/art/TurnaroundViewer';
 import { RacesShowcase } from '../components/RacesShowcase';
-import { GraysDossier } from '../components/GraysDossier';
 import { FactionCard } from '../components/FactionCard';
 import { MissionCard } from '../components/MissionCard';
 import { Arrow, SectionHeading } from '../components/ui/primitives';
@@ -201,7 +200,22 @@ export function FactionDetailPage() {
         </div>
       </section>
 
-      {f.id === 'vhal-ett' && <GraysDossier />}
+      {f.id === 'vhal-ett' && (
+        <section className="container-x pt-16 md:pt-24">
+          <Link
+            to="/grays"
+            className="group flex items-center justify-between gap-6 rounded-[36px] p-8 transition-transform duration-300 hover:-translate-y-1 motion-reduce:transition-none sm:p-10"
+            style={{ background: `linear-gradient(120deg, ${p.secondary}, #161617)` }}
+          >
+            <span>
+              <span className="kicker block">{t.grays.kicker}</span>
+              <span className="display mt-2 block text-4xl sm:text-5xl">{t.grays.openFile}</span>
+              <span className="mt-3 block max-w-2xl text-bone-dim">{t.grays.intro}</span>
+            </span>
+            <Arrow className="h-6 w-6 shrink-0 text-link transition-transform group-hover:translate-x-1" />
+          </Link>
+        </section>
+      )}
 
       {/* timeline */}
       <section className="container-x py-16 md:py-24" aria-labelledby="timeline">

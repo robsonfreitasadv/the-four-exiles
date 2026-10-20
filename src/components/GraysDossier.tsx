@@ -6,7 +6,7 @@ import { Reveal } from './ui/primitives';
 const ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI'];
 
 /** Every block carries its status, so provisional lore never reads as official. */
-function StatusBadge({ status }: { status: LoreStatus }) {
+export function StatusBadge({ status }: { status: LoreStatus }) {
   const { t } = useI18n();
   const map: Record<LoreStatus, [string, string]> = {
     CANON_APPROVED: [t.dossier.canon, 'bg-[#30d158]/15 text-[#5fe07f]'],
@@ -17,7 +17,7 @@ function StatusBadge({ status }: { status: LoreStatus }) {
   return <span className={`inline-flex shrink-0 items-center rounded-full px-2.5 py-0.5 text-xs font-medium ${cls}`}>{label}</span>;
 }
 
-function Block({ title, status, children, className = '' }: { title: string; status: LoreStatus; children: ReactNode; className?: string }) {
+export function Block({ title, status, children, className = '' }: { title: string; status: LoreStatus; children: ReactNode; className?: string }) {
   return (
     <Reveal className={`rounded-[28px] bg-graphite-800 p-6 sm:p-7 ${className}`}>
       <div className="mb-4 flex items-start justify-between gap-3">

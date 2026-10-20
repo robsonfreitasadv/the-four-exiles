@@ -15,6 +15,7 @@ export const primaryNav: { to: string; key: NavKey }[] = [
 
 export const secondaryNav: { to: string; key: NavKey }[] = [
   { to: '/characters', key: 'characters' },
+  { to: '/grays', key: 'grays' },
   { to: '/collectibles', key: 'collectibles' },
   { to: '/privacy', key: 'privacy' },
   { to: '/terms', key: 'terms' },

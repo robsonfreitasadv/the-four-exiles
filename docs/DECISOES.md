@@ -28,6 +28,7 @@ Ao decidir algo no chat ou no código, acrescente uma linha aqui e faça commit.
 | 2026-10-19 | Missões de demonstração (Operação Três Vias, Banquete Seco, Auditoria do Sorriso, Rendição Cortês). |
 | 2026-10-20 | Seção "raças em 3D" com giro feito a partir das vistas da ficha (não é modelo 3D real). |
 | 2026-10-20 | Grays: descrição de Hevra, variantes, seis eras, modelo da antiga decisão, programa POT-7 e cinco correntes internas. No site, aparecem com o selo "Provisório". |
+| 2026-10-20 | Civilização Grays (`docs/lore/grays-civilization.json`): linguagem, economia, arte, humor, filosofia, vida cotidiana, doutrina militar, quatro classes de naves e propulsão, limites específicos da tecnologia, habilidades raras (o Silêncio, a Câmara) e personagens TERCE-OHM, KAEL-RUUM, OPHELIA-3 e ZEN-VARO. Página própria no site (`/grays`), tudo com selo de status. |
 
 ## Em aberto
 
@@ -36,7 +37,7 @@ Ao decidir algo no chat ou no código, acrescente uma linha aqui e faça commit.
 | 2026-10-19 | Nome pessoal do Soberano (Sazhi) e do Comandante (Xhalen-Kthrix). |
 | 2026-10-20 | Título dos Vhal-Ett em inglês: "The Scribes" (ficha) ou "The Grey Scribes" (site). |
 | 2026-10-20 | Escrever cada raça no viés de ufólogos e teóricos da conspiração (pedido no projeto do chat), começando pelos Grays. |
-| 2026-10-20 | **Conflito de nomes:** o dossiê dos Grays lista personagens Gray chamados VHAL-ETT, ILVANI, SAZHI e XHALEN-KTHRIX, que no site e nas decisões aprovadas são os nomes das quatro raças. Opções: (a) manter os nomes como raças e dar outros nomes a esses personagens; (b) mudar os nomes das raças. Até a decisão, o site não mostra esses quatro personagens. |
+| 2026-10-20 | **Conflito de nomes:** o dossiê dos Grays lista personagens Gray chamados VHAL-ETT, ILVANI, SAZHI e XHALEN-KTHRIX, que no site e nas decisões aprovadas são os nomes das quatro raças. Opções: (a) manter os nomes como raças e dar outros nomes a esses personagens; (b) mudar os nomes das raças. Até a decisão, o site não mostra esses quatro personagens, nem as relações de KAEL-RUUM "com Ilvani" e de ZEN-VARO "com Sazhi" do arquivo de civilização. |
 | 2026-10-20 | "Grays" é o nome oficial da raça VHAL-ETT ou o apelido popular dela? (O site trata como apelido.) |
 | 2026-10-20 | Grays: perguntas Q1 a Q6 do dossiê (quem alterou os registros, natureza da antiga decisão, por que a Terra aparece, origem biológica, instituições envolvidas, custos da tecnologia). |
 | 2026-10-20 | Fichas dos personagens em resolução maior (as atuais têm cerca de 1300 px de largura). |

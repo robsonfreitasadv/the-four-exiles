@@ -76,7 +76,7 @@ export function LorePage() {
       <SectionHeading as="h1" kicker={t.transmission.kicker} title={t.stub.lore.title} intro={t.stub.lore.intro} />
       <PhaseNotice phase={2} />
       <Link
-        to="/factions/vhal-ett"
+        to="/grays"
         className="group mb-10 flex items-center justify-between gap-4 rounded-[28px] bg-graphite-800 p-6 transition-colors hover:bg-graphite-700 sm:p-7"
       >
         <span>

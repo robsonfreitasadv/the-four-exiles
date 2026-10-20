@@ -11,8 +11,11 @@ Atualize este arquivo no fim de cada sessão (chat ou código): o que foi feito,
 
 - Dossiê dos Grays trazido do chat para `docs/lore/grays.json` (fonte) e `grays.md` (resumo). O site lê o JSON e mostra o dossiê na página dos Vhal-Ett, com selos de status (cânone, provisório, em aberto), e o arquivo de lore tem um atalho para ele. Sete agora é "Auditor do Arquivo Central".
 
+- Página própria dos Grays (`/grays`): dossiê + arquivo de civilização (`docs/lore/grays-civilization.json`, vindo do chat), com menu de seções e selo de status em cada bloco. A página dos Vhal-Ett e o arquivo de lore levam até ela; o rodapé tem o link "Grays".
+
 **Próximos passos sugeridos**
-1. **Decidir o conflito de nomes** do dossiê dos Grays (ver `docs/DECISOES.md`, em aberto). Os quatro personagens Gray com nomes de raça estão fora do site até lá.
+1. **Decidir o conflito de nomes** do dossiê dos Grays (ver `docs/DECISOES.md`, em aberto). Os quatro personagens Gray com nomes de raça, e as relações de KAEL-RUUM e ZEN-VARO com eles, estão fora do site até lá.
+2. Aprovar (ou ajustar) os itens provisórios da civilização Grays e os nomes TERCE-OHM, KAEL-RUUM, OPHELIA-3 e ZEN-VARO.
 2. Fazer o mesmo dossiê para Ilvani, Sazhi e Xhalen-Kthrix no chat, no mesmo formato JSON (`docs/lore/<raça>.json`), para o site ler automaticamente.
 3. Fase 2: arquivo de lore completo (capítulos, transmissões, documentos) e galeria de personagens ampliada.
 4. Decidir os nomes do Soberano e do Comandante.

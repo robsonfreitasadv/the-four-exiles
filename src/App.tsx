@@ -4,6 +4,7 @@ import { SiteHeader } from './components/layout/SiteHeader';
 import { ScrollToTop } from './components/ui/primitives';
 import { FactionDetailPage, FactionsPage } from './pages/FactionPages';
 import { HomePage } from './pages/HomePage';
+import { GraysPage } from './pages/GraysPage';
 import {
   CharactersPage,
   CollectiblesPage,
@@ -38,6 +39,7 @@ export default function App() {
         <Route path="factions/:id" element={<FactionDetailPage />} />
         <Route path="lore" element={<LorePage />} />
         <Route path="characters" element={<CharactersPage />} />
+        <Route path="grays" element={<GraysPage />} />
         <Route path="galactic-war" element={<GalacticWarPage />} />
         <Route path="missions" element={<MissionsPage />} />
         <Route path="missions/:slug" element={<MissionDetailPage />} />
