@@ -25,7 +25,10 @@ Atualize este arquivo no fim de cada sessão (chat ou código): o que foi feito,
 
 - **2026-10-21 — Bíblias das Civilizações:** o Diretor revisou o documento do chat (`docs/lore/revisao-biblias-civilizacoes.md`: bom com correções só para os Grays) e preparou o resumo prático das quatro raças para o site (`docs/lore/resumo-racas.md`: quem são, o que querem da Terra, como agem, ponto fraco, relações e matriz). No site desde 2026-10-21: `src/data/raceProfiles.ts` (EN e PT-BR), seção "O que querem da Terra" e "Como veem as outras raças" em cada página de raça (`/factions/<raça>`) e matriz de relações em `/factions`, tudo com selo "Provisório". Prévia republicada.
 
+- **2026-10-21 — Plano da v1:** o Diretor comparou a ideia inicial com o repositório (`docs/PLANO_V1.md`): o que já existe, o desvio "escolha seu lado" x Resistência e o que falta para colocar a primeira versão no ar.
+
 **Próximos passos sugeridos**
+- Dono decide o enquadramento (Resistência como narradora, quinta torcida ou humanos como embaixadores) e aprova a lista que bloqueia o lançamento em `docs/PLANO_V1.md`.
 - Dono aprova (ou ajusta) o resumo das raças e as relações; quando aprovar, trocar o status em `src/data/raceProfiles.ts` para cânone.
 0. Roteiro dos Grays: Ato III (cenas 31–36), quando o dono mandar, e o mesmo tratamento para Nórdicos, Reptilianos e Mantis.
 1. **Decidir quem é O Soberano** (SAZHI, como na ficha, ou KRAHL-VOR, como no dossiê) e os **planetas natais** (Thaxis/Sarrath, Xhalen/Threnn). Ver `docs/DECISOES.md`.
