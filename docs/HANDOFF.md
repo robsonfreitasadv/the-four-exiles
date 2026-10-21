@@ -21,10 +21,10 @@ Atualize este arquivo no fim de cada sessão (chat ou código): o que foi feito,
 
 - Os arquivos que o chat gravou direto em `docs/lore/` (nomes em maiúsculas) viraram a fonte única; as cópias que eu tinha feito foram apagadas. Chegou o `NORDICS.json`, ligado à página `/nordics`. O chat também gravou `THE_FOUR_EXILES_RACAS.docx` em `docs/lore/` (mantido como está).
 
-- **2026-10-21 — Roteiro dos Grays** (agente Diretor + roteiristas, skills screenwriting-skills): pasta `docs/roteiro/grays/` com `story-bible.md` (direção, pendências), `pesquisa-folclore.md` (teorias da web com fontes), `historia-dos-grays.md` (seis eras + 12 incidentes do folclore como relatórios Gray) e `narrativa-sete.md` (tratamento de longa *Zero Discrepâncias*, 36 cenas, 3 cenas de amostra). Dono aprovou as propostas como provisórias; Ato I escrito em `ato-1.fountain` (10 cenas). Tudo provisório; não entrou no site nem no `GRAYS.json`.
+- **2026-10-21 — Roteiro dos Grays** (agente Diretor + roteiristas, skills screenwriting-skills): pasta `docs/roteiro/grays/` com `story-bible.md` (direção, pendências), `pesquisa-folclore.md` (teorias da web com fontes), `historia-dos-grays.md` (seis eras + 12 incidentes do folclore como relatórios Gray) e `narrativa-sete.md` (tratamento de longa *Zero Discrepâncias*, 36 cenas, 3 cenas de amostra). Dono aprovou as propostas como provisórias; Ato I e Ato II-A escritos (`ato-1.fountain`, `ato-2a.fountain`, cenas 1–20, até o ponto médio). Tudo provisório; não entrou no site nem no `GRAYS.json`.
 
 **Próximos passos sugeridos**
-0. Roteiro dos Grays: leitura do Ato I pelo dono; depois, Ato II-A (cenas 11–20) e o mesmo tratamento para Nórdicos, Reptilianos e Mantis.
+0. Roteiro dos Grays: Ato II-B (cenas 21–30) e o mesmo tratamento para Nórdicos, Reptilianos e Mantis.
 1. **Decidir quem é O Soberano** (SAZHI, como na ficha, ou KRAHL-VOR, como no dossiê) e os **planetas natais** (Thaxis/Sarrath, Xhalen/Threnn). Ver `docs/DECISOES.md`.
 2. No chat: corrigir `GRAYS.json` (ILVANI, SAZHI e XHALEN-KTHRIX como Grays), alinhar a aparência dos Mantis com a ficha e usar "Mantis" em vez de "Insetoides".
 3. Alinhar Sael: o site o descreve como ex-jardineiro desertor; o `NORDICS.json`, como diplomata.

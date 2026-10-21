@@ -17,8 +17,8 @@ Método: `sw-workflow` (protocolo de sessão e etapas), com `sw-premise-theme`, 
 
 ## Etapa atual
 
-- Etapa: 5 (primeira versão do roteiro). Ato I pronto e revisado: `ato-1.fountain`.
-- Próximo passo: leitura do dono; depois, Ato II-A (cenas 11–20, Fortaleza, Hélio, Dora, ponto médio).
+- Etapa: 5 (primeira versão do roteiro). Ato I e Ato II-A prontos e revisados: `ato-1.fountain`, `ato-2a.fountain` (até o ponto médio).
+- Próximo passo: Ato II-B (cenas 21–30: Drav-Kess, blecaute em Fortaleza, fragmento de Terce-Ohm, tudo está perdido).
 
 ## Decisões de direção (provisórias)
 
@@ -58,6 +58,7 @@ Método: `sw-workflow` (protocolo de sessão e etapas), com `sw-premise-theme`, 
 | 2026-10-21 | Bible aberta; direção "folclore = relatórios de incidente Gray". | Pedido do dono: mesclar as teorias da web com o material do projeto. |
 | 2026-10-21 | Logline atualizada com a chave de Sete; Seis como fantasma. | Torna Sete o próprio adversário (Truby/Egri); proposta do roteirista aceita pelo Diretor. |
 | 2026-10-21 | Hélio com 84 anos; contenção em Fortaleza vira blecaute sem vítimas. | Continuidade (abdução em 1987) e limite de tom. |
+| 2026-10-21 | Ato II-A escrito (`ato-2a.fountain`, cenas 11–20, ~23 páginas, ciclos 5–6). Novidades provisórias: selo conjunto da Era IV com quatro marcas e "Terra" num quinto espaço central, antes do primeiro contato (Q3 segue aberta); as três datas das correções de Greada são dias de serviço de Sete; Kael-Ruum interrompeu a coleta Hill (3h07 x 3h40) e causou o "tempo perdido"; Zen-Varo deixa escapar a Sete "eu já fui"; Hélio Pimentel Sobrinho; Dona Zuleide (tapioqueira); Dora lê "a letra c" e Sete não sabe qual é. Diretor corrige: Ato I "sessenta e dois anos"; Nira fala em "conversa registrada"; parentéticos em linha própria. | Revisão do Diretor. |
 | 2026-10-21 | Ato I escrito (`ato-1.fountain`, 10 cenas, ~22–25 páginas). Diretor corrige a contagem regressiva (ciclo 4 = 6 restantes). Mantidos: o Auxiliar sem nome (segue no Ato II como testemunha), a "notificação de acesso" no tablet de VHAL-ETT, Kael-Ruum "Assinei. Não escrevi." A data das correções de Greada fica vazia até o ponto médio. | Revisão do Diretor. |
 | 2026-10-21 | Dono aprova como provisórios: política comum na Era IV, longevidade Gray, chave de Sete, Arca 3, nomes novos. Etapa 5 (roteiro) começa pelo Ato I. | Decisão do dono. |
 
