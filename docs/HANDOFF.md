@@ -35,6 +35,7 @@ Atualize este arquivo no fim de cada sessão (chat ou código): o que foi feito,
 5. Fase 2: arquivo de lore completo (capítulos, transmissões, documentos) e galeria de personagens ampliada.
 
 **Atenção**
+- 2026-10-21: o chat dizia "acesso bloqueado" porque a pasta anexada (`C:\Users\robson.freitas\Claude`) não existe no computador do usuário `Robson`. Lá a pasta é `C:\Users\Robson\Claude`; é preciso anexá-la no projeto do chat. Instruções e diagnóstico em `docs/NOTEBOOK.md` e `docs/INSTRUCOES_PROJETO_CHAT.md` (as instruções do projeto do chat precisam ser recopiadas).
 - O Claude Code faz os commits. O Claude do chat, se não tiver terminal, deixa os arquivos na pasta do projeto e pede o commit.
 
 ## Histórico

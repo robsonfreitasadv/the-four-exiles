@@ -25,7 +25,7 @@ Nada importante fica só na conversa ou na memória local: o que não está no r
 | Projeto no chat | **THE FOUR EXILES — PROJECT MASTER** (`cse_018zLyy8LsrdugSyWGkrBKAL`): lore, decisões e análise de conversas; lê esta pasta e segue `docs/INSTRUCOES_PROJETO_CHAT.md` |
 | Repositório | https://github.com/robsonfreitasadv/the-four-exiles |
 | Prévia do site | https://claude.ai/artifact/J6yY4A8qS5DLjFmF4qkBH6 |
-| Pasta local | `C:\Users\robson.freitas\Claude` (mesmo caminho no notebook; ver `docs/NOTEBOOK.md`) |
+| Pasta local | `C:\Users\<usuário do Windows>\Claude`: `C:\Users\robson.freitas\Claude` num computador, `C:\Users\Robson\Claude` no outro (ver `docs/NOTEBOOK.md`) |
 
 ## Regras do dono
 

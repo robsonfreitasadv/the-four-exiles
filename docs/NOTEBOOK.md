@@ -5,13 +5,15 @@ O projeto vive no GitHub. Cada computador tem uma cópia local; o Git mantém as
 ## Configurar o notebook (uma vez)
 
 1. Instale o **Git** (https://git-scm.com) e o **Node.js 18.17 ou mais novo** (https://nodejs.org).
-2. Clone o projeto na mesma pasta usada no desktop, para os caminhos baterem:
+2. Clone o projeto em `C:/Users/<seu-usuario>/Claude`. Os computadores atuais usam:
+   - `C:/Users/robson.freitas/Claude`
+   - `C:/Users/Robson/Claude`
 
 ```bash
-git clone https://github.com/robsonfreitasadv/the-four-exiles.git C:/Users/robson.freitas/Claude
+git clone https://github.com/robsonfreitasadv/the-four-exiles.git C:/Users/Robson/Claude
 ```
 
-   Se o usuário do Windows no notebook for outro, use `C:/Users/<seu-usuario>/Claude`.
+   Cada computador tem uma única cópia. Não trabalhe em clones soltos em outras pastas: eles ficam desatualizados e o chat não os enxerga.
 
 3. Entre na pasta e instale as dependências:
 
@@ -62,6 +64,16 @@ git push
 ## Se der conflito
 
 Acontece quando os dois computadores mudam o mesmo arquivo sem sincronizar. Peça ao Claude Code para resolver: ele mostra as duas versões e junta. Para evitar, nunca comece sem `git pull` e nunca saia sem `git push`.
+
+## Se o chat disser que o acesso está bloqueado
+
+O projeto do chat lê a pasta anexada em **Contexto**, que é diferente em cada computador. Se o chat disser que não consegue ver o repositório:
+
+1. Confira se a pasta existe neste computador (`C:\Users\<seu-usuario>\Claude`). Se não existir, clone como no passo 2.
+2. No projeto **THE FOUR EXILES — PROJECT MASTER**, em **Contexto**, remova a pasta antiga e anexe a deste computador.
+3. Rode `git pull` na pasta antes de abrir a conversa.
+
+A prévia do site (link `claude.ai/artifact/...`) é privada: o chat não consegue abri-la. Para o chat, o site é o código em `src/` e o conteúdo em `docs/`.
 
 ## O que não vai pelo Git
 

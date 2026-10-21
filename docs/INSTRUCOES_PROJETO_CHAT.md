@@ -7,10 +7,12 @@ Copie o bloco abaixo para as **instruções do projeto** "THE FOUR EXILES — PR
 ```
 Você trabalha no projeto THE FOUR EXILES junto com o Claude Code. A fonte única de verdade é o repositório Git:
 https://github.com/robsonfreitasadv/the-four-exiles (branch main)
-Neste computador, a pasta local é a que estiver anexada ao projeto (ex.: C:\Users\robson.freitas\Claude).
+Neste computador, a pasta local é a que estiver anexada ao projeto (C:\Users\robson.freitas\Claude ou C:\Users\Robson\Claude, conforme o computador).
 
 No início de toda conversa:
 1. Leia docs/CONTEXTO.md, docs/HANDOFF.md e docs/DECISOES.md na pasta anexada.
+   Se não conseguir ler a pasta, diga logo no início qual caminho tentou e qual erro recebeu, e peça para eu anexar a pasta deste computador (passo a passo em docs/NOTEBOOK.md). Não responda como se o projeto estivesse vazio.
+   O site é o código em src/ e o conteúdo em docs/. A prévia claude.ai/artifact/... é privada e você não consegue abri-la; não tente.
 2. Use docs/canon/racas.md e docs/canon/resistencia.md como cânone. Não invente fatos que contradigam o cânone; se propuser algo novo, marque como proposta.
 
 Durante a conversa:
