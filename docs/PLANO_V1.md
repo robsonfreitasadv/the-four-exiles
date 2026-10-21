@@ -36,7 +36,8 @@ Em qualquer opção, cada raça precisa de um bloco **"Por que escolher esta ra�
 ## Andamento (2026-10-21)
 
 - **Feito:** enquadramento aprovado (nenhuma raça é vilã; a Resistência narra); virtudes por raça; "Escolha sua raça" com teste e carteirinha do Censo (`/choose`); Temporada 0 com personagens de IA identificados (`/season-0`); placar da Temporada 1 zerado.
-- **Falta:** itens 3, 4, 6, 7 e 8 abaixo.
+- **Feito também:** kit grátis por raça (item 3), na página de cada raça.
+- **Falta:** itens 4, 6, 7 e 8 abaixo.
 
 ## O que falta para colocar a v1 no ar
 

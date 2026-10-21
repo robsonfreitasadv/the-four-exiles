@@ -9,6 +9,7 @@ import { FactionCard } from '../components/FactionCard';
 import { MissionCard } from '../components/MissionCard';
 import { RaceEarthSection, RelationsMatrix } from '../components/RaceRelations';
 import { RaceCallSection } from '../components/choose/RaceCallSection';
+import { RaceKitSection } from '../components/kit/RaceKit';
 import { Arrow, SectionHeading } from '../components/ui/primitives';
 import { factionById, factions } from '../data/factions';
 import { missions } from '../data/missions';
@@ -215,6 +216,8 @@ export function FactionDetailPage() {
           </div>
         </div>
       </section>
+
+      <RaceKitSection faction={f} />
 
       {civPage && (
         <section className="container-x pt-16 md:pt-24">

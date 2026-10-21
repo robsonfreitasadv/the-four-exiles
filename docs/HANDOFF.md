@@ -29,8 +29,10 @@ Atualize este arquivo no fim de cada sessão (chat ou código): o que foi feito,
 
 - **2026-10-21 — Escolha sua raça e Temporada 0:** página `/choose` (teste de 6 perguntas, escolha direta, carteirinha do Censo em PNG, tudo salvo só no navegador), selo da raça no cabeçalho, bloco "Por que ficar com eles" em cada raça, e `/season-0`, a liga dos personagens de IA (12 personagens, feed de propaganda e registro de pontos). A Temporada 1, das pessoas, aparece zerada. Enquadramento aprovado: nenhuma raça é vilã; a Resistência narra.
 
+- **2026-10-21 — Kit grátis por raça:** seção "Vista a sua raça" em cada `/factions/<raça>`: wallpapers de celular e computador, avatar com emblema e com personagem, 4 figurinhas 512×512 com fundo transparente e gerador de memes com 3 sugestões, tudo gerado no navegador a partir da ficha oficial e baixado em PNG (`src/components/kit/`, textos em `src/data/kit.ts`). Limite: os retratos oficiais têm 310×516 px, então as artes com personagem usam no máximo ~2× de ampliação; fichas em resolução maior melhorariam tudo.
+
 **Próximos passos sugeridos**
-- Itens que ainda bloqueiam a v1 (`docs/PLANO_V1.md`): kit grátis por raça, canal da comunidade, privacidade e termos reais, hospedagem e domínio, imagem de prévia nos links.
+- Itens que ainda bloqueiam a v1 (`docs/PLANO_V1.md`): canal da comunidade, privacidade e termos reais, hospedagem e domínio, imagem de prévia nos links.
 - Dono aprova (ou ajusta) o resumo das raças e as relações; quando aprovar, trocar o status em `src/data/raceProfiles.ts` para cânone.
 0. Roteiro dos Grays: Ato III (cenas 31–36), quando o dono mandar, e o mesmo tratamento para Nórdicos, Reptilianos e Mantis.
 1. **Decidir quem é O Soberano** (SAZHI, como na ficha, ou KRAHL-VOR, como no dossiê) e os **planetas natais** (Thaxis/Sarrath, Xhalen/Threnn). Ver `docs/DECISOES.md`.
