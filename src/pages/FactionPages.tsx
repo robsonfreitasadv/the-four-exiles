@@ -8,6 +8,7 @@ import { RacesShowcase } from '../components/RacesShowcase';
 import { FactionCard } from '../components/FactionCard';
 import { MissionCard } from '../components/MissionCard';
 import { RaceEarthSection, RelationsMatrix } from '../components/RaceRelations';
+import { RaceCallSection } from '../components/choose/RaceCallSection';
 import { Arrow, SectionHeading } from '../components/ui/primitives';
 import { factionById, factions } from '../data/factions';
 import { missions } from '../data/missions';
@@ -137,6 +138,8 @@ export function FactionDetailPage() {
           ))}
         </dl>
       </section>
+
+      <RaceCallSection faction={f} />
 
       <RaceEarthSection faction={f} />
 

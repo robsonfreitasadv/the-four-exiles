@@ -12,6 +12,8 @@ Tom: sátira de ficção científica, humor adulto, burocracia absurda, intriga 
 
 Tagline: *Four species. One planet. No shared destiny.* / *Quatro espécies. Um planeta. Nenhum destino em comum.*
 
+**Enquadramento do público (aprovado em 2026-10-21):** todas as raças querem a Terra, nenhuma é a vilã oficial e cada uma tem virtudes reais. O visitante é um humano que escolhe quem fica com o planeta (página `/choose`, carteirinha do Censo). A Resistência narra e conta os votos. Antes de haver pessoas, a **Temporada 0** é uma liga só de **personagens de IA**, sempre identificados como IA, com placar separado; eles nunca se passam por pessoas nem inflam números reais. Ver `docs/PLANO_V1.md`.
+
 ## Onde está cada coisa
 
 | Arquivo | Para quê |

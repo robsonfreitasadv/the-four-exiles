@@ -1,29 +1,38 @@
-import type { FactionScore, Season } from './types';
+import { aiCharacterById, season0Log } from './aiCharacters';
+import type { FactionId, FactionScore, Season } from './types';
 
 /**
- * FICTIONAL DEMO DATA. These numbers do not represent real users, real activity,
- * or any market value. Scoring is never derived from token price, volume,
+ * Season 0 is the AI league: only labeled AI characters play, and its standings are
+ * computed from the public log in aiCharacters.ts. Season 1 is for real people and has
+ * not started, so it shows zero. Scoring is never derived from token price, volume,
  * market capitalization, wallet balances, or purchases.
  */
 export const seasons: Season[] = [
-  { id: 's0', label: { en: 'Season 0 · Pilot Census', 'pt-BR': 'Temporada 0 · Censo Piloto' }, status: 'archived' },
-  { id: 's1', label: { en: 'Season 1 · The Signal', 'pt-BR': 'Temporada 1 · O Sinal' }, status: 'active' },
+  { id: 's0', label: { en: 'Season 0 · AI character league', 'pt-BR': 'Temporada 0 · Liga dos personagens de IA' }, status: 'active' },
+  { id: 's1', label: { en: 'Season 1 · The Signal', 'pt-BR': 'Temporada 1 · O Sinal' }, status: 'upcoming' },
 ];
 
+const RACES: FactionId[] = ['grays', 'nordics', 'reptilians', 'mantis'];
+
+const zero = (): FactionScore[] => RACES.map((faction) => ({ faction, community: 0, missions: 0, events: 0 }));
+
+function fromLog(): FactionScore[] {
+  const rows = zero();
+  for (const e of season0Log) {
+    const race = aiCharacterById(e.author)?.race;
+    const row = rows.find((r) => r.faction === race);
+    if (row) row[e.category] += e.points;
+  }
+  return rows;
+}
+
 export const scoresBySeason: Record<string, FactionScore[]> = {
-  s0: [
-    { faction: 'grays', community: 410, missions: 520, events: 60 },
-    { faction: 'nordics', community: 690, missions: 300, events: 90 },
-    { faction: 'reptilians', community: 540, missions: 410, events: 120 },
-    { faction: 'mantis', community: 380, missions: 610, events: 40 },
-  ],
-  s1: [
-    { faction: 'grays', community: 820, missions: 1140, events: 150 },
-    { faction: 'nordics', community: 1260, missions: 640, events: 110 },
-    { faction: 'reptilians', community: 990, missions: 870, events: 240 },
-    { faction: 'mantis', community: 760, missions: 1210, events: 90 },
-  ],
+  s0: fromLog(),
+  s1: zero(),
 };
+
+/** The season shown first: the AI league until real people are playing. */
+export const defaultSeason = 's0';
 
 export const totalScore = (s: FactionScore) => s.community + s.missions + s.events;
 

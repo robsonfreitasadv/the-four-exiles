@@ -33,6 +33,11 @@ Opções (decisão do dono):
 
 Em qualquer opção, cada raça precisa de um bloco **"Por que escolher esta raça"**: virtudes, o que ela oferece à humanidade e o tipo de pessoa que se identifica (o burocrata, o idealista, o estrategista, o disciplinado). Hoje o site só mostra defeitos e contradições.
 
+## Andamento (2026-10-21)
+
+- **Feito:** enquadramento aprovado (nenhuma raça é vilã; a Resistência narra); virtudes por raça; "Escolha sua raça" com teste e carteirinha do Censo (`/choose`); Temporada 0 com personagens de IA identificados (`/season-0`); placar da Temporada 1 zerado.
+- **Falta:** itens 3, 4, 6, 7 e 8 abaixo.
+
 ## O que falta para colocar a v1 no ar
 
 ### Bloqueia o lançamento

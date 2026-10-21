@@ -6,6 +6,8 @@ Status: **aprovado** (ficha oficial `design/sheets/resistance.webp`). Textos do 
 
 A Resistência é humana; **não é uma quinta raça**.
 
+**Papel para o público (aprovado em 2026-10-21):** a Resistência é a **narradora** e conta os votos do Censo; **não é um time** do campeonato. O visitante é um humano que escolhe uma das quatro raças (embaixador humano). Todas as raças querem a Terra, e nenhuma é a vilã oficial.
+
 ## Dora — A Estrategista
 
 - **Função:** líder / estrategista · **Idade:** 28 · **Origem:** Fortaleza, Brasil

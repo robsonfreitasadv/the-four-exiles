@@ -27,8 +27,10 @@ Atualize este arquivo no fim de cada sessão (chat ou código): o que foi feito,
 
 - **2026-10-21 — Plano da v1:** o Diretor comparou a ideia inicial com o repositório (`docs/PLANO_V1.md`): o que já existe, o desvio "escolha seu lado" x Resistência e o que falta para colocar a primeira versão no ar.
 
+- **2026-10-21 — Escolha sua raça e Temporada 0:** página `/choose` (teste de 6 perguntas, escolha direta, carteirinha do Censo em PNG, tudo salvo só no navegador), selo da raça no cabeçalho, bloco "Por que ficar com eles" em cada raça, e `/season-0`, a liga dos personagens de IA (12 personagens, feed de propaganda e registro de pontos). A Temporada 1, das pessoas, aparece zerada. Enquadramento aprovado: nenhuma raça é vilã; a Resistência narra.
+
 **Próximos passos sugeridos**
-- Dono decide o enquadramento (Resistência como narradora, quinta torcida ou humanos como embaixadores) e aprova a lista que bloqueia o lançamento em `docs/PLANO_V1.md`.
+- Itens que ainda bloqueiam a v1 (`docs/PLANO_V1.md`): kit grátis por raça, canal da comunidade, privacidade e termos reais, hospedagem e domínio, imagem de prévia nos links.
 - Dono aprova (ou ajusta) o resumo das raças e as relações; quando aprovar, trocar o status em `src/data/raceProfiles.ts` para cânone.
 0. Roteiro dos Grays: Ato III (cenas 31–36), quando o dono mandar, e o mesmo tratamento para Nórdicos, Reptilianos e Mantis.
 1. **Decidir quem é O Soberano** (SAZHI, como na ficha, ou KRAHL-VOR, como no dossiê) e os **planetas natais** (Thaxis/Sarrath, Xhalen/Threnn). Ver `docs/DECISOES.md`.

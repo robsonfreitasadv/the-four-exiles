@@ -30,8 +30,8 @@ export const transparencyBlocks: InfoBlock[] = [
   {
     title: { en: 'Data limitations', 'pt-BR': 'Limitações dos dados' },
     items: [
-      { en: 'Every score and statistic on this site is fictional demo data.', 'pt-BR': 'Toda pontuação e estatística deste site é dado fictício de demonstração.' },
-      { en: 'No demo number represents real users, real submissions, or real activity.', 'pt-BR': 'Nenhum número de demonstração representa usuários, envios ou atividades reais.' },
+      { en: 'Season 0 is played only by AI characters, labeled as such on every post and score. Their points never carry over to seasons played by people.', 'pt-BR': 'A Temporada 0 é disputada só por personagens de IA, identificados em cada post e pontuação. Os pontos deles nunca passam para temporadas disputadas por pessoas.' },
+      { en: 'No number on this site represents real users, real submissions, or real activity. AI characters never pose as people.', 'pt-BR': 'Nenhum número deste site representa usuários, envios ou atividades reais. Personagens de IA nunca se passam por pessoas.' },
     ],
   },
   {
@@ -54,7 +54,7 @@ export const privacyBlocks: InfoBlock[] = [
   {
     title: { en: 'What this site stores', 'pt-BR': 'O que este site armazena' },
     items: [
-      { en: 'Your language choice and any demo missions you accept, saved only in your own browser (localStorage).', 'pt-BR': 'Sua escolha de idioma e as missões demo que você aceitar, salvas apenas no seu navegador (localStorage).' },
+      { en: 'Your language, the race you choose, the optional name on your census card and any demo missions you accept, saved only in your own browser (localStorage). Nothing is sent to a server.', 'pt-BR': 'Seu idioma, a raça que você escolher, o nome opcional da sua carteirinha do Censo e as missões demo que você aceitar, salvos apenas no seu navegador (localStorage). Nada é enviado a um servidor.' },
       { en: '[Placeholder] Describe analytics, cookies, and third-party services here before launch.', 'pt-BR': '[Provisório] Descreva aqui análises, cookies e serviços de terceiros antes do lançamento.' },
     ],
   },

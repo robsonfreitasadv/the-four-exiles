@@ -37,6 +37,15 @@ export function LeaderboardTable({ rows }: { rows: FactionScore[] }) {
   const ranked = rankScores(rows);
   const max = Math.max(...ranked.map(totalScore));
 
+  if (max === 0) {
+    return (
+      <div className="rounded-[28px] bg-graphite-800 p-8 text-center">
+        <p className="display text-3xl">{t.war.notStarted}</p>
+        <p className="mx-auto mt-3 max-w-md text-bone-dim">{t.war.notStartedNote}</p>
+      </div>
+    );
+  }
+
   return (
     <div className="overflow-hidden rounded-[28px] bg-graphite-800">
       <table className="w-full border-collapse text-left">

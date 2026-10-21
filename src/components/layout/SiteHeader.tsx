@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { useI18n } from '../../i18n/I18nProvider';
 import { LanguageSwitcher } from './LanguageSwitcher';
+import { RaceChip } from '../choose/RaceChip';
 import { Logo } from './Logo';
 import { primaryNav } from './navigation';
 
@@ -32,13 +33,13 @@ export function SiteHeader() {
       <div className="container-x flex h-12 items-center justify-between gap-6">
         <Logo />
         <nav aria-label="Primary" className="hidden lg:block">
-          <ul className="flex items-center gap-7">
+          <ul className="flex items-center gap-4 xl:gap-7">
             {primaryNav.slice(1).map((item) => (
               <li key={item.to}>
                 <NavLink
                   to={item.to}
                   className={({ isActive }) =>
-                    `text-xs transition-colors hover:text-bone ${isActive ? 'text-bone' : 'text-bone/70'}`
+                    `whitespace-nowrap text-xs transition-colors hover:text-bone ${isActive ? 'text-bone' : 'text-bone/70'}`
                   }
                 >
                   {t.nav[item.key]}
@@ -48,6 +49,7 @@ export function SiteHeader() {
           </ul>
         </nav>
         <div className="flex items-center gap-2">
+          <RaceChip />
           <LanguageSwitcher />
           <button
             type="button"

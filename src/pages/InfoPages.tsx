@@ -7,7 +7,7 @@ import { ResistanceSection } from '../components/ResistanceSection';
 import { withBase } from '../components/art/CharacterImage';
 import { LeaderboardTable, SeasonSelector } from '../components/Leaderboard';
 import { Arrow, DemoDataBadge, SectionHeading } from '../components/ui/primitives';
-import { scoresBySeason } from '../data/championship';
+import { defaultSeason, scoresBySeason } from '../data/championship';
 import { factions } from '../data/factions';
 import { dossiers } from '../data/lore/dossier';
 import { collectibleConcepts, privacyBlocks, termsBlocks, transparencyBlocks, type InfoBlock } from '../data/pages';
@@ -27,12 +27,13 @@ function PhaseNotice({ phase }: { phase: 2 | 3 }) {
 
 export function GalacticWarPage() {
   const { t } = useI18n();
-  const [season, setSeason] = useState('s1');
+  const [season, setSeason] = useState(defaultSeason);
   return (
     <div className="container-x py-14 md:py-20">
-      <SectionHeading as="h1" kicker={t.war.kicker} title={t.war.title} intro={t.war.subtitle} aside={<DemoDataBadge />} />
+      <SectionHeading as="h1" kicker={t.war.kicker} title={t.war.title} intro={t.war.subtitle} aside={<DemoDataBadge label={t.war.aiBadge} />} />
       <div className="mx-auto mb-8 max-w-3xl rounded-2xl bg-signal/10 p-4 text-center text-sm text-signal">
-        {t.war.disclaimer}
+        {t.war.disclaimer}{' '}
+        <Link to="/season-0" className="underline">{t.war.season0Link}</Link>
       </div>
       <div className="grid gap-8 lg:grid-cols-[1.7fr_1fr]">
         <div className="space-y-4">

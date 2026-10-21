@@ -19,6 +19,8 @@ Ao decidir algo no chat ou no código, acrescente uma linha aqui e faça commit.
 | 2026-10-20 | Lemas e traços das raças vêm da ficha oficial (ex.: "Procedure is protection."). |
 | 2026-10-20 | O repositório GitHub é a fonte da verdade, compartilhada pelo Claude Code e pelo projeto do chat, nos dois computadores. |
 | 2026-10-20 | Grays (dossiê do chat, `docs/lore/GRAYS.json`): são uma espécie; Sete é auditor do Arquivo Central; obsessão por reduzir a incerteza e controlar a informação; Zeta Reticuli como referência de folclore ufológico; tecnologia com limites claros; relações ambíguas com as outras raças e os humanos; mistério dos registros alterados e da antiga decisão galáctica. |
+| 2026-10-21 | **Enquadramento do público:** todas as raças querem conquistar a Terra; nenhuma é a vilã oficial; cada uma tem virtudes. O visitante é um humano que escolhe quem fica com a Terra. A Resistência é a narradora, não um time. |
+| 2026-10-21 | **Personagens de IA:** sempre identificados como IA, nunca se passam por pessoas, nunca falam de dinheiro, token ou compra; jogam só a Temporada 0 (liga de IA), com placar calculado de um registro público; os pontos nunca passam para temporadas de pessoas. |
 
 ## Provisórias
 
@@ -40,6 +42,7 @@ Ao decidir algo no chat ou no código, acrescente uma linha aqui e faça commit.
 | 2026-10-21 | Roteiro dos Grays: o dono aprovou como provisórios a política comum das quatro raças na Era IV, a longevidade Gray (KAEL-RUUM em Roswell 1947, ZEN-VARO em Dulce 1979, OPHELIA-3 desde a Era III), a chave de Sete, a Arca 3 e os nomes novos. Ver `docs/roteiro/grays/story-bible.md`. |
 | 2026-10-20 | Civilização Grays (`docs/lore/GRAYS_CIVILIZATION.json`): linguagem, economia, arte, humor, filosofia, vida cotidiana, doutrina militar, quatro classes de naves e propulsão, limites específicos da tecnologia, habilidades raras (o Silêncio, a Câmara) e personagens TERCE-OHM, KAEL-RUUM, OPHELIA-3 e ZEN-VARO. Página própria no site (`/grays`), tudo com selo de status. |
 | 2026-10-21 | **Resumo das raças para o site** (`docs/lore/resumo-racas.md`): ambição de cada raça sobre a Terra (Grays: banco genético com "consentimento presumido"; Nórdicos: Plano Jardim como Assembleia Terrestre permanente; Reptilianos: concessões de aquíferos, geleiras e rios; Mantis: contrato de segurança sem prazo e feira de armas) e matriz de relações entre as raças e com os humanos. No site (`src/data/raceProfiles.ts`, páginas `/factions` e `/factions/<raça>`) com selo "Provisório" até o dono aprovar. |
+| 2026-10-21 | **Escolha sua raça e Temporada 0 no site:** virtudes, slogan, oferta e "para quem é" de cada raça e teste de 6 perguntas (`src/data/choose.ts`); carteirinha do Censo salva só no navegador; 12 personagens de IA (DOSSIE-12, TALLI-77, PELM-OH, ASTRI-VELL, BRYNN-OLA, HOLT-MEREN, ZHESS-KOR, SSIRA-VAL, OROM-THESS, KRIX-VAN, TZIK-9, SELB-ORR), 34 posts e registro de pontos (`src/data/aiCharacters.ts`). Textos provisórios. |
 
 ## Em aberto
 
@@ -58,4 +61,3 @@ Ao decidir algo no chat ou no código, acrescente uma linha aqui e faça commit.
 | 2026-10-20 | Fichas dos personagens em resolução maior (as atuais têm cerca de 1300 px de largura). |
 | 2026-10-20 | Hospedagem pública do site e domínio. |
 | 2026-10-21 | **Documento "Bíblias das Civilizações" (revisão pt-BR):** bom com correções só para os Grays; não substitui `racas.md`, `DECISOES.md` nem os JSON. Decidir: Comandante dos Mantis (XHALEN-KTHRIX ou IXUL-DRA) e motivação (armas ou dever); Escritório de Previsão de Riscos e Conselho de Continuidade (Diretor recomenda adiar); relações entre raças do resumo. Ver `docs/lore/revisao-biblias-civilizacoes.md`. |
-| 2026-10-21 | **Enquadramento do público:** a ideia inicial é "escolha uma das quatro raças; nenhuma é vilã", mas o universo atual coloca a Resistência contra as quatro. Opções: Resistência como quinta torcida; Resistência como narradora e o visitante escolhe uma raça (recomendação do Diretor); humanos como embaixadores de uma raça. Ver `docs/PLANO_V1.md`. |

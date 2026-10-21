@@ -8,7 +8,7 @@ import { ResistanceSection } from '../components/ResistanceSection';
 import { LeaderboardTable, SeasonSelector } from '../components/Leaderboard';
 import { MissionCard } from '../components/MissionCard';
 import { Arrow, DemoDataBadge, Reveal, SectionHeading } from '../components/ui/primitives';
-import { scoresBySeason } from '../data/championship';
+import { defaultSeason, scoresBySeason } from '../data/championship';
 import { factions } from '../data/factions';
 import { missions } from '../data/missions';
 import { dora } from '../data/resistance';
@@ -40,7 +40,7 @@ function Hero() {
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-xl text-bone-dim sm:text-2xl">{t.hero.subtitle}</p>
         <div className="mt-9 flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-8">
-          <Link to="/factions" className="btn-primary">
+          <Link to="/choose" className="btn-primary">
             {t.hero.primaryCta}
           </Link>
           <Link to="/galactic-war" className="link-arrow text-xl">
@@ -141,13 +141,13 @@ function CensusSection() {
 
 function WarSection() {
   const { t } = useI18n();
-  const [season, setSeason] = useState('s1');
+  const [season, setSeason] = useState(defaultSeason);
   return (
     <section className="bg-space-900 py-20 md:py-28" aria-label={t.war.title}>
       <div className="container-x">
         <SectionHeading center kicker={t.war.kicker} title={t.war.title} intro={t.war.subtitle} />
         <div className="mb-6 flex flex-col items-center gap-4">
-          <DemoDataBadge />
+          <DemoDataBadge label={t.war.aiBadge} />
           <SeasonSelector value={season} onChange={setSeason} />
         </div>
         <div className="grid gap-5 lg:grid-cols-[1.7fr_1fr]">

@@ -1,4 +1,6 @@
 import { Navigate, Outlet, Route, Routes } from 'react-router-dom';
+import { ChoosePage } from './pages/ChoosePage';
+import { Season0Page } from './pages/Season0Page';
 import { SiteFooter } from './components/layout/SiteFooter';
 import { SiteHeader } from './components/layout/SiteHeader';
 import { ScrollToTop } from './components/ui/primitives';
@@ -55,6 +57,8 @@ export default function App() {
         <Route path="reptilians" element={<ReptiliansPage />} />
         <Route path="mantis" element={<MantisPage />} />
         <Route path="galactic-war" element={<GalacticWarPage />} />
+        <Route path="choose" element={<ChoosePage />} />
+        <Route path="season-0" element={<Season0Page />} />
         <Route path="missions" element={<MissionsPage />} />
         <Route path="missions/:slug" element={<MissionDetailPage />} />
         <Route path="collectibles" element={<CollectiblesPage />} />
