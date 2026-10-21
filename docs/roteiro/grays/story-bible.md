@@ -17,8 +17,8 @@ Método: `sw-workflow` (protocolo de sessão e etapas), com `sw-premise-theme`, 
 
 ## Etapa atual
 
-- Etapa: 5 (primeira versão do roteiro). Ato I e Ato II-A prontos e revisados: `ato-1.fountain`, `ato-2a.fountain` (até o ponto médio).
-- Próximo passo: Ato II-B (cenas 21–30: Drav-Kess, blecaute em Fortaleza, fragmento de Terce-Ohm, tudo está perdido).
+- Etapa: 5 (primeira versão do roteiro). Atos I, II-A e II-B prontos e revisados: `ato-1.fountain`, `ato-2a.fountain`, `ato-2b.fountain` (cenas 1–30).
+- Próximo passo: Ato III (cenas 31–36: oferta de VHAL-ETT, Pel-Odru, Formulário 0, Audiência de Conformidade, a cópia para Hélio e Dora, cena final). Aguardando o dono mandar seguir.
 
 ## Decisões de direção (provisórias)
 
@@ -58,6 +58,7 @@ Método: `sw-workflow` (protocolo de sessão e etapas), com `sw-premise-theme`, 
 | 2026-10-21 | Bible aberta; direção "folclore = relatórios de incidente Gray". | Pedido do dono: mesclar as teorias da web com o material do projeto. |
 | 2026-10-21 | Logline atualizada com a chave de Sete; Seis como fantasma. | Torna Sete o próprio adversário (Truby/Egri); proposta do roteirista aceita pelo Diretor. |
 | 2026-10-21 | Hélio com 84 anos; contenção em Fortaleza vira blecaute sem vítimas. | Continuidade (abdução em 1987) e limite de tom. |
+| 2026-10-21 | Ato II-B escrito (`ato-2b.fountain`, cenas 21–30, ~26 páginas, ciclos 6–8). Provisório: Artigo 14 (impedimento) e "Omissão" registrada; ordens de Drav-Kess e de purga com AUTORIDADE vazia (Q5 aberta); blecaute de onze horas em Montese, sem vítimas, fitas originais de Hélio apagadas (cópia em pen drive); fábrica de gelo em Mucuripe; a chave de Sete é "o remendo" sobre uma chave raspada (Q1 aberta); Auxiliar diz a verdade e é realocado; credencial de Sete revogada com o carimbo torto de VHAL-ETT; Drav-Kess purga 7.412 cópias e leva Terce-Ohm; o papel "S." diz: "Quem assinou? / Não responda a mim. Responda a você. / Eu conto seis. Você conta sete. Um segundo de diferença. Use." Para o Ato III, o Diretor decide: Kael-Ruum ganha um gesto ambíguo de retribuição; Nira-Toll fica retida como custo; "alguém de fora" = Hélio e Dora, sem nome até a cena 35; o "último formulário, não numerado" estreia como Formulário 0. | Revisão do Diretor. |
 | 2026-10-21 | Ato II-A escrito (`ato-2a.fountain`, cenas 11–20, ~23 páginas, ciclos 5–6). Novidades provisórias: selo conjunto da Era IV com quatro marcas e "Terra" num quinto espaço central, antes do primeiro contato (Q3 segue aberta); as três datas das correções de Greada são dias de serviço de Sete; Kael-Ruum interrompeu a coleta Hill (3h07 x 3h40) e causou o "tempo perdido"; Zen-Varo deixa escapar a Sete "eu já fui"; Hélio Pimentel Sobrinho; Dona Zuleide (tapioqueira); Dora lê "a letra c" e Sete não sabe qual é. Diretor corrige: Ato I "sessenta e dois anos"; Nira fala em "conversa registrada"; parentéticos em linha própria. | Revisão do Diretor. |
 | 2026-10-21 | Ato I escrito (`ato-1.fountain`, 10 cenas, ~22–25 páginas). Diretor corrige a contagem regressiva (ciclo 4 = 6 restantes). Mantidos: o Auxiliar sem nome (segue no Ato II como testemunha), a "notificação de acesso" no tablet de VHAL-ETT, Kael-Ruum "Assinei. Não escrevi." A data das correções de Greada fica vazia até o ponto médio. | Revisão do Diretor. |
 | 2026-10-21 | Dono aprova como provisórios: política comum na Era IV, longevidade Gray, chave de Sete, Arca 3, nomes novos. Etapa 5 (roteiro) começa pelo Ato I. | Decisão do dono. |
