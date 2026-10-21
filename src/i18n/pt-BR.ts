@@ -280,6 +280,11 @@ export const ptBR: Dictionary = {
   factionsPage: {
     title: 'As Quatro Raças',
     intro: 'Quatro requerentes para um planeta. Abra um dossiê para ler a motivação, a personalidade e a história de cada raça com a Terra.',
+    matrixKicker: 'Quem vê quem',
+    matrixTitle: 'Relações entre as raças',
+    matrixIntro: 'Leia cada linha como a raça olhando para a coluna. A diagonal é como a raça se vê.',
+    matrixCorner: 'Olha para →',
+    humans: 'Humanos / Resistência',
   },
   factionPage: {
     identity: 'Identidade',
@@ -293,6 +298,13 @@ export const ptBR: Dictionary = {
     memes: 'Potencial para memes',
     memesKicker: 'Material para a comunidade',
     otherFactions: 'Outros requerentes',
+    earthKicker: 'Se ganharem o Censo',
+    earthTitle: 'O que querem da Terra',
+    ambition: 'O plano para a Terra',
+    howTheyAct: 'Como agem',
+    weakness: 'Ponto fraco',
+    relationsKicker: 'Diplomacia, dívidas e rancores',
+    relationsTitle: 'Como veem as outras raças',
   },
   missionPage: {
     objectives: 'Objetivos',

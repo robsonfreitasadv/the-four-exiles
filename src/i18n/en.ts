@@ -278,6 +278,11 @@ export const en = {
   factionsPage: {
     title: 'The Four Races',
     intro: 'Four claimants to one planet. Open a dossier to read each race’s motivation, personality, and history with Earth.',
+    matrixKicker: 'Who sees whom',
+    matrixTitle: 'Relations between the races',
+    matrixIntro: 'Read each row as that race looking at the column. The diagonal is how a race sees itself.',
+    matrixCorner: 'Looks at →',
+    humans: 'Humans / Resistance',
   },
   factionPage: {
     identity: 'Identity',
@@ -291,6 +296,13 @@ export const en = {
     memes: 'Meme potential',
     memesKicker: 'Material for the community',
     otherFactions: 'Other claimants',
+    earthKicker: 'If they win the Census',
+    earthTitle: 'What they want from Earth',
+    ambition: 'The plan for Earth',
+    howTheyAct: 'How they act',
+    weakness: 'Weak point',
+    relationsKicker: 'Diplomacy, debts and grudges',
+    relationsTitle: 'How they see the others',
   },
   missionPage: {
     objectives: 'Objectives',

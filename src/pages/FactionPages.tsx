@@ -7,6 +7,7 @@ import type { CivPageId } from './CivilizationPage';
 import { RacesShowcase } from '../components/RacesShowcase';
 import { FactionCard } from '../components/FactionCard';
 import { MissionCard } from '../components/MissionCard';
+import { RaceEarthSection, RelationsMatrix } from '../components/RaceRelations';
 import { Arrow, SectionHeading } from '../components/ui/primitives';
 import { factionById, factions } from '../data/factions';
 import { missions } from '../data/missions';
@@ -49,6 +50,7 @@ export function FactionsPage() {
           </tbody>
         </table>
       </div>
+      <RelationsMatrix />
       <div className="-mx-4 mt-8 sm:-mx-6 lg:-mx-8">
         <RacesShowcase />
       </div>
@@ -135,6 +137,8 @@ export function FactionDetailPage() {
           ))}
         </dl>
       </section>
+
+      <RaceEarthSection faction={f} />
 
       {/* featured character */}
       <section className="bg-space-900" aria-labelledby="leader">

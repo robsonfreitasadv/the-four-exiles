@@ -23,10 +23,10 @@ Atualize este arquivo no fim de cada sessão (chat ou código): o que foi feito,
 
 - **2026-10-21 — Roteiro dos Grays** (agente Diretor + roteiristas, skills screenwriting-skills): pasta `docs/roteiro/grays/` com `story-bible.md` (direção, pendências), `pesquisa-folclore.md` (teorias da web com fontes), `historia-dos-grays.md` (seis eras + 12 incidentes do folclore como relatórios Gray) e `narrativa-sete.md` (tratamento de longa *Zero Discrepâncias*, 36 cenas, 3 cenas de amostra). Dono aprovou as propostas como provisórias; Atos I, II-A e II-B escritos (`ato-1.fountain`, `ato-2a.fountain`, `ato-2b.fountain`, cenas 1–30). Tudo provisório; não entrou no site nem no `GRAYS.json`.
 
-- **2026-10-21 — Bíblias das Civilizações:** o Diretor revisou o documento do chat (`docs/lore/revisao-biblias-civilizacoes.md`: bom com correções só para os Grays) e preparou o resumo prático das quatro raças para o site (`docs/lore/resumo-racas.md`: quem são, o que querem da Terra, como agem, ponto fraco, relações e matriz). Provisório; ainda não entrou em `src/data/`.
+- **2026-10-21 — Bíblias das Civilizações:** o Diretor revisou o documento do chat (`docs/lore/revisao-biblias-civilizacoes.md`: bom com correções só para os Grays) e preparou o resumo prático das quatro raças para o site (`docs/lore/resumo-racas.md`: quem são, o que querem da Terra, como agem, ponto fraco, relações e matriz). No site desde 2026-10-21: `src/data/raceProfiles.ts` (EN e PT-BR), seção "O que querem da Terra" e "Como veem as outras raças" em cada página de raça (`/factions/<raça>`) e matriz de relações em `/factions`, tudo com selo "Provisório". Prévia republicada.
 
 **Próximos passos sugeridos**
-- Dono aprova o resumo das raças e as relações; depois, levar para o site (`src/data/` + i18n EN/PT-BR).
+- Dono aprova (ou ajusta) o resumo das raças e as relações; quando aprovar, trocar o status em `src/data/raceProfiles.ts` para cânone.
 0. Roteiro dos Grays: Ato III (cenas 31–36), quando o dono mandar, e o mesmo tratamento para Nórdicos, Reptilianos e Mantis.
 1. **Decidir quem é O Soberano** (SAZHI, como na ficha, ou KRAHL-VOR, como no dossiê) e os **planetas natais** (Thaxis/Sarrath, Xhalen/Threnn). Ver `docs/DECISOES.md`.
 2. No chat: corrigir `GRAYS.json` (ILVANI, SAZHI e XHALEN-KTHRIX como Grays), alinhar a aparência dos Mantis com a ficha e usar "Mantis" em vez de "Insetoides".
