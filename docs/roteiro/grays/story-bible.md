@@ -17,8 +17,8 @@ Método: `sw-workflow` (protocolo de sessão e etapas), com `sw-premise-theme`, 
 
 ## Etapa atual
 
-- Etapa: 4 (lista de cenas / tratamento). Primeira versão completa, aguardando aprovação do dono.
-- Próximo passo: o dono aprova ou ajusta a premissa, a ideia dos "incidentes como relatórios" e os nomes novos; depois, roteiro do primeiro ato.
+- Etapa: 5 (primeira versão do roteiro). Ato I pronto e revisado: `ato-1.fountain`.
+- Próximo passo: leitura do dono; depois, Ato II-A (cenas 11–20, Fortaleza, Hélio, Dora, ponto médio).
 
 ## Decisões de direção (provisórias)
 
@@ -44,12 +44,12 @@ Método: `sw-workflow` (protocolo de sessão e etapas), com `sw-premise-theme`, 
 - **Crônica:** clonagem e variantes nascem na Era II (Programa de Replicação Funcional); a Guarda das Cópias nasce na Era IV; as cinco correntes e o POT-7 se cristalizam na Era V; na Era VI a adulteração passa a ser recente. Doze fichas de incidente.
 - **Tratamento:** 36 cenas em três atos; três cenas de amostra. Nomes novos: NIRA-TOLL, PEL-ODRU, DRAV-KESS, SEIS, HÉLIO PIMENTEL, a cidade de Mirva, o Formulário 0, a Arca 3, o parâmetro T-3.
 
-## Pendências para o dono
+## Aprovado pelo dono como provisório (2026-10-21)
 
-1. A Era IV diz que as quatro raças tiveram uma "política comum" (aliança com tratado e selo). Isso afeta as outras três raças.
-2. Vidas longas: KAEL-RUUM assina Roswell (1947), ZEN-VARO aparece em Dulce (1979) e OPHELIA-3 data da Era III. Aprovar longevidade Gray ou trocar por "antecessores com o mesmo nome de função".
+1. A Era IV: as quatro raças tiveram uma "política comum" (aliança com tratado e selo) antes da antiga decisão.
+2. Longevidade Gray: KAEL-RUUM assina Roswell (1947), ZEN-VARO esteve em Dulce (1979), OPHELIA-3 vem da Era III; os mesmos indivíduos seguem ativos em 2049.
 3. A chave de Sete nas correções (ponto médio) e a Arca 3 como gancho.
-4. Aprovar ou trocar os nomes novos.
+4. Nomes novos: NIRA-TOLL, PEL-ODRU, DRAV-KESS, SEIS, HÉLIO PIMENTEL, Mirva, Formulário 0, Arca 3, parâmetro T-3.
 
 ## Registro de decisões
 
@@ -58,5 +58,7 @@ Método: `sw-workflow` (protocolo de sessão e etapas), com `sw-premise-theme`, 
 | 2026-10-21 | Bible aberta; direção "folclore = relatórios de incidente Gray". | Pedido do dono: mesclar as teorias da web com o material do projeto. |
 | 2026-10-21 | Logline atualizada com a chave de Sete; Seis como fantasma. | Torna Sete o próprio adversário (Truby/Egri); proposta do roteirista aceita pelo Diretor. |
 | 2026-10-21 | Hélio com 84 anos; contenção em Fortaleza vira blecaute sem vítimas. | Continuidade (abdução em 1987) e limite de tom. |
+| 2026-10-21 | Ato I escrito (`ato-1.fountain`, 10 cenas, ~22–25 páginas). Diretor corrige a contagem regressiva (ciclo 4 = 6 restantes). Mantidos: o Auxiliar sem nome (segue no Ato II como testemunha), a "notificação de acesso" no tablet de VHAL-ETT, Kael-Ruum "Assinei. Não escrevi." A data das correções de Greada fica vazia até o ponto médio. | Revisão do Diretor. |
+| 2026-10-21 | Dono aprova como provisórios: política comum na Era IV, longevidade Gray, chave de Sete, Arca 3, nomes novos. Etapa 5 (roteiro) começa pelo Ato I. | Decisão do dono. |
 
 Próximo passo: o dono responde às pendências; depois, roteiro completo do primeiro ato (cenas 1–10) e, se aprovado, as fichas de incidente entram no `GRAYS.json` como lore provisório.
