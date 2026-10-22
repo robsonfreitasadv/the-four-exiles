@@ -22,7 +22,9 @@ function SignIn() {
     if (!supabase) return;
     setBusy(true);
     setError('');
-    const { error: err } = await supabase.auth.signInWithOtp({ email: email.trim(), options: { shouldCreateUser: true } });
+    // The e-mail carries a 6-digit code (custom templates) or a link back to this page (default templates).
+    const back = `${window.location.origin}${window.location.pathname}`;
+    const { error: err } = await supabase.auth.signInWithOtp({ email: email.trim(), options: { shouldCreateUser: true, emailRedirectTo: back } });
     setBusy(false);
     if (err) setError(t.account.sendFailed);
     else setStep('code');

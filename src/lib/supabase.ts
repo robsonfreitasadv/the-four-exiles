@@ -11,7 +11,7 @@ const SUPABASE_ANON_KEY =
 
 export const supabase: SupabaseClient | null =
   SUPABASE_URL && SUPABASE_ANON_KEY
-    ? createClient(SUPABASE_URL, SUPABASE_ANON_KEY, { auth: { persistSession: true, detectSessionInUrl: false, storageKey: 'four-exiles:auth' } })
+    ? createClient(SUPABASE_URL, SUPABASE_ANON_KEY, { auth: { persistSession: true, flowType: 'implicit', detectSessionInUrl: true, storageKey: 'four-exiles:auth' } })
     : null;
 
 export type Race = 'grays' | 'nordics' | 'reptilians' | 'mantis';
