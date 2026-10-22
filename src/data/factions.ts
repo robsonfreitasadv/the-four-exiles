@@ -8,14 +8,14 @@ export const factions: Faction[] = [
     code: 'VH-07',
     art: [
       {
-        src: '/images/characters/vhal-ett.webp',
+        src: '/images/characters/vhal-ett-3d.webp',
         focus: '50% 18%',
         alt: { en: 'VHAL-ETT, a Gray with a large head and black eyes, in a dark suit with an ID badge and a shoulder bag, holding a tablet.', 'pt-BR': 'VHAL-ETT, um Gray de cabeça grande e olhos pretos, de terno escuro com crachá e bolsa a tiracolo, segurando um tablet.' },
       },
     ],
     sheet: {
       expressions: ['/images/characters/vhal-ett-expr-1.webp', '/images/characters/vhal-ett-expr-2.webp', '/images/characters/vhal-ett-expr-3.webp', '/images/characters/vhal-ett-expr-4.webp'],
-      turnaround: ['/images/characters/vhal-ett-turn-1.webp', '/images/characters/vhal-ett-turn-2.webp', '/images/characters/vhal-ett-turn-3.webp', '/images/characters/vhal-ett-turn-4.webp'],
+      turnaround: ['/images/characters/vhal-ett-3d-1.webp', '/images/characters/vhal-ett-3d-2.webp', '/images/characters/vhal-ett-3d-3.webp', '/images/characters/vhal-ett-back-3d-1.webp', '/images/characters/vhal-ett-back-3d-2.webp', '/images/characters/vhal-ett-back-3d-3.webp'],
     },
     quote: { en: 'Procedure is protection.', 'pt-BR': 'Procedimento é proteção.' },
     traits: [
@@ -86,14 +86,14 @@ export const factions: Faction[] = [
     code: 'IL-01',
     art: [
       {
-        src: '/images/characters/ilvani.webp',
+        src: '/images/characters/ilvani-3d.webp',
         focus: '50% 18%',
         alt: { en: 'ILVANI, a tall Nordic with long platinum hair and glowing blue eyes, in a white and silver suit and cape, offering an open hand.', 'pt-BR': 'ILVANI, um Nórdico alto de longos cabelos platinados e olhos azuis brilhantes, em traje branco e prata com capa, estendendo a mão aberta.' },
       },
     ],
     sheet: {
       expressions: ['/images/characters/ilvani-expr-1.webp', '/images/characters/ilvani-expr-2.webp', '/images/characters/ilvani-expr-3.webp', '/images/characters/ilvani-expr-4.webp'],
-      turnaround: ['/images/characters/ilvani-turn-1.webp', '/images/characters/ilvani-turn-2.webp', '/images/characters/ilvani-turn-3.webp', '/images/characters/ilvani-turn-4.webp'],
+      turnaround: ['/images/characters/ilvani-3d-1.webp', '/images/characters/ilvani-3d-2.webp', '/images/characters/ilvani-3d-3.webp', '/images/characters/ilvani-3d-4.webp', '/images/characters/ilvani-3d-5.webp', '/images/characters/ilvani-3d-6.webp'],
     },
     quote: { en: 'A better world is possible.', 'pt-BR': 'Um mundo melhor é possível.' },
     traits: [
@@ -164,14 +164,14 @@ export const factions: Faction[] = [
     code: 'SZ-99',
     art: [
       {
-        src: '/images/characters/sazhi.webp',
+        src: '/images/characters/sazhi-3d.webp',
         focus: '50% 18%',
         alt: { en: 'SAZHI, the Reptilian sovereign, with green scales and yellow eyes, in red-and-gold armor and a long red cape, tail curled behind.', 'pt-BR': 'SAZHI, o soberano reptiliano, de escamas verdes e olhos amarelos, em armadura vermelha e dourada e longa capa vermelha, com a cauda enrolada atrás.' },
       },
     ],
     sheet: {
       expressions: ['/images/characters/sazhi-expr-1.webp', '/images/characters/sazhi-expr-2.webp', '/images/characters/sazhi-expr-3.webp', '/images/characters/sazhi-expr-4.webp'],
-      turnaround: ['/images/characters/sazhi-turn-1.webp', '/images/characters/sazhi-turn-2.webp', '/images/characters/sazhi-turn-3.webp'],
+      turnaround: ['/images/characters/sazhi-3d-1.webp', '/images/characters/sazhi-3d-2.webp', '/images/characters/sazhi-3d-3.webp', '/images/characters/sazhi-3d-4.webp', '/images/characters/sazhi-3d-5.webp'],
     },
     quote: { en: 'Control the flow, control the future.', 'pt-BR': 'Controle o fluxo, controle o futuro.' },
     traits: [
@@ -242,14 +242,14 @@ export const factions: Faction[] = [
     code: 'XK-00',
     art: [
       {
-        src: '/images/characters/xhalen-kthrix.webp',
+        src: '/images/characters/xhalen-kthrix-3d.webp',
         focus: '50% 18%',
         alt: { en: 'XHALEN-KTHRIX, a tall Mantis commander with large green compound eyes and antennae, in segmented black armor and a long coat.', 'pt-BR': 'XHALEN-KTHRIX, um comandante Mantis alto, semelhante a um louva-a-deus, com grandes olhos compostos verdes e antenas, em armadura preta segmentada e casaco longo.' },
       },
     ],
     sheet: {
       expressions: ['/images/characters/xhalen-kthrix-expr-1.webp', '/images/characters/xhalen-kthrix-expr-2.webp', '/images/characters/xhalen-kthrix-expr-3.webp', '/images/characters/xhalen-kthrix-expr-4.webp'],
-      turnaround: ['/images/characters/xhalen-kthrix-turn-1.webp', '/images/characters/xhalen-kthrix-turn-2.webp', '/images/characters/xhalen-kthrix-turn-3.webp', '/images/characters/xhalen-kthrix-turn-4.webp'],
+      turnaround: ['/images/characters/xhalen-kthrix-3d-1.webp', '/images/characters/xhalen-kthrix-3d-2.webp', '/images/characters/xhalen-kthrix-3d-3.webp', '/images/characters/xhalen-kthrix-3d-4.webp', '/images/characters/xhalen-kthrix-3d-5.webp', '/images/characters/xhalen-kthrix-3d-6.webp'],
     },
     quote: { en: 'Discipline is freedom.', 'pt-BR': 'Disciplina é liberdade.' },
     traits: [

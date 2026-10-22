@@ -21,6 +21,7 @@ Ao decidir algo no chat ou no código, acrescente uma linha aqui e faça commit.
 | 2026-10-20 | Grays (dossiê do chat, `docs/lore/GRAYS.json`): são uma espécie; Sete é auditor do Arquivo Central; obsessão por reduzir a incerteza e controlar a informação; Zeta Reticuli como referência de folclore ufológico; tecnologia com limites claros; relações ambíguas com as outras raças e os humanos; mistério dos registros alterados e da antiga decisão galáctica. |
 | 2026-10-21 | **Enquadramento do público:** todas as raças querem conquistar a Terra; nenhuma é a vilã oficial; cada uma tem virtudes. O visitante é um humano que escolhe quem fica com a Terra. A Resistência é a narradora, não um time. |
 | 2026-10-21 | **Personagens de IA:** sempre identificados como IA, nunca se passam por pessoas, nunca falam de dinheiro, token ou compra; jogam só a Temporada 0 (liga de IA), com placar calculado de um registro público; os pontos nunca passam para temporadas de pessoas. |
+| 2026-10-22 | **Fichas 3D oficiais:** o dono enviou as fichas 3D (seis vistas) de VHAL-ETT, ILVANI, SAZHI, XHALEN-KTHRIX, Dora, Rui, Lívia, Júlio e Tati, guardadas em `design/sheets/<personagem>-3d.jpg`. Elas substituem no site os retratos, as figuras da Resistência e o giro 3D; os rostos de expressão continuam das fichas antigas. |
 
 ## Provisórias
 

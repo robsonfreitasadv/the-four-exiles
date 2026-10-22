@@ -4,9 +4,9 @@ import { withBase } from '../art/CharacterImage';
 import type { Faction } from '../../data/types';
 import { wrapText } from './exportSvg';
 
-/** Official portrait size (px). Scales stay at or under ~2x to keep the art presentable. */
-const PW = 310;
-const PH = 516;
+/** Official 3D portrait crop size (px). Scales stay at or under ~2x to keep the art presentable. */
+const PW = 300;
+const PH = 499;
 const FONT = 'Inter, Helvetica, Arial, sans-serif';
 const MEME_FONT = 'Impact, "Arial Black", Haettenschweiler, sans-serif';
 
@@ -106,10 +106,10 @@ export const AvatarEmblem = forwardRef<SVGSVGElement, ArtProps>(function AvatarE
 
 export const AvatarPortrait = forwardRef<SVGSVGElement, ArtProps>(function AvatarPortrait({ faction: f, className }, ref) {
   const id = `ap-${f.id}`;
-  // Frame the face: on the sheet crops the head sits near 38% across and 12% down.
-  const scale = 2.2;
-  const ix = 256 - PW * scale * 0.38;
-  const iy = 210 - PH * scale * 0.12;
+  // Frame the face: the 3D portrait crops are centred on the head, which starts at the top edge.
+  const scale = 2.4;
+  const ix = 256 - PW * scale * 0.5;
+  const iy = 0;
   return (
     <svg ref={ref} viewBox="0 0 512 512" className={className} role="img" aria-label={`${f.sheetCharacter} avatar`}>
       <defs>

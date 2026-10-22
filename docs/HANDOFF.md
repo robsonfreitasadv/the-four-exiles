@@ -31,6 +31,8 @@ Atualize este arquivo no fim de cada sessão (chat ou código): o que foi feito,
 
 - **2026-10-21 — Kit grátis por raça:** seção "Vista a sua raça" em cada `/factions/<raça>`: wallpapers de celular e computador, avatar com emblema e com personagem, 4 figurinhas 512×512 com fundo transparente e gerador de memes com 3 sugestões, tudo gerado no navegador a partir da ficha oficial e baixado em PNG (`src/components/kit/`, textos em `src/data/kit.ts`). Limite: os retratos oficiais têm 310×516 px, então as artes com personagem usam no máximo ~2× de ampliação; fichas em resolução maior melhorariam tudo.
 
+- **2026-10-22 — Fichas 3D:** nove fichas 3D novas em `design/sheets/*-3d.jpg`; `design/crop-sheets.cjs` estendido (recorta cada vista e um retrato da vista de frente para `public/images/characters/<id>-3d*.webp`). Site usa os retratos novos nas raças, as figuras novas na Resistência e o giro 3D com 5 a 6 vistas. Para rodar o script: `npm i --no-save sharp` e depois `node design/crop-sheets.cjs`.
+
 **Próximos passos sugeridos**
 - Itens que ainda bloqueiam a v1 (`docs/PLANO_V1.md`): canal da comunidade, privacidade e termos reais, hospedagem e domínio, imagem de prévia nos links.
 - Dono aprova (ou ajusta) o resumo das raças e as relações; quando aprovar, trocar o status em `src/data/raceProfiles.ts` para cânone.

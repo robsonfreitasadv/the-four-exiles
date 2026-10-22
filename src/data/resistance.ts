@@ -10,7 +10,7 @@ export const resistance: Human[] = [
     role: { en: 'The Strategist', 'pt-BR': 'A Estrategista' },
     quote: { en: 'They think we’re just a species. We’re a problem.', 'pt-BR': 'Eles acham que somos só uma espécie. Somos um problema.' },
     image: {
-      src: img('dora'),
+      src: img('dora-3d-1'),
       focus: '50% 15%',
       alt: {
         en: 'Dora, a young woman with curly dark hair tied up, in a black jacket, crop top, olive cargo pants and combat boots, standing with a hand on her hip.',
@@ -19,7 +19,7 @@ export const resistance: Human[] = [
     },
     sheet: {
       expressions: [1, 2, 3, 4, 5, 6].map((i) => img(`dora-expr-${i}`)),
-      turnaround: [1, 2, 3].map((i) => img(`dora-turn-${i}`)),
+      turnaround: [1, 2, 3, 4, 5, 6].map((i) => img(`dora-3d-${i}`)),
     },
     bio: {
       en: 'Leader of the Resistance. A pragmatic human who reads the fine print and notices what four ancient civilizations missed: none of them checked whether Earth gets a vote.',
@@ -49,7 +49,7 @@ export const resistance: Human[] = [
     role: { en: 'The Hacker', 'pt-BR': 'O Hacker' },
     quote: { en: 'If it’s connected, I can break it.', 'pt-BR': 'Se está conectado, eu consigo quebrar.' },
     image: {
-      src: img('rui'),
+      src: img('rui-3d-1'),
       focus: '50% 12%',
       alt: {
         en: 'Rui, a young man with tinted goggles and headphones around his neck, in a patched black jacket, carrying a laptop covered in stickers.',
@@ -63,7 +63,7 @@ export const resistance: Human[] = [
     role: { en: 'The Medic', 'pt-BR': 'A Médica' },
     quote: { en: 'People first. Always.', 'pt-BR': 'Pessoas primeiro. Sempre.' },
     image: {
-      src: img('livia'),
+      src: img('livia-3d-1'),
       focus: '50% 12%',
       alt: {
         en: 'Lívia, a young woman with short white hair, in a white jacket with a red cross and a medical backpack.',
@@ -77,7 +77,7 @@ export const resistance: Human[] = [
     role: { en: 'The Pilot', 'pt-BR': 'O Piloto' },
     quote: { en: 'Higher, faster, further, maybe.', 'pt-BR': 'Mais alto, mais rápido, mais longe, talvez.' },
     image: {
-      src: img('julio'),
+      src: img('julio-3d-1'),
       focus: '50% 12%',
       alt: {
         en: 'Júlio, a bearded man in a cap and a worn flight jacket full of straps and pouches.',
@@ -91,7 +91,7 @@ export const resistance: Human[] = [
     role: { en: 'The Warrior', 'pt-BR': 'A Guerreira' },
     quote: { en: 'Courage is a habit.', 'pt-BR': 'Coragem é um hábito.' },
     image: {
-      src: img('tati'),
+      src: img('tati-3d-1'),
       focus: '50% 12%',
       alt: {
         en: 'Tati, a young woman with long braids streaked purple and orange sunglasses, in a tactical vest and cargo pants.',

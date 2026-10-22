@@ -1,6 +1,6 @@
 /**
  * Cuts character art out of the concept sheets in design/sheets into public/images/characters.
- * Usage: node design/crop-sheets.cjs   (needs `sharp` resolvable, e.g. NODE_PATH pointing at an install)
+ * Usage: npm i --no-save sharp && node design/crop-sheets.cjs
  * Coordinates are in sheet pixels; adjust here if a sheet is re-exported at another size.
  */
 const path = require('path');
@@ -11,7 +11,7 @@ const sheets = path.join(root, 'design', 'sheets');
 const out = path.join(root, 'public', 'images', 'characters');
 
 const jobs = [];
-const crop = (sheet, name, left, top, width, height) => jobs.push({ sheet, name, left, top, width, height });
+const crop = (sheet, name, left, top, width, height, ext = 'webp') => jobs.push({ sheet, name, left, top, width, height, ext });
 
 // races.webp (1312×1199): four vertical panels
 const races = { 'vhal-ett': 14, ilvani: 337, sazhi: 665, 'xhalen-kthrix': 991 };
@@ -43,9 +43,40 @@ crop('resistance', 'tati', 966, 138, 180, 472);
 crop('resistance', 'resistance-team', 36, 740, 514, 178);
 crop('resistance', 'resistance-collectibles', 1068, 740, 437, 178);
 
+// <id>-3d.jpg (2000×1116; VHAL-ETT 989×2000): 3D reference sheets, one figure per view.
+// Values are the head centre of each view, measured on the sheet; frames reach halfway to the neighbours.
+const ref3d = {
+  livia: [246, 613, 920, 1179, 1514, 1837],
+  tati: [249, 602, 910, 1205, 1530, 1834],
+  julio: [266, 627, 931, 1168, 1500, 1802],
+  rui: [276, 672, 932, 1192, 1522, 1814],
+  dora: [255, 609, 905, 1184, 1512, 1826],
+  'xhalen-kthrix': [220, 610, 936, 1165, 1526, 1805],
+  sazhi: [270, 655, 995, 1489, 1844],
+  ilvani: [266, 632, 923, 1186, 1526, 1825],
+};
+const frames3d = (id, sheet, centres, top, height, sheetWidth) => {
+  centres.forEach((c, i) => {
+    const gaps = [c - (centres[i - 1] ?? -Infinity), (centres[i + 1] ?? Infinity) - c].filter(Number.isFinite);
+    const w = Math.round(Math.min(...gaps, 380));
+    const left = Math.max(0, Math.min(sheetWidth - w, Math.round(c - w / 2)));
+    crop(sheet, `${id}-3d-${i + 1}`, left, top, w, height, 'jpg');
+  });
+};
+for (const [id, centres] of Object.entries(ref3d)) {
+  frames3d(id, `${id}-3d`, centres, 60, 985, 2000);
+  // portrait card: head to mid-thigh of the front view, same 0.6 aspect as the earlier art
+  const w = 300;
+  crop(`${id}-3d`, `${id}-3d`, Math.round(centres[0] - w / 2), 62, w, Math.round(w * 1.664), 'jpg');
+}
+// VHAL-ETT sheet: two rows of three views
+frames3d('vhal-ett', 'vhal-ett-3d', [222, 581, 868], 52, 925, 989);
+frames3d('vhal-ett-back', 'vhal-ett-3d', [185, 536, 876], 1032, 925, 989);
+crop('vhal-ett-3d', 'vhal-ett-3d', 222 - 150, 50, 300, Math.round(300 * 1.664), 'jpg');
+
 (async () => {
   for (const j of jobs) {
-    await sharp(path.join(sheets, `${j.sheet}.webp`))
+    await sharp(path.join(sheets, `${j.sheet}.${j.ext}`))
       .extract({ left: j.left, top: j.top, width: j.width, height: j.height })
       .webp({ quality: 88 })
       .toFile(path.join(out, `${j.name}.webp`));
