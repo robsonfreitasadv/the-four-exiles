@@ -11,7 +11,8 @@ const sheets = path.join(root, 'design', 'sheets');
 const out = path.join(root, 'public', 'images', 'characters');
 
 const jobs = [];
-const crop = (sheet, name, left, top, width, height, ext = 'webp') => jobs.push({ sheet, name, left, top, width, height, ext });
+// `base`: sheet width the coordinates were measured on; the job is scaled to the file's real width.
+const crop = (sheet, name, left, top, width, height, ext = 'webp', base) => jobs.push({ sheet, name, left, top, width, height, ext, base });
 
 // races.webp (1312×1199): four vertical panels
 const races = { 'vhal-ett': 14, ilvani: 337, sazhi: 665, 'xhalen-kthrix': 991 };
@@ -43,8 +44,8 @@ crop('resistance', 'tati', 966, 138, 180, 472);
 crop('resistance', 'resistance-team', 36, 740, 514, 178);
 crop('resistance', 'resistance-collectibles', 1068, 740, 437, 178);
 
-// <id>-3d.jpg (2000×1116; VELLUM 989×2000): 3D reference sheets, one figure per view.
-// Values are the head centre of each view, measured on the sheet; frames reach halfway to the neighbours.
+// <id>-3d.jpg (originals 2752×1536; VELLUM 1440×2912): 3D reference sheets, one figure per view.
+// Values are the head centre of each view, measured on a 2000-px-wide copy (VELLUM 989); frames reach halfway to the neighbours.
 const ref3d = {
   livia: [246, 613, 920, 1179, 1514, 1837],
   tati: [249, 602, 910, 1205, 1530, 1834],
@@ -60,24 +61,34 @@ const frames3d = (id, sheet, centres, top, height, sheetWidth) => {
     const gaps = [c - (centres[i - 1] ?? -Infinity), (centres[i + 1] ?? Infinity) - c].filter(Number.isFinite);
     const w = Math.round(Math.min(...gaps, 380));
     const left = Math.max(0, Math.min(sheetWidth - w, Math.round(c - w / 2)));
-    crop(sheet, `${id}-3d-${i + 1}`, left, top, w, height, 'jpg');
+    crop(sheet, `${id}-3d-${i + 1}`, left, top, w, height, 'jpg', sheetWidth);
   });
 };
 for (const [id, centres] of Object.entries(ref3d)) {
   frames3d(id, `${id}-3d`, centres, 60, 985, 2000);
   // portrait card: head to mid-thigh of the front view, same 0.6 aspect as the earlier art
   const w = 300;
-  crop(`${id}-3d`, `${id}-3d`, Math.round(centres[0] - w / 2), 62, w, Math.round(w * 1.664), 'jpg');
+  crop(`${id}-3d`, `${id}-3d`, Math.round(centres[0] - w / 2), 62, w, Math.round(w * 1.664), 'jpg', 2000);
 }
 // VELLUM sheet: two rows of three views
 frames3d('vhal-ett', 'vhal-ett-3d', [222, 581, 868], 52, 925, 989);
 frames3d('vhal-ett-back', 'vhal-ett-3d', [185, 536, 876], 1032, 925, 989);
-crop('vhal-ett-3d', 'vhal-ett-3d', 222 - 150, 50, 300, Math.round(300 * 1.664), 'jpg');
+crop('vhal-ett-3d', 'vhal-ett-3d', 222 - 150, 50, 300, Math.round(300 * 1.664), 'jpg', 989);
 
 (async () => {
   for (const j of jobs) {
-    await sharp(path.join(sheets, `${j.sheet}.${j.ext}`))
-      .extract({ left: j.left, top: j.top, width: j.width, height: j.height })
+    const file = path.join(sheets, `${j.sheet}.${j.ext}`);
+    let { left, top, width, height } = j;
+    if (j.base) {
+      const meta = await sharp(file).metadata();
+      const k = meta.width / j.base;
+      left = Math.round(left * k);
+      top = Math.round(top * k);
+      width = Math.min(Math.round(width * k), meta.width - left);
+      height = Math.min(Math.round(height * k), meta.height - top);
+    }
+    await sharp(file)
+      .extract({ left, top, width, height })
       .webp({ quality: 88 })
       .toFile(path.join(out, `${j.name}.webp`));
   }

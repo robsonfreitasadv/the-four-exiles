@@ -35,6 +35,8 @@ Atualize este arquivo no fim de cada sessão (chat ou código): o que foi feito,
 
 - **2026-10-22 — Nomes, rostos e comunidade:** nomes em inglês (VELLUM, AUREL, SAZAR, VEX; Ray, Olivia, Julian, Tasha; Dora igual) em todo o repositório; nove rostos oficiais em `design/sheets/*-face.jpg` usados como imagem principal; planta do servidor no Discord em `docs/COMUNIDADE.md` e convite ligado no site (Escolha sua raça e página de cada raça), mostrando "em breve" até o dono colar o link em `src/data/community.ts`. **Avisar o projeto do chat** dos nomes novos (os arquivos de lore já foram atualizados aqui).
 
+- **2026-10-22 — Fichas 3D em resolução original:** as nove fichas em `design/sheets/*-3d.jpg` foram trocadas pelos arquivos originais (2752×1536; VELLUM 1440×2912), cerca de 1,4× maiores. `design/crop-sheets.cjs` agora escala as coordenadas para o tamanho real de cada ficha; os recortes do giro 3D passaram de ~985 para ~1355 px de altura.
+
 **Próximos passos sugeridos**
 - Dono cria o servidor no Discord seguindo `docs/COMUNIDADE.md` e cola o convite em `src/data/community.ts`.
 - Itens que ainda bloqueiam a v1 (`docs/PLANO_V1.md`): servidor da comunidade criado, privacidade e termos reais, hospedagem e domínio, imagem de prévia nos links.
