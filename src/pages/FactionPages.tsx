@@ -9,12 +9,16 @@ import { FactionCard } from '../components/FactionCard';
 import { MissionCard } from '../components/MissionCard';
 import { RaceEarthSection, RelationsMatrix } from '../components/RaceRelations';
 import { RaceCallSection } from '../components/choose/RaceCallSection';
+import { VoiceCard } from '../components/VoiceCard';
 import { RaceKitSection } from '../components/kit/RaceKit';
 import { Arrow, SectionHeading } from '../components/ui/primitives';
 import { factionById, factions } from '../data/factions';
 import { missions } from '../data/missions';
 import { useI18n } from '../i18n/I18nProvider';
 import { NotFoundPage } from './NotFoundPage';
+
+/** The character on each race's official sheet, who introduces the race. */
+const RACE_VOICE = { grays: 'vhal-ett', nordics: 'ilvani', reptilians: 'sazhi', mantis: 'xhalen-kthrix' } as const;
 
 export function FactionsPage() {
   const { t, l } = useI18n();
@@ -138,6 +142,11 @@ export function FactionDetailPage() {
             </div>
           ))}
         </dl>
+      </section>
+
+      <section className="container-x pt-16 md:pt-24" aria-label={t.voice.kicker}>
+        <p className="kicker mb-4">{t.voice.kicker}</p>
+        <VoiceCard id={RACE_VOICE[f.id]} color={p.primary} />
       </section>
 
       <RaceCallSection faction={f} />

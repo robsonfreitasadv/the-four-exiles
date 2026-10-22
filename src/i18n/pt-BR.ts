@@ -386,6 +386,17 @@ export const ptBR: Dictionary = {
     clearButton: 'Apagar meus dados deste navegador',
     cleared: 'Apagado',
   },
+  sound: {
+    on: 'Ligar a trilha sonora',
+    off: 'Desligar a trilha sonora',
+  },
+  voice: {
+    kicker: 'Na própria voz',
+    resistanceTitle: 'Ouça a Resistência',
+    listen: 'Ouvir {name}',
+    stop: 'Parar',
+    recording: 'Voz em gravação. Por enquanto, leia.',
+  },
   factionsPage: {
     title: 'As Quatro Raças',
     intro: 'Quatro requerentes para um planeta. Abra um dossiê para ler a motivação, a personalidade e a história de cada raça com a Terra.',

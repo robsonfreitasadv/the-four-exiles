@@ -384,6 +384,17 @@ export const en = {
     clearButton: 'Erase my data on this browser',
     cleared: 'Erased',
   },
+  sound: {
+    on: 'Turn on the soundtrack',
+    off: 'Turn off the soundtrack',
+  },
+  voice: {
+    kicker: 'In their own voice',
+    resistanceTitle: 'Hear the Resistance',
+    listen: 'Listen to {name}',
+    stop: 'Stop',
+    recording: 'Voice being recorded. Read it for now.',
+  },
   factionsPage: {
     title: 'The Four Races',
     intro: 'Four claimants to one planet. Open a dossier to read each race’s motivation, personality, and history with Earth.',

@@ -5,6 +5,7 @@ import { Portrait } from './art/Portrait';
 import { TiltCard } from './art/TiltCard';
 import { TurnaroundViewer } from './art/TurnaroundViewer';
 import { Reveal, SectionHeading } from './ui/primitives';
+import { VoiceCard } from './VoiceCard';
 
 const ORANGE = '#e58a52';
 
@@ -111,6 +112,12 @@ export function ResistanceSection({ headingAs = 'h2' }: { headingAs?: 'h1' | 'h2
             </Reveal>
           ))}
         </ul>
+        <h3 className="display mb-6 mt-16 text-3xl sm:text-4xl">{t.voice.resistanceTitle}</h3>
+        <div className="grid gap-4 lg:grid-cols-2">
+          {['dora', 'rui', 'livia', 'julio', 'tati'].map((id) => (
+            <VoiceCard key={id} id={id} color={ORANGE} className={id === 'dora' ? 'lg:col-span-2' : ''} />
+          ))}
+        </div>
         <p className="mt-10 text-center text-xl font-semibold tracking-[-0.02em] text-bone-dim">{t.resistance.tagline}</p>
       </div>
     </section>

@@ -33,8 +33,8 @@ export const privacyBlocks: InfoBlock[] = [
     title: { en: 'What stays in your browser', 'pt-BR': 'O que fica no seu navegador' },
     items: [
       {
-        en: 'To remember your choices, the site saves a few items in your own browser (localStorage): the language, the race you chose, the optional name and the random number on your census card, and the demo missions you accepted. This information never leaves your device and we cannot see it.',
-        'pt-BR': 'Para lembrar suas escolhas, o site guarda alguns itens no seu próprio navegador (localStorage): o idioma, a raça escolhida, o nome opcional e o número aleatório da sua carteirinha do Censo e as missões demo que você aceitou. Essas informações não saem do seu aparelho e nós não temos acesso a elas.',
+        en: 'To remember your choices, the site saves a few items in your own browser (localStorage): the language, whether the soundtrack is on, the race you chose, the optional name and the random number on your census card, and the demo missions you accepted. This information never leaves your device and we cannot see it.',
+        'pt-BR': 'Para lembrar suas escolhas, o site guarda alguns itens no seu próprio navegador (localStorage): o idioma, se a trilha sonora está ligada, a raça escolhida, o nome opcional e o número aleatório da sua carteirinha do Censo e as missões demo que você aceitou. Essas informações não saem do seu aparelho e nós não temos acesso a elas.',
       },
       {
         en: 'Wallpapers, avatars, stickers, memes and the census card are drawn in your browser. The text you type in them is not sent anywhere.',
