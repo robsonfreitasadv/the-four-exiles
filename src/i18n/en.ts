@@ -10,6 +10,7 @@ export const en = {
   nav: {
     home: 'Home',
     choose: 'Choose your race',
+    store: 'Store',
     season0: 'Season 0',
     factions: 'The Four Races',
     lore: 'The Lore',
@@ -394,6 +395,15 @@ export const en = {
     listen: 'Listen to {name}',
     stop: 'Stop',
     recording: 'Voice being recorded. Read it for now.',
+  },
+  store: {
+    kicker: 'Official store',
+    title: 'Wear your side',
+    intro: 'One piece for each race and one for the Resistance. Printed on demand by a partner store: no stock, made when you order.',
+    resistance: 'Resistance',
+    buy: 'Buy at the partner store',
+    soon: 'Coming soon',
+    note: 'Payment, price, delivery and returns are handled by the partner store under its own terms. This site never asks for payment details.',
   },
   factionsPage: {
     title: 'The Four Races',

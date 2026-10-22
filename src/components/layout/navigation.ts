@@ -10,7 +10,7 @@ export const primaryNav: { to: string; key: NavKey }[] = [
   { to: '/lore', key: 'lore' },
   { to: '/galactic-war', key: 'galacticWar' },
   { to: '/missions', key: 'missions' },
-  { to: '/market', key: 'market' },
+  { to: '/store', key: 'store' },
   { to: '/transparency', key: 'transparency' },
 ];
 
@@ -22,6 +22,7 @@ export const secondaryNav: { to: string; key: NavKey }[] = [
   { to: '/reptilians', key: 'reptilians' },
   { to: '/mantis', key: 'mantis' },
   { to: '/collectibles', key: 'collectibles' },
+  { to: '/market', key: 'market' },
   { to: '/privacy', key: 'privacy' },
   { to: '/terms', key: 'terms' },
 ];

@@ -39,7 +39,10 @@ Atualize este arquivo no fim de cada sessão (chat ou código): o que foi feito,
 
 - **2026-10-22 — Privacidade e termos:** páginas `/privacy` e `/terms` com textos reais (LGPD, Marco Civil, CDC), seções numeradas, data de atualização, bloco de contato e botão para apagar os dados guardados no navegador. Faltam o responsável, o e-mail e a hospedagem em `src/data/legal.ts` (o site mostra "a definir").
 
+- **2026-10-22 — Pré-lançamento, parte 1:** trilha sonora gerada por raça (botão de som no cabeçalho, desligada por padrão; `src/audio/music.ts`); falas dos nove personagens em balões nas raças e na Resistência (`src/data/voices.ts`; guia de gravação `docs/VOZES.md`; botão "Ouvir" aparece quando o MP3 estiver em `public/audio/voices/` e listado em `src/data/voiceFiles.ts`); loja `/store` com 5 produtos e artes de impressão (`design/store-art.cjs`, guia `docs/LOJA.md`). Mercado saiu do menu principal (está no rodapé).
+
 **Próximos passos sugeridos**
+- Missões reais com Supabase (aguardando o dono aprovar a criação do projeto) e robôs no Discord (aguardando o servidor).
 - Dono preenche `src/data/legal.ts` (responsável, e-mail, hospedagem) e revisa os textos jurídicos.
 - Dono cria o servidor no Discord seguindo `docs/COMUNIDADE.md` e cola o convite em `src/data/community.ts`.
 - Itens que ainda bloqueiam a v1 (`docs/PLANO_V1.md`): servidor da comunidade criado, dados do responsável em `legal.ts`, hospedagem e domínio, imagem de prévia nos links.

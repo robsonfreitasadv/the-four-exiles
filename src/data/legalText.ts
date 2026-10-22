@@ -192,8 +192,8 @@ export const termsBlocks: InfoBlock[] = [
     title: { en: 'The site as it is', 'pt-BR': 'O site como ele é' },
     items: [
       {
-        en: 'The site is free and offered as is. It may change, pause or end, and features marked as demo or provisional may change without notice. Links to other services (such as Discord) follow their own rules.',
-        'pt-BR': 'O site é gratuito e oferecido como está. Pode mudar, pausar ou acabar, e recursos marcados como demonstração ou provisórios podem mudar sem aviso. Links para outros serviços (como o Discord) seguem as regras deles.',
+        en: 'The site is free and offered as is. It may change, pause or end, and features marked as demo or provisional may change without notice. Links to other services (such as Discord and the partner store that prints and sells the products) follow their own rules; purchases are made with that store.',
+        'pt-BR': 'O site é gratuito e oferecido como está. Pode mudar, pausar ou acabar, e recursos marcados como demonstração ou provisórios podem mudar sem aviso. Links para outros serviços (como o Discord e a loja parceira que produz e vende os produtos) seguem as regras deles; a compra é feita com essa loja.',
       },
       {
         en: 'Within the limits of Brazilian law, including the consumer protection code where it applies, the project is not liable for indirect damages from using the site or third-party services.',

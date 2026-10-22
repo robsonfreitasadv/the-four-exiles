@@ -12,6 +12,7 @@ export const ptBR: Dictionary = {
   nav: {
     home: 'Início',
     choose: 'Escolha sua raça',
+    store: 'Loja',
     season0: 'Temporada 0',
     factions: 'As Quatro Raças',
     lore: 'O Universo',
@@ -396,6 +397,15 @@ export const ptBR: Dictionary = {
     listen: 'Ouvir {name}',
     stop: 'Parar',
     recording: 'Voz em gravação. Por enquanto, leia.',
+  },
+  store: {
+    kicker: 'Loja oficial',
+    title: 'Vista o seu lado',
+    intro: 'Uma peça de cada raça e uma da Resistência. Produzidas sob demanda por uma loja parceira: sem estoque, feitas quando você pede.',
+    resistance: 'Resistência',
+    buy: 'Comprar na loja parceira',
+    soon: 'Em breve',
+    note: 'Pagamento, preço, entrega e trocas ficam com a loja parceira, pelos termos dela. Este site nunca pede dados de pagamento.',
   },
   factionsPage: {
     title: 'As Quatro Raças',

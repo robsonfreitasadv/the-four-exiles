@@ -6,3 +6,6 @@ dist/
 .env.*
 !.env.static
 *.tsbuildinfo
+
+# Arquivos de impressão da loja: grandes, refeitos por design/store-art.cjs
+design/store/
