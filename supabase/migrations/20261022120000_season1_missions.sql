@@ -51,7 +51,8 @@ create table public.submissions (
   user_id uuid not null default auth.uid() references auth.users (id) on delete cascade,
   mission_slug text not null references public.missions (slug),
   title text not null check (char_length(title) between 2 and 120),
-  link_url text check (link_url is null or link_url ~ '^https://[^\s]{4,500}$'),
+  -- Postgres caps regex repetition at 255, so the length limit is a separate check.
+  link_url text check (link_url is null or (link_url ~ '^https://[^\s]+$' and char_length(link_url) between 12 and 508)),
   image_path text check (image_path is null or char_length(image_path) < 300),
   note text check (note is null or char_length(note) <= 1000),
   licence_ok boolean not null check (licence_ok),
@@ -155,6 +156,8 @@ grant execute on function public.season1_standings() to anon, authenticated;
 grant execute on function public.season1_log(integer) to anon, authenticated;
 revoke execute on function public.limit_submissions() from public, anon, authenticated;
 revoke execute on function public.on_submission_review() from public, anon, authenticated;
+revoke execute on function public.is_moderator() from public, anon;
+grant execute on function public.is_moderator() to authenticated;
 
 -- Images: private bucket, 5 MB, images only; each person writes in their own folder.
 insert into storage.buckets (id, name, public, file_size_limit, allowed_mime_types)

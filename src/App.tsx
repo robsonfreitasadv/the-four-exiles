@@ -4,6 +4,7 @@ import { LegalPage } from './pages/LegalPage';
 import { Season0Page } from './pages/Season0Page';
 import { StorePage } from './pages/StorePage';
 import { ModerationPage } from './pages/ModerationPage';
+import { AccountPage } from './pages/AccountPage';
 import { SiteFooter } from './components/layout/SiteFooter';
 import { SiteHeader } from './components/layout/SiteHeader';
 import { ScrollToTop } from './components/ui/primitives';
@@ -64,6 +65,7 @@ export default function App() {
         <Route path="season-0" element={<Season0Page />} />
         <Route path="store" element={<StorePage />} />
         <Route path="moderation" element={<ModerationPage />} />
+        <Route path="account" element={<AccountPage />} />
         <Route path="missions" element={<MissionsPage />} />
         <Route path="missions/:slug" element={<MissionDetailPage />} />
         <Route path="collectibles" element={<CollectiblesPage />} />

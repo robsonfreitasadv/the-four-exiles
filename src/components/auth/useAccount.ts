@@ -1,9 +1,21 @@
-import { useCallback, useEffect, useState } from 'react';
+import { createContext, createElement, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 import type { Session } from '@supabase/supabase-js';
 import { supabase, type Profile } from '../../lib/supabase';
 
-/** Signed-in session, the person's profile (race and nickname) and whether they moderate. */
-export function useAccount() {
+export interface Account {
+  enabled: boolean;
+  loading: boolean;
+  session: Session | null;
+  profile: Profile | null;
+  moderator: boolean;
+  reload: () => Promise<void>;
+  signOut: () => Promise<void>;
+}
+
+const AccountContext = createContext<Account | null>(null);
+
+/** One shared sign-in state for the whole site (header, account page, missions, moderation). */
+export function AccountProvider({ children }: { children: ReactNode }) {
   const [session, setSession] = useState<Session | null>(null);
   const [profile, setProfile] = useState<Profile | null>(null);
   const [moderator, setModerator] = useState(false);
@@ -28,24 +40,33 @@ export function useAccount() {
 
   useEffect(() => {
     if (!supabase) return;
-    void supabase.auth.getSession().then(function initial({ data }) {
-      return load(data.session);
-    });
+    // The callback must not await other Supabase calls directly (it holds the auth lock), so defer the load.
     const { data } = supabase.auth.onAuthStateChange(function changed(_event, s) {
-      void load(s);
+      setTimeout(() => void load(s), 0);
     });
     return () => data.subscription.unsubscribe();
   }, [load]);
 
-  return {
-    enabled: Boolean(supabase),
-    loading,
-    session,
-    profile,
-    moderator,
-    reload: () => load(session),
-    signOut: async () => {
-      await supabase?.auth.signOut();
-    },
-  };
+  const value = useMemo<Account>(
+    () => ({
+      enabled: Boolean(supabase),
+      loading,
+      session,
+      profile,
+      moderator,
+      reload: () => load(session),
+      signOut: async () => {
+        await supabase?.auth.signOut();
+      },
+    }),
+    [loading, session, profile, moderator, load],
+  );
+
+  return createElement(AccountContext.Provider, { value }, children);
+}
+
+export function useAccount(): Account {
+  const account = useContext(AccountContext);
+  if (!account) throw new Error('useAccount needs <AccountProvider>');
+  return account;
 }

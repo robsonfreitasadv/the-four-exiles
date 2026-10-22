@@ -2,6 +2,7 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, HashRouter } from 'react-router-dom';
 import App from './App';
+import { AccountProvider } from './components/auth/useAccount';
 import { I18nProvider } from './i18n/I18nProvider';
 import './index.css';
 
@@ -12,7 +13,9 @@ createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Router>
       <I18nProvider>
-        <App />
+        <AccountProvider>
+          <App />
+        </AccountProvider>
       </I18nProvider>
     </Router>
   </StrictMode>,

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { useI18n } from '../../i18n/I18nProvider';
+import { AccountMenu } from '../auth/AccountMenu';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { RaceChip } from '../choose/RaceChip';
 import { SoundToggle } from '../SoundToggle';
@@ -51,6 +52,7 @@ export function SiteHeader() {
         </nav>
         <div className="flex items-center gap-2">
           <RaceChip />
+          <AccountMenu />
           <SoundToggle />
           <LanguageSwitcher />
           <button

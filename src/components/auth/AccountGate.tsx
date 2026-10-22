@@ -3,7 +3,7 @@ import { factions } from '../../data/factions';
 import { supabase, type Race } from '../../lib/supabase';
 import { useI18n } from '../../i18n/I18nProvider';
 import { useCensus } from '../choose/chosenRace';
-import { useAccount } from './useAccount';
+import { useAccount, type Account } from './useAccount';
 
 const field =
   'mt-2 w-full rounded-2xl border border-graphite-500 bg-graphite-800 px-4 py-3 text-bone placeholder:text-bone-muted focus:border-bone focus:outline-none';
@@ -115,7 +115,7 @@ function ProfileSetup({ userId, onDone }: { userId: string; onDone: () => void }
 }
 
 /** Renders children only for a signed-in person with a profile; otherwise walks them through it. */
-export function AccountGate({ children }: { children: (account: ReturnType<typeof useAccount>) => ReactNode }) {
+export function AccountGate({ children }: { children: (account: Account) => ReactNode }) {
   const { t } = useI18n();
   const account = useAccount();
 

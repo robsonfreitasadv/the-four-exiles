@@ -91,7 +91,11 @@ export function MissionSubmit({ slug }: { slug: string }) {
       licence_ok: licence,
     });
     setBusy(false);
-    if (error) return setMessage(t.missionForm.failed);
+    if (error) {
+      // Don't leave an orphan image behind when the entry itself was refused.
+      if (imagePath) await supabase.storage.from('submissions').remove([imagePath]);
+      return setMessage(t.missionForm.failed);
+    }
     reset();
     setRefresh((n) => n + 1);
     setMessage(t.missionForm.sent);

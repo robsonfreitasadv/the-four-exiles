@@ -1,16 +1,17 @@
 import { createClient, type SupabaseClient } from '@supabase/supabase-js';
 
 /**
- * Supabase project "the-four-exiles" (sa-east-1). The URL and the publishable (anon) key are public by
- * design: every table is protected by row-level security (supabase/migrations). Leave them empty and the
- * site falls back to "coming soon" for logins and submissions.
+ * Supabase project "the-four-exiles" (us-east-1). The URL and the anon key are public by design: every
+ * table is protected by row-level security (supabase/migrations). Leave them empty and the site falls back
+ * to "coming soon" for logins and submissions.
  */
-const SUPABASE_URL = '';
-const SUPABASE_ANON_KEY = '';
+const SUPABASE_URL = 'https://qcnomemkcjrhhzcsrabk.supabase.co';
+const SUPABASE_ANON_KEY =
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjbm9tZW1rY2pyaGh6Y3NyYWJrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTI2Nzc0MzYsImV4cCI6MjEwODI1MzQzNn0.Vgm0koEMnZ0gHqQWwYvBbWttIBx3Att7m6kYjOsO9yY';
 
 export const supabase: SupabaseClient | null =
   SUPABASE_URL && SUPABASE_ANON_KEY
-    ? createClient(SUPABASE_URL, SUPABASE_ANON_KEY, { auth: { persistSession: true, storageKey: 'four-exiles:auth' } })
+    ? createClient(SUPABASE_URL, SUPABASE_ANON_KEY, { auth: { persistSession: true, detectSessionInUrl: false, storageKey: 'four-exiles:auth' } })
     : null;
 
 export type Race = 'grays' | 'nordics' | 'reptilians' | 'mantis';

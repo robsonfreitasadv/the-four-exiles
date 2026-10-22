@@ -58,8 +58,8 @@ export const privacyBlocks: InfoBlock[] = [
         'pt-BR': 'Finalidade e base legal: realizar o campeonato do qual você participa, conforme os termos (LGPD, art. 7º, V). Seu apelido, sua raça e os pontos aprovados aparecem no registro público de pontos; seu e-mail, nunca. Os envios são vistos só por você e pela moderação até o projeto repostá-los com crédito, como os termos permitem.',
       },
       {
-        en: 'Storage: Supabase, in its São Paulo data centre (Brazil). The sign-in session is kept in your browser. Data is kept while your account exists; ask the contact below to delete your account and entries.',
-        'pt-BR': 'Armazenamento: Supabase, no data center de São Paulo (Brasil). A sessão de entrada fica no seu navegador. Os dados ficam guardados enquanto a conta existir; peça ao contato abaixo para apagar sua conta e seus envios.',
+        en: 'Storage: Supabase, in its data centre in the United States (North Virginia), an international transfer made to run the service you asked for (LGPD, art. 33, IX). The sign-in session is kept in your browser. Data is kept while your account exists. You can delete the account, entries, images and their points yourself on the account page, or ask the contact below.',
+        'pt-BR': 'Armazenamento: Supabase, no data center dos Estados Unidos (Virgínia do Norte), uma transferência internacional feita para executar o serviço que você pediu (LGPD, art. 33, IX). A sessão de entrada fica no seu navegador. Os dados ficam guardados enquanto a conta existir. Você mesmo pode apagar a conta, os envios, as imagens e os pontos deles na página da conta, ou pedir ao contato abaixo.',
       },
       {
         en: 'Accounts are for people aged 13 or over; under 18, with the knowledge of a parent or guardian.',
