@@ -21,9 +21,9 @@ A Resistência é humana; **não é uma quinta raça**.
 
 | Nome | Função | Frase |
 | --- | --- | --- |
-| Rui | O Hacker | "If it’s connected, I can break it." / "Se está conectado, eu consigo quebrar." |
-| Lívia | A Médica | "People first. Always." / "Pessoas primeiro. Sempre." |
-| Júlio | O Piloto | "Higher, faster, further, maybe." / "Mais alto, mais rápido, mais longe, talvez." |
-| Tati | A Guerreira | "Courage is a habit." / "Coragem é um hábito." |
+| Ray | O Hacker | "If it’s connected, I can break it." / "Se está conectado, eu consigo quebrar." |
+| Olivia | A Médica | "People first. Always." / "Pessoas primeiro. Sempre." |
+| Julian | O Piloto | "Higher, faster, further, maybe." / "Mais alto, mais rápido, mais longe, talvez." |
+| Tasha | A Guerreira | "Courage is a habit." / "Coragem é um hábito." |
 
 Paleta da ficha: verde-oliva, cinza-pedra, bege, vermelho, marrom, roxo.

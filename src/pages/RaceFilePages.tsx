@@ -7,7 +7,7 @@ import { CivilizationPage } from './CivilizationPage';
 /** Grays: dossier (docs/lore/GRAYS.json, lists its own characters) + civilization file. */
 export function GraysPage() {
   const { t } = useI18n();
-  const vhalEtt = grays.characters.find((c) => c.id === 'VHAL_ETT');
+  const vhalEtt = grays.characters.find((c) => c.id === 'VELLUM');
   return (
     <CivilizationPage
       race="grays"
@@ -28,7 +28,7 @@ export function GraysPage() {
 /** Nordics: dossier (docs/lore/NORDICS.json) + civilization file. */
 export function NordicsPage() {
   const { t } = useI18n();
-  // ILVANI is the Nordic on the official sheet (owner decision); Sael stays the provisional featured character.
+  // AUREL is the Nordic on the official sheet (owner decision); Sael stays the provisional featured character.
   return (
     <CivilizationPage
       race="nordics"
@@ -54,7 +54,7 @@ export function ReptiliansPage() {
           title={t.civPages.reptilians.dossierTitle}
         />
       }
-      // SAZHI as the Sovereign follows the official sheet, but the dossier names KRAHL-VOR: open question.
+      // SAZAR as the Sovereign follows the official sheet, but the dossier names KRAHL-VOR: open question.
       leaderStatus="OPEN_QUESTION"
     />
   );
@@ -69,7 +69,7 @@ export function MantisPage() {
       dossier={
         <RaceDossier dossier={dossiers.mantis!} kicker={t.civPages.mantis.dossierKicker} title={t.civPages.mantis.dossierTitle} />
       }
-      // XHALEN-KTHRIX as the Commander is provisional (the sheet says "The Commanders").
+      // VEX as the Commander is provisional (the sheet says "The Commanders").
       leaderStatus="PROVISIONAL"
     />
   );

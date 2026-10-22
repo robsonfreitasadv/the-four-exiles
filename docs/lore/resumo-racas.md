@@ -22,7 +22,7 @@
 - Mantis: uso. Há módulos de bloqueio Gray dentro de sistemas Mantis. Quem instalou, e com o consentimento de quem, continua sem resposta.
 - Humanos/Resistência: tratam a ufologia humana como erro de data. Dora, para eles, é um formulário que não fecha.
 
-**Personagem da ficha.** VHAL-ETT, Gray, supervisora de Sete (provisório: corrente Continuísta). Destaque: Sete, auditor do Arquivo Central (aprovado). Segundo destaque (provisório): KAEL-RUUM, comandante de campo.
+**Personagem da ficha.** VELLUM, Gray, supervisora de Sete (provisório: corrente Continuísta). Destaque: Sete, auditor do Arquivo Central (aprovado). Segundo destaque (provisório): KAEL-RUUM, comandante de campo.
 
 ---
 
@@ -44,7 +44,7 @@
 - Mantis: desprezo educado. Elogio e convite de festa escorregam em quem prefere ordens por escrito.
 - Humanos/Resistência: o alvo preferido. Música, festas e a palavra "juntos". A Resistência aprende rápido a recusar a terceira sobremesa.
 
-**Personagem da ficha.** ILVANI, Nórdica (provisório: Tutora, orientadora de transição). Destaques: Sael, ex-jardineiro que desertou depois de ler o apêndice do Plano Jardim (provisório; versão do site). Alternativa: ELARA-VOSS, enviada cultural cuja gentileza é um instrumento (provisório).
+**Personagem da ficha.** AUREL, Nórdica (provisório: Tutora, orientadora de transição). Destaques: Sael, ex-jardineiro que desertou depois de ler o apêndice do Plano Jardim (provisório; versão do site). Alternativa: ELARA-VOSS, enviada cultural cuja gentileza é um instrumento (provisório).
 
 ---
 
@@ -66,7 +66,7 @@
 - Mantis: contrato. Frotas e escoltas são compradas dos Mantis, e a conta é herdada de geração em geração.
 - Humanos/Resistência: recurso com opinião. A Resistência é o único governo que ameaça cortar o fluxo, e por isso é lido como inimigo.
 
-**Personagem da ficha.** SAZHI, O Soberano (em aberto: o dossiê do chat chama o Soberano de KRAHL-VOR). Destaques (provisórios): SSARA-MIN, chefe da Casa das Cisternas, e VESH-KARA, hidrologista com os dados que as casas enterraram.
+**Personagem da ficha.** SAZAR, O Soberano (em aberto: o dossiê do chat chama o Soberano de KRAHL-VOR). Destaques (provisórios): SSARA-MIN, chefe da Casa das Cisternas, e VESH-KARA, hidrologista com os dados que as casas enterraram.
 
 ---
 
@@ -88,7 +88,7 @@
 - Reptilianos: o melhor cliente. Vendem escolta, casco e abordagem e cobram em juros. Precisam que as casas briguem.
 - Humanos/Resistência: adversário valioso. Respeitam Dora e querem uma guerra longa com ela, não uma vitória rápida.
 
-**Personagem da ficha.** XHALEN-KTHRIX, O Comandante, que considera Dora uma oponente digna (cargo provisório). Destaques (provisórios): IXUL-DRA, oficial exata que guarda registros de ordens que foi mandada ignorar, e LIRA-VESS, que mantém o elo do enxame e uma porta nunca reportada.
+**Personagem da ficha.** VEX, O Comandante, que considera Dora uma oponente digna (cargo provisório). Destaques (provisórios): IXUL-DRA, oficial exata que guarda registros de ordens que foi mandada ignorar, e LIRA-VESS, que mantém o elo do enxame e uma porta nunca reportada.
 
 ---
 
@@ -110,9 +110,9 @@ A ambiguidade Grays x demais raças é cânone aprovado. Cada célula acima é p
 
 ## Pendências para o dono (só o que impede publicar)
 
-1. **Quem é O Soberano:** SAZHI (ficha) ou KRAHL-VOR (dossiê do chat). O resumo dos Reptilianos usa SAZHI.
+1. **Quem é O Soberano:** SAZAR (ficha) ou KRAHL-VOR (dossiê do chat). O resumo dos Reptilianos usa SAZAR.
 2. **Planetas:** o texto público usa Hevra, Maia-Prime, Thaxis e Xhalen. Os nomes do chat (Vaelor, Sarrath, Threnn) seguem em aberto e não aparecem no texto.
-3. **O Comandante dos Mantis:** a ficha diz XHALEN-KTHRIX; o dossiê do chat dá o comando da implantação do Censo a IXUL-DRA. Definir quem comanda o quê.
+3. **O Comandante dos Mantis:** a ficha diz VEX; o dossiê do chat dá o comando da implantação do Censo a IXUL-DRA. Definir quem comanda o quê.
 4. **Motivação Mantis:** o cânone aprovado é negócio de armas; o dossiê é rede de deveres sem comércio. O rascunho combina os dois (o dever como método, o negócio como fim). Confirmar.
 5. **Sael:** ex-jardineiro desertor (site) ou diplomata que conhece a influência nórdica (dossiê). Escolher uma versão para o texto público.
 6. **Relações entre raças:** as linhas de relação são provisórias. Aprovar, ajustar ou cortar antes de publicar.

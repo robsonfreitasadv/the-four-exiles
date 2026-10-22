@@ -68,7 +68,7 @@ export function SeteFigure() {
   );
 }
 
-/** ILVANI — Sael, the defector. Beautiful, symmetrical, and one smile too many. */
+/** AUREL — Sael, the defector. Beautiful, symmetrical, and one smile too many. */
 export function SaelFigure() {
   return (
     <g>
@@ -123,7 +123,7 @@ export function SaelFigure() {
   );
 }
 
-/** SAZHI — The Sovereign. Regal, ancient, smug, and thirsty. */
+/** SAZAR — The Sovereign. Regal, ancient, smug, and thirsty. */
 export function SovereignFigure() {
   return (
     <g>
@@ -179,7 +179,7 @@ export function SovereignFigure() {
   );
 }
 
-/** XHALEN-KTHRIX — The Commander. Polite, precise, and absolutely lethal. */
+/** VEX — The Commander. Polite, precise, and absolutely lethal. */
 export function CommanderFigure() {
   return (
     <g>

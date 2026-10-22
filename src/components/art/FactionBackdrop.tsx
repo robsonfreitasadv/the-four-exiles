@@ -3,8 +3,8 @@ import { factionById } from '../../data/factions';
 
 /**
  * Faction-specific backdrop textures, so the four portraits never sit on identical cards:
- * Grays get ruled archival paper, Ilvani a soft halo, Sazhi an imperial lattice,
- * Xhalen-Kthrix hazard striping and a targeting reticle.
+ * Grays get ruled archival paper, Aurel a soft halo, Sazar an imperial lattice,
+ * Vex hazard striping and a targeting reticle.
  */
 export function FactionBackdrop({ faction, className = '' }: { faction: FactionId; className?: string }) {
   const p = factionById(faction)!.palette;

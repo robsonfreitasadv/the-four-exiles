@@ -43,7 +43,7 @@ crop('resistance', 'tati', 966, 138, 180, 472);
 crop('resistance', 'resistance-team', 36, 740, 514, 178);
 crop('resistance', 'resistance-collectibles', 1068, 740, 437, 178);
 
-// <id>-3d.jpg (2000×1116; VHAL-ETT 989×2000): 3D reference sheets, one figure per view.
+// <id>-3d.jpg (2000×1116; VELLUM 989×2000): 3D reference sheets, one figure per view.
 // Values are the head centre of each view, measured on the sheet; frames reach halfway to the neighbours.
 const ref3d = {
   livia: [246, 613, 920, 1179, 1514, 1837],
@@ -69,7 +69,7 @@ for (const [id, centres] of Object.entries(ref3d)) {
   const w = 300;
   crop(`${id}-3d`, `${id}-3d`, Math.round(centres[0] - w / 2), 62, w, Math.round(w * 1.664), 'jpg');
 }
-// VHAL-ETT sheet: two rows of three views
+// VELLUM sheet: two rows of three views
 frames3d('vhal-ett', 'vhal-ett-3d', [222, 581, 868], 52, 925, 989);
 frames3d('vhal-ett-back', 'vhal-ett-3d', [185, 536, 876], 1032, 925, 989);
 crop('vhal-ett-3d', 'vhal-ett-3d', 222 - 150, 50, 300, Math.round(300 * 1.664), 'jpg');
@@ -81,5 +81,13 @@ crop('vhal-ett-3d', 'vhal-ett-3d', 222 - 150, 50, 300, Math.round(300 * 1.664), 
       .webp({ quality: 88 })
       .toFile(path.join(out, `${j.name}.webp`));
   }
-  console.log(`${jobs.length} images written to ${out}`);
+  // <id>-face.jpg (1792×2400): close-up portraits, scaled down whole for the web.
+  const faces = ['vhal-ett', 'ilvani', 'sazhi', 'xhalen-kthrix', 'dora', 'rui', 'livia', 'julio', 'tati'];
+  for (const id of faces) {
+    await sharp(path.join(sheets, `${id}-face.jpg`))
+      .resize({ width: 900 })
+      .webp({ quality: 84 })
+      .toFile(path.join(out, `${id}-face.webp`));
+  }
+  console.log(`${jobs.length + faces.length} images written to ${out}`);
 })();

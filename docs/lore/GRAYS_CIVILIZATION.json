@@ -139,7 +139,7 @@
   "continuityRules": [
     "Do not present any PROVISIONAL item as official canon.",
     "Character names beyond Sete are PROVISIONAL until the user approves them.",
-    "Keep the list of existing proposals (VHAL-ETT, ILVANI, SAZHI, XHALEN-KTHRIX) in sync with grays.json; do not duplicate roles.",
+    "Keep the list of existing proposals (VELLUM, AUREL, SAZAR, VEX) in sync with grays.json; do not duplicate roles.",
     "Visual silhouettes are descriptive proposals, not approved reference art."
   ]
 }

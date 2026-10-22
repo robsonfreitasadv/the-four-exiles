@@ -4,9 +4,9 @@ import { withBase } from '../art/CharacterImage';
 import type { Faction } from '../../data/types';
 import { wrapText } from './exportSvg';
 
-/** Official 3D portrait crop size (px). Scales stay at or under ~2x to keep the art presentable. */
-const PW = 300;
-const PH = 499;
+/** Official face portrait size (px), the race’s main art. */
+const PW = 900;
+const PH = 1205;
 const FONT = 'Inter, Helvetica, Arial, sans-serif';
 const MEME_FONT = 'Impact, "Arial Black", Haettenschweiler, sans-serif';
 
@@ -33,7 +33,7 @@ function Background({ id, f, w, h }: { id: string; f: Faction; w: number; h: num
 function Portrait({ id, f, x, y, scale }: { id: string; f: Faction; x: number; y: number; scale: number }) {
   const w = PW * scale;
   const h = PH * scale;
-  const r = 18 * scale;
+  const r = 28;
   return (
     <>
       <defs>
@@ -43,7 +43,7 @@ function Portrait({ id, f, x, y, scale }: { id: string; f: Faction; x: number; y
       </defs>
       <rect x={x + 10} y={y + 18} width={w} height={h} rx={r} fill="#000" opacity="0.45" />
       <image href={withBase(f.art[0].src)} x={x} y={y} width={w} height={h} clipPath={`url(#${id}-card)`} preserveAspectRatio="xMidYMid slice" />
-      <rect x={x} y={y} width={w} height={h} rx={r} fill="none" stroke={f.palette.primary} strokeWidth={3 * scale} />
+      <rect x={x} y={y} width={w} height={h} rx={r} fill="none" stroke={f.palette.primary} strokeWidth={5} />
     </>
   );
 }
@@ -54,7 +54,7 @@ export const Wallpaper = forwardRef<SVGSVGElement, ArtProps & { variant: 'phone'
     const W = phone ? 1080 : 1920;
     const H = phone ? 1920 : 1080;
     const id = `wp-${f.id}-${variant}`;
-    const scale = phone ? 1.9 : 1.6;
+    const scale = phone ? 0.63 : 0.66;
     const px = phone ? (W - PW * scale) / 2 : W - PW * scale - 140;
     const py = phone ? H - PH * scale - 260 : (H - PH * scale) / 2;
     const tx = phone ? W / 2 : 140;
@@ -106,10 +106,10 @@ export const AvatarEmblem = forwardRef<SVGSVGElement, ArtProps>(function AvatarE
 
 export const AvatarPortrait = forwardRef<SVGSVGElement, ArtProps>(function AvatarPortrait({ faction: f, className }, ref) {
   const id = `ap-${f.id}`;
-  // Frame the face: the 3D portrait crops are centred on the head, which starts at the top edge.
-  const scale = 2.4;
+  // Frame the face: on the face portraits the eyes sit about 36% down.
+  const scale = 0.6;
   const ix = 256 - PW * scale * 0.5;
-  const iy = 0;
+  const iy = 256 - PH * scale * 0.36;
   return (
     <svg ref={ref} viewBox="0 0 512 512" className={className} role="img" aria-label={`${f.sheetCharacter} avatar`}>
       <defs>
@@ -184,11 +184,11 @@ function MemeLines({ text, y, from }: { text: string; y: number; from: 'top' | '
 
 export const MemeTemplate = forwardRef<SVGSVGElement, ArtProps & { top: string; bottom: string }>(function MemeTemplate({ faction: f, top, bottom, className }, ref) {
   const id = `meme-${f.id}`;
-  const scale = 2;
+  const scale = 1.2; // fill the square; the face sits in the upper half
   return (
     <svg ref={ref} viewBox="0 0 1080 1080" className={className} role="img" aria-label={`${top} / ${bottom}`}>
       <Background id={id} f={f} w={1080} h={1080} />
-      <image href={withBase(f.art[0].src)} x={540 - (PW * scale) / 2} y={1080 - PH * scale + 40} width={PW * scale} height={PH * scale} preserveAspectRatio="xMidYMid slice" />
+      <image href={withBase(f.art[0].src)} x={540 - (PW * scale) / 2} y={-110} width={PW * scale} height={PH * scale} preserveAspectRatio="xMidYMid slice" />
       <MemeLines text={top} y={110} from="top" />
       <MemeLines text={bottom} y={1030} from="bottom" />
       <text x="1060" y="1066" textAnchor="end" fill="#ffffff" fillOpacity="0.55" fontFamily={FONT} fontSize="20">

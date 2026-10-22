@@ -12,9 +12,9 @@ Atualize este arquivo no fim de cada sessão (chat ou código): o que foi feito,
 - Dossiê dos Grays trazido do chat para `docs/lore/GRAYS.json` (fonte) e `grays.md` (resumo). O site lê o JSON e mostra o dossiê na página `/grays`, com selos de status (cânone, provisório, em aberto), e o arquivo de lore tem um atalho para ele. Sete agora é "Auditor do Arquivo Central".
 
 - Página própria dos Grays (`/grays`): dossiê + arquivo de civilização (`docs/lore/GRAYS_CIVILIZATION.json`, vindo do chat), com menu de seções e selo de status em cada bloco. A página da raça Grays e o arquivo de lore levam até ela; o rodapé tem o link "Grays".
-- **Gray é a raça; VHAL-ETT é personagem** (decisão do dono). A raça aparece como GRAYS em todo o site, em `/factions/grays` (o endereço antigo redireciona). VHAL-ETT aparece na página `/grays` com a imagem oficial; Sete fica sem imagem até ter arte própria.
+- **Gray é a raça; VELLUM é personagem** (decisão do dono). A raça aparece como GRAYS em todo o site, em `/factions/grays` (o endereço antigo redireciona). VELLUM aparece na página `/grays` com a imagem oficial; Sete fica sem imagem até ter arte própria.
 
-- **Raças pelo tipo:** Grays, Nórdicos, Reptilianos e Mantis em todo o site (`/factions/grays|nordics|reptilians|mantis`; os endereços antigos redirecionam). VHAL-ETT, ILVANI, SAZHI e XHALEN-KTHRIX são personagens das respectivas raças; cada imagem oficial tem a legenda com o nome do personagem. SAZHI é O Soberano; XHALEN-KTHRIX é O Comandante (provisório).
+- **Raças pelo tipo:** Grays, Nórdicos, Reptilianos e Mantis em todo o site (`/factions/grays|nordics|reptilians|mantis`; os endereços antigos redirecionam). VELLUM, AUREL, SAZAR e VEX são personagens das respectivas raças; cada imagem oficial tem a legenda com o nome do personagem. SAZAR é O Soberano; VEX é O Comandante (provisório).
 - Página genérica de civilização (`src/pages/CivilizationPage.tsx`), alimentada pelos arquivos `docs/lore/<RAÇA>.json` e `<RAÇA>_CIVILIZATION.json` (nomes do chat).
 
 - Páginas `/reptilians` e `/mantis` com dossiê + arquivo de civilização do chat; o dossiê virou componente genérico (`RaceDossier`) e os dados de dossiê e civilização são lidos de `docs/lore/` (`src/data/lore/dossier.ts` e `civilization.ts`). Todas as raças têm página de arquivo agora.
@@ -33,12 +33,15 @@ Atualize este arquivo no fim de cada sessão (chat ou código): o que foi feito,
 
 - **2026-10-22 — Fichas 3D:** nove fichas 3D novas em `design/sheets/*-3d.jpg`; `design/crop-sheets.cjs` estendido (recorta cada vista e um retrato da vista de frente para `public/images/characters/<id>-3d*.webp`). Site usa os retratos novos nas raças, as figuras novas na Resistência e o giro 3D com 5 a 6 vistas. Para rodar o script: `npm i --no-save sharp` e depois `node design/crop-sheets.cjs`.
 
+- **2026-10-22 — Nomes, rostos e comunidade:** nomes em inglês (VELLUM, AUREL, SAZAR, VEX; Ray, Olivia, Julian, Tasha; Dora igual) em todo o repositório; nove rostos oficiais em `design/sheets/*-face.jpg` usados como imagem principal; planta do servidor no Discord em `docs/COMUNIDADE.md` e convite ligado no site (Escolha sua raça e página de cada raça), mostrando "em breve" até o dono colar o link em `src/data/community.ts`. **Avisar o projeto do chat** dos nomes novos (os arquivos de lore já foram atualizados aqui).
+
 **Próximos passos sugeridos**
-- Itens que ainda bloqueiam a v1 (`docs/PLANO_V1.md`): canal da comunidade, privacidade e termos reais, hospedagem e domínio, imagem de prévia nos links.
+- Dono cria o servidor no Discord seguindo `docs/COMUNIDADE.md` e cola o convite em `src/data/community.ts`.
+- Itens que ainda bloqueiam a v1 (`docs/PLANO_V1.md`): servidor da comunidade criado, privacidade e termos reais, hospedagem e domínio, imagem de prévia nos links.
 - Dono aprova (ou ajusta) o resumo das raças e as relações; quando aprovar, trocar o status em `src/data/raceProfiles.ts` para cânone.
 0. Roteiro dos Grays: Ato III (cenas 31–36), quando o dono mandar, e o mesmo tratamento para Nórdicos, Reptilianos e Mantis.
-1. **Decidir quem é O Soberano** (SAZHI, como na ficha, ou KRAHL-VOR, como no dossiê) e os **planetas natais** (Thaxis/Sarrath, Xhalen/Threnn). Ver `docs/DECISOES.md`.
-2. No chat: corrigir `GRAYS.json` (ILVANI, SAZHI e XHALEN-KTHRIX como Grays), alinhar a aparência dos Mantis com a ficha e usar "Mantis" em vez de "Insetoides".
+1. **Decidir quem é O Soberano** (SAZAR, como na ficha, ou KRAHL-VOR, como no dossiê) e os **planetas natais** (Thaxis/Sarrath, Xhalen/Threnn). Ver `docs/DECISOES.md`.
+2. No chat: corrigir `GRAYS.json` (AUREL, SAZAR e VEX como Grays), alinhar a aparência dos Mantis com a ficha e usar "Mantis" em vez de "Insetoides".
 3. Alinhar Sael: o site o descreve como ex-jardineiro desertor; o `NORDICS.json`, como diplomata.
 4. Aprovar ou ajustar os itens provisórios das quatro raças e os nomes de personagens propostos.
 5. Fase 2: arquivo de lore completo (capítulos, transmissões, documentos) e galeria de personagens ampliada.

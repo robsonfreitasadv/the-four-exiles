@@ -114,7 +114,7 @@ function CensusSection() {
           <figure className="panel overflow-hidden">
             <div className="relative aspect-[5/6] bg-[#1d140f]">
               <CharacterImage
-                image={{ ...dora.image, src: dora.sheet!.expressions[0], focus: '50% 30%' }}
+                image={{ ...dora.image, src: '/images/characters/dora-face.webp', focus: '50% 30%' }}
                 fallback={<Portrait character="dora" alt={t.census.doraAlt} className="absolute inset-x-0 bottom-0 h-[92%] w-full" />}
               />
             </div>

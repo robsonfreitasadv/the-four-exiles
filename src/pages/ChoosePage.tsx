@@ -6,6 +6,7 @@ import { CensusCard } from '../components/choose/CensusCard';
 import { useCensus } from '../components/choose/chosenRace';
 import { StatusBadge } from '../components/RaceDossier';
 import { Arrow, SectionHeading } from '../components/ui/primitives';
+import { CommunityCta } from '../components/CommunityCta';
 import { quiz, raceCallById } from '../data/choose';
 import { factionById, factions } from '../data/factions';
 import type { FactionId } from '../data/types';
@@ -103,6 +104,7 @@ export function ChoosePage() {
           <p className="kicker mb-3">{t.choose.yourRace}</p>
           <h2 id="census-title" className="display mb-6 text-4xl sm:text-5xl">{t.choose.cardTitle}</h2>
           <CensusCard key={entry.race + entry.number} entry={entry} onRename={rename} />
+          <CommunityCta race={entry.race} className="mt-6" />
           <div className="mt-6 flex flex-wrap items-center gap-6">
             <Link to={`/factions/${entry.race}`} className="link-arrow text-bone">
               {t.choose.openDossier} <Arrow />

@@ -4,6 +4,7 @@ import { raceCallById } from '../../data/choose';
 import type { Faction } from '../../data/types';
 import { useI18n } from '../../i18n/I18nProvider';
 import { useCensus } from './chosenRace';
+import { CommunityCta } from '../CommunityCta';
 
 /** Race page: the case for joining this race, with a one-click choice. */
 export function RaceCallSection({ faction }: { faction: Faction }) {
@@ -52,6 +53,7 @@ export function RaceCallSection({ faction }: { faction: Faction }) {
             </Link>
           )}
         </div>
+        <CommunityCta race={faction.id} className="mt-8 bg-black/30" />
       </div>
     </section>
   );

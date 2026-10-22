@@ -29,7 +29,7 @@ Nada importante fica só na conversa ou na memória local: o que não está no r
 
 ## Regras do dono
 
-- **Imagens:** sempre as fichas oficiais em `design/sheets/`: as fichas 3D `<personagem>-3d.jpg` (VHAL-ETT, ILVANI, SAZHI, XHALEN-KTHRIX, Dora, Rui, Lívia, Júlio, Tati; desde 2026-10-22, são a referência principal) e as antigas `races.webp` e `resistance.webp` (ainda usadas para os rostos de expressão). Nunca trocar por imagens de banco ou geradas. Os recortes saem de `design/crop-sheets.cjs` para `public/images/characters/`; ficha nova vai para `design/sheets/` e o script é estendido.
+- **Imagens:** sempre as fichas oficiais em `design/sheets/`: as fichas 3D `<personagem>-3d.jpg` (VELLUM, AUREL, SAZAR, VEX, Dora, Ray, Olivia, Julian, Tasha; desde 2026-10-22, são a referência principal), os rostos `<personagem>-face.jpg` (imagem principal no site). Os arquivos usam os ids antigos (`vhal-ett`, `ilvani`, `sazhi`, `xhalen-kthrix`, `dora`, `rui`, `livia`, `julio`, `tati`); os nomes públicos mudaram em 2026-10-22 e as antigas `races.webp` e `resistance.webp` (ainda usadas para os rostos de expressão). Nunca trocar por imagens de banco ou geradas. Os recortes saem de `design/crop-sheets.cjs` para `public/images/characters/`; ficha nova vai para `design/sheets/` e o script é estendido.
 - **Palavra:** "raças" / "races" em todo texto para o público, nunca "facções" / "factions". Identificadores no código e URLs `/factions` ficam como estão.
 - **Idiomas:** todo texto de interface em `src/i18n/en.ts` e `src/i18n/pt-BR.ts`; registros de conteúdo usam objetos `Localized` (`{ en, 'pt-BR' }`). Converse com o dono em português.
 - **Cânone:** o site segue `docs/canon/`. Mudou o cânone, atualize os dois (`docs/canon/` e `src/data/`).

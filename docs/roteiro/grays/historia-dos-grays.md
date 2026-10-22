@@ -96,7 +96,7 @@ Os planetas natais das outras raças, nos relatos desta era, aparecem apenas com
 
 Foi nesta era que as cinco correntes internas se cristalizaram. Não são raças separadas, são modos de ser Gray:
 
-- **Continuístas:** a sobrevivência precede a explicação. (VHAL-ETT, supervisora de Sete, pertence a esta.)
+- **Continuístas:** a sobrevivência precede a explicação. (VELLUM, supervisora de Sete, pertence a esta.)
 - **Revisionistas:** um registro que não pode ser contestado é uma ordem, não uma evidência. (ZEN-VARO, historiador, pede a abertura dos arquivos originais e, por baixo, esconde dos colegas que já acessou um arquivo restrito.)
 - **Doutrina de Contenção:** uma ameaça compreendida tarde demais continua sendo uma ameaça.
 - **Transicionistas:** uma espécie que não muda acaba prisioneira da própria história.

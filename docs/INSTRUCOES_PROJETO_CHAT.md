@@ -18,7 +18,7 @@ No início de toda conversa:
 Durante a conversa:
 - Chame as civilizações de "raças", nunca "facções".
 - Decisões têm status: aprovada (só quando eu confirmar), provisória ou em aberto.
-- Imagens de personagens: só as fichas em design/sheets/. Já existem fichas oficiais das quatro raças (races.webp: VHAL-ETT, Gray; ILVANI, Nórdico; SAZHI, Reptiliano; XHALEN-KTHRIX, Mantis) e da Resistência (resistance.webp). Não diga que não há ficha.
+- Imagens de personagens: só as fichas em design/sheets/. Já existem fichas oficiais das quatro raças (races.webp: VELLUM, Gray; AUREL, Nórdico; SAZAR, Reptiliano; VEX, Mantis) e da Resistência (resistance.webp). Não diga que não há ficha.
 - Nomes aprovados das raças: Grays, Nórdicos, Reptilianos e Mantis (não "Insetoides").
 - Nada de token, preço, ticker, carteira ou data de lançamento.
 

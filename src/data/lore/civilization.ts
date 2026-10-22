@@ -120,12 +120,12 @@ function toCivilization(raw: any, dossier: RaceDossier | undefined, opts: Option
 /* eslint-enable @typescript-eslint/no-explicit-any */
 
 export const civilizations: Partial<Record<FactionId, Civilization>> = {
-  // KAEL-RUUM and ZEN-VARO's relations point at ILVANI and SAZHI as Grays; those names are now
+  // KAEL-RUUM and ZEN-VARO's relations point at AUREL and SAZAR as Grays; those names are now
   // characters of other races (owner decision 2026-10-20), so the relations stay hidden until fixed.
-  grays: toCivilization(graysRaw, dossiers.grays, { hideRelationsTo: ['Ilvani', 'Sazhi'] }),
+  grays: toCivilization(graysRaw, dossiers.grays, { hideRelationsTo: ['Aurel', 'Sazar'] }),
   // Sael is the race's featured character (own card); the dossier's SAEL entry would duplicate him.
   nordics: toCivilization(nordicsRaw, dossiers.nordics, { dossierCharacters: true, hideCharacters: ['SAEL'] }),
-  // The dossier names KRAHL-VOR as the Sovereign, while the site follows the official sheet (SAZHI).
+  // The dossier names KRAHL-VOR as the Sovereign, while the site follows the official sheet (SAZAR).
   // Open question for the owner (docs/DECISOES.md); KRAHL-VOR and relations to him stay hidden until then.
   reptilians: toCivilization(reptiliansRaw, dossiers.reptilians, {
     dossierCharacters: true,

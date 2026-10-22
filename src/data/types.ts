@@ -37,7 +37,7 @@ export interface CharacterSheet {
 
 export interface Faction {
   id: FactionId;
-  /** Name of the character shown on the race's official sheet (e.g. VHAL-ETT for the Grays). */
+  /** Name of the character shown on the race's official sheet (e.g. VELLUM for the Grays). */
   sheetCharacter: string;
   /** Official character art; the first image is the main portrait. */
   art: ArtImage[];

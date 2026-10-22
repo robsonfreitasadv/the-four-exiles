@@ -120,10 +120,10 @@
     },
     "characters": [
       { "id": "SETE", "name": "Sete", "status": "CANON_APPROVED", "role": { "en": "Auditor of the Central Archive", "pt-BR": "Auditor do Arquivo Central" } },
-      { "id": "VHAL_ETT", "name": "VHAL-ETT", "status": "PROVISIONAL", "role": { "en": "Sete's supervisor (Continuists)", "pt-BR": "Supervisora de Sete (Continuístas)" } },
-      { "id": "ILVANI", "name": "ILVANI", "status": "PROVISIONAL", "role": { "en": "Field researcher (Transitionists)", "pt-BR": "Pesquisadora de campo (Transicionistas)" } },
-      { "id": "SAZHI", "name": "SAZHI", "status": "PROVISIONAL", "role": { "en": "Dissident archivist (Unbound)", "pt-BR": "Arquivista dissidente (Desvinculados)" } },
-      { "id": "XHALEN_KTHRIX", "name": "XHALEN-KTHRIX", "status": "PROVISIONAL", "role": { "en": "Containment agent", "pt-BR": "Agente de contenção" } }
+      { "id": "VELLUM", "name": "VELLUM", "status": "PROVISIONAL", "role": { "en": "Sete's supervisor (Continuists)", "pt-BR": "Supervisora de Sete (Continuístas)" } },
+      { "id": "AUREL", "name": "AUREL", "status": "PROVISIONAL", "role": { "en": "Field researcher (Transitionists)", "pt-BR": "Pesquisadora de campo (Transicionistas)" } },
+      { "id": "SAZAR", "name": "SAZAR", "status": "PROVISIONAL", "role": { "en": "Dissident archivist (Unbound)", "pt-BR": "Arquivista dissidente (Desvinculados)" } },
+      { "id": "VEX", "name": "VEX", "status": "PROVISIONAL", "role": { "en": "Containment agent", "pt-BR": "Agente de contenção" } }
     ],
     "openQuestions": [
       { "id": "Q1", "status": "OPEN_QUESTION", "text": { "en": "Who altered the records of the ancient alliance?", "pt-BR": "Quem alterou os registros da antiga aliança?" } },

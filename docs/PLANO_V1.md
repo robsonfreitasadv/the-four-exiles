@@ -37,7 +37,8 @@ Em qualquer opção, cada raça precisa de um bloco **"Por que escolher esta ra�
 
 - **Feito:** enquadramento aprovado (nenhuma raça é vilã; a Resistência narra); virtudes por raça; "Escolha sua raça" com teste e carteirinha do Censo (`/choose`); Temporada 0 com personagens de IA identificados (`/season-0`); placar da Temporada 1 zerado.
 - **Feito também:** kit grátis por raça (item 3), na página de cada raça.
-- **Falta:** itens 4, 6, 7 e 8 abaixo.
+- **Feito também:** planta da comunidade e ligação no site (item 4); falta o dono criar o servidor e colar o convite.
+- **Falta:** itens 6, 7 e 8 abaixo.
 
 ## O que falta para colocar a v1 no ar
 
@@ -67,4 +68,4 @@ Em qualquer opção, cada raça precisa de um bloco **"Por que escolher esta ra�
 Conforme a própria ideia e as regras do projeto, nada de token, ticker, preço ou data antes de validar comunidade, custos, segurança e estrutura jurídica, inclusive com especialista sobre a regulação de criptoativos no Brasil. A pontuação do campeonato nunca vem de mercado. Vale testar primeiro se um único token do universo funciona melhor que quatro.
 
 ## Pendências de cânone que não impedem a v1
-Soberano (SAZHI ou KRAHL-VOR), planetas natais, comandante e motivação dos Mantis, Sael, alturas. O site pode estrear com os selos de "Provisório"; o importante é não apresentar provisório como oficial.
+Soberano (SAZAR ou KRAHL-VOR), planetas natais, comandante e motivação dos Mantis, Sael, alturas. O site pode estrear com os selos de "Provisório"; o importante é não apresentar provisório como oficial.

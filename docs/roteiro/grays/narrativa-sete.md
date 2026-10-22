@@ -14,7 +14,7 @@
 
 **Premissa (Egri):** a fé cega no procedimento leva à cumplicidade com o apagamento e só se cura quando o fiel aceita registrar o que não sabe.
 
-**Ideia controladora (McKee, valor + causa):** a verdade sobrevive, e a justiça se abre, quando o guardião do registro aceita uma discrepância em aberto, porque um registro que ninguém pode contestar é uma ordem, não uma evidência. Tipo: ironia positiva (ganho de sabedoria pago com perda pessoal). Contra-ideia, com fogo igual: VHAL-ETT, que diz que sem a ordem do registro a espécie morre.
+**Ideia controladora (McKee, valor + causa):** a verdade sobrevive, e a justiça se abre, quando o guardião do registro aceita uma discrepância em aberto, porque um registro que ninguém pode contestar é uma ordem, não uma evidência. Tipo: ironia positiva (ganho de sabedoria pago com perda pessoal). Contra-ideia, com fogo igual: VELLUM, que diz que sem a ordem do registro a espécie morre.
 
 **Desejo × crença errada:** Sete quer fechar a auditoria com *zero discrepâncias*. Crê que, seguido o procedimento, a verdade emerge sozinha. Ela estava certa uma vez: o procedimento o salvou, e ele foi promovido.
 
@@ -32,7 +32,7 @@
 
 **SETE.** Auditor do Arquivo Central (aprovado). *Função:* protagonista e, no fim, o próprio adversário vencido. *Desejo:* zero discrepâncias. *Contradição:* literal até a crueldade, mas guarda uma anotação de Seis que nunca leu. *Atitude diante da ideia:* começa defendendo-a pelo avesso ("registros não ordenam; registram") e a vive no fim, custosamente.
 
-**VHAL-ETT.** Supervisora, Continuísta ("a sobrevivência precede a explicação"). *Função:* antagonista principal e falsa-adversária (protege Sete). *Desejo:* a auditoria fechada para sustentar a reivindicação biológica no Censo e proteger a prioridade de continuidade das colônias. *Contradição:* sabe que o Arquivo é imperfeito e ama o auditor mais perfeito dele. *Atitude:* a contra-ideia. Seu argumento é bom: abrir os registros pode derrubar a reivindicação e condenar populações dependentes dela. É a faca que o filme entrega ao antagonista.
+**VELLUM.** Supervisora, Continuísta ("a sobrevivência precede a explicação"). *Função:* antagonista principal e falsa-adversária (protege Sete). *Desejo:* a auditoria fechada para sustentar a reivindicação biológica no Censo e proteger a prioridade de continuidade das colônias. *Contradição:* sabe que o Arquivo é imperfeito e ama o auditor mais perfeito dele. *Atitude:* a contra-ideia. Seu argumento é bom: abrir os registros pode derrubar a reivindicação e condenar populações dependentes dela. É a faca que o filme entrega ao antagonista.
 
 **TERCE-OHM.** Guardião das Cópias. *Função:* mentor-sombra e fonte do fragmento. *Desejo:* preservar o que o sistema descartou. *Contradição:* guarda cópias proibidas "para o caso de" e se recusa a usá-las quando o caso chega. *Atitude:* confia no arquivamento silencioso; sua cópia só vale se alguém aceitar o risco de revelá-la.
 
@@ -42,11 +42,11 @@
 
 **ZEN-VARO.** Historiador revisionista. *Função:* falso aliado. *Desejo:* abrir os arquivos originais. *Contradição:* exige transparência total mas esconde que já acessou um arquivo restrito. *Atitude:* repete a ideia controladora como slogan; quando ela custa a ele, vaza meia verdade para proteger o próprio segredo.
 
-**NIRA-TOLL (nome proposto).** Pesquisadora de campo, Transicionista (papel que o dossiê dava a ILVANI, que é nórdico). *Função:* aliada de campo. *Desejo:* provar que os dados sobre a humanidade não cabem na doutrina atual. *Contradição:* quer mudança, mas depende da estrutura que quer mudar. *Atitude:* aposta em abrir, devagar.
+**NIRA-TOLL (nome proposto).** Pesquisadora de campo, Transicionista (papel que o dossiê dava a AUREL, que é nórdico). *Função:* aliada de campo. *Desejo:* provar que os dados sobre a humanidade não cabem na doutrina atual. *Contradição:* quer mudança, mas depende da estrutura que quer mudar. *Atitude:* aposta em abrir, devagar.
 
-**PEL-ODRU (nome proposto).** Arquivista dissidente, Desvinculados (papel de SAZHI, que é reptiliano). *Função:* voz da divulgação seletiva; oposta a Zen-Varo. *Desejo:* nenhum sistema com a última palavra. *Contradição:* defende que a verdade seja entregue em pedaços, sem prestar contas a ninguém. *Atitude:* a ideia, mas administrada por quem sabe.
+**PEL-ODRU (nome proposto).** Arquivista dissidente, Desvinculados (papel de SAZAR, que é reptiliano). *Função:* voz da divulgação seletiva; oposta a Zen-Varo. *Desejo:* nenhum sistema com a última palavra. *Contradição:* defende que a verdade seja entregue em pedaços, sem prestar contas a ninguém. *Atitude:* a ideia, mas administrada por quem sabe.
 
-**DRAV-KESS (nome proposto).** Agente de contenção (papel de XHALEN-KTHRIX, que é mantis). *Função:* perseguidor. *Desejo:* conter antes de compreender. *Contradição:* a contenção gasta energia e ele precisa decidir o que vale a conta de luz. *Atitude:* a ideia é uma ameaça compreendida tarde demais.
+**DRAV-KESS (nome proposto).** Agente de contenção (papel de VEX, que é mantis). *Função:* perseguidor. *Desejo:* conter antes de compreender. *Contradição:* a contenção gasta energia e ele precisa decidir o que vale a conta de luz. *Atitude:* a ideia é uma ameaça compreendida tarde demais.
 
 **SEIS (nome proposto).** O fantasma. Aparece apenas em memória, anotação e, no gancho, em um rastro.
 
@@ -65,13 +65,13 @@
 | Imagem de abertura | 0–3 | Sete carimba "0 discrepâncias" num dossiê óbvio. |
 | Tema enunciado | 6 | Zen-Varo: "um registro que ninguém contesta é uma ordem". Sete: "registros não ordenam; registram". |
 | Preparação | 3–12 | Arquivo, Ophelia, 40.000 reclamações, o fantasma de Seis. |
-| Incidente incitante | 12 | VHAL-ETT entrega o Dossiê Terra-Folclore: nove ciclos, zero discrepâncias. |
+| Incidente incitante | 12 | VELLUM entrega o Dossiê Terra-Folclore: nove ciclos, zero discrepâncias. |
 | Debate | 12–24 | Roswell, Hill, "Bovino, 1": a comédia esconde as primeiras rachaduras. |
 | Virada para o 2º ato | 24 | Greada em três versões com carimbo de autoridade vazia; Sete pede auditoria de campo. |
 | História B | 25 | Hélio e, depois, Dora. |
 | Diversão e jogos | 25–50 | Fortaleza: camuflagem de TV, telepatia ruidosa, Nira-Toll, Kael-Ruum. |
 | Ponto médio | 50 | A chave de auditor de Sete está nas correções. Falsa derrota, e o desejo muda de "fechar" para "entender". |
-| Os maus se aproximam | 50–72 | Drav-Kess, Ophelia, VHAL-ETT, Zen-Varo, o fragmento. |
+| Os maus se aproximam | 50–72 | Drav-Kess, Ophelia, VELLUM, Zen-Varo, o fragmento. |
 | Tudo está perdido | 72 | Terce-Ohm levado, cópias purgadas, credencial revogada, Zen-Varo vaza meia verdade. |
 | Noite escura da alma | 75–82 | Sete encara o laudo que assinou contra Seis. |
 | Virada para o 3º ato | 82 | Ele usa a arma do sistema: o Formulário 0, Discrepância Aberta. |
@@ -81,16 +81,16 @@
 ### Componentes de Truby
 
 - **Fantasma:** Seis e o laudo. **Ponto fraco:** conformidade. **Necessidade:** assumir "não sei". **Desejo:** fechar a auditoria.
-- **Oponente:** VHAL-ETT, com Drav-Kess como mão pesada. **Aliado-falso-adversário:** Zen-Varo (parece aliado, trai). **Adversário-falso-aliado:** VHAL-ETT (parece superior hostil, protege até onde pode). **Aliados reais:** Nira-Toll, Hélio.
+- **Oponente:** VELLUM, com Drav-Kess como mão pesada. **Aliado-falso-adversário:** Zen-Varo (parece aliado, trai). **Adversário-falso-aliado:** VELLUM (parece superior hostil, protege até onde pode). **Aliados reais:** Nira-Toll, Hélio.
 - **Plano:** verificar nos originais; **contra-plano:** contenção, cargas de trabalho, ofertas.
 - **Revelações:** (1) as três versões; (2) a chave é a dele (ponto médio); (3) a anotação de Seis: "a chave que corrige é a sua; eu não a usei"; (4) o parâmetro T-3 de Ophelia.
-- **Decisões:** pedir o campo; usar o arquivo restrito com Zen-Varo; voltar a Hevra; recusar o acordo de VHAL-ETT; abrir o Formulário 0; transferir a cópia a quem não é do Arquivo.
+- **Decisões:** pedir o campo; usar o arquivo restrito com Zen-Varo; voltar a Hevra; recusar o acordo de VELLUM; abrir o Formulário 0; transferir a cópia a quem não é do Arquivo.
 - **Autorrevelação:** o procedimento protege, mas protege quem? **Escolha moral (Truby):** assinar "zero" e receber Seis e Terce, ou abrir e perder os dois. Terceira via: abrir *e* rotular a cópia como "não verificada".
 - **Novo equilíbrio:** Sete deixa de ser auditor de conformidade e passa a ser auditor de incerteza.
 
 ### Batidas de detetive/thriller
 
-Crime: uma discrepância que não devia existir. Suspeitos: Zen-Varo (acesso restrito oculto), Kael-Ruum (operação alterada), Ophelia (modelo não checado), VHAL-ETT (interesse institucional), o próprio Sete. Pistas: três grafias, carimbo vazio, T-3, chave. Falsa pista: Kael-Ruum (a interrupção de Hill é um segredo, não o segredo). Confronto: a audiência. A solução não vem; vem a pista melhor.
+Crime: uma discrepância que não devia existir. Suspeitos: Zen-Varo (acesso restrito oculto), Kael-Ruum (operação alterada), Ophelia (modelo não checado), VELLUM (interesse institucional), o próprio Sete. Pistas: três grafias, carimbo vazio, T-3, chave. Falsa pista: Kael-Ruum (a interrupção de Hill é um segredo, não o segredo). Confronto: a audiência. A solução não vem; vem a pista melhor.
 
 ### Batidas de comédia
 
@@ -107,12 +107,12 @@ Valor: o eixo é **ordem ↔ verdade em aberto**. O sinal é a mudança para o e
 2. INT. Corredor. Ophelia-3 cobra rapidez; as 40.000 reclamações contra o caos; pausa de sete segundos. **+/−** (a ordem rende, mas o ambiente é frágil)
 3. INT. Sala de debates. Zen-Varo enuncia o tema; Sete responde literal. **−** (primeira provocação)
 4. INT. Refeitório. Cadeira de Seis, vazia. Sete desvia o olhar. **−**
-5. INT. Sala de VHAL-ETT. Designação: Dossiê Terra-Folclore, nove ciclos, zero discrepâncias, antes da sessão de abertura. **+** (honra e prazo)
+5. INT. Sala de VELLUM. Designação: Dossiê Terra-Folclore, nove ciclos, zero discrepâncias, antes da sessão de abertura. **+** (honra e prazo)
 6. INT. Sala de auditoria. "Bovino, 1": Sete audita a abdução de Hélio de 1987 com formulário errado. *(cena de amostra A)* **+** (fecha) / ironia **−** (a verdade foi carimbada)
 7. INT. Mesa de auditoria. Roswell e Hill como relatórios de coleta; "o mapa estelar é desculpa oficial de rota errada". Sete ofendido com os erros de data humanos. **+**
 8. INT. Mesma sala, noite. Greada em três versões, grafias diferentes, carimbos de correção com autoridade vazia. **−** (primeira discrepância real)
 9. INT. Laboratório de Ophelia. O modelo tem parâmetro "T-3", sem explicação. Ela ri. **−**
-10. INT. Sala de VHAL-ETT. Sete pede auditoria de campo; ela recusa, depois cede com Kael-Ruum como acompanhante. **−/+** *(virada para o ato II)*
+10. INT. Sala de VELLUM. Sete pede auditoria de campo; ela recusa, depois cede com Kael-Ruum como acompanhante. **−/+** *(virada para o ato II)*
 
 **Ato II-A**
 11. INT. Cofre de Cópias. Terce-Ohm oferece "um backup". Sete recusa: fora do canal. **−** (a primeira ponte recusada)
@@ -129,7 +129,7 @@ Valor: o eixo é **ordem ↔ verdade em aberto**. O sinal é a mudança para o e
 **Ato II-B**
 21. INT. Disco. Pelo procedimento, Sete deve se afastar. Não se afasta: "ainda não terminei de auditar a mim." **−**
 22. INT. Hologramas. Ophelia: o modelo prevê "colapso de confiança" se a discrepância for pública; confessa que nunca checou Mirva. **−**
-23. INT. Holograma de VHAL-ETT. "Feche com zero." Ela expõe a prioridade de continuidade. O argumento dela é bom. **+/−**
+23. INT. Holograma de VELLUM. "Feche com zero." Ela expõe a prioridade de continuidade. O argumento dela é bom. **+/−**
 24. EXT. Fortaleza. Drav-Kess chega; o campo de contenção suga a energia e deixa um bairro inteiro no escuro (blecaute, sem vítimas). **−**
 25. EXT. Ruas. Perseguição; camuflagem falha; telepatia gera ruído e Hélio ouve um coro de Grays. **+/−** (fuga, custo)
 26. INT. Casa de Nira-Toll. Kael-Ruum cortou o apoio. Nira ajuda a voltar. **+**
@@ -139,10 +139,10 @@ Valor: o eixo é **ordem ↔ verdade em aberto**. O sinal é a mudança para o e
 30. INT. Disco escondido. Sete relê o laudo que assinou contra Seis. A pausa dura demais. **−** *(noite escura)*
 
 **Ato III**
-31. INT. Canal privado. VHAL-ETT oferece o acordo: assine "zero", Terce será poupado, Seis será localizado. **+/−** (a tentação)
+31. INT. Canal privado. VELLUM oferece o acordo: assine "zero", Terce será poupado, Seis será localizado. **+/−** (a tentação)
 32. INT. Sala de Pel-Odru. A arquivista dissidente diz: divulgue em pedaços. Zen-Varo diz: tudo. Sete se recusa a ser a mão de qualquer um. **−/+**
 33. INT. Sala de auditoria. Sete preenche o Formulário 0, Discrepância Aberta, que o regulamento obriga a instaurar inquérito. **+** *(virada para o ato III)*
-34. INT. Audiência de Conformidade. Sete lê o relatório ao pé da letra: as correções, a chave, a autoridade vazia. VHAL-ETT hesita; Ophelia gagueja o T-3. **+**
+34. INT. Audiência de Conformidade. Sete lê o relatório ao pé da letra: as correções, a chave, a autoridade vazia. VELLUM hesita; Ophelia gagueja o T-3. **+**
 35. INT. Canal de saída. A escolha moral: a cópia a Hélio e Dora, rotulada "não verificada". Custo: contenção e perda do acordo. **−/+**
 36. INT. Cela de contenção. Cena final: a pausa passa de sete segundos; o carimbo novo. *(cena de amostra C)* **+**
 
@@ -326,23 +326,23 @@ no seu crachá pisca, pisca, e apaga.
 INT. CELA DE CONTENÇÃO, HEVRA – CICLO 9
 
 Cela cinza, uma mesa, um carimbo que alguém esqueceu, dois
-formulários. SETE, sem crachá. A porta se abre. VHAL-ETT entra,
+formulários. SETE, sem crachá. A porta se abre. VELLUM entra,
 mais alta, mãos cruzadas atrás das costas.
 
-                    VHAL-ETT
+                    VELLUM
           O Formulário 0 foi recebido. O inquérito está
           aberto. Pelo regulamento, não posso fechá-lo.
 
                     SETE
           Eu sei. Li o regulamento.
 
-                    VHAL-ETT
+                    VELLUM
           Você é o único que leu.
 
                     SETE
           Quem conduz o inquérito?
 
-                    VHAL-ETT
+                    VELLUM
           Eu.
 
 Pausa. Sete a observa, sem hostilidade.
@@ -350,13 +350,13 @@ Pausa. Sete a observa, sem hostilidade.
                     SETE
           Ou o procedimento ou o conflito de interesse.
 
-                    VHAL-ETT
+                    VELLUM
           Você me deixou o procedimento e o conflito.
 
                     SETE
           É o que se faz com a incerteza.
 
-                    VHAL-ETT
+                    VELLUM
           (quase sorri)
           Seu laudo contra Seis foi anulado esta manhã.
           Ninguém assinou a anulação.

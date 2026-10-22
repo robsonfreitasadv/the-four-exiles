@@ -4,13 +4,18 @@ export const factions: Faction[] = [
   {
     id: 'grays',
     name: { en: 'GRAYS', 'pt-BR': 'GRAYS' },
-    sheetCharacter: 'VHAL-ETT',
+    sheetCharacter: 'VELLUM',
     code: 'VH-07',
     art: [
       {
+        src: '/images/characters/vhal-ett-face.webp',
+        focus: '50% 30%',
+        alt: { en: 'VELLUM, a Gray with a large smooth head and glossy black eyes, in a dark jacket with a Scribes ID badge.', 'pt-BR': 'VELLUM, um Gray de cabeça grande e lisa e olhos pretos brilhantes, de jaqueta escura com crachá dos Escrivães.' },
+      },
+      {
         src: '/images/characters/vhal-ett-3d.webp',
         focus: '50% 18%',
-        alt: { en: 'VHAL-ETT, a Gray with a large head and black eyes, in a dark suit with an ID badge and a shoulder bag, holding a tablet.', 'pt-BR': 'VHAL-ETT, um Gray de cabeça grande e olhos pretos, de terno escuro com crachá e bolsa a tiracolo, segurando um tablet.' },
+        alt: { en: 'VELLUM, a Gray with a large head and black eyes, in a dark suit with an ID badge and a shoulder bag, holding a tablet.', 'pt-BR': 'VELLUM, um Gray de cabeça grande e olhos pretos, de terno escuro com crachá e bolsa a tiracolo, segurando um tablet.' },
       },
     ],
     sheet: {
@@ -82,13 +87,18 @@ export const factions: Faction[] = [
   {
     id: 'nordics',
     name: { en: 'NORDICS', 'pt-BR': 'NÓRDICOS' },
-    sheetCharacter: 'ILVANI',
+    sheetCharacter: 'AUREL',
     code: 'IL-01',
     art: [
       {
+        src: '/images/characters/ilvani-face.webp',
+        focus: '50% 30%',
+        alt: { en: 'AUREL, a Nordic with long blond hair and blue eyes, smiling, in a white and blue suit with a crystal on the chest.', 'pt-BR': 'AUREL, um Nórdico de longos cabelos loiros e olhos azuis, sorrindo, em traje branco e azul com um cristal no peito.' },
+      },
+      {
         src: '/images/characters/ilvani-3d.webp',
         focus: '50% 18%',
-        alt: { en: 'ILVANI, a tall Nordic with long platinum hair and glowing blue eyes, in a white and silver suit and cape, offering an open hand.', 'pt-BR': 'ILVANI, um Nórdico alto de longos cabelos platinados e olhos azuis brilhantes, em traje branco e prata com capa, estendendo a mão aberta.' },
+        alt: { en: 'AUREL, a tall Nordic with long platinum hair and glowing blue eyes, in a white and silver suit and cape, offering an open hand.', 'pt-BR': 'AUREL, um Nórdico alto de longos cabelos platinados e olhos azuis brilhantes, em traje branco e prata com capa, estendendo a mão aberta.' },
       },
     ],
     sheet: {
@@ -160,13 +170,18 @@ export const factions: Faction[] = [
   {
     id: 'reptilians',
     name: { en: 'REPTILIANS', 'pt-BR': 'REPTILIANOS' },
-    sheetCharacter: 'SAZHI',
+    sheetCharacter: 'SAZAR',
     code: 'SZ-99',
     art: [
       {
+        src: '/images/characters/sazhi-face.webp',
+        focus: '50% 30%',
+        alt: { en: 'SAZAR, the Reptilian sovereign, with green scales, amber eyes and a scarred snout, in red and gold armor under a red hood.', 'pt-BR': 'SAZAR, o soberano reptiliano, de escamas verdes, olhos âmbar e focinho marcado por uma cicatriz, em armadura vermelha e dourada sob um capuz vermelho.' },
+      },
+      {
         src: '/images/characters/sazhi-3d.webp',
         focus: '50% 18%',
-        alt: { en: 'SAZHI, the Reptilian sovereign, with green scales and yellow eyes, in red-and-gold armor and a long red cape, tail curled behind.', 'pt-BR': 'SAZHI, o soberano reptiliano, de escamas verdes e olhos amarelos, em armadura vermelha e dourada e longa capa vermelha, com a cauda enrolada atrás.' },
+        alt: { en: 'SAZAR, the Reptilian sovereign, with green scales and yellow eyes, in red-and-gold armor and a long red cape, tail curled behind.', 'pt-BR': 'SAZAR, o soberano reptiliano, de escamas verdes e olhos amarelos, em armadura vermelha e dourada e longa capa vermelha, com a cauda enrolada atrás.' },
       },
     ],
     sheet: {
@@ -218,7 +233,7 @@ export const factions: Faction[] = [
     },
     claimBasis: { en: 'Strategic claim', 'pt-BR': 'Reivindicação estratégica' },
     leader: {
-      name: { en: 'SAZHI', 'pt-BR': 'SAZHI' },
+      name: { en: 'SAZAR', 'pt-BR': 'SAZAR' },
       role: { en: 'The Sovereign, ruler of the Sazhath Dynasty', 'pt-BR': 'O Soberano, governante da Dinastia de Sazhath' },
       description: {
         en: 'Four hundred years on the Obsidian Throne, eleven assassination attempts survived, and one heir who keeps accidentally declaring war.',
@@ -238,13 +253,18 @@ export const factions: Faction[] = [
   {
     id: 'mantis',
     name: { en: 'MANTIS', 'pt-BR': 'MANTIS' },
-    sheetCharacter: 'XHALEN-KTHRIX',
+    sheetCharacter: 'VEX',
     code: 'XK-00',
     art: [
       {
+        src: '/images/characters/xhalen-kthrix-face.webp',
+        focus: '50% 30%',
+        alt: { en: 'VEX, a Mantis with large green compound eyes and long antennae, in glossy black armor set with a blue gem.', 'pt-BR': 'VEX, um Mantis de grandes olhos compostos verdes e antenas longas, em armadura preta brilhante com uma gema azul.' },
+      },
+      {
         src: '/images/characters/xhalen-kthrix-3d.webp',
         focus: '50% 18%',
-        alt: { en: 'XHALEN-KTHRIX, a tall Mantis commander with large green compound eyes and antennae, in segmented black armor and a long coat.', 'pt-BR': 'XHALEN-KTHRIX, um comandante Mantis alto, semelhante a um louva-a-deus, com grandes olhos compostos verdes e antenas, em armadura preta segmentada e casaco longo.' },
+        alt: { en: 'VEX, a tall Mantis commander with large green compound eyes and antennae, in segmented black armor and a long coat.', 'pt-BR': 'VEX, um comandante Mantis alto, semelhante a um louva-a-deus, com grandes olhos compostos verdes e antenas, em armadura preta segmentada e casaco longo.' },
       },
     ],
     sheet: {
@@ -296,7 +316,7 @@ export const factions: Faction[] = [
     },
     claimBasis: { en: 'Contractual claim', 'pt-BR': 'Reivindicação contratual' },
     leader: {
-      name: { en: 'XHALEN-KTHRIX', 'pt-BR': 'XHALEN-KTHRIX' },
+      name: { en: 'VEX', 'pt-BR': 'VEX' },
       role: { en: 'The Commander, Supreme Field Officer of the Xhalen Expeditionary Corps', 'pt-BR': 'O Comandante, Oficial Supremo de Campo do Corpo Expedicionário de Xhalen' },
       description: {
         en: 'Undefeated in 312 campaigns. Considers Dora the first worthy opponent in a century — and has sent her a formal letter saying so.',

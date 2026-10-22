@@ -8,9 +8,9 @@
 
 ## Conflitos com decisões aprovadas
 
-1. **SAZHI e XHALEN-KTHRIX listados como Grays** (arquivista dissidente, agente de contenção). Pela decisão de 2026-10-20, são Reptiliano e Mantis. VHAL-ETT aparece como "raça a confirmar", mas já é Gray.
-2. **"Insetoides"** em títulos e referências; a decisão aprovada é **Mantis**. Falta XHALEN-KTHRIX (a ficha); IXUL-DRA ocupa o comando.
-3. **Soberano = KRAHL-VOR**, sem citar SAZHI nem a Dinastia de Sazhath. O tema está em aberto; o documento escolheu sem avisar.
+1. **SAZAR e VEX listados como Grays** (arquivista dissidente, agente de contenção). Pela decisão de 2026-10-20, são Reptiliano e Mantis. VELLUM aparece como "raça a confirmar", mas já é Gray.
+2. **"Insetoides"** em títulos e referências; a decisão aprovada é **Mantis**. Falta VEX (a ficha); IXUL-DRA ocupa o comando.
+3. **Soberano = KRAHL-VOR**, sem citar SAZAR nem a Dinastia de Sazhath. O tema está em aberto; o documento escolheu sem avisar.
 4. **Planetas** Vaelor, Sarrath, Threnn (o site usa Maia-Prime, Thaxis, Xhalen; em aberto).
 5. **Alturas e aparência** divergentes das fichas oficiais: Nórdicos 1,85–2,10 m (ficha 1,8–2,2); Reptilianos 1,90–2,30 (2–2,5) e sem olhos amarelos, armadura vermelha e dourada e capa; Mantis 1,7–2,0 (≈ 2,3), quatro braços e olhos avermelhados (a ficha mostra olhos compostos verdes, antenas, casaco). A regra visual "não há folha aprovada" está errada: `design/sheets/races.webp` tem as quatro raças.
 6. **Motivações aprovadas apagadas:** decadência genética dos Grays; Plano Jardim dos Nórdicos (e Sael como ex-jardineiro); a água da Terra, os herdeiros incompetentes e os disfarces dos Reptilianos; o negócio de armas dos Mantis (o documento põe "armas" como pergunta aberta). Faltam as reivindicações no Censo e os títulos (Escrivães, Pastores, Dinastia de Sazhath, Comandantes).
@@ -27,7 +27,7 @@
 
 ## O que o documento traz de novo
 
-Instituições Gray propostas e o mandato do Arquivo Central; direção visual Gray (geometria funcional, cor como sinal de função); ILVANI como Tutora / orientadora de transição; armas como pergunta aberta para três raças; perguntas novas (N4 Sael é nórdico?, N5, I4/R4 região da galáxia, I5/R5 armas); os três nomes da Era IV. O resto é reformulação, e perde as personalidades e contradições dos Grays TERCE-OHM, KAEL-RUUM, OPHELIA-3 e ZEN-VARO e as relações dos personagens nórdicos.
+Instituições Gray propostas e o mandato do Arquivo Central; direção visual Gray (geometria funcional, cor como sinal de função); AUREL como Tutora / orientadora de transição; armas como pergunta aberta para três raças; perguntas novas (N4 Sael é nórdico?, N5, I4/R4 região da galáxia, I5/R5 armas); os três nomes da Era IV. O resto é reformulação, e perde as personalidades e contradições dos Grays TERCE-OHM, KAEL-RUUM, OPHELIA-3 e ZEN-VARO e as relações dos personagens nórdicos.
 
 ## Lacunas para roteiro
 
@@ -35,15 +35,15 @@ Instituições Gray propostas e o mandato do Arquivo Central; direção visual G
 - **Grays:** o que querem da Terra em concreto; custo social da contenção.
 - **Nórdicos:** o Plano Jardim como ambição; o que fazem quando a persuasão falha (N3); um rival na Terra.
 - **Reptilianos:** uso concreto da água da Terra; o herdeiro incompetente; o frio como fraqueza.
-- **Mantis:** quem compra as armas e o que é testado; Dora como "oponente digna" de XHALEN-KTHRIX.
+- **Mantis:** quem compra as armas e o que é testado; Dora como "oponente digna" de VEX.
 
 `resumo-racas.md` preenche as relações e as ambições, tudo marcado como provisório.
 
 ## Pendências para o dono
 
-1. Soberano: SAZHI (ficha) ou KRAHL-VOR (chat).
+1. Soberano: SAZAR (ficha) ou KRAHL-VOR (chat).
 2. Planetas natais.
-3. Comandante dos Mantis (XHALEN-KTHRIX ou IXUL-DRA) e a motivação: negócio de armas (cânone) ou dever (chat). O resumo combina: o dever como método, o negócio como fim.
+3. Comandante dos Mantis (VEX ou IXUL-DRA) e a motivação: negócio de armas (cânone) ou dever (chat). O resumo combina: o dever como método, o negócio como fim.
 4. Sael: ex-jardineiro desertor (site) ou diplomata (chat).
 5. Alturas: seguir a ficha oficial ou ajustá-la.
 6. Escritório de Previsão de Riscos e Conselho de Continuidade: aceitar, rejeitar ou adiar.
@@ -51,4 +51,4 @@ Instituições Gray propostas e o mandato do Arquivo Central; direção visual G
 
 ## Ajustes para o chat fazer no documento (sem decisão do dono)
 
-Tirar SAZHI e XHALEN-KTHRIX da lista Gray; trocar "Insetoides" por "Mantis"; restaurar descarte, clonagem, rótulos e personalidades; corrigir o estado do cânone e a regra visual; trocar "facção" por "corrente"; corrigir acentos e hífens perdidos (IXUL DRA, KRAHL VOR, SSARA MIN); usar datas em vez de DEC-00n.
+Tirar SAZAR e VEX da lista Gray; trocar "Insetoides" por "Mantis"; restaurar descarte, clonagem, rótulos e personalidades; corrigir o estado do cânone e a regra visual; trocar "facção" por "corrente"; corrigir acentos e hífens perdidos (IXUL DRA, KRAHL VOR, SSARA MIN); usar datas em vez de DEC-00n.

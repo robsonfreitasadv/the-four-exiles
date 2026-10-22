@@ -96,7 +96,7 @@ export function ResistanceSection({ headingAs = 'h2' }: { headingAs?: 'h1' | 'h2
           {crew.map((h) => (
             <Reveal as="li" key={h.id}>
               <TiltCard className="overflow-hidden rounded-[28px] bg-graphite-800" max={9}>
-                <div className="relative aspect-[180/472]">
+                <div className="relative aspect-[3/4]">
                   <CharacterImage image={h.image} background="#151515" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-black/10 to-transparent" aria-hidden="true" />
                   <div className="absolute inset-x-0 bottom-0 p-4 sm:p-5">
