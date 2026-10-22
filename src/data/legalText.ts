@@ -79,6 +79,10 @@ export const privacyBlocks: InfoBlock[] = [
         'pt-BR': 'Fontes: as fontes do site são carregadas do Google Fonts, então seu navegador se conecta ao Google, que recebe seu endereço IP conforme a política de privacidade dele.',
       },
       {
+        en: 'Accounts: sign-in e-mails are sent by Supabase (and, when set up, by Resend, the e-mail service). If the bot check is on, the sign-in form loads Cloudflare Turnstile, which receives technical data from your browser to tell people from bots.',
+        'pt-BR': 'Contas: os e-mails de entrada são enviados pelo Supabase (e, quando configurado, pelo Resend, o serviço de e-mail). Se a verificação contra robôs estiver ligada, o formulário de entrada carrega o Cloudflare Turnstile, que recebe dados técnicos do seu navegador para distinguir pessoas de robôs.',
+      },
+      {
         en: 'Community: the community lives on Discord. Nothing is sent to Discord unless you click an invitation; once there, Discord’s own terms and privacy policy apply.',
         'pt-BR': 'Comunidade: a comunidade fica no Discord. Nada é enviado ao Discord a menos que você clique num convite; lá, valem os termos e a política de privacidade do próprio Discord.',
       },

@@ -430,6 +430,7 @@ export const ptBR: Dictionary = {
     profileFailed: 'Não deu para salvar. Tente outro apelido.',
     signOut: 'Sair',
     signIn: 'Entrar',
+    captchaNeeded: 'Faça a verificação contra robôs primeiro.',
   },
   missionForm: {
     title: 'Envie sua missão',

@@ -428,6 +428,7 @@ export const en = {
     profileFailed: 'Could not save. Try another nickname.',
     signOut: 'Sign out',
     signIn: 'Sign in',
+    captchaNeeded: 'Complete the bot check first.',
   },
   missionForm: {
     title: 'Send your entry',

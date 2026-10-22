@@ -3,14 +3,17 @@ import { factions } from '../../data/factions';
 import { supabase, type Race } from '../../lib/supabase';
 import { useI18n } from '../../i18n/I18nProvider';
 import { useCensus } from '../choose/chosenRace';
+import { Captcha, TURNSTILE_SITE_KEY } from './Captcha';
 import { useAccount, type Account } from './useAccount';
 
 const field =
   'mt-2 w-full rounded-2xl border border-graphite-500 bg-graphite-800 px-4 py-3 text-bone placeholder:text-bone-muted focus:border-bone focus:outline-none';
 
-/** E-mail sign-in with a 6-digit code (no redirect, so it also works inside previews). */
+/** E-mail sign-in without a password: the e-mail brings a link back here or a 6-digit code. */
 function SignIn() {
-  const { t } = useI18n();
+  const { t, lang } = useI18n();
+  const [captchaToken, setCaptchaToken] = useState<string | null>(null);
+  const [captchaRound, setCaptchaRound] = useState(0);
   const [email, setEmail] = useState('');
   const [code, setCode] = useState('');
   const [step, setStep] = useState<'email' | 'code'>('email');
@@ -20,12 +23,15 @@ function SignIn() {
   async function sendCode(e: FormEvent) {
     e.preventDefault();
     if (!supabase) return;
+    if (TURNSTILE_SITE_KEY && !captchaToken) return setError(t.account.captchaNeeded);
     setBusy(true);
     setError('');
     // The e-mail carries a 6-digit code (custom templates) or a link back to this page (default templates).
     const back = `${window.location.origin}${window.location.pathname}`;
-    const { error: err } = await supabase.auth.signInWithOtp({ email: email.trim(), options: { shouldCreateUser: true, emailRedirectTo: back } });
+    const { error: err } = await supabase.auth.signInWithOtp({ email: email.trim(), options: { shouldCreateUser: true, emailRedirectTo: back, captchaToken: captchaToken ?? undefined } });
     setBusy(false);
+    setCaptchaToken(null); // each token works once; reset the widget for a new one
+    setCaptchaRound((n) => n + 1);
     if (err) setError(t.account.sendFailed);
     else setStep('code');
   }
@@ -47,6 +53,7 @@ function SignIn() {
         <span className="text-sm text-bone-muted">{t.account.email}</span>
         <input type="email" required autoComplete="email" value={email} onChange={(e) => setEmail(e.target.value)} className={field} />
       </label>
+      <Captcha onToken={setCaptchaToken} lang={lang} resetKey={captchaRound} />
       <button type="submit" disabled={busy} className="btn-primary w-full disabled:opacity-60">
         {busy ? t.account.sending : t.account.sendCode}
       </button>
