@@ -12,6 +12,12 @@
       "runtimeExecutable": "npx",
       "runtimeArgs": ["vite", "preview", "--port", "4173", "--strictPort"],
       "port": 4173
+    },
+    {
+      "name": "four-exiles-pages",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["vite", "preview", "--base", "/the-four-exiles/", "--port", "4174", "--strictPort"],
+      "port": 4174
     }
   ]
 }

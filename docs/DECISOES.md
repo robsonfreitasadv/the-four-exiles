@@ -52,6 +52,7 @@ Ao decidir algo no chat ou no código, acrescente uma linha aqui e faça commit.
 | 2026-10-22 | **Pré-lançamento (pedido do dono):** missões reais com Supabase; robôs com rotina agendada no Discord; trilha sonora gerada no navegador por raça; falas dos personagens gravadas no ElevenLabs (`docs/VOZES.md`); loja com impressão sob demanda, um produto por raça e um da Resistência (`docs/LOJA.md`, `/store`). Feitos: trilha, falas em texto, loja (vitrine e artes). Pendentes: Supabase, robôs, gravação das vozes e cadastro dos produtos. |
 | 2026-10-22 | **Missões reais:** Supabase nos EUA (us-east-1, escolha do dono; a política cita a transferência internacional); conta só para enviar missões, entrada por código no e-mail (sem senha); apelido e raça públicos, e-mail nunca; pontos vão para a raça do perfil e só entram quando a moderação aprova; até 10 envios por dia; imagens privadas (só autor e moderação). Base legal: execução do contrato (LGPD, art. 7º, V); conta a partir de 13 anos. |
 | 2026-10-22 | **Conta no site:** entrada sem senha (código no e-mail) pelo botão do cabeçalho e página `/account`; apelido único e editável; raça escolhida no cadastro fica fixa a temporada inteira; a pessoa pode apagar a própria conta, com envios, imagens e pontos (LGPD, art. 18). Banco nos EUA por escolha do dono. |
+| 2026-10-22 | **Hospedagem:** GitHub Pages ligado ao repositório público, publicação automática pelo GitHub Actions a cada push em `main`; endereço https://robsonfreitasadv.github.io/the-four-exiles/ até haver domínio próprio. |
 
 ## Em aberto
 

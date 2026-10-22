@@ -4,19 +4,37 @@ import { BrowserRouter, HashRouter } from 'react-router-dom';
 import App from './App';
 import { AccountProvider } from './components/auth/useAccount';
 import { I18nProvider } from './i18n/I18nProvider';
+import { supabase } from './lib/supabase';
 import './index.css';
 
 /** Static builds (`npm run build:static`) use hash URLs so they work on any file host without rewrites. */
-const Router = import.meta.env.VITE_HASH_ROUTER === 'true' ? HashRouter : BrowserRouter;
+const hashRouting = import.meta.env.VITE_HASH_ROUTER === 'true';
+const Router = hashRouting ? HashRouter : BrowserRouter;
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <Router>
-      <I18nProvider>
-        <AccountProvider>
-          <App />
-        </AccountProvider>
-      </I18nProvider>
-    </Router>
-  </StrictMode>,
-);
+/**
+ * The sign-in link comes back as `…/#access_token=…`. With hash URLs the router would read that as a page, so
+ * let Supabase take the session from the address first, then land on the account page.
+ */
+async function finishEmailSignIn() {
+  if (!supabase || !/(access_token|error_description)=/.test(window.location.hash)) return;
+  try {
+    await supabase.auth.getSession(); // an expired link just leaves the person signed out
+  } finally {
+    const clean = window.location.pathname + window.location.search;
+    window.history.replaceState(null, '', hashRouting ? `${clean}#/account` : clean);
+  }
+}
+
+void finishEmailSignIn().finally(() => {
+  createRoot(document.getElementById('root')!).render(
+    <StrictMode>
+      <Router>
+        <I18nProvider>
+          <AccountProvider>
+            <App />
+          </AccountProvider>
+        </I18nProvider>
+      </Router>
+    </StrictMode>,
+  );
+});

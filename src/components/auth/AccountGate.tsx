@@ -27,6 +27,7 @@ function SignIn() {
     setBusy(true);
     setError('');
     // The e-mail carries a 6-digit code (custom templates) or a link back to this page (default templates).
+    // Hash URLs can't carry the route back (the session arrives in the hash), so main.tsx lands on the account page.
     const back = `${window.location.origin}${window.location.pathname}`;
     const { error: err } = await supabase.auth.signInWithOtp({ email: email.trim(), options: { shouldCreateUser: true, emailRedirectTo: back, captchaToken: captchaToken ?? undefined } });
     setBusy(false);
