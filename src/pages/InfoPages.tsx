@@ -10,7 +10,7 @@ import { Arrow, DemoDataBadge, SectionHeading } from '../components/ui/primitive
 import { defaultSeason, scoresBySeason } from '../data/championship';
 import { factions } from '../data/factions';
 import { dossiers } from '../data/lore/dossier';
-import { collectibleConcepts, privacyBlocks, termsBlocks, transparencyBlocks, type InfoBlock } from '../data/pages';
+import { collectibleConcepts, transparencyBlocks, type InfoBlock } from '../data/pages';
 import type { FactionId } from '../data/types';
 import { useI18n } from '../i18n/I18nProvider';
 
@@ -249,13 +249,3 @@ export function TransparencyPage() {
   );
 }
 
-export function LegalPage({ kind }: { kind: 'privacy' | 'terms' }) {
-  const { t } = useI18n();
-  const copy = t.stub[kind];
-  return (
-    <div className="container-x py-14 md:py-20">
-      <SectionHeading as="h1" kicker={t.nav[kind]} title={copy.title} intro={copy.intro} />
-      <BlockList blocks={kind === 'privacy' ? privacyBlocks : termsBlocks} />
-    </div>
-  );
-}

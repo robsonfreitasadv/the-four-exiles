@@ -38,7 +38,8 @@ Em qualquer opção, cada raça precisa de um bloco **"Por que escolher esta ra�
 - **Feito:** enquadramento aprovado (nenhuma raça é vilã; a Resistência narra); virtudes por raça; "Escolha sua raça" com teste e carteirinha do Censo (`/choose`); Temporada 0 com personagens de IA identificados (`/season-0`); placar da Temporada 1 zerado.
 - **Feito também:** kit grátis por raça (item 3), na página de cada raça.
 - **Feito também:** planta da comunidade e ligação no site (item 4); falta o dono criar o servidor e colar o convite.
-- **Falta:** itens 6, 7 e 8 abaixo.
+- **Feito também:** privacidade e termos reais (item 6); falta preencher responsável, e-mail e hospedagem em `src/data/legal.ts` e a revisão jurídica.
+- **Falta:** itens 7 e 8 abaixo.
 
 ## O que falta para colocar a v1 no ar
 

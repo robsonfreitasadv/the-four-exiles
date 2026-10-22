@@ -111,7 +111,7 @@ Sem servidor ainda, nada quebra: o site mostra os nomes dos canais com o selo "e
 
 ## Antes de abrir ao público
 
-- [ ] Política de privacidade e termos reais (item 6 do `PLANO_V1.md`), citando o Discord como serviço de terceiros.
+- [x] Política de privacidade e termos reais, citando o Discord como serviço de terceiros (falta preencher `src/data/legal.ts`).
 - [ ] Pelo menos duas pessoas na moderação.
 - [ ] AutoMod do Discord ligado: bloquear links de "token", "airdrop", "presale", "seed phrase" e menções em massa.
 - [ ] Um primeiro evento marcado (ex.: "Noite da Propaganda Galáctica") para ninguém chegar numa sala vazia.

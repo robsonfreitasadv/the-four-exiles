@@ -375,6 +375,17 @@ export const ptBR: Dictionary = {
     join: 'Entrar',
     soon: 'Em breve',
   },
+  legal: {
+    updated: 'Última atualização:',
+    contactTitle: 'Contato',
+    controller: 'Responsável (controlador)',
+    email: 'E-mail para pedidos',
+    hosting: 'Provedor de hospedagem',
+    clearTitle: 'Apagar o que este site guardou',
+    clearBody: 'Remove deste navegador seu idioma, sua raça, sua carteirinha e as missões aceitas. Nada mais fica guardado em lugar nenhum.',
+    clearButton: 'Apagar meus dados deste navegador',
+    cleared: 'Apagado',
+  },
   factionsPage: {
     title: 'As Quatro Raças',
     intro: 'Quatro requerentes para um planeta. Abra um dossiê para ler a motivação, a personalidade e a história de cada raça com a Terra.',
@@ -444,8 +455,8 @@ export const ptBR: Dictionary = {
       title: 'Transparência',
       intro: 'O que este site é, o que não é e o que ainda é experimental.',
     },
-    privacy: { title: 'Privacidade', intro: 'Texto provisório — rascunho editável. Não passou por revisão jurídica.' },
-    terms: { title: 'Termos', intro: 'Texto provisório — rascunho editável. Não passou por revisão jurídica.' },
+    privacy: { title: 'Política de privacidade', intro: 'O que este site faz com informações: quase nada, e só no seu próprio navegador.' },
+    terms: { title: 'Termos de uso', intro: 'As regras para usar o site, o kit de torcedor e a comunidade.' },
     building: 'Em construção na próxima fase',
   },
 };

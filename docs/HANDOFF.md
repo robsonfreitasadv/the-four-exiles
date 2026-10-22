@@ -37,9 +37,12 @@ Atualize este arquivo no fim de cada sessão (chat ou código): o que foi feito,
 
 - **2026-10-22 — Fichas 3D em resolução original:** as nove fichas em `design/sheets/*-3d.jpg` foram trocadas pelos arquivos originais (2752×1536; VELLUM 1440×2912), cerca de 1,4× maiores. `design/crop-sheets.cjs` agora escala as coordenadas para o tamanho real de cada ficha; os recortes do giro 3D passaram de ~985 para ~1355 px de altura.
 
+- **2026-10-22 — Privacidade e termos:** páginas `/privacy` e `/terms` com textos reais (LGPD, Marco Civil, CDC), seções numeradas, data de atualização, bloco de contato e botão para apagar os dados guardados no navegador. Faltam o responsável, o e-mail e a hospedagem em `src/data/legal.ts` (o site mostra "a definir").
+
 **Próximos passos sugeridos**
+- Dono preenche `src/data/legal.ts` (responsável, e-mail, hospedagem) e revisa os textos jurídicos.
 - Dono cria o servidor no Discord seguindo `docs/COMUNIDADE.md` e cola o convite em `src/data/community.ts`.
-- Itens que ainda bloqueiam a v1 (`docs/PLANO_V1.md`): servidor da comunidade criado, privacidade e termos reais, hospedagem e domínio, imagem de prévia nos links.
+- Itens que ainda bloqueiam a v1 (`docs/PLANO_V1.md`): servidor da comunidade criado, dados do responsável em `legal.ts`, hospedagem e domínio, imagem de prévia nos links.
 - Dono aprova (ou ajusta) o resumo das raças e as relações; quando aprovar, trocar o status em `src/data/raceProfiles.ts` para cânone.
 0. Roteiro dos Grays: Ato III (cenas 31–36), quando o dono mandar, e o mesmo tratamento para Nórdicos, Reptilianos e Mantis.
 1. **Decidir quem é O Soberano** (SAZAR, como na ficha, ou KRAHL-VOR, como no dossiê) e os **planetas natais** (Thaxis/Sarrath, Xhalen/Threnn). Ver `docs/DECISOES.md`.

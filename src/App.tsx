@@ -1,5 +1,6 @@
 import { Navigate, Outlet, Route, Routes } from 'react-router-dom';
 import { ChoosePage } from './pages/ChoosePage';
+import { LegalPage } from './pages/LegalPage';
 import { Season0Page } from './pages/Season0Page';
 import { SiteFooter } from './components/layout/SiteFooter';
 import { SiteHeader } from './components/layout/SiteHeader';
@@ -11,7 +12,7 @@ import {
   CharactersPage,
   CollectiblesPage,
   GalacticWarPage,
-  LegalPage,
+  
   LorePage,
   MarketPage,
   TransparencyPage,

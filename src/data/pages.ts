@@ -50,34 +50,6 @@ export const transparencyBlocks: InfoBlock[] = [
   },
 ];
 
-export const privacyBlocks: InfoBlock[] = [
-  {
-    title: { en: 'What this site stores', 'pt-BR': 'O que este site armazena' },
-    items: [
-      { en: 'Your language, the race you choose, the optional name on your census card and any demo missions you accept, saved only in your own browser (localStorage). Nothing is sent to a server.', 'pt-BR': 'Seu idioma, a raça que você escolher, o nome opcional da sua carteirinha do Censo e as missões demo que você aceitar, salvos apenas no seu navegador (localStorage). Nada é enviado a um servidor.' },
-      { en: '[Placeholder] Describe analytics, cookies, and third-party services here before launch.', 'pt-BR': '[Provisório] Descreva aqui análises, cookies e serviços de terceiros antes do lançamento.' },
-    ],
-  },
-  {
-    title: { en: 'Contact', 'pt-BR': 'Contato' },
-    items: [{ en: '[Placeholder] Add a contact address for privacy requests.', 'pt-BR': '[Provisório] Adicione um endereço de contato para solicitações de privacidade.' }],
-  },
-];
-
-export const termsBlocks: InfoBlock[] = [
-  {
-    title: { en: 'Fiction', 'pt-BR': 'Ficção' },
-    items: [
-      { en: 'THE FOUR EXILES is a work of fiction. Any resemblance to real aliens is coincidental.', 'pt-BR': 'THE FOUR EXILES é uma obra de ficção. Qualquer semelhança com alienígenas reais é coincidência.' },
-      { en: 'Nothing on this site is financial, legal, or investment advice.', 'pt-BR': 'Nada neste site é recomendação financeira, jurídica ou de investimento.' },
-    ],
-  },
-  {
-    title: { en: 'Community content', 'pt-BR': 'Conteúdo da comunidade' },
-    items: [{ en: '[Placeholder] Define ownership and licensing of community submissions before accepting any.', 'pt-BR': '[Provisório] Defina a titularidade e o licenciamento dos envios da comunidade antes de aceitar qualquer um.' }],
-  },
-];
-
 export const collectibleConcepts: { title: Localized; kind: Localized }[] = [
   { title: { en: 'Census Contract Poster', 'pt-BR': 'Pôster do Contrato do Censo' }, kind: { en: 'Print concept', 'pt-BR': 'Conceito de pôster' } },
   { title: { en: 'Gray Rubber Stamp', 'pt-BR': 'Carimbo Gray' }, kind: { en: 'Merch concept', 'pt-BR': 'Conceito de produto' } },

@@ -373,6 +373,17 @@ export const en = {
     join: 'Join',
     soon: 'Coming soon',
   },
+  legal: {
+    updated: 'Last updated:',
+    contactTitle: 'Contact',
+    controller: 'Responsible (controller)',
+    email: 'E-mail for requests',
+    hosting: 'Hosting provider',
+    clearTitle: 'Erase what this site saved',
+    clearBody: 'Removes your language, race, census card and accepted missions from this browser. Nothing else is stored anywhere.',
+    clearButton: 'Erase my data on this browser',
+    cleared: 'Erased',
+  },
   factionsPage: {
     title: 'The Four Races',
     intro: 'Four claimants to one planet. Open a dossier to read each race’s motivation, personality, and history with Earth.',
@@ -442,8 +453,8 @@ export const en = {
       title: 'Transparency',
       intro: 'What this site is, what it is not, and what is still experimental.',
     },
-    privacy: { title: 'Privacy', intro: 'Placeholder — editable draft. This text has not been legally reviewed.' },
-    terms: { title: 'Terms', intro: 'Placeholder — editable draft. This text has not been legally reviewed.' },
+    privacy: { title: 'Privacy policy', intro: 'What this site does with information: almost nothing, and only in your own browser.' },
+    terms: { title: 'Terms of use', intro: 'The rules for using the site, the fan kit and the community.' },
     building: 'Being built in the next phase',
   },
 };
