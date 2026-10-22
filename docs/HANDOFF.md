@@ -41,8 +41,11 @@ Atualize este arquivo no fim de cada sessão (chat ou código): o que foi feito,
 
 - **2026-10-22 — Pré-lançamento, parte 1:** trilha sonora gerada por raça (botão de som no cabeçalho, desligada por padrão; `src/audio/music.ts`); falas dos nove personagens em balões nas raças e na Resistência (`src/data/voices.ts`; guia de gravação `docs/VOZES.md`; botão "Ouvir" aparece quando o MP3 estiver em `public/audio/voices/` e listado em `src/data/voiceFiles.ts`); loja `/store` com 5 produtos e artes de impressão (`design/store-art.cjs`, guia `docs/LOJA.md`). Mercado saiu do menu principal (está no rodapé).
 
+- **2026-10-22 — Missões reais (código pronto, banco ainda não ligado):** migração `supabase/migrations/20261022120000_season1_missions.sql` (perfis com apelido e raça, moderadores, missões, envios com link ou imagem, eventos de pontos, limite de 10 envios por dia, pontos lançados quando a moderação aprova, placar público por função, bucket privado de imagens de até 5 MB). No site: entrada por código de 6 dígitos no e-mail, perfil (apelido + raça), formulário de envio em cada missão, lista "seus envios", página `/moderation` e placar da Temporada 1 lido do banco. As quatro missões estão abertas. Privacidade e termos atualizados para contas. Enquanto `src/lib/supabase.ts` estiver sem URL e chave, o envio mostra "em breve".
+
 **Próximos passos sugeridos**
-- Missões reais com Supabase (aguardando o dono aprovar a criação do projeto) e robôs no Discord (aguardando o servidor).
+- Dono cria o projeto `the-four-exiles` no Supabase (organização RF group, região São Paulo, plano Free); o MCP não consegue criar porque pede confirmação de custo. Depois: aplicar a migração, colar URL e chave publicável em `src/lib/supabase.ts`, trocar o modelo de e-mail "Magic Link" para mostrar `{{ .Token }}` e inserir o id do dono em `public.moderators`.
+- Robôs no Discord (aguardando o servidor).
 - Dono preenche `src/data/legal.ts` (responsável, e-mail, hospedagem) e revisa os textos jurídicos.
 - Dono cria o servidor no Discord seguindo `docs/COMUNIDADE.md` e cola o convite em `src/data/community.ts`.
 - Itens que ainda bloqueiam a v1 (`docs/PLANO_V1.md`): servidor da comunidade criado, dados do responsável em `legal.ts`, hospedagem e domínio, imagem de prévia nos links.

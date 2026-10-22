@@ -17,4 +17,4 @@ export const legal = {
 export const toBeDefined: Localized = { en: 'to be defined before launch', 'pt-BR': 'a definir antes do lançamento' };
 
 /** Keys this site writes to localStorage; the privacy page can erase them. */
-export const localStorageKeys = ['four-exiles:lang', 'tfe.census', 'four-exiles:accepted-missions', 'four-exiles:sound'];
+export const localStorageKeys = ['four-exiles:lang', 'tfe.census', 'four-exiles:accepted-missions', 'four-exiles:sound', 'four-exiles:auth'];

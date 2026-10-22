@@ -1,13 +1,14 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { MissionThumb } from '../components/art/MissionThumb';
 import { MissionCard } from '../components/MissionCard';
-import { Arrow, DemoDataBadge, SectionHeading } from '../components/ui/primitives';
+import { Arrow, SectionHeading } from '../components/ui/primitives';
 import { factionById, factions } from '../data/factions';
 import { missionBySlug, missions } from '../data/missions';
 import type { FactionId } from '../data/types';
 import { useI18n } from '../i18n/I18nProvider';
 import { NotFoundPage } from './NotFoundPage';
+import { MissionSubmit } from '../components/missions/MissionSubmit';
 
 export function MissionsPage() {
   const { t, l } = useI18n();
@@ -16,7 +17,7 @@ export function MissionsPage() {
 
   return (
     <div className="container-x py-14 md:py-20">
-      <SectionHeading as="h1" kicker={t.missionsSection.kicker} title={t.missionsSection.title} intro={t.missionsSection.intro} aside={<DemoDataBadge />} />
+      <SectionHeading as="h1" kicker={t.missionsSection.kicker} title={t.missionsSection.title} intro={t.missionsSection.intro} />
       <div role="radiogroup" aria-label={t.war.faction} className="mb-8 flex flex-wrap gap-2">
         {(['all', ...factions.map((f) => f.id)] as const).map((id) => {
           const active = filter === id;
@@ -47,33 +48,13 @@ export function MissionsPage() {
   );
 }
 
-const ACCEPT_KEY = 'four-exiles:accepted-missions';
-
-function readAccepted(): string[] {
-  try {
-    return JSON.parse(localStorage.getItem(ACCEPT_KEY) ?? '[]');
-  } catch {
-    return [];
-  }
-}
-
 export function MissionDetailPage() {
   const { slug = '' } = useParams();
   const { t, l } = useI18n();
   const mission = missionBySlug(slug);
-  const [accepted, setAccepted] = useState<string[]>(readAccepted);
-
-  useEffect(() => {
-    try {
-      localStorage.setItem(ACCEPT_KEY, JSON.stringify(accepted));
-    } catch {
-      /* storage unavailable: acceptance just won't persist */
-    }
-  }, [accepted]);
 
   if (!mission) return <NotFoundPage />;
   const faction = mission.faction === 'human' ? undefined : factionById(mission.faction);
-  const isAccepted = accepted.includes(mission.slug);
 
   return (
     <article className="container-x py-14 md:py-20">
@@ -124,28 +105,7 @@ export function MissionDetailPage() {
               </dd>
             </div>
           </dl>
-          {mission.status === 'closed' ? (
-            <p className="panel p-5 font-sans text-xs text-bone-muted">{t.missionPage.closedNote}</p>
-          ) : (
-            <div className="space-y-3">
-              {isAccepted ? (
-                <div className="flex flex-wrap items-center gap-3">
-                  <span className="btn bg-[#30d158]/15 text-[#30d158]" role="status">
-                    ✓ {t.missionPage.accepted}
-                  </span>
-                  <button type="button" className="link-arrow text-bone-dim" onClick={() => setAccepted((a) => a.filter((s) => s !== mission.slug))}>
-                    {t.missionPage.reset}
-                  </button>
-                </div>
-              ) : (
-                <button type="button" className="btn-primary w-full" onClick={() => setAccepted((a) => [...a, mission.slug])}>
-                  {t.missionPage.accept}
-                </button>
-              )}
-              <p className="text-sm text-bone-muted">{t.missionPage.demoNote}</p>
-            </div>
-          )}
-          <DemoDataBadge />
+          <MissionSubmit slug={mission.slug} />
         </aside>
       </div>
     </article>

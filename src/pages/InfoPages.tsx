@@ -5,9 +5,9 @@ import { RaceArt } from '../components/art/RaceArt';
 import { TiltCard } from '../components/art/TiltCard';
 import { ResistanceSection } from '../components/ResistanceSection';
 import { withBase } from '../components/art/CharacterImage';
-import { LeaderboardTable, SeasonSelector } from '../components/Leaderboard';
+import { SeasonTable, SeasonSelector } from '../components/Leaderboard';
 import { Arrow, DemoDataBadge, SectionHeading } from '../components/ui/primitives';
-import { defaultSeason, scoresBySeason } from '../data/championship';
+import { defaultSeason } from '../data/championship';
 import { factions } from '../data/factions';
 import { dossiers } from '../data/lore/dossier';
 import { collectibleConcepts, transparencyBlocks, type InfoBlock } from '../data/pages';
@@ -38,7 +38,7 @@ export function GalacticWarPage() {
       <div className="grid gap-8 lg:grid-cols-[1.7fr_1fr]">
         <div className="space-y-4">
           <SeasonSelector value={season} onChange={setSeason} />
-          <LeaderboardTable rows={scoresBySeason[season]} />
+          <SeasonTable season={season} />
         </div>
         <aside className="panel space-y-4 self-start p-6">
           <h2 className="font-display text-3xl font-semibold">{t.war.howTitle}</h2>

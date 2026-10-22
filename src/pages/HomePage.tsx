@@ -5,10 +5,10 @@ import { RaceArt } from '../components/art/RaceArt';
 import { CharacterImage } from '../components/art/CharacterImage';
 import { RacesShowcase } from '../components/RacesShowcase';
 import { ResistanceSection } from '../components/ResistanceSection';
-import { LeaderboardTable, SeasonSelector } from '../components/Leaderboard';
+import { SeasonTable, SeasonSelector } from '../components/Leaderboard';
 import { MissionCard } from '../components/MissionCard';
 import { Arrow, DemoDataBadge, Reveal, SectionHeading } from '../components/ui/primitives';
-import { defaultSeason, scoresBySeason } from '../data/championship';
+import { defaultSeason } from '../data/championship';
 import { factions } from '../data/factions';
 import { missions } from '../data/missions';
 import { dora } from '../data/resistance';
@@ -152,7 +152,7 @@ function WarSection() {
         </div>
         <div className="grid gap-5 lg:grid-cols-[1.7fr_1fr]">
           <div>
-            <LeaderboardTable rows={scoresBySeason[season]} />
+            <SeasonTable season={season} />
             <p className="mt-3 text-sm text-bone-muted">{t.war.disclaimer}</p>
           </div>
           <aside className="panel p-7">

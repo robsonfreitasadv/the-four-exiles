@@ -1,5 +1,7 @@
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { rankScores, seasons, totalScore } from '../data/championship';
+import { supabase } from '../lib/supabase';
+import { rankScores, scoresBySeason, seasons, totalScore } from '../data/championship';
 import { factionById } from '../data/factions';
 import type { FactionScore } from '../data/types';
 import { useI18n } from '../i18n/I18nProvider';
@@ -101,4 +103,26 @@ export function LeaderboardTable({ rows }: { rows: FactionScore[] }) {
       </table>
     </div>
   );
+}
+
+interface StandingRow {
+  race: FactionScore['faction'];
+  community: number | string;
+  missions: number | string;
+  events: number | string;
+}
+
+/** Season table: Season 1 comes live from the database when it is connected; other seasons from local data. */
+export function SeasonTable({ season }: { season: string }) {
+  const [live, setLive] = useState<FactionScore[] | null>(null);
+
+  useEffect(() => {
+    if (season !== 's1' || !supabase) return;
+    void supabase.rpc('season1_standings').then(function loaded({ data }) {
+      const rows = (data as StandingRow[] | null) ?? null;
+      if (rows) setLive(rows.map((r) => ({ faction: r.race, community: Number(r.community), missions: Number(r.missions), events: Number(r.events) })));
+    });
+  }, [season]);
+
+  return <LeaderboardTable rows={season === 's1' && live ? live : scoresBySeason[season]} />;
 }

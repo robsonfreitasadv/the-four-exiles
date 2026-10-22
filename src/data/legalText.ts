@@ -20,8 +20,8 @@ export const privacyBlocks: InfoBlock[] = [
     title: { en: 'What we do not collect', 'pt-BR': 'O que não coletamos' },
     items: [
       {
-        en: 'There are no accounts, no sign-up, no forms sent to us, no payments, no wallets and no analytics or advertising trackers. We do not use cookies.',
-        'pt-BR': 'Não há conta, cadastro, formulário enviado para nós, pagamento, carteira nem ferramentas de análise ou publicidade. Não usamos cookies.',
+        en: 'Browsing needs no account. There are no payments, no wallets and no analytics or advertising trackers, and we do not use cookies. An account is only needed to send mission entries (next section).',
+        'pt-BR': 'Navegar não exige conta. Não há pagamento, carteira nem ferramentas de análise ou publicidade, e não usamos cookies. A conta só é necessária para enviar missões (próxima seção).',
       },
       {
         en: 'We do not sell, rent or share personal data, and we do not build profiles of visitors.',
@@ -33,8 +33,8 @@ export const privacyBlocks: InfoBlock[] = [
     title: { en: 'What stays in your browser', 'pt-BR': 'O que fica no seu navegador' },
     items: [
       {
-        en: 'To remember your choices, the site saves a few items in your own browser (localStorage): the language, whether the soundtrack is on, the race you chose, the optional name and the random number on your census card, and the demo missions you accepted. This information never leaves your device and we cannot see it.',
-        'pt-BR': 'Para lembrar suas escolhas, o site guarda alguns itens no seu próprio navegador (localStorage): o idioma, se a trilha sonora está ligada, a raça escolhida, o nome opcional e o número aleatório da sua carteirinha do Censo e as missões demo que você aceitou. Essas informações não saem do seu aparelho e nós não temos acesso a elas.',
+        en: 'To remember your choices, the site saves a few items in your own browser (localStorage): the language, whether the soundtrack is on, your sign-in session (if you have an account), the race you chose, the optional name and the random number on your census card, and the demo missions you accepted. This information never leaves your device and we cannot see it.',
+        'pt-BR': 'Para lembrar suas escolhas, o site guarda alguns itens no seu próprio navegador (localStorage): o idioma, se a trilha sonora está ligada, sua sessão de entrada (se tiver conta), a raça escolhida, o nome opcional e o número aleatório da sua carteirinha do Censo e as missões demo que você aceitou. Essas informações não saem do seu aparelho e nós não temos acesso a elas.',
       },
       {
         en: 'Wallpapers, avatars, stickers, memes and the census card are drawn in your browser. The text you type in them is not sent anywhere.',
@@ -43,6 +43,27 @@ export const privacyBlocks: InfoBlock[] = [
       {
         en: 'You can erase all of it at any time with the button at the end of this page, or by clearing this site’s data in your browser settings.',
         'pt-BR': 'Você pode apagar tudo a qualquer momento pelo botão no fim desta página ou limpando os dados deste site nas configurações do navegador.',
+      },
+    ],
+  },
+  {
+    title: { en: 'If you create an account to send missions', 'pt-BR': 'Se você criar conta para enviar missões' },
+    items: [
+      {
+        en: 'We collect your e-mail (only to send the sign-in code), the nickname and race you choose, and what you send: title, link, image, note, date and time, plus the moderation result.',
+        'pt-BR': 'Coletamos seu e-mail (só para enviar o código de entrada), o apelido e a raça que você escolher e o que você envia: título, link, imagem, recado, data e hora, além do resultado da moderação.',
+      },
+      {
+        en: 'Purpose and legal basis: running the championship you joined under these terms (LGPD, art. 7, V). Your nickname, race and approved points appear in the public score log; your e-mail never does. Entries are seen only by you and the moderators until the project reposts them with credit, as the terms allow.',
+        'pt-BR': 'Finalidade e base legal: realizar o campeonato do qual você participa, conforme os termos (LGPD, art. 7º, V). Seu apelido, sua raça e os pontos aprovados aparecem no registro público de pontos; seu e-mail, nunca. Os envios são vistos só por você e pela moderação até o projeto repostá-los com crédito, como os termos permitem.',
+      },
+      {
+        en: 'Storage: Supabase, in its São Paulo data centre (Brazil). The sign-in session is kept in your browser. Data is kept while your account exists; ask the contact below to delete your account and entries.',
+        'pt-BR': 'Armazenamento: Supabase, no data center de São Paulo (Brasil). A sessão de entrada fica no seu navegador. Os dados ficam guardados enquanto a conta existir; peça ao contato abaixo para apagar sua conta e seus envios.',
+      },
+      {
+        en: 'Accounts are for people aged 13 or over; under 18, with the knowledge of a parent or guardian.',
+        'pt-BR': 'A conta é para quem tem 13 anos ou mais; menores de 18, com ciência dos responsáveis.',
       },
     ],
   },
@@ -146,6 +167,19 @@ export const termsBlocks: InfoBlock[] = [
       {
         en: 'Championship points come only from community activity under public rules. They have no monetary value and cannot be bought, sold or exchanged.',
         'pt-BR': 'Os pontos do campeonato vêm apenas de atividades da comunidade, por regras públicas. Não têm valor em dinheiro e não podem ser comprados, vendidos nem trocados.',
+      },
+    ],
+  },
+  {
+    title: { en: 'Accounts and the championship', 'pt-BR': 'Conta e campeonato' },
+    items: [
+      {
+        en: 'An account is optional and only used to send mission entries. One account per person; no fake or shared accounts. Pick a nickname that does not impersonate anyone or offend.',
+        'pt-BR': 'A conta é opcional e serve só para enviar missões. Uma conta por pessoa; nada de contas falsas ou compartilhadas. Escolha um apelido que não se passe por ninguém nem ofenda.',
+      },
+      {
+        en: 'Moderators decide whether an entry is approved under public rules. Points go to the race chosen in your profile for the whole season and can be removed if the rules were broken.',
+        'pt-BR': 'A moderação decide se um envio é aprovado, por regras públicas. Os pontos vão para a raça escolhida no seu perfil durante toda a temporada e podem ser retirados se as regras forem descumpridas.',
       },
     ],
   },
