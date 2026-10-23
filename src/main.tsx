@@ -2,7 +2,7 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, HashRouter } from 'react-router-dom';
 import App from './App';
-import { AccountProvider } from './components/auth/useAccount';
+import { AccountProvider, RECOVERY_KEY } from './components/auth/useAccount';
 import { I18nProvider } from './i18n/I18nProvider';
 import { supabase } from './lib/supabase';
 import './index.css';
@@ -17,8 +17,18 @@ const Router = hashRouting ? HashRouter : BrowserRouter;
  */
 async function finishEmailSignIn() {
   if (!supabase || !/(access_token|error_description)=/.test(window.location.hash)) return;
+  const recovery = /type=recovery/.test(window.location.hash);
   try {
-    await supabase.auth.getSession(); // an expired link just leaves the person signed out
+    // An expired link just leaves the person signed out.
+    const { data } = await supabase.auth.getSession();
+    // A valid "forgot password" link: the account page then opens with the new-password form first.
+    if (recovery && data.session) {
+      try {
+        sessionStorage.setItem(RECOVERY_KEY, '1');
+      } catch {
+        /* storage blocked: the password form is still on the account page */
+      }
+    }
   } finally {
     const clean = window.location.pathname + window.location.search;
     window.history.replaceState(null, '', hashRouting ? `${clean}#/account` : clean);

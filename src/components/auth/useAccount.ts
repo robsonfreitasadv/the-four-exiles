@@ -14,6 +14,9 @@ export interface Account {
 
 const AccountContext = createContext<Account | null>(null);
 
+/** sessionStorage flag set when someone arrives from a "forgot password" e-mail link. */
+export const RECOVERY_KEY = 'four-exiles:recovery';
+
 /** One shared sign-in state for the whole site (header, account page, missions, moderation). */
 export function AccountProvider({ children }: { children: ReactNode }) {
   const [session, setSession] = useState<Session | null>(null);

@@ -53,6 +53,7 @@ Ao decidir algo no chat ou no código, acrescente uma linha aqui e faça commit.
 | 2026-10-22 | **Missões reais:** Supabase nos EUA (us-east-1, escolha do dono; a política cita a transferência internacional); conta só para enviar missões, entrada por código no e-mail (sem senha); apelido e raça públicos, e-mail nunca; pontos vão para a raça do perfil e só entram quando a moderação aprova; até 10 envios por dia; imagens privadas (só autor e moderação). Base legal: execução do contrato (LGPD, art. 7º, V); conta a partir de 13 anos. |
 | 2026-10-22 | **Conta no site:** entrada sem senha (código no e-mail) pelo botão do cabeçalho e página `/account`; apelido único e editável; raça escolhida no cadastro fica fixa a temporada inteira; a pessoa pode apagar a própria conta, com envios, imagens e pontos (LGPD, art. 18). Banco nos EUA por escolha do dono. |
 | 2026-10-22 | **Hospedagem:** GitHub Pages ligado ao repositório público, publicação automática pelo GitHub Actions a cada push em `main`; endereço https://robsonfreitasadv.github.io/the-four-exiles/ até haver domínio próprio. |
+| 2026-10-23 | **Login com senha** como forma principal (pedido do dono), com criar conta, esqueci a senha e o link por e-mail como alternativa; senha mínima de 8 caracteres. |
 
 ## Em aberto
 
