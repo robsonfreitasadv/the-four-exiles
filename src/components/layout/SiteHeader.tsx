@@ -52,7 +52,7 @@ export function SiteHeader() {
         </nav>
         <div className="flex items-center gap-2">
           <RaceChip />
-          <AccountMenu className="hidden sm:inline-block" />
+          <AccountMenu className="hidden sm:inline-flex" />
           <SoundToggle />
           <LanguageSwitcher />
           <button
@@ -85,7 +85,7 @@ export function SiteHeader() {
               </li>
             ))}
             <li className="mt-6 pb-10 sm:hidden">
-              <AccountMenu className="inline-block px-5 py-2.5 text-sm" />
+              <AccountMenu className="inline-flex" />
             </li>
           </ul>
         </nav>

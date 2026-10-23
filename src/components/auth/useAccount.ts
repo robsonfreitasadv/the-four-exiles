@@ -56,7 +56,8 @@ export function AccountProvider({ children }: { children: ReactNode }) {
       moderator,
       reload: () => load(session),
       signOut: async () => {
-        await supabase?.auth.signOut();
+        // 'local' clears this browser's session even when the network call fails.
+        await supabase?.auth.signOut({ scope: 'local' });
       },
     }),
     [loading, session, profile, moderator, load],
