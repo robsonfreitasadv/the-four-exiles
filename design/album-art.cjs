@@ -1,7 +1,7 @@
 /**
  * Album of stickers: every numbered sticker, the bonus stickers, the album pages with numbered slots,
  * covers, preview sheets and the checklist. Plan: design/album/plano.md; data: design/album/stickers.cjs.
- * Usage: npm i --no-save sharp && node design/album-art.cjs [--only 001,014,X1] [--skip-pages]
+ * Usage: npm i --no-save sharp && node design/album-art.cjs [--only 001,014,X1] [--skip-pages] [--previews]
  * Output (300 dpi): design/album/figurinhas/NNN.jpg (636×876 with 1.5 mm bleed), design/album/bonus/XN.jpg,
  * design/album/paginas/pagina-NN.png (A4 2480×3508), capa.png, contracapa.png, previa-*.jpg, checklist.md.
  */
@@ -191,6 +191,13 @@ function describe(s) {
 }
 
 (async function main() {
+  if (args.includes('--previews')) {
+    // rebuild only the preview sheets and the checklist from the stickers already on disk
+    await previewSheet(stickers, 'previa-figurinhas.jpg', 20);
+    await previewSheet(bonus, 'previa-bonus.jpg', 6);
+    checklistMd();
+    return console.log('prévias e checklist.md');
+  }
   const todo = only ? all.filter((s) => only.includes(s.n)) : all;
   for (const s of todo) {
     const dir = s.n.startsWith('X') ? dirs.bonus : dirs.fig;

@@ -67,15 +67,25 @@ async function mural(group, scale) {
       svg += text(x + 276, B + 1630, 30, PALETTE[r].primary, RACES[r].name, { weight: 600, spacing: 0.1 }).svg;
     }
   } else {
-    const ids = ['dora', 'rui', 'livia', 'julio', 'tati'];
-    svg += text(MW / 2, B + 210, 150, P.ink, 'A RESISTÊNCIA', { family: HEAVY, weight: 400, spacing: 0.06 }).svg;
-    svg += text(MW / 2, B + 300, 46, P.primary, 'Humanos. Não o inimigo.', { weight: 600 }).svg;
-    for (let i = 0; i < 5; i++) {
-      const x = B + 20 + i * 352;
-      const buf = await photo(`${ids[i]}-3d-1`, 336 * scale, 1040 * scale);
-      svg += image(buf, x, B + 400, 336, 1040);
-      svg += text(x + 168, B + 1530, 56, P.ink, CHARS[ids[i]].name, { family: HEAVY, weight: 400, spacing: 0.05 }).svg;
-      svg += text(x + 168, B + 1580, 26, P.primary, CHARS[ids[i]].role, { weight: 600 }).svg;
+    // Seam-aware layout: pieces are cut every 600 px, so every name and the title stay inside one column.
+    // Column 1: Dora; column 2: title, Ray and Olivia; column 3: Julian and Tasha.
+    const cx = (col, half) => B + col * 600 + (half === undefined ? 300 : 150 + half * 300);
+    const people = [
+      ['dora', cx(0), 360, B + 300],
+      ['rui', cx(1, 0), 270, B + 560],
+      ['livia', cx(1, 1), 270, B + 560],
+      ['julio', cx(2, 0), 270, B + 560],
+      ['tati', cx(2, 1), 270, B + 560],
+    ];
+    svg += text(cx(1), B + 200, 92, P.ink, 'A\nRESISTÊNCIA', { family: HEAVY, weight: 400, spacing: 0.02, lh: 1.0 }).svg;
+    svg += text(cx(1), B + 410, 34, P.primary, 'Humanos. Não o inimigo.', { weight: 600 }).svg;
+    svg += text(cx(2), B + 300, 40, P.primary, 'Mesmo planeta.\nSonhos diferentes.', { weight: 600, lh: 1.25 }).svg;
+    for (const [id, x, w, y] of people) {
+      const h = Math.round(w / 0.38);
+      const buf = await photo(`${id}-3d-1`, w * scale, h * scale);
+      svg += image(buf, x - w / 2, y, w, h);
+      svg += text(x, B + 1380, w > 300 ? 64 : 50, P.ink, CHARS[id].name, { family: HEAVY, weight: 400, spacing: 0.04 }).svg;
+      svg += text(x, B + 1430, 24, P.primary, CHARS[id].role, { weight: 600 }).svg;
     }
   }
   muralCache[key] = { svg, MW, MH };
