@@ -1,16 +1,30 @@
 # Meme coins dos fãs — THE FOUR EXILES
 
-**Status: em aberto.** Hoje `CLAUDE.md` e `docs/DECISOES.md` dizem que o projeto não tem token e que nunca se inventa token, ticker, preço ou data de lançamento. Este código existe porque o dono pediu, mas nada daqui vai para a rede principal, nem para o site, antes de o dono decidir essa mudança de regra (ver `docs/DECISOES.md`, "Em aberto").
+**Status: pronto para implantar** (regra aprovada pelo dono em 2026-11-03: o projeto tem meme coins de fãs, lançadas fora do Brasil). A implantação na rede principal é feita pelo dono, com a carteira dele (seção "Rede principal").
 
-Cinco moedas ERC-20 na rede **Base**, uma por raça e uma da Resistência. Nomes e tickers são **provisórios** e mudam num só lugar: `coins.config.js`.
+Cinco moedas ERC-20 na rede **Base**, uma por raça e uma da Resistência, com os nomes das raças em inglês. Nomes e tickers mudam num só lugar: `coins.config.js`.
 
-| Lado | Nome | Ticker | Piada | Imagem |
-| --- | --- | --- | --- | --- |
-| Grays | Form 40,000 | F40K | as 40.000 reclamações protocoladas contra o caos genético humano | VELLUM |
-| Nórdicos | Third Dessert | DSSRT | a terceira sobremesa que ninguém consegue recusar | AUREL |
-| Reptilianos | Cistern Drop | CSTRN | a gota da Casa das Cisternas, conferida antes do obrigado | SAZAR |
-| Mantis | Courteous Threat | CRTSY | ameaça sempre por escrito, tom sempre cordial | VEX |
-| Resistência | Clause 4812-c | C4812 | a brecha do Censo: a Terra tem direito a voto? | Dora |
+| Lado | Nome | Ticker | Imagem |
+| --- | --- | --- | --- |
+| Grays | Grays | GRAYS | VELLUM |
+| Nórdicos | Nordics | NORDIC | AUREL |
+| Reptilianos | Reptilians | REPTILE | SAZAR |
+| Mantis | Mantis | MANTIS | VEX |
+| Resistência | Resistance | RESIST | Dora |
+
+Tickers conferidos no CoinGecko em 2026-11-03: nenhum dos cinco existe lá. Existe uma moeda chamada "Mantis" (ticker M), sem conflito de ticker. Conferir também no BaseScan na véspera.
+
+**Alternativas** (trocar em `coins.config.js` e rodar `npm run logos` e `npm test`):
+
+| Lado | Opção 1 | Opção 2 | Opção 3 |
+| --- | --- | --- | --- |
+| Grays | Greys · GREYS | Gray Scribes · SCRIBE | Grays of Hevra · HEVRA |
+| Nórdicos | Nordics · NORDICS | Pleiadians · PLEIAD | Nordics of Maia · MAIA |
+| Reptilianos | Reptilian · REPTO | Draco · DRACO | Reptilians of Thaxis · THAXIS |
+| Mantis | Mantis Commanders · MANTIX | Mantids · MANTID | Mantis of Xhalen · XHALEN |
+| Resistência | Human Resistance · HUMANS | The Resistance · RESISTANCE | Earth · EARTH |
+
+GREYS, NORDICS, REPTO, HUMANS e RESISTANCE também estavam livres no CoinGecko; as demais não foram conferidas (DRACO e EARTH são nomes comuns e provavelmente já existem).
 
 **Suprimento:** 4.812.000.000 de cada (18 casas decimais), cunhado uma única vez, na implantação, para uma carteira escolhida pelo dono.
 
@@ -33,7 +47,7 @@ npm install
 npm test
 ```
 
-Resultado em 2026-11-03: **39 testes passando** (contrato, as cinco moedas, metadados e regras de texto), num nó Hardhat em memória.
+Resultado em 2026-11-03 (nomes das raças): **39 testes passando** (contrato, as cinco moedas, metadados e regras de texto), num nó Hardhat em memória.
 
 ## Implantar num nó local
 
@@ -67,8 +81,8 @@ npm run deploy:sepolia
 
 Nada disso foi feito nem será feito pelo Claude. É o dono, na carteira dele, depois de decidir.
 
-1. **Decidir a regra:** aprovar (ou não) em `docs/DECISOES.md` a mudança "o projeto passa a ter meme coins de fãs" e atualizar `CLAUDE.md` e `docs/CONTEXTO.md` para combinar. Ler "Antes de lançar", abaixo.
-2. **Conferir os tickers:** procurar F40K, DSSRT, CSTRN, CRTSY e C4812 no CoinGecko, no CoinMarketCap e no BaseScan. Se algum já existir, trocar em `coins.config.js`, rodar `npm run logos` e `npm test`.
+1. **Nomes finais:** confirmar os nomes e tickers da tabela do topo (ou trocar por uma alternativa em `coins.config.js`, rodar `npm run logos` e `npm test`).
+2. **Conferir os tickers na véspera:** procurar GRAYS, NORDIC, REPTILE, MANTIS e RESIST no CoinGecko, no CoinMarketCap e no BaseScan.
 3. **Publicar os metadados:** juntar este branch em `main` para que os links `raw.githubusercontent.com/.../main/tokens/metadata/...` funcionem. Alternativa mais durável: subir `metadata/` para o IPFS e pôr o endereço em `METADATA_BASE_URL` antes de implantar (o `metadataURI` fica gravado para sempre no contrato).
 4. **Carteiras:** uma carteira nova só para pagar a implantação, com pouco ETH na Base. Em `RECIPIENT_ADDRESS`, a carteira que guarda o suprimento; de preferência um cofre multiassinatura (Safe), não a carteira de implantação.
 5. **Ensaio:** implantar antes na Base Sepolia (seção anterior) e conferir tudo.
@@ -81,19 +95,11 @@ $env:CONFIRM_MAINNET='I_UNDERSTAND'; npm run deploy:base; Remove-Item Env:CONFIR
 7. **Verificar o código no BaseScan** (precisa de `ETHERSCAN_API_KEY`), uma vez por moeda, com os valores de `deployments/base.json`:
 
 ```bash
-npx hardhat verify --network base <endereço> "Form 40,000" F40K 4812000000 <carteira que recebeu> <metadataURI>
+npx hardhat verify --network base <endereço> "Grays" GRAYS 4812000000 <carteira que recebeu> <metadataURI>
 ```
 
 8. **Depois:** apagar a chave do `.env`, fazer commit de `deployments/base.json` e, se quiser, pedir a atualização das informações do token (logo e site) no BaseScan.
 
-Criar pool de liquidez, listar em corretora ou distribuir moedas são decisões à parte, com os riscos abaixo.
+Criar pool de liquidez, listar em corretora ou distribuir moedas são decisões à parte, do dono.
 
-## Antes de lançar (riscos jurídicos no Brasil, para o dono avaliar)
-
-Notas de partida, não parecer. O dono é advogado e decide.
-
-- **Lei 14.478/2022 (marco dos ativos virtuais).** As moedas se encaixam na definição de ativo virtual (art. 3º). Emitir e distribuir um token próprio não torna ninguém, por si só, prestadora de serviços de ativos virtuais, mas troca, custódia, intermediação ou venda em nome de terceiros podem tornar (art. 5º), e aí entra a autorização do Banco Central, designado regulador pelo Decreto 11.563/2023 (conferir a regulamentação do BCB em vigor). A lei também criou o crime de fraude com ativos virtuais (art. 171-A do Código Penal).
-- **CVM, Parecer de Orientação 40/2022.** O token vira valor mobiliário quando funciona como contrato de investimento coletivo (Lei 6.385/1976, art. 2º, IX): investimento, expectativa de benefício econômico, esforço do empreendedor ou de terceiros e oferta pública. Promessa de valorização, plano de recompra, participação em receita do site ou da loja, "roadmap" ligado ao preço ou venda direta pelo projeto puxam para esse lado. Por isso o contrato não tem funções extras e os textos dizem "sem utilidade e sem promessa de valor". Se for valor mobiliário, a oferta segue as regras da CVM (Resolução CVM 88/2022 para ofertas por plataforma, entre outras).
-- **CDC e publicidade.** Oferta e publicidade precisam ser claras e verdadeiras (arts. 30, 31, 36 e 37): nada de sugerir ganho, escassez artificial ou "oportunidade". Cuidado redobrado com menores: o site aceita contas a partir de 13 anos, então as moedas não devem ser anunciadas no site, nas missões nem para esse público. Personagens de IA nunca falam de token (regra aprovada em 2026-10-21).
-- **Regra do projeto (não muda):** pontos do campeonato e das missões **nunca** dependem de preço, volume, valor de mercado ou saldo de carteira. Ter ou não ter as moedas não dá vantagem nenhuma no site.
-- **Também conferir:** declaração e tributação de operações com ativos virtuais na Receita Federal (IN RFB 1.888/2019 e alterações), termos de uso e privacidade do site (hoje dizem "nada financeiro"), e uso dos nomes e imagens dos personagens na licença do kit de fã.
+**Regra do projeto (continua):** pontos do campeonato e das missões do site nunca dependem de preço, volume, valor de mercado ou saldo de carteira; ter ou não as moedas não dá vantagem no jogo.

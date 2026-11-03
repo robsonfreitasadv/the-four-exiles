@@ -15,8 +15,8 @@ contract ExileCoin is ERC20 {
     error ZeroRecipient();
     error ZeroSupply();
 
-    /// @param name_ Token name, e.g. "Form 40,000"
-    /// @param symbol_ Ticker, e.g. "F40K"
+    /// @param name_ Token name, e.g. "Grays"
+    /// @param symbol_ Ticker, e.g. "GRAYS"
     /// @param wholeSupply Total supply in whole tokens (18 decimals are added here)
     /// @param recipient Wallet that receives the entire supply
     /// @param metadataURI_ URL of the metadata JSON

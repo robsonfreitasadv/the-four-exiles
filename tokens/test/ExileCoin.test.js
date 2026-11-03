@@ -101,7 +101,7 @@ describe('Coin configuration and metadata', function () {
     const symbols = coins.map((c) => c.symbol);
     expect(new Set(symbols).size).to.equal(5);
     expect(new Set(coins.map((c) => c.name)).size).to.equal(5);
-    for (const s of symbols) expect(s).to.match(/^[A-Z0-9]{3,6}$/);
+    for (const s of symbols) expect(s).to.match(/^[A-Z0-9]{3,8}$/);
   });
 
   for (const coin of coins) {

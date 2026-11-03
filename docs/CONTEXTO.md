@@ -41,7 +41,7 @@ Tagline: *Four species. One planet. No shared destiny.* / *Quatro espécies. Um 
 5. **Raças, não facções**, em todo texto para o público.
 6. **Imagens dos personagens:** só as fichas de `design/sheets/`.
 7. **Bilíngue:** todo texto do site em inglês e português do Brasil. O inglês é o idioma padrão do site; a conversa com o dono é em português.
-8. **Sem dinheiro real:** nada de token, ticker, preço, carteira ou data de lançamento. Pontuação do campeonato nunca vem de mercado. Dados de demonstração são sempre rotulados como fictícios.
+8. **Dinheiro:** o site não tem carteira nem transação. Desde 2026-11-03 o projeto tem cinco meme coins de fãs em `tokens/` (Grays, Nordics, Reptilians, Mantis, Resistance), lançadas fora do Brasil pelo dono. Nunca inventar preço nem promessa de valorização. Pontuação do campeonato nunca vem de mercado. Dados de demonstração são sempre rotulados como fictícios.
 
 ## Estado atual (resumo)
 

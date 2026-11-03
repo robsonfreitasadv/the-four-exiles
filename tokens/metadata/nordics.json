@@ -1,9 +1,9 @@
 {
-  "name": "Third Dessert",
-  "symbol": "DSSRT",
+  "name": "Nordics",
+  "symbol": "NORDIC",
   "decimals": 18,
-  "description": "Fan meme coin of the Nordics, The Shepherds of Maia-Prime. Named after the third dessert nobody manages to refuse. A better world is possible. A collectible joke from THE FOUR EXILES, a sci-fi satire: no utility, no promise of value.",
-  "description_pt_BR": "Meme coin de fã dos Nórdicos, Os Pastores de Maia-Prime. O nome lembra a terceira sobremesa que ninguém consegue recusar. Um mundo melhor é possível. Uma piada colecionável de THE FOUR EXILES, sátira de ficção científica: sem utilidade e sem promessa de valor.",
+  "description": "Fan meme coin of the Nordics, The Shepherds of Maia-Prime, hosts of the third dessert nobody manages to refuse. A better world is possible. A collectible joke from THE FOUR EXILES, a sci-fi satire: no utility, no promise of value.",
+  "description_pt_BR": "Meme coin de fã dos Nórdicos, Os Pastores de Maia-Prime, anfitriões da terceira sobremesa que ninguém consegue recusar. Um mundo melhor é possível. Uma piada colecionável de THE FOUR EXILES, sátira de ficção científica: sem utilidade e sem promessa de valor.",
   "image": "https://raw.githubusercontent.com/robsonfreitasadv/the-four-exiles/main/tokens/metadata/images/nordics.png",
   "external_url": "https://robsonfreitasadv.github.io/the-four-exiles/",
   "attributes": [

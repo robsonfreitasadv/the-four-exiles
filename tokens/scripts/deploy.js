@@ -38,7 +38,7 @@ async function main() {
   const { chainId } = await hre.ethers.provider.getNetwork();
   if (MAINNET_CHAIN_IDS.has(chainId) && process.env.CONFIRM_MAINNET !== 'I_UNDERSTAND') {
     throw new Error(
-      'Refusing to deploy to a mainnet. Read "Antes de lançar" in tokens/README.md, ' +
+      'Mainnet deploy is permanent. Follow "Rede principal" in tokens/README.md, ' +
         'then set CONFIRM_MAINNET=I_UNDERSTAND for this one command.',
     );
   }

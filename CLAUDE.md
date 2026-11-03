@@ -1,6 +1,6 @@
 # THE FOUR EXILES — regras para o Claude Code
 
-Site de sátira de ficção científica: quatro raças alienígenas disputam a Terra num Censo cósmico, e a Resistência humana, liderada por Dora, reage. Bilíngue (EN / PT-BR), React + TypeScript + Tailwind, Vite. Só dados locais simulados: sem backend, carteira, token ou transação real.
+Site de sátira de ficção científica: quatro raças alienígenas disputam a Terra num Censo cósmico, e a Resistência humana, liderada por Dora, reage. Bilíngue (EN / PT-BR), React + TypeScript + Tailwind, Vite. O site não tem carteira nem transação; as meme coins de fãs ficam à parte, em `tokens/`.
 
 **O contexto do projeto está em `docs/`, compartilhado com o Claude do chat e entre computadores. Comece por `docs/CONTEXTO.md`.**
 
@@ -33,7 +33,7 @@ Nada importante fica só na conversa ou na memória local: o que não está no r
 - **Palavra:** "raças" / "races" em todo texto para o público, nunca "facções" / "factions". Identificadores no código e URLs `/factions` ficam como estão.
 - **Idiomas:** todo texto de interface em `src/i18n/en.ts` e `src/i18n/pt-BR.ts`; registros de conteúdo usam objetos `Localized` (`{ en, 'pt-BR' }`). Converse com o dono em português.
 - **Cânone:** o site segue `docs/canon/`. Mudou o cânone, atualize os dois (`docs/canon/` e `src/data/`).
-- **Dinheiro:** dados de demonstração rotulados como fictícios. Nunca inventar token, ticker, preço ou data de lançamento. Pontos do campeonato nunca vêm de preço, volume, valor de mercado ou saldo de carteira.
+- **Dinheiro:** dados de demonstração rotulados como fictícios. O projeto tem cinco meme coins de fãs (uma por raça e uma da Resistência, nomes das raças em inglês), em `tokens/`, lançadas fora do Brasil (aprovado pelo dono em 2026-11-03); a implantação na rede principal é sempre do dono, com a carteira dele. Nunca inventar preço nem promessa de valorização. Pontos do campeonato nunca vêm de preço, volume, valor de mercado ou saldo de carteira.
 
 ## Publicar a prévia
 

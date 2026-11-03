@@ -66,7 +66,7 @@ Em qualquer opção, cada raça precisa de um bloco **"Por que escolher esta ra�
 - Artes das fichas em alta resolução (pendência aberta) antes de qualquer produto físico.
 
 ### Fase 4: tokens (o ápice, não agora)
-Conforme a própria ideia e as regras do projeto, nada de token, ticker, preço ou data antes de validar comunidade, custos, segurança e estrutura jurídica, inclusive com especialista sobre a regulação de criptoativos no Brasil. A pontuação do campeonato nunca vem de mercado. Vale testar primeiro se um único token do universo funciona melhor que quatro.
+Atualizado em 2026-11-03: o dono antecipou as meme coins de fãs (cinco, com os nomes das raças, lançadas fora do Brasil; código pronto em `tokens/`). A pontuação do campeonato continua nunca vindo de mercado.
 
 ## Pendências de cânone que não impedem a v1
 Soberano (SAZAR ou KRAHL-VOR), planetas natais, comandante e motivação dos Mantis, Sael, alturas. O site pode estrear com os selos de "Provisório"; o importante é não apresentar provisório como oficial.

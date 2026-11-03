@@ -1,9 +1,9 @@
 {
-  "name": "Clause 4812-c",
-  "symbol": "C4812",
+  "name": "Resistance",
+  "symbol": "RESIST",
   "decimals": 18,
-  "description": "Fan meme coin of the human Resistance, led by Dora from Fortaleza. Named after clause 4.812-c, the loophole nobody in the Census checked: does Earth get a vote? Humans. Not the enemy. A collectible joke from THE FOUR EXILES, a sci-fi satire: no utility, no promise of value.",
-  "description_pt_BR": "Meme coin de fã da Resistência humana, liderada por Dora, de Fortaleza. O nome lembra a cláusula 4.812-c, a brecha que ninguém no Censo conferiu: a Terra tem direito a voto? Humanos. Não o inimigo. Uma piada colecionável de THE FOUR EXILES, sátira de ficção científica: sem utilidade e sem promessa de valor.",
+  "description": "Fan meme coin of the human Resistance, led by Dora from Fortaleza, who found clause 4.812-c, the loophole nobody in the Census checked: does Earth get a vote? Humans. Not the enemy. A collectible joke from THE FOUR EXILES, a sci-fi satire: no utility, no promise of value.",
+  "description_pt_BR": "Meme coin de fã da Resistência humana, liderada por Dora, de Fortaleza, que achou a cláusula 4.812-c, a brecha que ninguém no Censo conferiu: a Terra tem direito a voto? Humanos. Não o inimigo. Uma piada colecionável de THE FOUR EXILES, sátira de ficção científica: sem utilidade e sem promessa de valor.",
   "image": "https://raw.githubusercontent.com/robsonfreitasadv/the-four-exiles/main/tokens/metadata/images/resistance.png",
   "external_url": "https://robsonfreitasadv.github.io/the-four-exiles/",
   "attributes": [
