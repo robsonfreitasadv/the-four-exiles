@@ -1,12 +1,12 @@
 # E21 · Foo fighters: pesquisa de mercado
 
-**Status:** provisório · roteiro de gravação · 2026-11-03 · Bloco 4 (Mantis) · Etapa 2, ciclo 3 · **[EXTRA]**
+**Status:** provisório · roteiro de gravação · 2026-11-03 · Bloco 4 (Mantis) · Etapa 2, ciclo 4 · **[EXTRA]**
 
 - **Duração-alvo:** 11 min (≈ 1.500 palavras de narração e diálogo, estimativa manual).
 - **Logline:** Pilotos aliados veem bolas de luz que os acompanham sobre a Europa em guerra. Os Mantis dizem que foi uma pesquisa de mercado, e que o resultado foi zero pedidos, porque os clientes estavam ocupados. O único pedido veio de uma casa reptiliana, em três vias, e a terceira via era dos herdeiros.
 - **Caso real:** relatos de *foo fighters* (aviadores aliados na Europa Ocidental e no Pacífico, formais a partir de novembro de 1944; matéria "Foo-Fighter" na *Time*, 15/01/1945; relatos também de pilotos alemães e japoneses).
 - **Piada central:** "Catálogo 1944: nenhum pedido. Clientes em guerra."
-- **Ligações:** abre o bloco Mantis (letreiro "Etapa 2, ciclo 3"); planta o catálogo com a linha "T-3 · não tocar" (eco do parâmetro T-3 de Ophelia, E05), a silhueta que anota à mão (IXUL-DRA, E22 e E25), a tradução nórdica que lê palavrão como cortesia (E11–E12) e a dívida reptiliana (E22, E26, E33).
+- **Ligações:** abre o bloco Mantis (letreiro "Etapa 2, ciclo 4"); planta o catálogo com a linha "T-3 · não tocar" (eco do parâmetro T-3 de Ophelia, E05), a silhueta que anota à mão (IXUL-DRA, E22 e E25), a tradução nórdica que lê palavrão como cortesia (E11–E12) e a dívida reptiliana (E22, E26, E33).
 - **Cliffhanger:** a fatura em três vias; a terceira, "herdeiros", cai fora do quadro.
 
 **Vozes e imagens (regra do dono):** Dora e Tasha, VEX: fichas oficiais (rosto e 3D, animados). Todos os outros (KESSA-VERRIN, IXUL-DRA, representante da Casa das Cisternas, "Unidade"): somente silhueta, sombra, mão e tablete, com voz de ator. Casos reais em tipografia, rotulados "reconstituição"; sem fotos de terceiros.
@@ -26,7 +26,7 @@ DORA (V.O.): Mercado de quê? Tinha uma guerra mundial acontecendo.
 
 ## 0:30–0:40 · VINHETA (7 s + 3 s de título)
 
-**VÍDEO:** O selo de Era IV: cinco espaços, quatro marcas, o central em branco. Letreiro: "ficção satírica". Depois, o título do episódio e o letreiro de bloco: **ETAPA 2 · CICLO 3 · MANTIS**.
+**VÍDEO:** O selo de Era IV: cinco espaços, quatro marcas, o central em branco. Letreiro: "ficção satírica". Depois, o título do episódio e o letreiro de bloco: **ETAPA 2 · CICLO 4 · MANTIS**.
 **ÁUDIO:** Silêncio de arquivo; um único som grave de carimbo no sétimo segundo.
 
 ---

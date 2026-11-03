@@ -4,14 +4,14 @@
 
 | Campo | Conteúdo |
 | --- | --- |
-| **Bloco** | 2 · Nórdicos (Os Pastores) · Etapa 2, ciclo 1 · narradora: Dora · co-apresentadora: Olivia |
+| **Bloco** | 2 · Nórdicos (Os Pastores) · Etapa 2, ciclo 2 · narradora: Dora · co-apresentadora: Olivia |
 | **Duração-alvo** | 12 min (~1.650 palavras de fala + pausas e piadas visuais) |
 | **Logline** | Olivia apresenta os "contatados" dos anos 1950 e Dora lê o relatório dos Nórdicos: tudo começou com um Programa-Piloto de Exportação Cultural, uma mensagem de paz pós-Hiroshima e um tradutor que entregou, no lugar do apelo, um convite para uma palestra. |
 | **Caso real usado** | George Adamski (20/11/1952, Califórnia; livro de 1953); Truman Bethurum (28/07/1952, Nevada; livro de 1954); Howard Menger (Nova Jersey; livro de 1959); George Van Tassel (Giant Rock, Califórnia; "Ashtar", 1952); o contexto da bomba de hidrogênio (Ivy Mike, 1º/11/1952, hora local) |
 | **Ligações** | Alimenta E12 (tradução), E13 (consentimento) e E14 (Giant Rock, Ashtar); a marca azul do selo na aprovação "A Tutela" volta no E14; o relatório de ELARA-VOSS volta no E27; "Testar no Brasil" abre o E12 |
 | **Imagens oficiais usadas** | Dora e Olivia (faces e fichas; ids `dora`, `livia`). **ELARA-VOSS: só silhueta e texto de relatório** (sem ficha). AUREL não aparece neste episódio (só o carimbo "A Tutela") |
 | **Rótulos** | *Registro humano (documentado)* no Ato 1; *Relatório Nórdico (não verificado)* no Ato 2 |
-| **Letreiro de abertura do bloco** | "Etapa 2 · ciclo 1 · Nórdicos" |
+| **Letreiro de abertura do bloco** | "Etapa 2 · ciclo 2 · Nórdicos" |
 
 ---
 
@@ -33,7 +33,7 @@
 ## 0:30 · VINHETA (7 s exatos)
 
 **VÍDEO**
-- Letreiro: "ETAPA 2 · CICLO 1 · NÓRDICOS". Em seguida o selo de Era IV (quatro marcas, centro em branco); a marca azul pisca uma vez. Letreiro: *ficção satírica*.
+- Letreiro: "ETAPA 2 · CICLO 2 · NÓRDICOS". Em seguida o selo de Era IV (quatro marcas, centro em branco); a marca azul pisca uma vez. Letreiro: *ficção satírica*.
 
 **ÁUDIO**
 - O tom grave, sustentado. Silêncio de sete segundos, montado na edição.

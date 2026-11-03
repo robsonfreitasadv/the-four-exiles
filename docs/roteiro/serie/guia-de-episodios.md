@@ -2,6 +2,8 @@
 
 **Status:** provisório · 2026-11-03 · tudo é proposta até o dono aprovar. Base: `biblia-da-serie.md` (segredo, regras, glossário). 33 episódios de 8 a 15 minutos (exceções marcadas), em sete blocos. **[NÚCLEO]** = indispensável; **[EXTRA]** = cortável numa versão enxuta de 29 episódios. Casos reais com data e lugar certos; tudo o que as raças dizem sobre eles é sátira e fica rotulado "não verificado". Sem datas de lançamento, preços ou tokens.
 
+**Convenções fixas (atualizadas em 2026-11-03, ver "Decisões de continuidade" na bíblia):** letreiro "Etapa 2, ciclo N": Grays = 1, Nórdicos = 2, Reptilianos = 3, Mantis = 4. Selo de veracidade: até o E09, Dora o lê como "cláusula de conferência" do rodapé do contrato; do E10 em diante, Sete em V.O. (sem imagem) quando está na história, Dora quando não está. Carteirinha do Censo (CTA): só no E13, E18, E24 e E28. As cinco chaves são as **quatro marcas** (uma por raça) e a **chave do Auditor**; não há "metades de chave".
+
 **Ordem de publicação:** E01 a E33 na ordem. Os blocos 2, 3 e 4 acontecem ao mesmo tempo no mundo da história (Etapa 2 do Censo) e podem ser publicados em ordem ou intercalados (um episódio de cada bloco por rodada), sem quebrar o enredo, porque cada bloco entrega uma peça independente.
 
 ## Onde entra *Zero Discrepâncias* (Grays/Sete)
@@ -61,7 +63,7 @@
 - **Gancho:** o técnico de campo explica por que a amostra humana foi arquivada como "Bovino, 1": o formulário de amostra humana tinha acabado.
 - **Resumo:** *Começo:* Sete audita a abdução de Hélio (Fortaleza, 1987) e carimba "0". *Meio:* Roswell e Hill como relatórios de coleta; o mapa de Betty é "desculpa oficial de rota errada"; a ofensa de Sete com as datas humanas; Greada em três grafias com carimbos de autoridade vazia; o parâmetro T-3 no modelo de Ophelia. *Fim:* Sete pede auditoria de campo; VELLUM recusa e cede com Kael-Ruum como acompanhante.
 - **Caso real:** Hill (1961) e o mapa; Greada; Strieber, *Communion* (1987) como contraponto de honestidade.
-- **Piada:** o formulário de amostra bovina tem "quatro patas no cabeçalho, o resto é igual".
+- **Piada:** o formulário de amostra bovina tem "quatro patas no cabeçalho, o resto é igual"; e Kael-Ruum: "Assinei. Não escrevi." (cena 10).
 - **Ligação:** planta o caso de Hélio, T-3 e as três grafias.
 - **Cliffhanger:** "Sete está de saída para o campo. A Terra, para o Arquivo, é um pé de página."
 
@@ -69,28 +71,28 @@
 - **Gancho:** um Gray de 1,30 m, terno cinza, crachá, passeia pela orla de Fortaleza, disfarçado com um briefing de TV dos anos 1990.
 - **Resumo:** *Começo:* Terce-Ohm oferece "um backup" e Sete recusa, por estar fora do canal. *Meio:* a descida; Kael-Ruum e as regras de campo; Nira-Toll discorda do comandante; a camuflagem; a casa de Hélio (telepatia falha com emoção forte; ele acha que Sete é do governo). *Fim:* Hélio mostra a pasta "Greada / Griada / Granada" e acerta, por pura obsessão, a única coisa certa.
 - **Caso real:** a ideia de "briefing de aparência" pela TV (*Outer Limits*, 1964); a ufologia amadora brasileira.
-- **Piada:** Sete parece um agente de série de TV, e Hélio acredita nele por isso.
+- **Piada:** Sete parece um agente de série de TV, e Hélio acredita nele por isso; a camuflagem derrete diante de uma tapioqueira (cena 13).
 - **Ligação:** primeira cena de Fortaleza; planta a casa de Hélio como cenário da série.
-- **Cliffhanger:** as três fitas de Hélio têm três datas de correção; Sete reconhece as datas: são dias de serviço dele.
+- **Cliffhanger:** na fita de 1987, Hélio jura que eram dois seres: um baixo, que escreveu num papel azul, e um mais alto, atrás, de mão para trás. O relatório registra um só. (As datas de correção que batem com os dias de serviço de Sete são da cena 20, no E07.)
 
 ### E07 · cap. 4: A letra C (cenas 16–20) — 13 min [NÚCLEO]
-- **Gancho:** no quintal de Hélio, Dora diz a Sete: "Eu li a letra c." Sete: "Li a página 4.812." "Qual letra?" Ele não sabe.
+- **Gancho:** no quintal de Hélio, Sete diz a Dora: "Li a página 4.812." Dora: "Eu li a letra c." "Qual letra?" Ele não sabe.
 - **Resumo:** *Começo:* a ponte Sete–Dora, sem aliança. *Meio:* Kael-Ruum admite ter interrompido a coleta Hill (3h07 contra 3h40); falsa pista; Zen-Varo oferece acesso ao arquivo restrito; Sete aceita, quebrando regra. *Fim (ponto médio):* no arquivo restrito, Era IV: o glifo TERRA no cabeçalho antes de qualquer contato; a chave de Sete está nas correções.
 - **Caso real:** o "tempo perdido" dos Hill; Greada (as horas sumidas de Eisenhower são uma reunião sem ata).
-- **Piada:** Kael-Ruum: "Assinei. Não escrevi."
-- **Ligação:** primeiro encontro Sete–Dora (planta o E10 e o E31); o selo de Era IV volta no E27.
-- **Cliffhanger:** "Essa chave é minha." "É o que diz."
+- **Piada:** Kael-Ruum: "Roswell eu assinei. Hill eu escrevi." ("Assinei. Não escrevi." é do E05.)
+- **Ligação:** primeiro encontro Sete–Dora (planta o E10 e o E31); o selo de Era IV volta na cena 33 (E10, cópia redigida, centro em branco) e no E27. O original restrito, com TERRA no centro, é o que Sete vê aqui.
+- **Cliffhanger:** a sequência das três datas: a chave de auditor assina as três correções de Greada em dias de serviço de Sete. A contagem 9, 8, 7 e, pela primeira vez, ninguém conta.
 
 ### E08 · cap. 5: O remendo (cenas 21–25) — 13 min [NÚCLEO]
 - **Gancho:** Sete decide não se afastar da auditoria: "ainda não terminei de auditar a mim."
-- **Resumo:** *Começo:* Ophelia confessa que nunca checou o abandono de Mirva e que o modelo prevê "colapso de confiança". *Meio:* VELLUM: "feche com zero", o argumento de continuidade, que é bom; Drav-Kess chega; o campo de contenção deixa Montese às escuras; perseguição pelas ruas; Hélio ouve o coro de Grays na cabeça. *Fim:* Kael-Ruum cortou o apoio.
-- **Caso real:** mutilações de gado (Snippy, Colorado, 1967) como "tarefa de estagiário"; hipnose regressiva.
-- **Piada:** a camuflagem falha em frente a uma tapioqueira; o blecaute é obra de um cálculo de energia.
-- **Ligação:** Drav-Kess se liga a VEX (E21–E25); Mirva reaparece no E19.
-- **Cliffhanger:** Nira-Toll abre a porta da casa dela: "Entra. A conta de luz é minha."
+- **Resumo:** *Começo:* Ophelia confessa que nunca checou o abandono de Mirva e que o modelo prevê "colapso de confiança". *Meio:* VELLUM: "feche com zero", o argumento de continuidade, que é bom; Drav-Kess chega; o campo de contenção deixa Montese às escuras; perseguição pelas ruas; Hélio ouve o coro de Grays na cabeça. *Fim:* Dora liga o gerador e Sete deixa passar o prazo do regulamento.
+- **Caso real:** mutilações de gado (Snippy, Colorado, 1967) como "tarefa de estagiário" (cartão de contexto); hipnose regressiva.
+- **Piada:** "Seu paletó derreteu!"; o blecaute é obra de um cálculo de energia ("Três viram uma rua. Uma rua vira um bairro. Um bairro vira um podcast.").
+- **Ligação:** Drav-Kess se liga a VEX (E21–E25); Mirva reaparece no E10 (formulário doze-V) e, como espelho, no E19.
+- **Cliffhanger:** o tablet: "Prazo de notificação: encerrado. Omissão registrada." Sete: "Registrado."
 
 ### E09 · cap. 6: A cópia (cenas 26–30) — 14 min [NÚCLEO]
-- **Gancho:** fábrica de gelo desativada em Mucuripe; Sete recebe de Nira-Toll o caminho de volta a Hevra.
+- **Gancho:** fábrica de gelo desativada em Mucuripe; Kael-Ruum corta o apoio da operação e Nira-Toll abre o módulo que leva Sete de volta a Hevra.
 - **Resumo:** *Começo:* Cofre de Cópias; Terce-Ohm entrega o fragmento e a anotação de Seis: "A chave que corrige é a sua. Eu não a usei. Pergunte a quem mais podia." *Meio:* Zen-Varo vaza meia verdade no Plenário; credencial de Sete revogada. *Fim:* Drav-Kess leva Terce-Ohm e purga as cópias; Sete relê o laudo que assinou contra Seis: "Quem assinou isto?"
 - **Caso real:** Dulce (1979) e Serpo (1965, folclore) como pistas falsas dos relatórios de Zen-Varo.
 - **Piada:** o laudo de Sete é regulamentar e a letra, perfeita, até o "N" de "Não verificado" sair torto.
@@ -143,11 +145,11 @@
 
 ### E15 · A terceira sobremesa — 12 min [NÚCLEO]
 - **Gancho:** "Há quarenta anos ninguém diz 'não' a AUREL. Hoje, uma médica de Fortaleza pede a conta."
-- **Resumo:** *Começo:* a Cúpula da Paz; o cardápio. *Meio:* AUREL oferece a terceira sobremesa; Olivia recusa; ele quase perde a postura; reivindica o crédito pelo Tratado de Proibição Parcial de Testes Nucleares (1963). *Fim:* AUREL, a sós: "Como soa um 'não'?" Entrega a Olivia sua metade da chave (herdada, sem saber a que serve).
+- **Resumo:** *Começo:* a Cúpula da Paz; o cardápio. *Meio:* AUREL oferece a terceira sobremesa; Olivia recusa; ele quase perde a postura; reivindica o crédito pelo Tratado de Proibição Parcial de Testes Nucleares (1963). *Fim:* AUREL, a sós: "Como soa um 'não'?" Entrega a Olivia a marca azul da Tutela, em forma de chave de prata (herdada com o cargo; "nunca me disseram para que serve", o que o E32 explica: os Quatro redigiram a própria memória do Pacto).
 - **Caso real:** Tratado de Proibição Parcial de Testes Nucleares (assinado em 1963).
 - **Piada:** quatro garfos para a mesma torta e nenhuma autorização.
 - **Ligação:** peça Nórdica entregue; AUREL passa a ser uma voz de dúvida nos cruzamentos.
-- **Cliffhanger:** a metade da chave não bate com nada que Ray conhece. Falta a outra.
+- **Cliffhanger:** a marca-chave não bate com nenhuma fechadura que Ray conhece. Uma marca sozinha não abre nada; faltam as outras três e a chave do Auditor.
 
 ---
 
@@ -155,7 +157,7 @@
 
 ### E16 · Pele falsa — 12 min [NÚCLEO]
 - **Gancho:** "1983: a TV mostra lagartos que se disfarçam de gente. Humanos acreditam. Em Thaxis, alguém assiste e diz: 'Isso é o nosso manual.'"
-- **Resumo:** *Começo:* Julian apresenta *V* (1983) e a teoria de infiltração; aviso: a versão original foi criticada por reciclar mitos antissemitas; esta série não aponta grupo humano. *Meio:* versão Reptiliana: o Programa de Estágio de Disfarce Humano de SAZAR, onde sobrinhos treinam; disfarces terríveis (óculos escuros à noite). *Fim:* Julian conhece o "vizinho" da rua, um reptiliano estagiário em pele de vendedor de consórcio.
+- **Resumo:** *Começo:* Julian apresenta *V* (1983) e a teoria de infiltração; aviso: a versão original foi criticada por reciclar mitos antissemitas; esta série não aponta grupo humano. *Meio:* versão Reptiliana: o Programa de Estágio de Disfarce Humano de SAZAR, onde sobrinhos treinam; disfarces terríveis (óculos escuros à noite). *Fim:* Julian conhece o "vizinho" da rua, um reptiliano estagiário (Reinaldo) em pele de vendedor de filtros.
 - **Caso real:** a minissérie *V* (EUA, 1983); David Icke na TV britânica (29/04/1991); *The Biggest Secret* (1999).
 - **Piada:** "Nenhum reptiliano foi eleito para nada. Nem síndico."
 - **Ligação:** os sobrinhos e a corrente de herança (E20).
@@ -178,7 +180,7 @@
 - **Cliffhanger:** Vesh-Kara liga a Julian: "Quero ver uma cisterna de verdade."
 
 ### E19 · O mar que sumiu — 12 min [NÚCLEO]
-- **Gancho:** "O Mar de Aral perdeu cerca de 90% da superfície em algumas décadas. Os Reptilianos dizem que fizeram pior em seis mil anos. Mas de graça."
+- **Gancho:** "O Mar de Aral perdeu cerca de 90% do volume (e mais de 70% da área) em poucas décadas. Os Reptilianos dizem que fizeram pior em seis mil anos. Mas sem lucro."
 - **Resumo:** *Começo:* o Mar de Aral (desde os anos 1960) e o "Dia Zero" da Cidade do Cabo (2018). *Meio:* os dados enterrados de Vesh-Kara: a queda das bacias profundas de Thaxis; o estudo privado de SAZAR. *Fim:* SAZAR sabia: a água não volta (R2).
 - **Caso real:** Mar de Aral; Cidade do Cabo, 2018.
 - **Piada:** os Reptilianos veem o Aral e dizem "amadores", e depois fazem a pausa.
@@ -187,11 +189,11 @@
 
 ### E20 · A cisterna de Dora — 13 min [NÚCLEO]
 - **Gancho:** "Ceará, 1877: a Grande Seca. 2003: as cisternas de placas. 2049: uma reptiliana pede para segurar o balde."
-- **Resumo:** *Começo:* Vesh-Kara visita o sertão; a avó de Dora tem cisterna (proposta). *Meio:* a cisterna como política (de quem é o balde); SAZAR assiste por um canal; Dora ensina e Julian pilota. *Fim:* Vesh-Kara entrega a peça: a cópia do Dividendo. SAZAR decide perguntar diretamente aos Grays. **Ponto médio da temporada:** Dora percebe que os quatro documentos de Era IV (Aliança, Acordo, Compacto, Pacto) são o mesmo.
+- **Resumo:** *Começo:* Vesh-Kara visita o sertão; a avó de Dora tem cisterna (proposta). *Meio:* a cisterna como política (de quem é o balde); SAZAR assiste por um canal; Dora ensina e Julian pilota. *Fim:* Vesh-Kara entrega a peça: a cópia do Dividendo. SAZAR decide perguntar diretamente aos Grays. **Ponto médio da temporada:** Dora **infere** (rotulado INFERIDO) que os quatro documentos de Era IV (Aliança, Acordo, Compacto, Pacto) são o mesmo; a **prova** vem no E27, quando Ray sobrepõe os textos.
 - **Caso real:** Grande Seca no Ceará (1877–79); Programa de cisternas de placas (desde 2003); açude do Cedro (Quixadá).
 - **Piada:** "A cisterna é política: quem tem a chave do cadeado?"
 - **Ligação:** peça Reptiliana; E26 e E27.
-- **Cliffhanger:** sobre a mesa, três metades de chave; a quarta ainda está longe.
+- **Cliffhanger:** sobre a mesa, três marcas (o fragmento Gray, a marca azul de AUREL, o cartucho do Dividendo); a quarta ainda está longe.
 
 ---
 
@@ -215,7 +217,7 @@
 
 ### E23 · Operação Prato: pesquisa de satisfação — 13 min [NÚCLEO]
 - **Gancho:** "Colares, Pará, 1977. A Força Aérea abre uma operação para estudar luzes que perseguem moradores. A palavra do povo: 'chupa-chupa'."
-- **Resumo:** *Começo:* Operação Prato (setembro a dezembro de 1977), com a nota de respeito: gente real teve medo. *Meio:* versão Mantis: um teste de alcance de sensores, com formulário de satisfação de usuário; Tasha se revolta; VEX responde com respeito: "o senhor tem razão: reduzir a intensidade." *Fim:* Kessa-Verrin move uma unidade para longe do perigo e chama isso de eficiência.
+- **Resumo:** *Começo:* Operação Prato (outubro a dezembro de 1977), com a nota de respeito: gente real teve medo. *Meio:* versão Mantis: um teste de alcance de sensores, com formulário de satisfação de usuário; Tasha se revolta; VEX responde com respeito: "o senhor tem razão: reduzir a intensidade." *Fim:* Kessa-Verrin move uma unidade para longe do perigo e chama isso de eficiência.
 - **Caso real:** Operação Prato (Colares/PA, 1977); arquivos liberados pela Força Aérea.
 - **Piada:** "Pesquisa de satisfação: o senhor recomendaria esta luz a um amigo?"
 - **Ligação:** primeira conversa Tasha–Vex; Kessa-Verrin.
@@ -223,19 +225,19 @@
 
 ### E24 · Tic Tac: avaliação de desempenho — 12 min [NÚCLEO]
 - **Gancho:** "14 de novembro de 2004, Pacífico: um piloto da Marinha dos EUA é o primeiro a ser avaliado por um objeto em forma de pastilha."
-- **Resumo:** *Começo:* o caso Nimitz; os vídeos divulgados em 2017 e confirmados como autênticos pela Marinha em 2020. *Meio:* versão Mantis: VEX gradua o piloto (8,5: "poderia ter perguntado antes de se aproximar"); IXUL-DRA objeta; reunião de guerra com ata. *Fim:* o gráfico mostra o ponto cego: eles não podem simplesmente encerrar a demonstração.
+- **Resumo:** *Começo:* o caso Nimitz; vídeos publicados em dezembro de 2017, confirmados pela Marinha em setembro de 2019 e liberados oficialmente pelo Departamento de Defesa em abril de 2020 (como "não identificados"). *Meio:* versão Mantis: VEX gradua o piloto (8,5: "poderia ter perguntado antes de se aproximar"); IXUL-DRA objeta; reunião de guerra com ata. *Fim:* o gráfico mostra o ponto cego: eles não podem simplesmente encerrar a demonstração.
 - **Caso real:** Nimitz (14/11/2004); vídeos FLIR; audiência de 2023.
 - **Piada:** "Nota: 8,5. Faltou perguntar antes de se aproximar."
 - **Ligação:** E02; Ixul-Dra e Vex.
 - **Cliffhanger:** a ordem zero aparece no log, assinada com a marca dos Mantis.
 
 ### E25 · Varginha: o que recusou — 14 min [NÚCLEO]
-- **Gancho:** "20 de janeiro de 1996, Varginha: três meninas veem uma criatura num terreno baldio. O Corpo de Bombeiros também. A versão do Exército é outra."
-- **Resumo:** *Começo:* o caso (com respeito aos relatos e à investigação). *Meio:* versão Mantis: uma unidade de patrulha em treinamento recusou uma ordem (I2) e se perdeu; ORRAN-SKIL e as Células de Dissenso; um recolhimento Gray; olhos "vermelhos" pela cor de função. *Fim:* VEX assina a readmissão da unidade contra o Conselho; LIRA-VESS abre a porta nunca reportada e mostra o módulo de bloqueio Gray: tem o selo de Era IV e a marca Mantis. A ordem zero e o bloqueio eram pedidos dos próprios Mantis.
+- **Gancho:** "20 de janeiro de 1996, Varginha: três jovens contam ter visto uma criatura num terreno baldio. O Exército e o Corpo de Bombeiros negaram qualquer captura."
+- **Resumo:** *Começo:* o caso (com respeito aos relatos e à investigação). *Meio:* versão Mantis: uma unidade de patrulha em treinamento recusou uma ordem (I2) e se perdeu; ORRAN-SKIL e as Células de Dissenso; um recolhimento Gray; olhos "vermelhos" pela cor de função. *Fim:* VEX assina a readmissão da unidade contra o Conselho; LIRA-VESS abre a porta nunca reportada e mostra o módulo de bloqueio Gray: tem o selo de Era IV e, ao lado, a marca Mantis, que em fábrica Gray identifica o cliente que pediu. **O E25 revela** que o bloqueio foi pedido pelos próprios Mantis; **o E28 prova** (Formulário B-9). IXUL-DRA entrega a Tasha o registro da Ordem 0 e a marca Mantis (tira de liga).
 - **Caso real:** Varginha (MG, 20/01/1996); versões divergentes.
-- **Piada:** o relatório oficial fala em "iluminação inadequada"; Vex: "A iluminação foi adequada. O senhor estava de pé."
+- **Piada:** o relatório do Conselho fala em "iluminação inadequada"; Vex: "A iluminação foi adequada. Eles estavam agachados."
 - **Ligação:** peça Mantis; I2 e I3; E28.
-- **Cliffhanger:** VEX: "Alguém instalou isso com o meu consentimento." Quatro metades de chave na mesa.
+- **Cliffhanger:** VEX: "Alguém instalou isso com o meu consentimento." Quatro marcas na mesa (Grays, Nórdicos, Reptilianos, Mantis); Dora: "Falta a quinta chave, a do Auditor."
 
 ---
 
@@ -259,7 +261,7 @@
 
 ### E28 · Área 51: o condomínio — 13 min [NÚCLEO] (Mantis × Grays, com visita dos outros)
 - **Gancho:** "A CIA reconheceu a existência da Área 51 em 2013. Os Mantis e os Grays reconhecem uma única vaga na garagem."
-- **Resumo:** *Começo:* Bob Lazar (1989) e o "elemento 115" (sintetizado em 2003, batizado de moscóvio em 2016): relato contestado. *Meio:* versão: a Área 51 como condomínio de hangares das raças; LIRA-VESS e OPHELIA testam o módulo de bloqueio no banco de provas. *Fim:* o módulo traz a marca dos Mantis e do selo; é o bloqueio pedido por eles.
+- **Resumo:** *Começo:* Bob Lazar (1989) e o "elemento 115" (sintetizado em 2003, batizado de moscóvio em 2016): relato contestado. *Meio:* versão: a Área 51 como condomínio de hangares das raças; LIRA-VESS e OPHELIA testam o módulo de bloqueio no banco de provas (ordem "atacar" devolvida: ORDEM INVÁLIDA: RESERVA). *Fim:* **a prova**: o Formulário B-9 ("Pedido de Instalação de Módulo de Bloqueio"), solicitante Comando Mantis, com a via 3 "devolvida ao solicitante" numa gaveta; VEX admite. (O E25 já tinha revelado a marca Mantis no módulo.)
 - **Caso real:** Lazar (1989); documento da CIA (2013); elemento 115.
 - **Piada:** vaga 4 é Gray; a 5 não tem dono; "a vaga 5 é da Terra, e ninguém avisou".
 - **Ligação:** E25 e E29; prova a tese I3.
@@ -287,7 +289,7 @@
 
 ### E31 · Quinto Espaço — 14 min [NÚCLEO]
 - **Gancho:** cinco chaves sobre uma mesa de vidro; o Plenário vazio; a pausa de Sete passa dos sete segundos, de propósito.
-- **Resumo:** *Começo:* Dora requer a abertura da Consulta Territorial (4.812-c); VELLUM bloqueia com o argumento de continuidade, que ainda é bom. *Meio:* Sete testemunha como Auditor; Terce-Ohm, libertado, traz a cópia; Ray, Olivia, Julian e Tasha trazem as quatro metades (hino, cisterna, ordem zero, fragmento). As cinco chaves fecham o selo. *Fim:* os quatro portadores se levantam: eles são os signatários.
+- **Resumo:** *Começo:* Dora requer a abertura da Consulta Territorial (4.812-c); VELLUM bloqueia com o argumento de continuidade, que ainda é bom. *Meio:* Sete testemunha como Auditor; Terce-Ohm, libertado, traz a cópia; Ray (Grays: o fragmento), Olivia (Nórdicos: o hino e a marca azul), Julian (Reptilianos: a cópia do Dividendo) e Tasha (Mantis: a Ordem 0) trazem as quatro marcas; Sete pousa a quinta chave, a original do Auditor, trazida por Terce-Ohm. As cinco chaves fecham o selo, e a Voz do Selo declara **nulo o parágrafo 2 da cláusula c** ("a consulta não se repete se já houve consulta"), acrescentado depois, na Camada Nova, sem assinatura de signatário. *Fim:* os quatro portadores se levantam: eles são os signatários.
 - **Caso real:** nenhum; fecha todos os anteriores.
 - **Piada:** quatro portadores, quatro cadeiras, uma pausa regulamentar (que ninguém quer ser o primeiro a interromper).
 - **Ligação:** E04–E30.
@@ -318,10 +320,10 @@
 | --- | --- | --- | --- |
 | 0 Prólogo | E01–E02 | Resistência | Selo com espaço em branco |
 | 1 Grays | E03–E10 | Grays | Fragmento de Sete |
-| 2 Nórdicos | E11–E15 | Nórdicos | Hino e metade da chave de AUREL |
+| 2 Nórdicos | E11–E15 | Nórdicos | Hino e marca azul de AUREL (chave de prata) |
 | 3 Reptilianos | E16–E20 | Reptilianos | Dividendo (cópia de Vesh-Kara) |
 | 4 Mantis | E21–E25 | Mantis | Ordem zero e bloqueio |
 | 5 Cruzamentos | E26–E30 | Pares e quartetos | Prova de que o Pacto é um só |
-| 6 Finale | E31–E33 | Todas | As cinco chaves |
+| 6 Finale | E31–E33 | Todas | As cinco chaves (quatro marcas e a do Auditor); o centro (TERRA) acende com a assinatura humana, E33 |
 
 **Versão enxuta (29 episódios):** corta E12, E17, E21 e E26 (**EXTRA**). **Banco de vídeos curtos (3–5 min):** ver lista no fim do §9 da bíblia.

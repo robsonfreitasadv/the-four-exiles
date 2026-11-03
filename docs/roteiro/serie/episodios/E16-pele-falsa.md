@@ -3,20 +3,20 @@
 **Status:** provisório · 2026-11-03 · roteirista (bloco Reptilianos), para o Diretor. Proposta até o dono aprovar. Base: `guia-de-episodios.md` (E16), `biblia-da-serie.md`, `formato-youtube.md`.
 
 - **Duração-alvo:** 12 min (cerca de 1.600 palavras faladas, mais 7 s de vinheta, 7 s de pausa final e respiros de edição).
-- **Bloco:** 3 · Reptilianos · **Etapa 2, ciclo 2** (letreiro de abertura; ver furos). Co-apresentador: Julian. Narradora-quadro: Dora.
+- **Bloco:** 3 · Reptilianos · **Etapa 2, ciclo 3** (letreiro de abertura). Co-apresentador: Julian. Narradora-quadro: Dora.
 - **Logline:** Uma minissérie de ficção de 1983 e uma teoria famosa (e problemática) sobre "lagartos disfarçados" chegam a Thaxis como material didático. Julian descobre que o novo vizinho da rua é um estagiário reptiliano em pele de vendedor de filtros, e que o manual de disfarce tem uma nota de rodapé que proíbe o disfarce.
 - **Caso real:** minissérie *V* (NBC, EUA, 1º e 2 de maio de 1983, ficção); a teoria reptiliana popularizada por David Icke (TV britânica em 29/04/1991; livro *The Biggest Secret*, 1999) e a crítica de que ela recicla mitos antissemitas.
 - **Piada central:** "Nenhum reptiliano foi eleito para nada. Nem síndico."
 - **Pista do mistério (dentro da piada):** o manual de disfarce cita o art. 9 do Compacto (Era IV), que proíbe disfarce numa Reserva, e a exceção está num anexo de "estágio" aprovado por `[REDIGIDO]`. Ou seja: existe um documento anterior que proíbe, e alguém "regularizou" a violação por formulário.
 - **Ligações:** planta os sobrinhos e a corrente de herança (E20); o estagiário solta a reunião do Aquífero Guarani (E18); o art. 9 do Compacto volta no E27.
 - **Cuidado (ver `biblia-da-serie.md` §10, item 2):** o aviso de abertura é obrigatório; nenhum grupo humano, religião ou pessoa viva é associado aos Reptilianos; a série ri do conspiracionismo, não de pessoas.
-- **Elenco em voz:** DORA, JULIAN (fichas oficiais); SAZAR (ficha oficial, voz grave); SSARA-MIN e O ESTAGIÁRIO (sem ficha: só silhueta e texto de dossiê); SETE (só V.O., para o selo).
+- **Elenco em voz:** DORA, JULIAN (fichas oficiais); SAZAR (ficha oficial, voz grave); SSARA-MIN e O ESTAGIÁRIO (sem ficha: só silhueta e texto de dossiê); o selo de veracidade é lido por Dora.
 
 ---
 
 ## 0:00 · GANCHO (30 s)
 
-**[VÍDEO]** Tela preta. Aparece, em tipografia de máquina de escrever: *Etapa 2 · ciclo 2*. Corte para uma televisão de tubo desenhada como gráfico (reconstituição tipográfica; nenhuma imagem real da série). Na tela, só o letreiro *V, 1983, minissérie de ficção*. A TV está dentro de uma sala em tons de vermelho e dourado; o rosto de SAZAR (ficha oficial) se reflete no vidro, de sobrancelha erguida.
+**[VÍDEO]** Tela preta. Aparece, em tipografia de máquina de escrever: *Etapa 2 · ciclo 3*. Corte para uma televisão de tubo desenhada como gráfico (reconstituição tipográfica; nenhuma imagem real da série). Na tela, só o letreiro *V, 1983, minissérie de ficção*. A TV está dentro de uma sala em tons de vermelho e dourado; o rosto de SAZAR (ficha oficial) se reflete no vidro, de sobrancelha erguida.
 
 **[ÁUDIO]** Som de estática. Música: um tema grave, com cordas secas, que fica levemente cômico.
 
@@ -230,9 +230,9 @@
 
 ## 11:00 · SELO DE VERACIDADE (60 s)
 
-**[VÍDEO]** Fundo de relatório, selo de Era IV ao centro. Texto aparece linha a linha enquanto a voz de Sete lê. Sete não tem rosto: só uma mão sem rosto que carimba, um crachá com o nome borrado e um tablet.
+**[VÍDEO]** Fundo de relatório, selo de Era IV ao centro. Texto aparece linha a linha enquanto Dora lê (Sete não está na história deste episódio, então o selo é de Dora; ver decisão 6 de 03/11).
 
-**SETE (V.O., voz seca e formal):** Confirmado: a minissérie *V* foi ao ar nos Estados Unidos em 1º e 2 de maio de 1983, como ficção. Confirmado: a teoria dos lagartos disfarçados foi criticada por reciclar mitos antissemitas. Inferido: a Casa das Cisternas mantém um programa de disfarce, em violação provável de um artigo que ela mesma cita. Não verificado: todo o resto. Não autorizado: nada.
+**DORA (V.O.):** Confirmado: a minissérie *V* foi ao ar nos Estados Unidos em 1º e 2 de maio de 1983, como ficção. Confirmado: a teoria dos lagartos disfarçados foi criticada por reciclar mitos antissemitas. Inferido: a Casa das Cisternas mantém um programa de disfarce, em violação provável de um artigo que ela mesma cita. Não verificado: todo o resto. Não autorizado: nada.
 
 **[VÍDEO]** Pausa de sete segundos: tela quase vazia, com o selo e o espaço central em branco.
 

@@ -3,20 +3,20 @@
 **Status:** provisório · 2026-11-03 · roteirista (bloco Reptilianos), para o Diretor. Proposta até o dono aprovar.
 
 - **Duração-alvo:** 12 min (cerca de 1.650 palavras faladas).
-- **Bloco:** 3 · Reptilianos · Etapa 2, ciclo 2. Co-apresentador: Julian. Narradora-quadro: Dora.
+- **Bloco:** 3 · Reptilianos · Etapa 2, ciclo 3. Co-apresentador: Julian. Narradora-quadro: Dora.
 - **Logline:** Do Mar de Aral à crise do "Dia Zero" na Cidade do Cabo, a Terra tem exemplos reais de água que some por decisão, por seca e por má gestão. Vesh-Kara entrega a Julian os dados que as casas enterraram: as bacias profundas de Thaxis estão caindo, e SAZAR, que encomendou o estudo em segredo, sabe que a água não volta. Em público, ele diz o contrário.
 - **Caso real:** Mar de Aral (Cazaquistão e Uzbequistão; desvio do Amu Dária e do Sir Dária desde o início dos anos 1960; perda de mais de 70% da área e cerca de 90% do volume) e o "Dia Zero" da Cidade do Cabo (África do Sul, 2018, evitado).
 - **Piada central:** os Reptilianos veem o Aral e dizem "amadores"; depois fazem a pausa de sete segundos.
 - **Pista do mistério (R2):** SAZAR sabia da irreversibilidade; o estudo privado foi feito pela mesma hidrologista que as casas calaram. Além disso, a assinatura do anexo do estudo traz a marca do Compacto: SAZAR cita o texto "como se fosse a própria letra" (pista de releitura para os Quatro Exilados).
 - **Ligações:** Mirva (E08) é o espelho Gray: uma cidade abandonada por um modelo que ninguém conferiu. Aqui, o inverso: ninguém quis conferir que ela precisava ser abandonada. E18 (dados enterrados) e E20 (a cisterna). SAZAR ainda não perguntou aos Grays (R3).
 - **Cuidado:** o Aral foi consequência de política estatal soviética de irrigação; a série diz isso como fato histórico, sem apontar povo, e sem usar a tragédia como piada. As piadas são do lado reptiliano ("amadores", a escala do gráfico) e nunca do pescador que perdeu o mar.
-- **Elenco em voz:** DORA, JULIAN (fichas); SAZAR (ficha, rosto e voz); VESH-KARA (silhueta, voz baixa e precisa); THRAXEN-OL e SSARA-MIN (silhueta); SETE (V.O. no selo).
+- **Elenco em voz:** DORA, JULIAN (fichas); SAZAR (ficha, rosto e voz); VESH-KARA (silhueta, voz baixa e precisa); THRAXEN-OL e SSARA-MIN (silhueta); o selo é lido por Dora (Sete não está na história).
 
 ---
 
 ## 0:00 · GANCHO (30 s)
 
-**[VÍDEO]** Tela preta. *Etapa 2 · ciclo 2*. Surge um mapa tipográfico da Ásia Central, uma mancha azul que encolhe em quatro quadros, de 1960 a hoje, com o selo *Reconstituição*. Uma silhueta de barco pesqueiro aparece deitado em terra seca, desenhada de lado, sem rosto.
+**[VÍDEO]** Tela preta. *Etapa 2 · ciclo 3*. Surge um mapa tipográfico da Ásia Central, uma mancha azul que encolhe em quatro quadros, de 1960 a hoje, com o selo *Reconstituição*. Uma silhueta de barco pesqueiro aparece deitado em terra seca, desenhada de lado, sem rosto.
 
 **[ÁUDIO]** Vento seco, areia. Uma corda grave sustenta uma nota longa.
 
@@ -220,7 +220,7 @@
 
 **[VÍDEO]** Selo de Era IV ao centro. Mão sem rosto carimbando; crachá borrado; tablet. Ao fundo, a ilustração do barco no deserto, em silhueta.
 
-**SETE (V.O.):** Confirmado: o Mar de Aral perdeu mais de setenta por cento da área e cerca de noventa por cento do volume desde 1960, após o desvio dos rios Amu Dária e Sir Dária. Confirmado: o Dia Zero da Cidade do Cabo, projetado em 2018, foi evitado. Inferido: o Soberano reptiliano conhece a irreversibilidade da seca de Thaxis. Não verificado: todo o resto. Não autorizado: nada.
+**DORA (V.O.):** Confirmado: o Mar de Aral perdeu mais de setenta por cento da área e cerca de noventa por cento do volume desde 1960, após o desvio dos rios Amu Dária e Sir Dária. Confirmado: o Dia Zero da Cidade do Cabo, projetado em 2018, foi evitado. Inferido: o Soberano reptiliano conhece a irreversibilidade da seca de Thaxis. Não verificado: todo o resto. Não autorizado: nada.
 
 **[VÍDEO]** Pausa de sete segundos. Tela quase vazia, selo com o espaço central em branco.
 

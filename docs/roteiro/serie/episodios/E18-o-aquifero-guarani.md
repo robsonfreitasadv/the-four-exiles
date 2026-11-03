@@ -3,7 +3,7 @@
 **Status:** provisório · 2026-11-03 · roteirista (bloco Reptilianos), para o Diretor. Proposta até o dono aprovar.
 
 - **Duração-alvo:** 13 min (cerca de 1.800 palavras faladas).
-- **Bloco:** 3 · Reptilianos · Etapa 2, ciclo 2. Co-apresentador: Julian (pilota a barcaça-cisterna). Narradora-quadro: Dora.
+- **Bloco:** 3 · Reptilianos · Etapa 2, ciclo 3. Co-apresentador: Julian (pilota a barcaça-cisterna). Narradora-quadro: Dora.
 - **Logline:** Julian sobrevoa o maior reservatório de água subterrânea da América do Sul numa barcaça-cisterna reptiliana lenta e pesada. A Casa das Cisternas apresenta uma "concessão" com selo e herdeiro; Dora lê o tratado real de 2010, que tem três linhas e vale mais; o ponteiro da barcaça está quase no fim; e SSARA-MIN admite o que as casas enterraram.
 - **Caso real:** Acordo sobre o Aquífero Guarani (Brasil, Argentina, Paraguai e Uruguai; assinado em San Juan, Argentina, em 2/08/2010; em vigor desde novembro de 2020) e o medo popular da "internacionalização" da Amazônia.
 - **Piada central:** "Nós não tomamos rios. Nós os herdamos, com selo e herdeiro." (frase de SAZAR da ficha de voz, usada aqui por Ssara-Min) e o ponteiro do tanque marcando "por favor".
@@ -17,7 +17,7 @@
 
 ## 0:00 · GANCHO (30 s)
 
-**[VÍDEO]** Tela preta. *Etapa 2 · ciclo 2*. Plano aéreo desenhado como gráfico: o mapa tipográfico do centro-sul da América do Sul, uma mancha azul em degradê sobre quatro países, sem nomes de cidades. Em cima, o texto: *Reconstituição. Extensão aproximada.* No canto, o contador de discrepâncias: **0**.
+**[VÍDEO]** Tela preta. *Etapa 2 · ciclo 3*. Plano aéreo desenhado como gráfico: o mapa tipográfico do centro-sul da América do Sul, uma mancha azul em degradê sobre quatro países, sem nomes de cidades. Em cima, o texto: *Reconstituição. Extensão aproximada.* No canto, o contador de discrepâncias: **0**.
 
 **[ÁUDIO]** Música: percussão de cisterna, cordas lentas. Efeito: vento.
 
@@ -216,6 +216,8 @@ Rótulo: *Texto do acordo (trechos), promulgado no Brasil pelo Decreto nº 11.89
 **JULIAN:** Sete chegou de surpresa.
 
 **DORA:** Sete está em todo lugar onde alguém arquiva.
+
+**[VÍDEO]** Cartão em carimbo, canto da tela: *Sete: suspenso, preso, em aberto. Ainda assim, presente em todo arquivo.* (gag de série, decisão do Diretor de 03/11.)
 
 **[VÍDEO]** Corte para Thraxen-Ol (silhueta) ao fundo, de braços cruzados.
 

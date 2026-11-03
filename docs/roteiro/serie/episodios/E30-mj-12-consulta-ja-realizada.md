@@ -176,7 +176,7 @@ DORA: Se o falso vale pelo formulário, vamos fazer o formulário mais verdadeir
 
 ## Últimos 60 s · SELO DE VERACIDADE
 
-**VÍDEO:** Fundo cinza. A fórmula aparece em carimbos, com um eco na pausa. Dora lê.
+**VÍDEO:** Fundo cinza. A fórmula aparece em carimbos, com um eco na pausa. Dora lê (Sete está presente na história, mas com o microfone desligado e a credencial suspensa: por isso o selo volta a ser dela neste episódio; ele o retoma no E31).
 
 **ÁUDIO:**
 DORA: Confirmado: os documentos MJ-12 surgiram em dezembro de 1984, a Força Aérea informou que o comitê nunca foi formado, e o FBI os classificou como falsos. Inferido: que o Arquivo os registrou como a assinatura humana do Pacto. Não verificado: todo o resto. Não autorizado: nada, e é exatamente esse o problema.

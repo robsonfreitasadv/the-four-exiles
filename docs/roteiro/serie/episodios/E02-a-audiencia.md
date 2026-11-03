@@ -163,7 +163,7 @@
 > **Não autorizado:** nada.
 
 **ÁUDIO**
-- **DORA:** Confirmado: o relatório de 2021, as audiências de 2022 e 2023 e a criação do AARO. Inferido: que as quatro reagiram rápido demais para quem não sabia. Não verificado: todo o resto. Não autorizado: nada.
+- **DORA:** Cláusula de conferência, rodapé do contrato. Confirmado: o relatório de 2021, as audiências de 2022 e 2023 e a criação do AARO. Inferido: que as quatro reagiram rápido demais para quem não sabia. Não verificado: todo o resto. Não autorizado: nada.
 - *(pausa regulamentar de sete segundos: tela do selo, silêncio total, o contador parado em 6)*
 
 ---

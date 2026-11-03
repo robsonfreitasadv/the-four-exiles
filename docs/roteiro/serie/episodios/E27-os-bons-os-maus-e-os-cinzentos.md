@@ -5,7 +5,7 @@
 **Duração-alvo:** 14 min (~2.000 palavras faladas, a ~145 por minuto, mais pausas e vinheta)
 **Narradora-quadro:** Dora · **Co-apresentadores:** Olivia (no jantar) e Ray (na revelação)
 
-**Logline.** Durante setenta anos a ufologia dividiu o cosmos entre os "bons" altos e loiros e os "maus" lagartos e cinzentos. No jantar de boas-vindas do Plenário, a mesa de seis lugares descobre quem pagou por essa divisão e que os quatro documentos mais antigos das raças são, letra por letra, o mesmo documento.
+**Logline.** Durante quase cem anos a ufologia dividiu o cosmos entre os "bons" altos e loiros e os "maus" lagartos e cinzentos. No jantar de boas-vindas do Plenário, a mesa de seis lugares descobre quem pagou por essa divisão e que os quatro documentos mais antigos das raças são, letra por letra, o mesmo documento.
 
 **Caso real.** George Adamski e o "venusiano" de 20/11/1952 (Desert Center, Califórnia), livro de 1953; Betty e Barney Hill, 19-20/09/1961 (New Hampshire), tornado público em outubro de 1965; a cosmologia New Age "Plêiades × Draco", comunidade sem fonte documental. Os "nórdicos" da ufologia e a crítica de que a descrição física carregava um viés de superioridade europeia: a série **não** endossa essa leitura e diz isso no ar.
 
@@ -103,7 +103,7 @@ VELLUM: (pausa) Os Grays.
 AUREL: (tentando sorrir) Foi uma recomendação. Não foi uma decisão.
 VELLUM: Quem executou a recomendação?
 AUREL: Com sinceridade? Ninguém. Ela simplesmente... aconteceu.
-VELLUM: Aconteceu. (pausa de sete segundos, a mão aperta o tablet) Por sessenta anos, a coleta de amostras com formulário em três vias foi atribuída a nós em livros e na televisão. Nós temos formulário. Nós temos consentimento presumido. Nós não temos cabelo comprido.
+VELLUM: Aconteceu. (pausa de sete segundos, a mão aperta o tablet) Por quase noventa anos, a coleta de amostras com formulário em três vias foi atribuída a nós em livros e na televisão. Nós temos formulário. Nós temos consentimento presumido. Nós não temos cabelo comprido.
 OLIVIA: (baixo, para Dora) Isso é verdade. Eu já vi as três vias.
 
 **VÍDEO:** Contador de discrepâncias aparece no canto, em 0.

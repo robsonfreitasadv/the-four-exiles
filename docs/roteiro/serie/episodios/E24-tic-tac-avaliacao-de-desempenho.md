@@ -1,6 +1,6 @@
 # E24 · Tic Tac: avaliação de desempenho
 
-**Status:** provisório · roteiro de gravação · 2026-11-03 · Bloco 4 (Mantis) · Etapa 2, ciclo 3 · **[NÚCLEO]**
+**Status:** provisório · roteiro de gravação · 2026-11-03 · Bloco 4 (Mantis) · Etapa 2, ciclo 4 · **[NÚCLEO]**
 
 - **Duração-alvo:** 12 min (≈ 1.700 palavras de narração e diálogo, estimativa manual).
 - **Logline:** Um piloto da Marinha dos EUA se aproxima de um objeto branco, oval, sem asas, e o objeto vai embora como nenhum avião vai. Os Mantis, numa reunião de guerra com ata, dão ao piloto nota 8,5 e descobrem, por culpa de uma oficial e de um gráfico, que nenhuma demonstração deles chegou à última fase desde 1944.

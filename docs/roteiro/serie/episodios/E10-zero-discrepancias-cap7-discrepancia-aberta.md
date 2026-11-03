@@ -35,7 +35,7 @@ Numeração do `.fountain` novo: `#31#` a `#36#`. A escaleta de `narrativa-sete.
 - **Cena 32:** montar como "preenchimento": campos grandes na tela. Manter "Via única", a caixa NÃO e o S inclinado. A retificação do Anexo 2 é o momento emocional de Hélio e deve aparecer sem música.
 - **Cena 33:** gráfico do selo igual ao da vinheta, mas com o centro vazio; ao "quinto", cortar para a mão de VELLUM (plano fechado do tablet); a palavra do original não é dita nem escrita na tela (anexo lacrado = cubo branco com lacre vermelho).
 - **Cena 34:** a gagueira de Ophelia é a pausa mais longa do capítulo; não cortar. "Objeção." é pausa de seis segundos em silêncio; o carimbo torto de VELLUM é o plano de fecho.
-- **Cena 35:** cortar a fala de Kael-Ruum sobre 1961 pela metade (manter "Vivi sessenta anos de um 'concluído' que não era"); manter a contagem regressiva 7 a 1 em tela e "Registro: ruído". A etiqueta de transmissão é gráfico em close.
+- **Cena 35:** cortar a fala de Kael-Ruum sobre 1961 pela metade (manter "Vivi quase noventa anos de um 'concluído' que não era"); manter a contagem regressiva 7 a 1 em tela e "Registro: ruído". A etiqueta de transmissão é gráfico em close.
 - **Cena 36:** a cela é a cena de amostra C, reescrita; manter "Ou o procedimento ou o conflito de interesse." e o carimbo EM ABERTO. O quintal: lençol no varal, parabólica, gerador. Ator para Hélio e Dora: Dora com ficha oficial só em planos de olhar; Hélio em silhueta.
 - **Pausa final:** de 7 s para mais de 9 s: tela escura com os números 1 a 9 em tipografia, depois corte seco.
 - **Cuidados:** respeito a Strieber (pessoa viva à data da redação? conferir antes de publicar; usar só fatos públicos de 1985–1989); a autópsia de 1995 é reconstituição admitida; sem imagens do filme.
@@ -48,7 +48,7 @@ Numeração do `.fountain` novo: `#31#` a `#36#`. A escaleta de `narrativa-sete.
 ## Narração de fecho / cliffhanger (≈ 1:10)
 
 **VÍDEO:** cena 36 completa; depois o rodapé da tela do varal (ARCA-3; quatro marcas, três apagadas), seguido de fundo cinza para o selo.
-**ÁUDIO (DORA, V.O.):**
+**ÁUDIO (SETE, V.O., sem imagem; a partir daqui o selo é dele quando ele está na história):**
 "Confirmado: o Formulário Zero foi recebido; o inquérito está aberto e ninguém pode fechá-lo, nem quem o abriu. Inferido: a sigla ARCA-3 é o destino de Seis. Não verificado: todo o resto, a começar pelo que é T-3, pelo que está no quinto espaço do selo, e por quem assinou. Não autorizado: nada."
 *(pausa de sete segundos, desta vez seguida de mais dois; Dora diz: "Oito. Nove.")*
 DORA: "Sete perdeu o Arquivo e ganhou um inquérito que ninguém consegue fechar. Eu ganhei um fragmento, um fiscal de feira que agora tem campo para dizer que não mentiu, e três marcas apagadas para ir procurar. Faltam três. Se você encontrou uma discrepância, registre nos comentários. A terceira via é sua."

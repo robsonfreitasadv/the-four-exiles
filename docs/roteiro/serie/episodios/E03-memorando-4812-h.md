@@ -74,7 +74,7 @@ RAY *(lendo, no tom de quem lê bula)*: "Um. Este documento resume, em seis eras
 
 DORA: Ou seja: eles avisam que podem estar errados, na página um, no item dois.
 
-RAY: É a coisa mais honesta que eu já li num documento oficial. E a gente só vai até o item três. *(lendo)* "Três. A população humana produziu, ao longo de oitenta anos, extensa literatura sobre nós. A Seção recebeu essa literatura com atenção e, em seguida, com ofensa. A literatura contém erros de data."
+RAY: É a coisa mais honesta que eu já li num documento oficial. E a gente só vai até o item três. *(lendo)* "Três. A população humana produziu, ao longo de mais de cem anos, extensa literatura sobre nós. A Seção recebeu essa literatura com atenção e, em seguida, com ofensa. A literatura contém erros de data."
 
 DORA: Está aí o título do episódio.
 
@@ -139,7 +139,7 @@ RAY: Ninguém conferiu se a conta estava certa.
 
 DORA: E uma regra que o folclore humano devia ter conhecido: ao encontrar vida, observar não obriga. Contatar obriga. Todo contato exige formulário, e formulário exige alguém que responda por ele.
 
-RAY: Por isso ninguém pousou na praça pública em oitenta anos. Faltava a assinatura de alguém.
+RAY: Por isso ninguém pousou na praça pública em mais de cem anos. Faltava a assinatura de alguém.
 
 DORA: A lacuna: um sistema estelar cujo nome aparece em três versões incompatíveis na mesma página. As três foram carimbadas como corretas. O quarto carimbo, que diria qual delas, está rasurado.
 
@@ -190,7 +190,7 @@ RAY: E de um hábito escandaloso: ler o folclore humano como fonte secundária, 
 
 DORA: Os erros dos humanos são, de modo geral, erros de data. Os do Arquivo, de outra natureza, ainda estão sendo catalogados. E aqui a coisa muda: pela primeira vez a adulteração é recente. Trechos da própria Era VI já têm marcas de revisão. Nenhum revisor assinou.
 
-RAY: Acerto dos ufólogos, aqui: a data. Passaram oitenta anos esperando uma visita marcada. O Arquivo registra uma única visita marcada. O Censo.
+RAY: Acerto dos ufólogos, aqui: a data. Passaram mais de cem anos esperando uma visita marcada. O Arquivo registra uma única visita marcada. O Censo.
 
 DORA: Que ela tenha chegado em 2049 e não em 1947, para eles, é questão de formulário, não de profecia.
 
@@ -343,7 +343,7 @@ RAY: Também é um erro de data.
 **VÍDEO:** fundo cinza. Quatro linhas tipográficas, uma por vez, cada uma com seu carimbo. Depois a vinheta, com a pausa de sete segundos.
 
 **ÁUDIO:**
-DORA (V.O.): Confirmado: o Arquivo Central de Hevra enviou este memorando; Roswell, os Hill e a "autópsia" têm datas públicas e documentadas. Inferido: o Arquivo tem pavor da incerteza, e por isso escreveu seis eras para dizer que não sabe. Não verificado: todo o resto, a começar por quem escreveu a nota. Não autorizado: nada.
+DORA (V.O.): Cláusula de conferência, rodapé do contrato. Confirmado: o Arquivo Central de Hevra enviou este memorando; Roswell, os Hill e a "autópsia" têm datas públicas e documentadas. Inferido: o Arquivo tem pavor da incerteza, e por isso escreveu seis eras para dizer que não sabe. Não verificado: todo o resto, a começar por quem escreveu a nota. Não autorizado: nada.
 
 *(pausa de sete segundos, inserida na edição)*
 

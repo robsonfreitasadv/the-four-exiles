@@ -3,20 +3,20 @@
 **Status:** provisório · 2026-11-03 · roteirista (bloco Reptilianos), para o Diretor. Proposta até o dono aprovar. **Depende de aprovação do dono:** o parentesco de Dora com uma cisterna do sertão (avó de Dora) é invenção da bíblia (`biblia-da-serie.md` §12, item 12), pois `resistencia.md` só fixa idade (28) e origem (Fortaleza).
 
 - **Duração-alvo:** 13 min (cerca de 1.800 palavras faladas).
-- **Bloco:** 3 · Reptilianos · Etapa 2, ciclo 2 · **fecha o bloco e é o ponto médio da temporada**. Co-apresentador: Julian (pilota). Narradora-quadro: Dora, que aqui também é personagem.
+- **Bloco:** 3 · Reptilianos · Etapa 2, ciclo 3 · **fecha o bloco e é o ponto médio da temporada**. Co-apresentador: Julian (pilota). Narradora-quadro: Dora, que aqui também é personagem.
 - **Logline:** Vesh-Kara quer ver "uma cisterna que sirva". Dora a leva à casa de sua avó, no sertão do Ceará, onde uma cisterna de placas de 16 mil litros ensina, em uma tarde, o que os Reptilianos não aprenderam em milênios: a água é política, e política é saber quem tem a chave do cadeado. SAZAR assiste por um canal. Vesh-Kara entrega a cópia do Dividendo, e Dora percebe que os quatro documentos de Era IV têm nomes diferentes e o mesmo texto.
 - **Caso real:** a Grande Seca (1877–79, Ceará e Nordeste); o açude do Cedro (Quixadá, obra de 1884 a 1906); as cisternas de placas do Programa Um Milhão de Cisternas (P1MC), da ASA (Articulação no Semiárido Brasileiro), política pública desde 2003.
 - **Piada central:** "A cisterna é política: quem tem a chave do cadeado?"
 - **Pista do mistério (ponto médio):** a cópia do Dividendo traz o título COMPACTO, a mesma numeração de artigos do fragmento Gray e a tarja `[REDIGIDO]` onde deveria estar a assinatura da Casa Titular. Dora infere que Aliança, Acordo, Compacto e Pacto são o mesmo documento. É inferência: a prova vem no E27 (Ray compara os textos).
 - **Ligações:** E17 (a cláusula rasgada); E19 (os dados de Vesh-Kara); E26 (SAZAR pergunta aos Grays); E27; E31. Peça Reptiliana do selo.
 - **Cuidado:** o sertão e a Grande Seca são tema de respeito, com tela própria no Ato 1. A avó é uma personagem sem nome, só em voz e silhueta. Ninguém no episódio é piada: a piada é a ideia de "dono" aplicada à água.
-- **Elenco em voz:** DORA, JULIAN (fichas); SAZAR (ficha, só rosto e voz por canal); VESH-KARA (silhueta); A AVÓ DE DORA (só voz, atriz brasileira de sotaque nordestino; sem imagem); SETE (V.O. no selo).
+- **Elenco em voz:** DORA, JULIAN (fichas); SAZAR (ficha, só rosto e voz por canal); VESH-KARA (silhueta); A AVÓ DE DORA (só voz, atriz brasileira de sotaque nordestino; sem imagem); o selo é lido por Dora (Sete não está na história).
 
 ---
 
 ## 0:00 · GANCHO (30 s)
 
-**[VÍDEO]** Tela preta. *Etapa 2 · ciclo 2*. Linha do tempo tipográfica, três marcas: *1877 · 2003 · 2049*. Em cada uma, um objeto desenhado: um sol, uma cisterna redonda, um balde.
+**[VÍDEO]** Tela preta. *Etapa 2 · ciclo 3*. Linha do tempo tipográfica, três marcas: *1877 · 2003 · 2049*. Em cada uma, um objeto desenhado: um sol, uma cisterna redonda, um balde.
 
 **[ÁUDIO]** Violão seco, uma nota. Vento de sertão.
 
@@ -226,7 +226,7 @@
 
 > *COMPACTO · Era IV · Cláusula do Dividendo.* *"O quinhão de água da fonte reservada será repartido a Thaxis, a título de dividendo, sem posse da fonte."* *"Fica proibida a conversão em [REDIGIDO]."* *Assinam: [REDIGIDO], [REDIGIDO], [REDIGIDO], [REDIGIDO].*
 
-(Se o E17 tiver sido cortado da versão enxuta, Dora diz em voz: "Esta é a cláusula que um escrivão rasgou há muito tempo. A outra metade ficou com os Grays.")
+(Se o E17 tiver sido cortado da versão enxuta, Dora diz em voz: "Esta é a cláusula que um escrivão rasgou há muito tempo. O resto da folha ficou com os Grays.")
 
 **JULIAN:** Os quatro assinantes estão riscados.
 
@@ -234,8 +234,8 @@
 
 **[VÍDEO]** Zoom no cabeçalho e na numeração da cláusula. Em seguida, na tela, três janelas lado a lado, como no fim de um quebra-cabeça:
 
-- Janela 1: o fragmento Gray de Sete (E09), cabeçalho *ALIANÇA · Era IV*. Numeração: *4.812 · c*.
-- Janela 2: o hino de Lyssa-Hal e a metade da chave de AUREL (E14, E15), referido como *O Acordo*.
+- Janela 1: o fragmento Gray de Sete (E09–E10), cabeçalho *ALIANÇA · Era IV*. Numeração: *4.812 · c*.
+- Janela 2: o hino de Lyssa-Hal e a marca azul que AUREL entregou (E14, E15), referido como *O Acordo*.
 - Janela 3: a cópia de Vesh-Kara, cabeçalho *COMPACTO · Era IV*.
 
 (Todas em tipografia e texto. Nenhum rosto novo.)
@@ -260,7 +260,7 @@
 
 **[VÍDEO]** Selo de Era IV ao centro. Mão sem rosto carimbando; crachá borrado; tablet.
 
-**SETE (V.O.):** Confirmado: a Grande Seca de 1877 a 1879 foi uma das maiores tragédias do Nordeste brasileiro. Confirmado: as cisternas de placas do P1MC são política pública desde 2003, com origem na sociedade civil. Inferido: Aliança, Acordo, Compacto e Pacto são quatro nomes para o mesmo documento. Não verificado: todo o resto. Não autorizado: nada.
+**DORA (V.O.):** Confirmado: a Grande Seca de 1877 a 1879 foi uma das maiores tragédias do Nordeste brasileiro. Confirmado: as cisternas de placas do P1MC são política pública desde 2003, com origem na sociedade civil. Inferido: Aliança, Acordo, Compacto e Pacto são quatro nomes para o mesmo documento. Não verificado: todo o resto. Não autorizado: nada.
 
 **[VÍDEO]** Pausa de sete segundos. Tela quase vazia, selo com o espaço central em branco.
 
@@ -270,11 +270,11 @@
 
 ## 11:45 · CLIFFHANGER E CTA (75 s, incluindo a cena final)
 
-**[VÍDEO]** O terreiro, noite. Uma mesa de madeira do lado de fora. Sobre ela, três peças desenhadas como objetos tipográficos: o fragmento Gray, a metade de chave de AUREL (E15) e o cartucho de Vesh-Kara. Uma quarta marca, em branco, no canto da mesa.
+**[VÍDEO]** O terreiro, noite. Uma mesa de madeira do lado de fora. Sobre ela, três peças desenhadas como objetos tipográficos: o fragmento Gray, a marca-chave azul de AUREL (E15) e o cartucho de Vesh-Kara. Uma quarta marca, em branco, no canto da mesa.
 
 **[ÁUDIO]** Grilos, vento. Um canto de coruja.
 
-**DORA (V.O.):** Três metades de chave sobre uma mesa de sertão. A quarta ainda está longe.
+**DORA (V.O.):** Três marcas sobre uma mesa de sertão. A quarta ainda está longe.
 
 **[VÍDEO]** Corte: SAZAR (ficha, rosto), no canal privado, de costas para nós, depois de frente.
 

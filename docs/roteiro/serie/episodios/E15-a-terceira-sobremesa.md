@@ -4,11 +4,11 @@
 
 | Campo | Conteúdo |
 | --- | --- |
-| **Bloco** | 2 · Nórdicos (Os Pastores) · Etapa 2, ciclo 5 · narradora: Dora · co-apresentadora: Olivia (protagonista do episódio) |
+| **Bloco** | 2 · Nórdicos (Os Pastores) · Etapa 2, ciclo 2 · narradora: Dora · co-apresentadora: Olivia (protagonista do episódio) |
 | **Duração-alvo** | 12 min (~1.700 palavras de fala + pausas e piadas visuais) |
-| **Logline** | Na Cúpula da Paz, a bordo de uma nave-salão nórdica, AUREL reivindica o crédito pelo Tratado de Proibição Parcial de Testes Nucleares (1963) e oferece a terceira sobremesa a Olivia, que diz "não" e pede para continuar sentada. Depois, a sós, AUREL pergunta como soa um "não" e entrega a ela sua metade de uma chave. |
+| **Logline** | Na Cúpula da Paz, a bordo de uma nave-salão nórdica, AUREL reivindica o crédito pelo Tratado de Proibição Parcial de Testes Nucleares (1963) e oferece a terceira sobremesa a Olivia, que diz "não" e pede para continuar sentada. Depois, a sós, AUREL pergunta como soa um "não" e entrega a ela a marca azul da Tutela, forjada como uma chave de prata. |
 | **Caso real usado** | Tratado de Proibição Parcial de Testes Nucleares (assinado em Moscou em 05/08/1963; em vigor desde 10/10/1963) |
-| **Ligações** | Fecha o bloco Nórdico (peça: o hino do E14 mais a metade da chave de AUREL); a "terceira sobremesa" vem do E11 e do E13; AUREL passa a ser voz de dúvida nos cruzamentos (E27, E33); "quatro cadeiras" prepara E27 (jantar de seis lugares); "declina com ressalvas" é o primeiro uso da piada dos Mantis |
+| **Ligações** | Fecha o bloco Nórdico (peça: o hino do E14 mais a marca azul que AUREL entrega, em forma de chave de prata; Olivia é a portadora da marca Nórdica); a "terceira sobremesa" vem do E11 e do E13; AUREL passa a ser voz de dúvida nos cruzamentos (E27, E33); "quatro cadeiras" prepara E27 (jantar de seis lugares); "declina com ressalvas" é o primeiro uso da piada dos Mantis |
 | **Imagens oficiais usadas** | Dora, Olivia, Ray, Julian (faces e fichas); AUREL (rosto/ficha em todas as cenas da Cúpula). **Elara-Voss: só silhueta e texto**. Nenhuma outra raça aparece em imagem (cadeiras vazias com cartões) |
 | **Rótulos** | *Registro humano (documentado)* no Ato 1; *Relatório Nórdico (não verificado)* no Ato 2 |
 
@@ -32,7 +32,7 @@
 ## 0:30 · VINHETA (7 s exatos)
 
 **VÍDEO**
-- Letreiro: "ETAPA 2 · CICLO 5 · NÓRDICOS". Selo de Era IV (quatro marcas, centro em branco). Letreiro: *ficção satírica*.
+- Letreiro: "ETAPA 2 · CICLO 2 · NÓRDICOS". Selo de Era IV (quatro marcas, centro em branco). Letreiro: *ficção satírica*.
 
 **ÁUDIO**
 - Tom grave, sustentado. Silêncio de sete segundos, montado na edição.
@@ -119,12 +119,12 @@
 
 ---
 
-## 8:30 · ATO 3: DISCREPÂNCIAS E A CHAVE (~2 min 50 s)
+## 8:30 · ATO 3: DISCREPÂNCIAS E A MARCA (~2 min 50 s)
 
 **VÍDEO**
 - Cena a sós: AUREL e Olivia à mesa, a torta intacta no centro. Elara e os músicos saíram. A luz fica mais baixa. Sobre o rosto de AUREL, o sorriso continua, mas os olhos já não acompanham.
 - Contador de discrepâncias no canto: 0 → 4.
-- Zoom numa chave de prata cortada ao meio: **uma metade**, com a marca azul no punho. Ela repousa sobre um guardanapo branco.
+- Zoom numa chave de prata de formato estranho, com a **marca azul** no punho (a marca Nórdica, uma das quatro do selo). Ela repousa sobre um guardanapo branco.
 - Olivia segura a chave à luz.
 
 **ÁUDIO**
@@ -149,7 +149,7 @@
 - **OLIVIA:** Eu pergunto. Não é fraqueza. É protocolo.
 - **AUREL:** *(longa pausa)* Cansado. Eu estou cansado, Olivia. Há muito.
 - **DORA (V.O.):** E aí, em vez de uma ameaça, o Nórdico mais poderoso da mesa entregou uma coisa a uma humana sem pedir nada em troca.
-- *(AUREL tira a metade da chave do bolso interno da capa e a coloca sobre o guardanapo.)*
+- *(AUREL tira a chave do bolso interno da capa e a coloca sobre o guardanapo.)*
 - **AUREL:** Isto é meu. Recebi com o cargo. Nunca me disseram para que serve.
 - **OLIVIA:** Nunca perguntou?
 - **AUREL:** Ninguém, antes de você, me disse "não" para eu ter coragem de perguntar.
@@ -164,7 +164,7 @@
 ## 10:50 · DISCREPÂNCIAS NA MESA DA RESISTÊNCIA (~40 s)
 
 **VÍDEO**
-- Laje em Fortaleza, noite. Dora, Ray, Julian e Olivia (faces) ao redor da metade da chave, sobre um guardanapo.
+- Laje em Fortaleza, noite. Dora, Ray, Julian e Olivia (faces) ao redor da marca-chave, sobre um guardanapo.
 - Contador: 4.
 - Ray com a lupa de relojoeiro sobre o punho da chave. Dentro, uma marca azul gravada; a mesma do hino.
 
@@ -174,7 +174,7 @@
 - **JULIAN:** Três. A regra era que quem corta aceita e quem recusa fica triste junto. Ela recusou e continuou na sala. Então a regra é um costume, não uma regra. Contador: três.
 - **OLIVIA:** Quatro. A chave. "Recebi com o cargo." De novo o cargo.
 - **DORA:** Ray?
-- **RAY:** Marca azul, a do hino. Mas a forma... não bate com nenhuma fechadura que eu conheça. Nem física, nem digital. Falta a outra metade.
+- **RAY:** Marca azul, a do hino. Mas a forma... não bate com nenhuma fechadura que eu conheça. Nem física, nem digital. Uma marca sozinha não abre nada. Faltam as outras.
 
 ---
 
@@ -185,11 +185,11 @@
 
 > **Confirmado:** o Tratado de Proibição Parcial de Testes Nucleares foi assinado em Moscou em 05/08/1963 por EUA, Reino Unido e URSS, e entrou em vigor em 10/10/1963.
 > **Inferido:** que AUREL é sincero e cansado.
-> **Não verificado:** as tortas, os quatro mil cartões e a metade da chave.
+> **Não verificado:** as tortas, os quatro mil cartões e a marca-chave.
 > **Não autorizado:** nada.
 
 **ÁUDIO**
-- **DORA:** Confirmado: o tratado de 1963. Inferido: que AUREL é sincero e cansado. Não verificado: a torta, os cartões e a chave. Não autorizado: nada.
+- **DORA:** Confirmado: o tratado de 1963. Inferido: que AUREL é sincero e cansado. Não verificado: a torta, os cartões e a marca-chave. Não autorizado: nada.
 - *(pausa regulamentar de sete segundos: tela do selo, silêncio total, contador parado em 4)*
 
 ---
@@ -197,10 +197,10 @@
 ## 11:50 · CLIFFHANGER E CTA (10 s)
 
 **VÍDEO**
-- A metade da chave, sob a lupa de Ray, ao lado de um quadro: as três marcas do selo ainda apagadas.
+- A marca-chave, sob a lupa de Ray, ao lado de um quadro: as três marcas do selo ainda apagadas.
 
 **ÁUDIO**
-- **RAY:** Se isso é uma metade, a outra metade está em algum lugar. E tem mais três marcas apagadas.
+- **RAY:** Isso é uma marca, e o selo tem quatro. Faltam três. E ainda tem a chave do Auditor.
 - **DORA:** Se você já recusou uma terceira sobremesa, conta nos comentários como foi. A terceira via é sua.
 
 ---
@@ -210,7 +210,7 @@
 - **Humor:** o cartão dos Grays ("a terceira via extraviada"); "quatro garfos e nenhuma autorização"; a torta de maçã com canela como "decisiva"; Olivia cortando a torta "com precisão cirúrgica"; AUREL treinando o "não". Recorrente: a terceira sobremesa e a pausa de sete segundos (agora usada pela primeira vez por um Nórdico).
 - **Lado humano de AUREL:** o episódio inteiro depende de AUREL ser sincero. Não fazer dele um vilão em nenhum plano: sorriso, olhar e cansaço têm de convencer.
 - **Cuidado:** não afirmar nada sobre o tratado além do que está documentado; o resto é versão nórdica, rotulada.
-- **A chave:** peça do selo de Era IV. Aqui é só uma metade com a marca azul, "herdada" de AUREL. Ver "Dúvidas" no relatório de entrega.
+- **A chave:** peça do selo de Era IV. Aqui é a marca azul, "herdada" de AUREL, em forma de chave de prata (não é "metade": decisão 1 de 03/11). Ver "Dúvidas" no relatório de entrega.
 - **Se precisar cortar:** comprimir a sequência das duas primeiras sobremesas (cenas de 40 s).
 
 ## Fontes conferidas (web, 2026-11-03)

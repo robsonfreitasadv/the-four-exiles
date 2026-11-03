@@ -272,7 +272,7 @@
 
 **HÉLIO:** É voto em branco, minha filha. O branco é a única cor que cabe tudo.
 
-**ÁUDIO:** O som da tecla BRANCO. Um clique seco. Ele ri, baixinho, uma risada de homem que passou quarenta anos tentando convencer alguém.
+**ÁUDIO:** O som da tecla BRANCO. Um clique seco. Ele ri, baixinho, uma risada de homem que passou mais de sessenta anos tentando convencer alguém.
 
 ### 14:10 – 16:10 · A PROCLAMAÇÃO
 
@@ -344,7 +344,7 @@
 
 **VÍDEO:** O glifo TERRA acende. A quinta marca se forma no centro da mesa, verde-oliva, ao lado das outras quatro. O selo de Era IV, pela primeira vez, completo.
 
-**VÍDEO:** Um a um, os demais assinam. RAY: "Ray, hacker, com licença". OLIVIA: "Olivia, médica." JULIAN: "Julian, piloto, talvez." TASHA: "Tasha. Coragem é um hábito." HÉLIO assina com a mão tremida: o traço da assinatura mal chega na linha.
+**VÍDEO:** Um a um, os demais assinam. RAY: "Ray, hacker, com licença". OLIVIA: "Olivia, médica." JULIAN: "Julian, piloto." (Ele escreve "talvez", risca, e deixa o risco legível: "sem o talvez".) TASHA: "Tasha. Coragem é um hábito." HÉLIO assina com a mão tremida: o traço da assinatura mal chega na linha.
 
 **HÉLIO (V.O.):** Pimentel. Com "P".
 
@@ -452,7 +452,7 @@
 
 **VÍDEO:** Dora olha para a câmera. Sorri de lado.
 
-**DORA (para a câmera):** A carteirinha do Censo continua valendo. Você pode escolher uma raça. Ou nenhuma. Eu conto os dois. A terceira via é sua.
+**DORA (para a câmera):** Se você votou, conta nos comentários em quê. Numa raça, ou em nenhuma. Eu conto os dois. A terceira via é sua.
 
 **VÍDEO:** Preto. Um carimbo final, sem trilha: **ENCERRADA.**
 

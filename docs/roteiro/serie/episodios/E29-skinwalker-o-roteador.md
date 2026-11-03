@@ -10,7 +10,7 @@
 **Caso real.** Rancho em Uintah County, Utah; comprado em 1996 por Robert Bigelow, que mantinha o instituto NIDS/NIDSci; programa federal AAWSAP, financiado pela DIA a partir de cerca de 2008, executado pela empresa de pesquisa de Bigelow, em torno do rancho, até cerca de 2012; fenômenos relatados nunca foram demonstrados de forma científica; ceticismo registrado. Datas e valores do programa variam entre as fontes consultadas, por isso o roteiro diz "cerca de" e **não cita valores**.
 
 **Ligações.**
-- Antes: E14 (Ray aprende a "abrir"), E15 (a metade de chave de AUREL), E25 e E28 (o bloqueio pinga o terminal PACTO-RT).
+- Antes: E14 (Ray aprende a "abrir"), E15 (a marca-chave azul de AUREL), E25 e E28 (o bloqueio pinga o terminal PACTO-RT).
 - Depois: E30 (a linha "Consulta Territorial: JÁ REALIZADA (1984)"); E31 (as cinco chaves). Planta: os quatro portadores das marcas encaixam as mãos sem perguntar onde.
 - Piadas recorrentes: Ray ("Se está conectado, eu consigo quebrar" vira "...ou pedir por favor"), convites sem resposta, termostato, cheque da água, "declina com ressalvas", pausa de sete segundos.
 
@@ -188,10 +188,10 @@ DORA: Eu sei de onde vem.
 
 ## Últimos 60 s · SELO DE VERACIDADE
 
-**VÍDEO:** Fundo escuro; a fórmula aparece em carimbos. Ray lê, desta vez.
+**VÍDEO:** Fundo escuro; a fórmula aparece em carimbos. Dora lê (Sete não está na história deste episódio).
 
 **ÁUDIO:**
-RAY: Confirmado: o rancho em Utah foi comprado em 1996 por Robert Bigelow e estudado por programas privados e federais, sem que nenhum fenômeno fosse demonstrado de forma científica. Inferido: que existe um terminal do Pacto sob um galpão e que ele precisava de reinício. Não verificado: todo o resto. Não autorizado: nada.
+DORA: Confirmado: o rancho em Utah foi comprado em 1996 por Robert Bigelow e estudado por programas privados e federais, sem que nenhum fenômeno fosse demonstrado de forma científica. Inferido: que existe um terminal do Pacto sob um galpão e que ele precisava de reinício. Não verificado: todo o resto. Não autorizado: nada.
 
 **VÍDEO:** Tela preta. Pausa de sete segundos com o selo (quatro marcas acesas, centro em branco).
 

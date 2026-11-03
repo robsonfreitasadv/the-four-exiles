@@ -11,7 +11,7 @@
 | 0:40–3:00 | **Ato 1: Versão humana** | O caso real, com data e lugar. Rótulo na tela: *Registro humano (documentado)*. Um apresentador da Resistência (Dora ou o co-apresentador do bloco). |
 | 3:00–8:00 | **Ato 2: Versão da raça** | O relatório da raça sobre o mesmo caso. Rótulo: *Relatório [raça] (não verificado)*. É onde mora a comédia e a pista do mistério. Entram os personagens com voz. |
 | 8:00–11:00 | **Ato 3: Discrepâncias** | Um contador no canto da tela soma as diferenças entre as duas versões. A virada do episódio (uma peça do selo, uma revelação, uma recusa). |
-| Últimos 60 s | **Selo de veracidade** | A fórmula de Sete: *Confirmado: X. Inferido: Y. Não verificado: todo o resto. Não autorizado: nada.* Em seguida, a pausa de sete segundos. |
+| Últimos 60 s | **Selo de veracidade** | A fórmula de Sete: *Confirmado: X. Inferido: Y. Não verificado: todo o resto. Não autorizado: nada.* Quem lê: **até o E09**, Dora, apresentando-a como a "cláusula de conferência" do rodapé do contrato; **do E10 em diante**, Sete em V.O. (sem imagem) quando ele está presente na história, e Dora quando não está. Em seguida, a pausa de sete segundos. |
 | Últimos 20 s | **Cliffhanger e CTA** | Ver §3. |
 
 Regras: cada episódio cobre **um** caso ou **uma** ideia; o humor cabe em 3 a 5 piadas fortes e uma recorrente; a informação do mistério aparece numa piada, nunca fora dela. Capítulos de *Zero Discrepâncias* (E04–E10) são exceção: seguem o roteiro, abrem sem "Ato 1: Versão humana" e usam o selo e a pausa no fim.
@@ -21,15 +21,16 @@ Regras: cada episódio cobre **um** caso ou **uma** ideia; o humor cabe em 3 a 5
 - **Narradora-quadro: Dora**, sempre. Abre e fecha. Estilo: realista, sarcástica, empática; usa "a gente" e fala com o espectador como quem presta contas.
 - **Co-apresentador por bloco:** Ray (Grays), Olivia (Nórdicos), Julian (Reptilianos), Tasha (Mantis). Cada um conduz o Ato 1 e comenta o Ato 2.
 - **Vozes dos personagens:** seguir a direção de `docs/VOZES.md` (VELLUM seca e precisa; AUREL calorosa e constante; SAZAR grave e cerimonial). A pausa de sete segundos é inserida na edição, não gerada. Idioma de origem: português do Brasil; versão em inglês depois (o site já é bilíngue).
-- **Sete (sem ficha oficial):** aparece só em voz (V.O.) e em mãos, carimbo, tablet e crachá, desenhados como elementos gráficos; sem rosto até o dono aprovar uma ficha (regra do dono: imagens só das fichas oficiais).
+- **Sete (sem ficha oficial; lê o selo de veracidade a partir do E10 quando está na história):** aparece só em voz (V.O.) e em mãos, carimbo, tablet e crachá, desenhados como elementos gráficos; sem rosto até o dono aprovar uma ficha (regra do dono: imagens só das fichas oficiais).
 - **Hélio Pimentel:** voz de ator, humana; não aparece em imagem gerada. Uso de silhueta ou de gravações "de fita" (áudio com ruído de VHS) em cena.
 
 ## 3. CTA de fim, sem parecer propaganda
 
 - **Uma pergunta por episódio**, dentro da ficção, no tom da Resistência: "Se você encontrou uma discrepância, registre nos comentários. A terceira via é sua."
-- **Convite recorrente (a cada 3 ou 4 episódios):** "Faça a carteirinha do Censo e escolha sua raça" como **ato de personagem**: Dora oferece, não vende. Sem preço, sem token, sem prazo, sem promessa de ganho.
+- **Convite da carteirinha (no máximo uma vez por bloco: E13, E18, E24 e E28):** "Faça a carteirinha do Censo e escolha sua raça" como **ato de personagem**: Dora oferece, não vende. Sem preço, sem token, sem prazo, sem promessa de ganho. Não aparece no E01 nem nos demais episódios.
 - **Nunca:** prometer prêmio, vender loja ou kit dentro do vídeo, citar placar ou número que não exista, usar urgência comercial ("só hoje"). Ligações vão na descrição.
-- **Fim de série (E33):** a pausa final de Dora, "Encerrada", e um único convite.
+- **Fim de série (E33):** a pausa final de Dora, "Encerrada", e um único convite (comentar em quê votou), sem a carteirinha.
+- **Letreiro de bloco (Etapa 2):** "Etapa 2, ciclo N" com N fixo por raça: Grays = 1, Nórdicos = 2, Reptilianos = 3, Mantis = 4. O ciclo identifica o bloco, não o episódio.
 
 ## 4. Estilo visual com as fichas oficiais
 
@@ -70,7 +71,7 @@ Reordenar para intercalar blocos (um bloco por episódio de TV seria mais lento;
 
 ### Filme
 - **Longa 1: *Zero Discrepâncias*** (~100 min), o corte único dos capítulos E04–E10, já pronto como roteiro nos Atos I e II; o Ato III é a lacuna. É o filme de entrada: thriller de arquivo, com Sete.
-- **Longa 2 (proposta): *A Decisão*** (~100–110 min), reunindo E31–E33 com mais cenas de Era IV e a Consulta. É o filme final do arco.
+- **Longa 2: *The Four Exiles*** (~110 min), o longa da temporada, descrito em `longa-the-four-exiles.md` (Atos I a III, de E01 a E33). Substitui o antigo "Longa 2" (*A Decisão*, só E31–E33), que fica como corte opcional. *Zero Discrepâncias* e este longa coexistem (decisão 11 de 03/11).
 - **Antologia:** *Os Quatro Relatórios* (filme-episódico): uma raça por segmento, ligadas pelo mesmo selo.
 
 ### Segunda temporada e extensões
@@ -86,6 +87,6 @@ Ganchos: Seis e a Tábua 1 na Arca 3; a origem dos Grays; quanto custou o silên
 ## 8. Pendências desta etapa
 
 - Aprovação do segredo (bíblia §5) e do final A ou B.
-- Escrever o Ato III de *Zero Discrepâncias* com os dois plantios.
+- (Feito) O Ato III de *Zero Discrepâncias* está escrito (`docs/roteiro/grays/ato-3.fountain`) com os dois plantios.
 - Fichas de personagens que ainda não têm arte, se o dono quiser rostos.
 - Revisão jurídica de uso de nomes de pessoas reais (Adamski, Meier, Lazar, Icke, Grusch, Fravor etc.) e de marcas (*V*, *The Outer Limits*) antes de publicar.

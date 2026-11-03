@@ -3,20 +3,20 @@
 **Status:** provisório · 2026-11-03 · roteirista (bloco Reptilianos), para o Diretor. [EXTRA] no guia: cortável na versão enxuta; por isso o episódio é autossuficiente e o E20 repete numa frase o que ele planta.
 
 - **Duração-alvo:** 11 min (cerca de 1.500 palavras faladas).
-- **Bloco:** 3 · Reptilianos · Etapa 2, ciclo 2. Co-apresentador: Julian. Narradora-quadro: Dora.
+- **Bloco:** 3 · Reptilianos · Etapa 2, ciclo 3. Co-apresentador: Julian. Narradora-quadro: Dora.
 - **Logline:** Um dique que estoura na plantação do vizinho, uma estela de basalto e um escritor que viu alienígenas onde havia escrita cuneiforme. Segundo a Casa das Cisternas, tudo isso é prefácio de um boleto de água que nunca foi entregue, porque o endereço não podia ser contatado. No canto do documento, uma cláusula sobre "dividendo" foi rasgada.
 - **Caso real:** Código de Hamurabi (rei da Babilônia, c. 1750 a.C.; estela de basalto no Louvre; leis sobre diques e irrigação) e Zecharia Sitchin, *O 12º Planeta* (1976), rejeitado por assiriólogos.
 - **Piada central:** Anunnaki como síndicos de rio.
 - **Pista do mistério:** a cláusula do Dividendo (quinhão de água repartido "sem posse") foi rasgada; o fim da cláusula diz "proibida a conversão em..." e a metade que falta está em Hevra.
-- **Ligações:** E19 e E20 (a cópia do Dividendo de Vesh-Kara); E26 (os Grays entregam o texto); E27 (o Compacto é o Pacto).
+- **Ligações:** E19 e E20 (a cópia do Dividendo de Vesh-Kara; "a metade que falta está em Hevra" é a outra parte da folha, não uma "metade de chave"); E26 (os Grays entregam o texto); E27 (o Compacto é o Pacto).
 - **Cuidado:** a teoria do "astronauta antigo" foi misturada à teoria reptiliana de Icke; o episódio diz isso uma vez, sem apontar grupo humano. Sitchin e Hamurabi não são ligados a nenhum povo atual: o que a série mostra é um escrivão reptiliano inventado, em visita de observação.
-- **Elenco em voz:** DORA, JULIAN (fichas); SAZAR (ficha, só em voz e rosto no final); ARQUIVISTA DA CASA (silhueta, sem ficha); VESH-KARA (só texto de margem e luva em silhueta); SETE (V.O. no selo).
+- **Elenco em voz:** DORA, JULIAN (fichas); SAZAR (ficha, só em voz e rosto no final); ARQUIVISTA DA CASA (silhueta, sem ficha); VESH-KARA (só texto de margem e luva em silhueta); o selo é lido por Dora (Sete não está na história).
 
 ---
 
 ## 0:00 · GANCHO (30 s)
 
-**[VÍDEO]** Tela preta. Letreiro: *Etapa 2 · ciclo 2*. Surge uma estela de pedra negra, desenhada como silhueta em fundo bege (reconstituição tipográfica, sem foto). Em cima, o texto: *Babilônia, cerca de 1750 a.C.*
+**[VÍDEO]** Tela preta. Letreiro: *Etapa 2 · ciclo 3*. Surge uma estela de pedra negra, desenhada como silhueta em fundo bege (reconstituição tipográfica, sem foto). Em cima, o texto: *Babilônia, cerca de 1750 a.C.*
 
 **[ÁUDIO]** Percussão de cisterna, um tom oco. Passos de pedra.
 
@@ -186,7 +186,7 @@
 
 **[VÍDEO]** Selo de Era IV ao centro. Mão sem rosto carimbando; crachá borrado; tablet.
 
-**SETE (V.O.):** Confirmado: o Código de Hamurabi, de cerca de 1750 antes de Cristo, trata de responsabilidade por diques e irrigação. Confirmado: as leituras de Sitchin foram rejeitadas por assiriólogos. Inferido: existe uma cláusula antiga de repartição de água, incompleta. Não verificado: todo o resto. Não autorizado: nada.
+**DORA (V.O.):** Confirmado: o Código de Hamurabi, de cerca de 1750 antes de Cristo, trata de responsabilidade por diques e irrigação. Confirmado: as leituras de Sitchin foram rejeitadas por assiriólogos. Inferido: existe uma cláusula antiga de repartição de água, incompleta. Não verificado: todo o resto. Não autorizado: nada.
 
 **[VÍDEO]** Pausa de sete segundos. Tela quase vazia; selo com o espaço central em branco.
 

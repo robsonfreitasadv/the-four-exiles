@@ -172,7 +172,7 @@
 - **DORA (V.O.):** Faltou olhar a página um. Aquele selo no alto tem quatro marcas, uma por raça. E no meio, um espaço em branco.
 - **DORA:** Esse espaço é pra quê?
 - *(batida)*
-- **DORA:** Se você ouviu o sinal, conta nos comentários onde estava. Eu estava de pijama. E, se quiser, faz a carteirinha do Censo e escolhe uma raça: não é voto, é só pra eu saber com quem estou falando. A terceira via é sua.
+- **DORA:** Se você ouviu o sinal, conta nos comentários onde estava. Eu estava de pijama. A terceira via é sua.
 
 ---
 

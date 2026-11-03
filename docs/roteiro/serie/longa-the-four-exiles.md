@@ -56,7 +56,7 @@ Este é o ato mais comprimido e o mais difícil. Na série, são 20 episódios d
 
 | Min | Sequência | Peça do selo | Origem |
 | --- | --- | --- | --- |
-| 32–38 | **A mesa nórdica.** Olivia, AUREL, a sobremesa. O consentimento cultivado; a terceira sobremesa; "Como soa um 'não'?"; Sael entrega o apêndice ("o jardim votará"); o hino de LYSSA-HAL esconde a marca. | Hino + metade de AUREL | E11, E13–E15 |
+| 32–38 | **A mesa nórdica.** Olivia, AUREL, a sobremesa. O consentimento cultivado; a terceira sobremesa; "Como soa um 'não'?"; Sael entrega o apêndice ("o jardim votará"); o hino de LYSSA-HAL esconde a marca. | Hino + marca azul de AUREL | E11, E13–E15 |
 | 38–44 | **A mesa reptiliana.** Julian, SAZAR, SSARA-MIN, o Aquífero Guarani como meme, a barcaça-cisterna, os sobrinhos incompetentes, o disfarce em que ninguém acredita (curta). | (prepara) | E16, E18 |
 | 44–52 | **A cisterna.** Vesh-Kara e Dora no sertão do Ceará; a água não volta (SAZAR sabia); a cisterna como política; a cópia do Dividendo. **Ponto médio, min ~50:** Dora percebe que Aliança, Acordo, Compacto e Pacto são o mesmo documento, e que os quatro signatários estão do outro lado da mesa. | Dividendo | E19–E20 |
 | 52–62 | **A mesa Mantis.** Tasha, VEX, a avaliação de desempenho ("Nota: 8,5. Faltou perguntar antes de se aproximar."); o caso de Varginha em respeito, a unidade que recusou; a ordem zero; o bloqueio pedido pelos próprios Mantis. | Ordem zero + bloqueio | E24–E25 |
@@ -123,7 +123,7 @@ Este é o ato mais comprimido e o mais difícil. Na série, são 20 episódios d
 ## 8. Relação com os outros formatos
 
 - ***Zero Discrepâncias*** (100 min, thriller de arquivo com Sete): continua existindo como filme próprio. Este longa **não o substitui**; ele o cita em 10 minutos do Ato I. Quem vir os dois filmes encontra o mesmo evento pelos olhos de Sete (no primeiro) e pelos de Dora (no segundo).
-- ***A Decisão*** (proposta do `formato-youtube.md`, 100–110 min reunindo E31–E33): **vira desnecessário** se este filme for feito; o Ato III do longa o contém. Se o dono preferir manter *A Decisão* como segundo longa, este longa fica restrito a Atos I e II e acaba no E30.
+- ***A Decisão*** (antigo "Longa 2" do `formato-youtube.md`): **este longa passa a ser o "Longa 2"**, o longa da temporada (decisão 11 de 03/11: *Zero Discrepâncias* e este filme coexistem). O Ato III do longa já contém E31–E33; *A Decisão* só voltaria como corte separado se o dono quiser um terceiro filme, e então este longa se restringiria aos Atos I e II e acabaria no E30.
 - **Série de TV:** ver Parte 2.
 - **T2:** o pós-créditos deste filme é o gancho de abertura da T2 (Seis, a Tábua 1, o custo do silêncio, a origem dos Grays).
 

@@ -2,7 +2,7 @@
 
 **Status:** provisório · 2026-11-03 · Bloco 1, Grays · fonte das cenas: `docs/roteiro/grays/ato-1.fountain`.
 **Duração-alvo:** 12 min (cenas 1–5 ≈ 9:40 após ~10% de corte; quadro de Dora e vinheta ≈ 1:30; ficha de contexto ≈ 0:50).
-**Logline:** Na 4.000ª auditoria da carreira, Sete carimba "zero discrepâncias" e a luz de conformidade acende, satisfeita; até que a supervisora lhe entrega um dossiê de oitenta anos de folclore humano e nove ciclos para fechar com zero.
+**Logline:** Na 4.000ª auditoria da carreira, Sete carimba "zero discrepâncias" e a luz de conformidade acende, satisfeita; até que a supervisora lhe entrega um dossiê de mais de cem anos de folclore humano e nove ciclos para fechar com zero.
 **Caso real:** nenhum específico. A Terra vista pelos Grays; Zeta Reticuli como "referência de origem" (contexto do mapa de Betty Hill, desenvolvido no E05).
 **Ligações:** introduz Sete, Seis (só como bandeja e cadeira vazia), VELLUM, Ophelia-3, Zen-Varo, o papel dobrado com a letra "S." (planta do E09), Mirva ("aplicado não é verificado", E08), T-3 (anunciado; aparece no E05), a tábua 1 e o contador de nove ciclos.
 
@@ -45,7 +45,7 @@ Numeração conferida contra o arquivo: o `.fountain` marca `#1#` a `#5#` nesta 
 
 **VÍDEO:** no painel da parede da sala de VELLUM, o relógio de areia mineral deixa cair o primeiro grão; o número vira 9. Corta para o carimbo em repouso, na baia.
 **ÁUDIO (DORA, V.O.):**
-"Confirmado: Sete conferiu 4.000 auditorias, e em todas a tinta conferia com a tinta. Inferido: ele nunca perguntou quem pôs o dossiê na mesa. Não verificado: o que tem dentro de uma gaveta dele, dobrado, com a letra S. Não autorizado: nada."
+"Cláusula de conferência, rodapé do contrato. Confirmado: Sete conferiu 4.000 auditorias, e em todas a tinta conferia com a tinta. Inferido: ele nunca perguntou quem pôs o dossiê na mesa. Não verificado: o que tem dentro de uma gaveta dele, dobrado, com a letra S. Não autorizado: nada."
 *(pausa de sete segundos, inserida na edição)*
 DORA: "Nove ciclos. Zero discrepâncias. O que podia dar errado? Se você achou uma discrepância no capítulo de hoje, registre nos comentários. A terceira via é sua."
 **Tela final:** próximo capítulo, "Bovino, 1". Carimbo EM ABERTO no canto.

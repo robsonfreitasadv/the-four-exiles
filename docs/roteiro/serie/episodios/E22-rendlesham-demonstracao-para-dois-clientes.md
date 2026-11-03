@@ -1,6 +1,6 @@
 # E22 · Rendlesham: demonstração para dois clientes
 
-**Status:** provisório · roteiro de gravação · 2026-11-03 · Bloco 4 (Mantis) · Etapa 2, ciclo 3 · **[NÚCLEO]**
+**Status:** provisório · roteiro de gravação · 2026-11-03 · Bloco 4 (Mantis) · Etapa 2, ciclo 4 · **[NÚCLEO]**
 
 - **Duração-alvo:** 12 min (≈ 1.600 palavras de narração e diálogo, estimativa manual).
 - **Logline:** Numa floresta inglesa, militares americanos veem luzes, e um oficial escreve um memorando. Os Mantis dizem que foi uma demonstração comercial vendida duas vezes, que o farol suspeito é inocente e que o vendedor esqueceu a luz acesa. No fim do arquivo, uma oficial encontra uma ordem que não entende e a guarda.
@@ -144,7 +144,7 @@ DORA: A oficial eliminou o registro oficial e guardou o pessoal. Ela cumpre orde
 **VÍDEO:** Dora puxa uma folha da pasta da Resistência: o contrato do Censo, a última página, 4.812-c. Fica sobre a mesa, ao lado do Anexo 22.
 
 TASHA: A palavra que ela falou. "Reserva".
-DORA: A letra c fala em "habitantes da Reserva". Em nenhum lugar do contrato tem uma definição de Reserva. Eu li as 4.812 páginas.
+DORA: A letra c fala em "habitantes do território". A palavra "Reserva" não aparece em lugar nenhum do contrato. Eu li as 4.812 páginas.
 TASHA: E a ordem diz "não aproximar da Reserva". E a demonstração aproximou.
 DORA: Se a Reserva for onde a ordem diz que não se deve chegar perto, os Mantis fizeram exatamente o que a ordem proibia, com duas faturas.
 TASHA: E se a Reserva for...

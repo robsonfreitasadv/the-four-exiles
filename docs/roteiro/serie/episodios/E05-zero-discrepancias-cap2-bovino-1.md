@@ -44,7 +44,7 @@ Numeração conferida: `#6#` a `#10#` no `.fountain`. Sem remanejamento. Correç
 
 **VÍDEO:** no corredor de Hevra, Sete caminha com o tablet no peito, a silhueta pequena contra o painel. O painel marca 5. Cartão final sobre fundo cinza.
 **ÁUDIO (DORA, V.O.):**
-"Confirmado: o Arquivo carimbou uma abdução humana num formulário de vaca, e o relatório confere com a fita. Inferido: ninguém abriu o anexo em sessenta e dois anos. Não verificado: o que é T-3, e por que ele acende quando a Terra entra na conta. Não autorizado: nada."
+"Cláusula de conferência, rodapé do contrato. Confirmado: o Arquivo carimbou uma abdução humana num formulário de vaca, e o relatório confere com a fita. Inferido: ninguém abriu o anexo em sessenta e dois anos. Não verificado: o que é T-3, e por que ele acende quando a Terra entra na conta. Não autorizado: nada."
 *(pausa de sete segundos)*
 DORA: "Um contraponto, para não ficar só na galhofa: em 1987, o escritor americano Whitley Strieber publicou *Communion* e disse que não tinha certeza de que os 'visitantes' fossem extraterrestres. O Arquivo anotou isso como a observação mais precisa de toda a série. Sete está de saída para o campo. A Terra, para o Arquivo, é um pé de página. A gente vai ver se ela concorda. Se você achou uma discrepância, registre nos comentários. A terceira via é sua."
 **Tela final:** próximo capítulo, "Fortaleza, noite".

@@ -46,7 +46,7 @@ Numeração conferida: `#11#` a `#15#`. **Correção ao guia:** o cliffhanger pr
 
 **VÍDEO:** a fita 87-08 tocando; zoom em dois traços na etiqueta ("DEPOIMENTO 1"). Corta para a pasta verde GREADA / GRIADA / GRANADA sobre a mesa de fórmica.
 **ÁUDIO (DORA, V.O.):**
-"Confirmado: o relatório 87-4417 confere com a fita de Hélio: horário, formulário azul, sete segundos de observação. Inferido: um fiscal de feira chegou, por obsessão, ao mesmo lugar a que o Arquivo chegou por auditoria: as três grafias de Greada se corrigem umas às outras. Não verificado: o segundo ser. Na fita, Hélio jura que eram dois: um baixo, que escreveu num papel azul, e um mais alto, atrás, de mão para trás. O relatório registra um só. Não autorizado: nada."
+"Cláusula de conferência, rodapé do contrato. Confirmado: o relatório 87-4417 confere com a fita de Hélio: horário, formulário azul, sete segundos de observação. Inferido: um fiscal de feira chegou, por obsessão, ao mesmo lugar a que o Arquivo chegou por auditoria: as três grafias de Greada se corrigem umas às outras. Não verificado: o segundo ser. Na fita, Hélio jura que eram dois: um baixo, que escreveu num papel azul, e um mais alto, atrás, de mão para trás. O relatório registra um só. Não autorizado: nada."
 *(pausa de sete segundos)*
 DORA: "Hélio acabou de abrir a primeira discrepância da carreira de Sete. Falta ver o que Sete faz com ela. Se você já foi chamado de bovino por um formulário, conte nos comentários. A terceira via é sua."
 **Tela final:** próximo capítulo, "A letra c".

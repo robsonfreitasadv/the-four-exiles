@@ -44,7 +44,7 @@ Numeração conferida: `#16#` a `#20#`. **Correções ao guia:** (1) no `.founta
 
 **VÍDEO:** a mão aberta de Sete no ar, sobre a própria chave; os nove símbolos refletidos no piso espelhado; a contagem regressiva 9, 8, 7 na tela.
 **ÁUDIO (DORA, V.O.):**
-"Confirmado: o selo conjunto de Era IV tem a palavra Terra no centro, num registro anterior ao primeiro contato com a gente. Confirmado: a chave de auditor de Sete assina três correções de Greada, em três dias de serviço dele. Inferido: alguém a copiou, alguém a usou, ou ele mesmo. Não verificado: qual dos três. Não autorizado: nada."
+"Cláusula de conferência, rodapé do contrato. Confirmado: o selo conjunto de Era IV tem a palavra Terra no centro, num registro anterior ao primeiro contato com a gente. Confirmado: a chave de auditor de Sete assina três correções de Greada, em três dias de serviço dele. Inferido: alguém a copiou, alguém a usou, ou ele mesmo. Não verificado: qual dos três. Não autorizado: nada."
 *(pausa de sete segundos. Desta vez, Sete não a conta.)*
 DORA: "Ele ficou ali, com a mão no ar, e pela primeira vez ninguém contou. Eu acho que foi quando ele começou a ser uma pessoa. Se você já descobriu que a assinatura num papel era a sua, conte nos comentários. A terceira via é sua."
 **Tela final:** próximo capítulo, "O remendo".

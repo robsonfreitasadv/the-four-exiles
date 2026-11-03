@@ -4,14 +4,14 @@
 
 | Campo | Conteúdo |
 | --- | --- |
-| **Bloco** | 2 · Nórdicos (Os Pastores) · Etapa 2, ciclo 3 · narradora: Dora · co-apresentadora: Olivia (protagonista do episódio) |
+| **Bloco** | 2 · Nórdicos (Os Pastores) · Etapa 2, ciclo 2 · narradora: Dora · co-apresentadora: Olivia (protagonista do episódio) |
 | **Duração-alvo** | 13 min (~1.800 palavras de fala + pausas e piadas visuais) |
 | **Logline** | Olivia, médica, lê com Dora o manual nórdico do "consentimento cultivado" e o compara com um dos relatos de abdução mais conhecidos do Brasil. A série não ri do relato: ri do manual, que reescreve violência como "experiência a melhorar". |
 | **Caso real usado** | Antônio Villas Boas (São Francisco de Sales, MG; noite de 15 para 16/10/1957; exame do dr. Olavo Fontes em 1958); consentimento informado e Código de Nuremberg (veredicto de 19/08/1947) |
 | **Ligações** | Olivia versus AUREL (E15); o "Revisão 2" do manual planta o apêndice do E14; o formulário "Sim, obrigado" volta no E15; o **Banco Voluntário** dos Grays (fim da T1) é o contraponto do "consentimento presumido" |
 | **Imagens oficiais usadas** | Dora e Olivia (faces e fichas); AUREL (rosto/ficha, só no vídeo-convite do cliffhanger). **ELARA-VOSS e TORVEN-IR: só silhueta e texto.** Nenhuma imagem de Villas Boas ou de "seres" |
 | **Rótulos** | *Registro humano (documentado)* no Ato 1; *Relatório Nórdico (não verificado)* no Ato 2 |
-| **Cuidado especial** | Tela de abertura de respeito (ver 0:35). O relato inclui violência sexual: tratar com seriedade, sem detalhar e sem piada. O CTA recorrente da carteirinha entra aqui (4.º episódio da série em que cabe) |
+| **Cuidado especial** | Tela de abertura de respeito (ver 0:35). O relato inclui violência sexual: tratar com seriedade, sem detalhar e sem piada. O CTA da carteirinha do Censo aparece só neste episódio do bloco Nórdico (um por bloco: E13, E18, E24, E28) |
 
 ---
 
@@ -35,7 +35,7 @@
 
 **VÍDEO**
 - Primeiro 0:30–0:35: tela de abertura própria, fundo escuro, texto branco, centralizado: **"Antônio Villas Boas tinha 23 anos e trabalhava na lavoura. O relato dele inclui um episódio de violência. Esta série não faz piada com ele. A piada é o manual."**
-- Depois, 0:35–0:42: letreiro "ETAPA 2 · CICLO 3 · NÓRDICOS", selo de Era IV (quatro marcas, centro em branco), *ficção satírica*.
+- Depois, 0:35–0:42: letreiro "ETAPA 2 · CICLO 2 · NÓRDICOS", selo de Era IV (quatro marcas, centro em branco), *ficção satírica*.
 
 **ÁUDIO**
 - Primeiros 5 s: silêncio. Em seguida, o tom grave, sustentado; a pausa de sete segundos dura exatamente o selo.

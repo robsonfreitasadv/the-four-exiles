@@ -20,7 +20,7 @@
 >
 > 1. Este documento resume, em seis eras, a trajetória da espécie Gray, conforme os registros disponíveis na data de sua emissão.
 > 2. Registros "disponíveis" não são registros "completos". Registros "completos" não são registros "verdadeiros". A Seção não se manifesta sobre a terceira categoria.
-> 3. Consta que a população humana produziu, ao longo de oitenta anos, extensa literatura sobre nós. A Seção recebeu essa literatura com atenção e, em seguida, com ofensa. A literatura contém erros de data.
+> 3. Consta que a população humana produziu, ao longo de mais de cem anos, extensa literatura sobre nós. A Seção recebeu essa literatura com atenção e, em seguida, com ofensa. A literatura contém erros de data.
 > 4. Solicita-se que nenhum leitor interprete este memorando como reconhecimento da literatura humana. Solicita-se também que nenhum leitor interprete a recusa de reconhecimento como confirmação.
 > 5. Cumprida a leitura, observar a pausa arquivística regulamentar.
 >
@@ -120,7 +120,7 @@ Sete, auditor do Arquivo Central, é um dos funcionários encarregados. Quer fec
 
 **[REDIGIDO] / adulterado.** Pela primeira vez, a adulteração é recente. Trechos da própria Era VI, escritos nas últimas décadas, já apresentam marcas de revisão, e nenhum dos revisores assinou. (Quem, entre as cinco correntes, tem interesse em alterar o presente além do passado: Q5.)
 
-**O que a ufologia acertou por acidente.** A data. Os humanos, por motivos que o Arquivo não conseguiu esclarecer, passaram oitenta anos falando de "visitantes" como se esperassem uma visita marcada. O Arquivo registra uma única visita marcada: o Censo. Que ela chegue em 2049 e não em 1947 é, para a Seção, uma questão de formulário, não de profecia.
+**O que a ufologia acertou por acidente.** A data. Os humanos, por motivos que o Arquivo não conseguiu esclarecer, passaram mais de cem anos falando de "visitantes" como se esperassem uma visita marcada. O Arquivo registra uma única visita marcada: o Censo. Que ela chegue em 2049 e não em 1947 é, para a Seção, uma questão de formulário, não de profecia.
 
 ---
 
@@ -324,7 +324,7 @@ Sete, auditor do Arquivo Central, é um dos funcionários encarregados. Quer fec
 
 ## O que a ufologia não sabe
 
-Em oitenta anos de literatura, os humanos acertaram o formato (corpos frágeis, planeta árido, crise genética, procedimento) e erraram as razões. O que se segue é o que nem eles nem o Arquivo sabem. Nada abaixo responde às perguntas em aberto; cada item apenas as aperta.
+Em mais de cem anos de literatura, os humanos acertaram o formato (corpos frágeis, planeta árido, crise genética, procedimento) e erraram as razões. O que se segue é o que nem eles nem o Arquivo sabem. Nada abaixo responde às perguntas em aberto; cada item apenas as aperta.
 
 1. **Quem escreveu por cima.** Os humanos suspeitam de governos, de Grays, de "reptilianos", de todos ao mesmo tempo. O Arquivo sabe que há mãos diferentes, tinta diferente e traço idêntico. A hipótese de que a mesma pessoa tenha escrito os nove, e as nove assinaturas, e o carimbo, é a única que explica tudo, e por isso a Seção desconfia dela. *(Q1)*
 

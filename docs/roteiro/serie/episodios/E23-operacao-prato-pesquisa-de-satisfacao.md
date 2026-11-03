@@ -1,6 +1,6 @@
 # E23 · Operação Prato: pesquisa de satisfação
 
-**Status:** provisório · roteiro de gravação · 2026-11-03 · Bloco 4 (Mantis) · Etapa 2, ciclo 3 · **[NÚCLEO]**
+**Status:** provisório · roteiro de gravação · 2026-11-03 · Bloco 4 (Mantis) · Etapa 2, ciclo 4 · **[NÚCLEO]**
 
 - **Duração-alvo:** 13 min (≈ 1.650 palavras de fala, estimativa manual; o resto é silêncio de cartão, pausas dramáticas e a pausa de 7 s, de propósito, por causa do tema).
 - **Logline:** Em 1977, moradores do Pará contaram ter sido perseguidos por luzes noturnas, e a Força Aérea Brasileira abriu a Operação Prato. Os Mantis dizem que era um teste de alcance de sensores com formulário de satisfação. Quando Tasha lembra que havia gente com medo, VEX faz uma coisa que nenhum Mantis fizera em mais de um século de relatórios: muda a ordem.

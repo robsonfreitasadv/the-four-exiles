@@ -1,13 +1,13 @@
 # E25 · Varginha: o que recusou
 
-**Status:** provisório · roteiro de gravação · 2026-11-03 · Bloco 4 (Mantis) · Etapa 2, ciclo 3 · **[NÚCLEO]** · fecha o bloco
+**Status:** provisório · roteiro de gravação · 2026-11-03 · Bloco 4 (Mantis) · Etapa 2, ciclo 4 · **[NÚCLEO]** · fecha o bloco
 
 - **Duração-alvo:** 14 min (≈ 2.050 palavras de narração e diálogo, estimativa manual).
 - **Logline:** Em Varginha, em 1996, três jovens contam ter visto uma criatura num terreno baldio, e a cidade inteira passa a opinar. Os Mantis dizem que era uma unidade de instrução que recusou uma ordem sem canal e perdeu o elo. O Conselho quer desligá-la da Malha; VEX assina a readmissão contra o Conselho; a porta nunca reportada de LIRA-VESS mostra de quem foi o pedido do bloqueio.
 - **Caso real:** Varginha (MG), 20/01/1996; o relato das três jovens; a negativa do Exército e do Corpo de Bombeiros; inquéritos militares sem indício de participação do Exército; versões divergentes até hoje.
 - **Piada central:** o relatório do Conselho fala em "iluminação inadequada". VEX: "A iluminação foi adequada. Eles estavam agachados."
-- **Ligações:** responde **I2** (uma unidade pode recusar uma ordem e continuar na Malha: sim) e **I3** (o bloqueio foi pedido pelos próprios Mantis); a **Ordem 0** (E22, E24) entrega a peça Mantis: o registro de IXUL-DRA e a quarta metade da chave; DRAV-KESS (Grays, E08–E09) como agente de recolhimento; E28 (a prova técnica do módulo) e E31 (as cinco chaves).
-- **Cliffhanger:** VEX: "Alguém instalou isso com o meu consentimento." Quatro metades de chave na mesa.
+- **Ligações:** responde **I2** (uma unidade pode recusar uma ordem e continuar na Malha: sim) e **I3** (o bloqueio foi pedido pelos próprios Mantis); a **Ordem 0** (E22, E24) entrega a peça Mantis: o registro de IXUL-DRA e a quarta marca (a Mantis, em forma de tira de liga; Tasha é a portadora); DRAV-KESS (Grays, E08–E09) como agente de recolhimento; E28 (a prova técnica do módulo) e E31 (as cinco chaves).
+- **Cliffhanger:** VEX: "Alguém instalou isso com o meu consentimento." Quatro marcas na mesa; falta a chave do Auditor.
 
 **Vozes e imagens:** Dora, Tasha, VEX: fichas oficiais. ORRAN-SKIL (compacto, blindado, placa mandibular vermelho-escura rachada), IXUL-DRA (marca vermelha no antebraço esquerdo), LIRA-VESS (constituição leve, filamentos sensoriais), KESSA-VERRIN (tabletes), CONSELHEIRO, DRAV-KESS (Gray alto e fino, uniforme preto fosco, painel no antebraço): silhueta, sombra e voz; **nenhuma arte gerada**. As três jovens e os demais envolvidos reais: nunca em imagem.
 
@@ -143,7 +143,7 @@ ORRAN-SKIL: Eu só li.
 
 **VÍDEO:** IXUL-DRA vira para TASHA. Tira da manga da carapaça uma pasta fina, com uma tira de liga escura presa na capa, a marca Mantis gravada. Entrega com as duas mãos.
 
-IXUL-DRA: Observadora. Meu registro pessoal das ordens que me mandaram ignorar. Entrada zero e todas as seguintes. A tira da capa é a metade da chave que acompanha o registro.
+IXUL-DRA: Observadora. Meu registro pessoal das ordens que me mandaram ignorar. Entrada zero e todas as seguintes. A tira da capa é a marca Mantis, que acompanha o registro.
 TASHA: Por que me entrega?
 IXUL-DRA: Eu cumpro ordens como dadas. Esta ordem dizia para esquecer. Eu não esqueci. Sargento, você tinha razão. Duas vezes.
 ORRAN-SKIL: Eu sei.
@@ -152,7 +152,7 @@ ORRAN-SKIL: Eu sei.
 
 ## 10:00–12:30 · ATO 3 · DISCREPÂNCIAS
 
-**VÍDEO:** Galpão. Contador no canto superior direito, em 0. Dora e Tasha à mesa. Sobre ela, a pasta de IXUL-DRA e a tira de liga com a marca Mantis, ao lado de três outras metades de chave já em cima da mesa.
+**VÍDEO:** Galpão. Contador no canto superior direito, em 0. Dora e Tasha à mesa. Sobre ela, a pasta de IXUL-DRA e a tira de liga com a marca Mantis, ao lado de três outras marcas já em cima da mesa.
 
 DORA: Contador de discrepâncias. Um: o Exército diz que não houve captura militar. Os Mantis dizem que houve um recolhimento. Dos Grays. Os dois podem estar certos. [1]
 TASHA: Dois: o inquérito sugeriu um morador da cidade, agachado, na chuva, num terreno baldio. Os Mantis falam de uma unidade, agachada, na chuva, num terreno baldio. A figura é a mesma. A identidade, não. Eu não decido isso por ninguém. [2]
@@ -196,9 +196,9 @@ DORA: Não verificado: todo o resto. Não autorizado: nada.
 
 VEX: Alguém instalou isso com o meu consentimento.
 
-**VÍDEO:** Corte para a mesa do ARQUIVO ABERTO. Quatro metades de chave, lado a lado: o fragmento de Sete, a metade de AUREL, a cópia do Dividendo e a tira de liga Mantis. Dora olha para elas. Tasha, ao lado, olha para o tablete com o LED verde ainda aceso.
+**VÍDEO:** Corte para a mesa do ARQUIVO ABERTO. Quatro marcas, lado a lado: o fragmento de Sete (Grays), a marca-chave azul de AUREL (Nórdicos), a cópia do Dividendo (Reptilianos) e a tira de liga Mantis. Dora olha para elas. Tasha, ao lado, olha para o tablete com o LED verde ainda aceso.
 
-DORA: Quatro metades. Falta uma que não é de raça nenhuma.
+DORA: Quatro marcas, uma por raça. Falta a quinta chave, a que não é de raça nenhuma: a do Auditor.
 DORA: Se você é de Varginha, ou conhece quem seja, conta nos comentários como a cidade lembra. A terceira via é sua.
 
 ---

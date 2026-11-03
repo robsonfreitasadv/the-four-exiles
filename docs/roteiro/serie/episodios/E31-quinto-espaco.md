@@ -15,7 +15,7 @@
 **Pagamentos de plantio neste episódio**
 
 - **Selo com quinto espaço em branco** (E01, E10): fecha com cinco chaves; o centro continua em branco até E33. A mão de VELLUM aperta o tablet na palavra "quinto" (plantio do E10).
-- **Metades de chave** (E15, E20, E25): ver "Nota de produção" abaixo.
+- **Marcas e chaves** (E14, E15, E20, E25): ver "Nota de produção" abaixo. Não há "metades".
 - **Formulário 0** (E10): a discrepância aberta que ninguém pode fechar trava a Proclamação.
 - **Terce-Ohm** (E09): libertado como testemunha do inquérito; traz a cópia.
 - **Ray aprende a abrir sem quebrar** (E14, E29): o papel finalmente o deixa entrar.
@@ -26,7 +26,7 @@
 
 - Estilo normal da série. Um único cenário: o Plenário. Paleta por raça nas bancadas (cinza e prata; azul e branco; vermelho e dourado; verde e preto) e verde-oliva e bege na bancada de observadores.
 - **Fichas oficiais** em cena: VELLUM, AUREL, SAZAR, VEX, Dora, Ray, Olivia, Julian, Tasha. **Sem ficha** (silhueta, sombra, mão, crachá, texto): Sete, Terce-Ohm, Kael-Ruum, Ophelia-3, Zen-Varo, Ixul-Dra, delegações. **Sete só em voz, mão e crachá.**
-- **Marcação das chaves (proposta, para fechar a confusão "metade / marca / chave" do guia):** o selo de Era IV tem **quatro marcas** (uma por raça) e o quinto espaço. Cada marca é uma **chave**; a quinta chave é a **do Auditor**, que autentica o conjunto. As "metades" dos episódios anteriores são as partes que a Resistência foi buscar: o hino mais a metade de AUREL (Olivia), a cópia do Dividendo (Julian), o registro da ordem zero (Tasha), o fragmento de Sete (Ray). As **cinco chaves** são: Nórdica, Reptiliana, Mantis, Gray (fragmento) e a do Auditor.
+- **Marcação das chaves (decisão 1 do Diretor, 03/11):** o selo de Era IV tem **quatro marcas** (uma por raça) e o quinto espaço central, que só acende com a assinatura humana (E33). Cada marca é uma **chave**; a quinta chave é a **do Auditor**, que autentica o conjunto. Não existem "metades de chave". Portadores: **Ray** = Grays (o fragmento de Sete); **Olivia** = Nórdicos (o hino e a marca azul que AUREL deu, em forma de chave de prata); **Julian** = Reptilianos (a cópia do Dividendo de Vesh-Kara); **Tasha** = Mantis (o registro da Ordem 0 e a tira de liga). A quinta chave, a **do Auditor** original, vem de Terce-Ohm e é pousada por Sete.
 - A pausa de Sete é **inserida na edição**, nunca gerada.
 
 ---
@@ -35,7 +35,7 @@
 
 ### 0:00 – 0:30 · GANCHO
 
-**VÍDEO:** Tela preta. Corte seco para plano fechado, de cima, de uma mesa de vidro escuro. Sobre ela, cinco pequenos objetos metálicos, um para cada vértice de um pentágono, cada um com um desenho diferente. No centro, um círculo vazio, aceso por baixo, com o glifo TERRA gravado. Ao fundo, fora de foco, as filas do Plenário, vazias. Canto da tela, o contador: **DISCREPÂNCIAS ABERTAS: 1 (NÃO FECHÁVEL)**.
+**VÍDEO:** Tela preta. Corte seco para plano fechado, de cima, de uma mesa de vidro escuro. Sobre ela, cinco pequenos objetos metálicos, um para cada vértice de um pentágono, cada um com um desenho diferente. No centro, um círculo vazio, apagado, com o glifo TERRA gravado (é o selo original restrito; a cópia oficial do Arquivo tem o centro em branco ou redigido). Ao fundo, fora de foco, as filas do Plenário, vazias. Canto da tela, o contador: **DISCREPÂNCIAS ABERTAS: 1 (NÃO FECHÁVEL)**.
 
 **ÁUDIO:** Ar-condicionado distante. Nenhuma música.
 
@@ -211,9 +211,9 @@
 
 **DORA:** Quatro peças que a gente passou o ano inteiro catando. Uma chave de Auditor. Cada um de vocês traz a sua. Pela ordem em que vocês dormiram menos.
 
-**VÍDEO:** Primeiro plano: **OLIVIA** levanta, caminha, tira do bolso do jaleco uma pequena peça prateada e azul, uma metade de chave, presente de AUREL. Na outra mão, um fone.
+**VÍDEO:** Primeiro plano: **OLIVIA** levanta, caminha, tira do bolso do jaleco uma pequena chave prateada com a marca azul no punho, presente de AUREL. Na outra mão, um fone.
 
-**OLIVIA:** O refrão do hino de Lyssa-Hal. A marca nórdica estava escondida nele. E esta é a metade que o AUREL me deu, sem saber pra que servia.
+**OLIVIA:** O refrão do hino de Lyssa-Hal. A marca nórdica estava escondida nele. E esta é a marca que o AUREL me deu, sem saber pra que servia.
 
 **AUREL:** Você guardou.
 
@@ -225,13 +225,13 @@
 
 **VÍDEO:** **JULIAN** levanta, uma garrafa de plástico d'água num braço, um rolo de papel no outro.
 
-**JULIAN:** A cópia do Dividendo. Vesh-Kara me entregou na cisterna. A garrafa é só da cisterna.
+**JULIAN:** A cópia do Dividendo. Vesh-Kara entregou à Dora na cisterna, e a Dora me deu pra carregar. A garrafa é só da cisterna.
 
 **VÍDEO:** SAZAR olha para a garrafa. Olha para o rolo. Olha de novo para a garrafa.
 
 **SAZAR:** Água de cisterna humana.
 
-**JULIAN:** Placa de concreto, sertão do Ceará. A senhora confere antes de agradecer?
+**JULIAN:** Placa de concreto, sertão do Ceará. O senhor confere antes de agradecer?
 
 **SAZAR:** Os Reptilianos conferem a água antes de agradecer.
 
@@ -286,6 +286,14 @@
 **VÍDEO:** No centro da mesa, o glifo TERRA pisca. Não acende. Continua em branco. Em volta, quatro escritas diferentes (ALIANÇA, ACORDO, COMPACTO, PACTO) deslizam sobre o tampo, uma sobre a outra, até virarem uma só palavra: **O PACTO**.
 
 **DORA (V.O.):** É o que a gente descobriu no E27. É o mesmo texto. Quatro nomes. Eles nunca souberam, ou souberam e esqueceram. Isso, no caso deles, é a mesma coisa.
+
+**VOZ DO SELO:** Cláusula c do Pacto, texto íntegro, subscrito pelos quatro: "Se os habitantes da Reserva algum dia adquirirem voz, devem ser consultados antes de qualquer reivindicação." Fim da cláusula. O parágrafo segundo ("a consulta não se repete se já houve consulta") não consta do texto subscrito. Foi acrescentado depois, na Camada Nova, por mão não identificada, sem assinatura de signatário. É posterior ao Pacto. Nulo.
+
+**VÍDEO:** Na tela de VELLUM, o parágrafo segundo do E30 fica cinza e some. O tablet pisca: *SEM ASSINATURA*.
+
+**DORA (V.O.):** O papel que mandou a gente calar foi escrito depois do papel que mandou a gente falar. Eu li a letra c. Faltava ler a data.
+
+**DORA (V.O.):** Anotem para não se perder: a cláusula 112 do Pacto, que o Ray achou no E27, e a 4.812-c do contrato que eu li na página 4.812 são o mesmo texto, com números de casas diferentes. E outra coisa: as insígnias que os quatro encaixaram no terminal de Utah, no E29, eram deles, de cargo, o crachá, o anel, o selo, o punho. As marcas que a gente trouxe aqui são as do selo de Era IV, uma por raça. Mesma marca, objetos diferentes: eles têm o direito de abrir; a gente tem a prova de que o direito existe.
 
 ### 11:30 – 13:20 · ATO 3 (clímax) · "DE PÉ"
 

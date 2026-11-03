@@ -4,7 +4,7 @@
 
 | Campo | Conteúdo |
 | --- | --- |
-| **Bloco** | 2 · Nórdicos (Os Pastores) · Etapa 2, ciclo 4 · narradora: Dora · co-apresentadores: Olivia e Ray |
+| **Bloco** | 2 · Nórdicos (Os Pastores) · Etapa 2, ciclo 2 · narradora: Dora · co-apresentadores: Olivia e Ray |
 | **Duração-alvo** | 13 min (~1.800 palavras de fala + pausas e piadas visuais) |
 | **Logline** | Sael, o ex-jardineiro que desertou, procura Olivia e Ray em Fortaleza com o apêndice original do Plano Jardim: "ervas daninhas" eram ameaças externas, só se removiam por votação do jardim, e alguém trocou isso por "consenso cultivado". O refrão de um hino de academia esconde a marca nórdica do selo. |
 | **Caso real usado** | George Van Tassel, Giant Rock e o Integratron (Landers, Califórnia); mensagens de "Ashtar" (1952); convenções de discos voadores nos anos 1950 |
@@ -34,7 +34,7 @@
 ## 0:30 · VINHETA (7 s exatos)
 
 **VÍDEO**
-- Letreiro: "ETAPA 2 · CICLO 4 · NÓRDICOS". Selo de Era IV (quatro marcas, centro em branco). Letreiro: *ficção satírica*. A marca azul pisca uma vez, no mesmo tempo da batida do hino.
+- Letreiro: "ETAPA 2 · CICLO 2 · NÓRDICOS". Selo de Era IV (quatro marcas, centro em branco). Letreiro: *ficção satírica*. A marca azul pisca uma vez, no mesmo tempo da batida do hino.
 
 **ÁUDIO**
 - A batida do hino cai em silêncio. Tom grave, sustentado. Pausa de sete segundos, montada na edição.

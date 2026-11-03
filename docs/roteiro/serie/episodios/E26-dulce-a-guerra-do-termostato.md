@@ -131,7 +131,7 @@ DORA: O Relatório diz que sim. O Relatório também diz que a temperatura era d
 
 **VÍDEO:** Contador pisca. Entra um carimbo EM ABERTO na lousa.
 
-DORA: E aqui entra a minha pergunta de série. Se o posto estava ali por causa de uma gaveta, quem era dono da gaveta? Hassek-Orm quis o clima, mas o que ele queria era a chave. E a chave, como a gente vai ver nos próximos episódios, tem quatro metades e um espaço em branco.
+DORA: E aqui entra a minha pergunta de série. Se o posto estava ali por causa de uma gaveta, quem era dono da gaveta? Hassek-Orm quis o clima, mas o que ele queria era a chave. E a chave, como a gente vai ver nos próximos episódios, tem quatro marcas, mais a do Auditor, e um espaço em branco.
 JULIAN: E nenhuma raça sabe que é a mesma gaveta, né?
 DORA: Nenhuma. Ainda.
 

@@ -255,6 +255,8 @@
 
 **VEX:** Vale. Escrevemos para que, quando a violarmos, esteja escrito que sabíamos.
 
+**RELATOR (silhueta):** Cláusula única. Uma frase. Sem parágrafos adicionais.
+
 **VÍDEO:** Close em VEX, antenas imóveis. Uma única frase em carimbo: **4.812-c**.
 
 **DORA (V.O.):** Não é brecha. Eu tinha uma teoria inteira sobre isso, de que ela era uma jogada, uma pegadinha jurídica. Era a coisa mais humana que eles fizeram. Quatro seres, que sabiam que um dia iam fraquejar, escreveram a própria condenação com letra legível, para que alguém, um dia, pudesse ler.
@@ -334,6 +336,10 @@
 **VÍDEO:** SAZAR raspando com uma garra o próprio nome da parede de uma cisterna, onde estavam os nomes de todos os soberanos.
 
 **VÍDEO:** VEX apagando uma linha em um registro da Malha. Um espaço vazio onde antes havia "Comandante".
+
+**VÍDEO:** Os quatro, de costas, riscam também uma última linha: não o nome, mas a razão de cada marca. A tarja **[REDIGIDO]** cai sobre a palavra "para quê".
+
+**DORA (V.O.):** Reparem no que eles apagaram por último. Não foi só o nome: foi o motivo. Redigiram a própria memória do Pacto. É por isso que o AUREL, lá no jantar, disse à Olivia que nunca lhe disseram para que servia a chave dele, e disse a verdade: ele mesmo apagou. E é por isso que os quatro se levantaram há pouco sem pensar. O corpo guardou o protocolo, a cabeça perdeu o porquê. Por reflexo.
 
 **DORA (V.O.):** Quatro exilados. Não porque alguém os expulsou. Porque eles se expulsaram, por escrito, com muito cuidado, e passaram a fingir rivalidade em público enquanto se encontravam a cada tanto para ver se o plano ainda funcionava. É a melhor ideia da galáxia e a pior estratégia de relações públicas: salvar um mundo fazendo de conta que ele não existe. Durou muito tempo. Depois a gente mandou um disco de ouro.
 
