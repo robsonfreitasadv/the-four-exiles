@@ -491,7 +491,7 @@ export const en = {
     passwordFailed: 'Could not save the password. Use at least 8 characters, or ask for a new link if this one expired.',
     kicker: 'Your account',
     title: 'Your place in the Census',
-    intro: 'Sign in with your e-mail to send missions, follow your entries and see your points. No password.',
+    intro: 'Sign in to send missions, follow your entries and see your points.',
     email: 'E-mail (private)',
     raceLocked: 'fixed for the whole season',
     saveNickname: 'Save nickname',

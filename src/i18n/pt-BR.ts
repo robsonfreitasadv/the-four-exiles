@@ -493,7 +493,7 @@ export const ptBR: Dictionary = {
     passwordFailed: 'Não deu para salvar a senha. Use pelo menos 8 caracteres, ou peça outro link se este venceu.',
     kicker: 'Sua conta',
     title: 'Seu lugar no Censo',
-    intro: 'Entre com seu e-mail para enviar missões, acompanhar seus envios e ver seus pontos. Sem senha.',
+    intro: 'Entre para enviar missões, acompanhar seus envios e ver seus pontos.',
     email: 'E-mail (privado)',
     raceLocked: 'fixa durante toda a temporada',
     saveNickname: 'Salvar apelido',
