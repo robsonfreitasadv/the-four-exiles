@@ -1,0 +1,40 @@
+{
+  "name": "THE FOUR EXILES · 180 · Ray",
+  "description": "Ray (O Hacker), figurinha 180 da Galeria dos brilhantes do álbum do Censo de THE FOUR EXILES, sátira de ficção científica em que quatro raças disputam a Terra e a Resistência humana conta os votos. Arte a partir das fichas oficiais dos personagens. Peça colecionável sem promessa de valor.",
+  "image": "ipfs://SUBSTITUIR_PELO_CID/180.png",
+  "external_url": "https://robsonfreitasadv.github.io/the-four-exiles/",
+  "attributes": [
+    {
+      "trait_type": "Coleção",
+      "value": "Álbum do Censo"
+    },
+    {
+      "trait_type": "Seção",
+      "value": "Galeria dos brilhantes"
+    },
+    {
+      "trait_type": "Número no álbum",
+      "value": "180"
+    },
+    {
+      "trait_type": "Raça",
+      "value": "Resistência"
+    },
+    {
+      "trait_type": "Tipo",
+      "value": "Personagem"
+    },
+    {
+      "trait_type": "Personagem",
+      "value": "Ray"
+    },
+    {
+      "trait_type": "Acabamento",
+      "value": "Brilhante dourado"
+    },
+    {
+      "trait_type": "Fonte da arte",
+      "value": "Ficha oficial"
+    }
+  ]
+}
