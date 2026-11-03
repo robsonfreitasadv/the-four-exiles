@@ -1,0 +1,473 @@
+{
+  "aviso": "Exemplo. Nada foi cunhado nem publicado; troque o endereço das imagens antes de usar.",
+  "tokens": [
+    {
+      "name": "THE FOUR EXILES · 175 · VELLUM",
+      "description": "VELLUM (Grays), figurinha 175 da Galeria dos brilhantes do álbum do Censo de THE FOUR EXILES, sátira de ficção científica em que quatro raças disputam a Terra e a Resistência humana conta os votos. Arte a partir das fichas oficiais dos personagens. Peça colecionável sem promessa de valor.",
+      "image": "ipfs://SUBSTITUIR_PELO_CID/175.png",
+      "external_url": "https://robsonfreitasadv.github.io/the-four-exiles/",
+      "attributes": [
+        {
+          "trait_type": "Coleção",
+          "value": "Álbum do Censo"
+        },
+        {
+          "trait_type": "Seção",
+          "value": "Galeria dos brilhantes"
+        },
+        {
+          "trait_type": "Número no álbum",
+          "value": "175"
+        },
+        {
+          "trait_type": "Raça",
+          "value": "Grays"
+        },
+        {
+          "trait_type": "Tipo",
+          "value": "Personagem"
+        },
+        {
+          "trait_type": "Personagem",
+          "value": "VELLUM"
+        },
+        {
+          "trait_type": "Acabamento",
+          "value": "Brilhante dourado"
+        },
+        {
+          "trait_type": "Fonte da arte",
+          "value": "Ficha oficial"
+        }
+      ]
+    },
+    {
+      "name": "THE FOUR EXILES · 176 · AUREL",
+      "description": "AUREL (Nórdicos), figurinha 176 da Galeria dos brilhantes do álbum do Censo de THE FOUR EXILES, sátira de ficção científica em que quatro raças disputam a Terra e a Resistência humana conta os votos. Arte a partir das fichas oficiais dos personagens. Peça colecionável sem promessa de valor.",
+      "image": "ipfs://SUBSTITUIR_PELO_CID/176.png",
+      "external_url": "https://robsonfreitasadv.github.io/the-four-exiles/",
+      "attributes": [
+        {
+          "trait_type": "Coleção",
+          "value": "Álbum do Censo"
+        },
+        {
+          "trait_type": "Seção",
+          "value": "Galeria dos brilhantes"
+        },
+        {
+          "trait_type": "Número no álbum",
+          "value": "176"
+        },
+        {
+          "trait_type": "Raça",
+          "value": "Nórdicos"
+        },
+        {
+          "trait_type": "Tipo",
+          "value": "Personagem"
+        },
+        {
+          "trait_type": "Personagem",
+          "value": "AUREL"
+        },
+        {
+          "trait_type": "Acabamento",
+          "value": "Brilhante dourado"
+        },
+        {
+          "trait_type": "Fonte da arte",
+          "value": "Ficha oficial"
+        }
+      ]
+    },
+    {
+      "name": "THE FOUR EXILES · 177 · SAZAR",
+      "description": "SAZAR (Reptilianos), figurinha 177 da Galeria dos brilhantes do álbum do Censo de THE FOUR EXILES, sátira de ficção científica em que quatro raças disputam a Terra e a Resistência humana conta os votos. Arte a partir das fichas oficiais dos personagens. Peça colecionável sem promessa de valor.",
+      "image": "ipfs://SUBSTITUIR_PELO_CID/177.png",
+      "external_url": "https://robsonfreitasadv.github.io/the-four-exiles/",
+      "attributes": [
+        {
+          "trait_type": "Coleção",
+          "value": "Álbum do Censo"
+        },
+        {
+          "trait_type": "Seção",
+          "value": "Galeria dos brilhantes"
+        },
+        {
+          "trait_type": "Número no álbum",
+          "value": "177"
+        },
+        {
+          "trait_type": "Raça",
+          "value": "Reptilianos"
+        },
+        {
+          "trait_type": "Tipo",
+          "value": "Personagem"
+        },
+        {
+          "trait_type": "Personagem",
+          "value": "SAZAR"
+        },
+        {
+          "trait_type": "Acabamento",
+          "value": "Brilhante dourado"
+        },
+        {
+          "trait_type": "Fonte da arte",
+          "value": "Ficha oficial"
+        }
+      ]
+    },
+    {
+      "name": "THE FOUR EXILES · 178 · VEX",
+      "description": "VEX (Mantis), figurinha 178 da Galeria dos brilhantes do álbum do Censo de THE FOUR EXILES, sátira de ficção científica em que quatro raças disputam a Terra e a Resistência humana conta os votos. Arte a partir das fichas oficiais dos personagens. Peça colecionável sem promessa de valor.",
+      "image": "ipfs://SUBSTITUIR_PELO_CID/178.png",
+      "external_url": "https://robsonfreitasadv.github.io/the-four-exiles/",
+      "attributes": [
+        {
+          "trait_type": "Coleção",
+          "value": "Álbum do Censo"
+        },
+        {
+          "trait_type": "Seção",
+          "value": "Galeria dos brilhantes"
+        },
+        {
+          "trait_type": "Número no álbum",
+          "value": "178"
+        },
+        {
+          "trait_type": "Raça",
+          "value": "Mantis"
+        },
+        {
+          "trait_type": "Tipo",
+          "value": "Personagem"
+        },
+        {
+          "trait_type": "Personagem",
+          "value": "VEX"
+        },
+        {
+          "trait_type": "Acabamento",
+          "value": "Brilhante dourado"
+        },
+        {
+          "trait_type": "Fonte da arte",
+          "value": "Ficha oficial"
+        }
+      ]
+    },
+    {
+      "name": "THE FOUR EXILES · 179 · Dora",
+      "description": "Dora (A Estrategista), figurinha 179 da Galeria dos brilhantes do álbum do Censo de THE FOUR EXILES, sátira de ficção científica em que quatro raças disputam a Terra e a Resistência humana conta os votos. Arte a partir das fichas oficiais dos personagens. Peça colecionável sem promessa de valor.",
+      "image": "ipfs://SUBSTITUIR_PELO_CID/179.png",
+      "external_url": "https://robsonfreitasadv.github.io/the-four-exiles/",
+      "attributes": [
+        {
+          "trait_type": "Coleção",
+          "value": "Álbum do Censo"
+        },
+        {
+          "trait_type": "Seção",
+          "value": "Galeria dos brilhantes"
+        },
+        {
+          "trait_type": "Número no álbum",
+          "value": "179"
+        },
+        {
+          "trait_type": "Raça",
+          "value": "Resistência"
+        },
+        {
+          "trait_type": "Tipo",
+          "value": "Personagem"
+        },
+        {
+          "trait_type": "Personagem",
+          "value": "Dora"
+        },
+        {
+          "trait_type": "Acabamento",
+          "value": "Brilhante dourado"
+        },
+        {
+          "trait_type": "Fonte da arte",
+          "value": "Ficha oficial"
+        }
+      ]
+    },
+    {
+      "name": "THE FOUR EXILES · 180 · Ray",
+      "description": "Ray (O Hacker), figurinha 180 da Galeria dos brilhantes do álbum do Censo de THE FOUR EXILES, sátira de ficção científica em que quatro raças disputam a Terra e a Resistência humana conta os votos. Arte a partir das fichas oficiais dos personagens. Peça colecionável sem promessa de valor.",
+      "image": "ipfs://SUBSTITUIR_PELO_CID/180.png",
+      "external_url": "https://robsonfreitasadv.github.io/the-four-exiles/",
+      "attributes": [
+        {
+          "trait_type": "Coleção",
+          "value": "Álbum do Censo"
+        },
+        {
+          "trait_type": "Seção",
+          "value": "Galeria dos brilhantes"
+        },
+        {
+          "trait_type": "Número no álbum",
+          "value": "180"
+        },
+        {
+          "trait_type": "Raça",
+          "value": "Resistência"
+        },
+        {
+          "trait_type": "Tipo",
+          "value": "Personagem"
+        },
+        {
+          "trait_type": "Personagem",
+          "value": "Ray"
+        },
+        {
+          "trait_type": "Acabamento",
+          "value": "Brilhante dourado"
+        },
+        {
+          "trait_type": "Fonte da arte",
+          "value": "Ficha oficial"
+        }
+      ]
+    },
+    {
+      "name": "THE FOUR EXILES · 181 · Olivia",
+      "description": "Olivia (A Médica), figurinha 181 da Galeria dos brilhantes do álbum do Censo de THE FOUR EXILES, sátira de ficção científica em que quatro raças disputam a Terra e a Resistência humana conta os votos. Arte a partir das fichas oficiais dos personagens. Peça colecionável sem promessa de valor.",
+      "image": "ipfs://SUBSTITUIR_PELO_CID/181.png",
+      "external_url": "https://robsonfreitasadv.github.io/the-four-exiles/",
+      "attributes": [
+        {
+          "trait_type": "Coleção",
+          "value": "Álbum do Censo"
+        },
+        {
+          "trait_type": "Seção",
+          "value": "Galeria dos brilhantes"
+        },
+        {
+          "trait_type": "Número no álbum",
+          "value": "181"
+        },
+        {
+          "trait_type": "Raça",
+          "value": "Resistência"
+        },
+        {
+          "trait_type": "Tipo",
+          "value": "Personagem"
+        },
+        {
+          "trait_type": "Personagem",
+          "value": "Olivia"
+        },
+        {
+          "trait_type": "Acabamento",
+          "value": "Brilhante dourado"
+        },
+        {
+          "trait_type": "Fonte da arte",
+          "value": "Ficha oficial"
+        }
+      ]
+    },
+    {
+      "name": "THE FOUR EXILES · 182 · Julian",
+      "description": "Julian (O Piloto), figurinha 182 da Galeria dos brilhantes do álbum do Censo de THE FOUR EXILES, sátira de ficção científica em que quatro raças disputam a Terra e a Resistência humana conta os votos. Arte a partir das fichas oficiais dos personagens. Peça colecionável sem promessa de valor.",
+      "image": "ipfs://SUBSTITUIR_PELO_CID/182.png",
+      "external_url": "https://robsonfreitasadv.github.io/the-four-exiles/",
+      "attributes": [
+        {
+          "trait_type": "Coleção",
+          "value": "Álbum do Censo"
+        },
+        {
+          "trait_type": "Seção",
+          "value": "Galeria dos brilhantes"
+        },
+        {
+          "trait_type": "Número no álbum",
+          "value": "182"
+        },
+        {
+          "trait_type": "Raça",
+          "value": "Resistência"
+        },
+        {
+          "trait_type": "Tipo",
+          "value": "Personagem"
+        },
+        {
+          "trait_type": "Personagem",
+          "value": "Julian"
+        },
+        {
+          "trait_type": "Acabamento",
+          "value": "Brilhante dourado"
+        },
+        {
+          "trait_type": "Fonte da arte",
+          "value": "Ficha oficial"
+        }
+      ]
+    },
+    {
+      "name": "THE FOUR EXILES · 183 · Tasha",
+      "description": "Tasha (A Guerreira), figurinha 183 da Galeria dos brilhantes do álbum do Censo de THE FOUR EXILES, sátira de ficção científica em que quatro raças disputam a Terra e a Resistência humana conta os votos. Arte a partir das fichas oficiais dos personagens. Peça colecionável sem promessa de valor.",
+      "image": "ipfs://SUBSTITUIR_PELO_CID/183.png",
+      "external_url": "https://robsonfreitasadv.github.io/the-four-exiles/",
+      "attributes": [
+        {
+          "trait_type": "Coleção",
+          "value": "Álbum do Censo"
+        },
+        {
+          "trait_type": "Seção",
+          "value": "Galeria dos brilhantes"
+        },
+        {
+          "trait_type": "Número no álbum",
+          "value": "183"
+        },
+        {
+          "trait_type": "Raça",
+          "value": "Resistência"
+        },
+        {
+          "trait_type": "Tipo",
+          "value": "Personagem"
+        },
+        {
+          "trait_type": "Personagem",
+          "value": "Tasha"
+        },
+        {
+          "trait_type": "Acabamento",
+          "value": "Brilhante dourado"
+        },
+        {
+          "trait_type": "Fonte da arte",
+          "value": "Ficha oficial"
+        }
+      ]
+    },
+    {
+      "name": "THE FOUR EXILES · 184 · O Contrato do Censo",
+      "description": "O Contrato do Censo, figurinha 184 da Galeria dos brilhantes do álbum do Censo de THE FOUR EXILES, sátira de ficção científica em que quatro raças disputam a Terra e a Resistência humana conta os votos. Arte a partir das fichas oficiais dos personagens. Peça colecionável sem promessa de valor.",
+      "image": "ipfs://SUBSTITUIR_PELO_CID/184.png",
+      "external_url": "https://robsonfreitasadv.github.io/the-four-exiles/",
+      "attributes": [
+        {
+          "trait_type": "Coleção",
+          "value": "Álbum do Censo"
+        },
+        {
+          "trait_type": "Seção",
+          "value": "Galeria dos brilhantes"
+        },
+        {
+          "trait_type": "Número no álbum",
+          "value": "184"
+        },
+        {
+          "trait_type": "Raça",
+          "value": "O Censo"
+        },
+        {
+          "trait_type": "Tipo",
+          "value": "Documento"
+        },
+        {
+          "trait_type": "Acabamento",
+          "value": "Brilhante dourado"
+        },
+        {
+          "trait_type": "Fonte da arte",
+          "value": "Gráfico do projeto"
+        }
+      ]
+    },
+    {
+      "name": "THE FOUR EXILES · 185 · 4.812-c",
+      "description": "4.812-c, figurinha 185 da Galeria dos brilhantes do álbum do Censo de THE FOUR EXILES, sátira de ficção científica em que quatro raças disputam a Terra e a Resistência humana conta os votos. Arte a partir das fichas oficiais dos personagens. Peça colecionável sem promessa de valor.",
+      "image": "ipfs://SUBSTITUIR_PELO_CID/185.png",
+      "external_url": "https://robsonfreitasadv.github.io/the-four-exiles/",
+      "attributes": [
+        {
+          "trait_type": "Coleção",
+          "value": "Álbum do Censo"
+        },
+        {
+          "trait_type": "Seção",
+          "value": "Galeria dos brilhantes"
+        },
+        {
+          "trait_type": "Número no álbum",
+          "value": "185"
+        },
+        {
+          "trait_type": "Raça",
+          "value": "O Censo"
+        },
+        {
+          "trait_type": "Tipo",
+          "value": "Documento"
+        },
+        {
+          "trait_type": "Acabamento",
+          "value": "Brilhante dourado"
+        },
+        {
+          "trait_type": "Fonte da arte",
+          "value": "Gráfico do projeto"
+        }
+      ]
+    },
+    {
+      "name": "THE FOUR EXILES · 186 · A Terra em disputa",
+      "description": "A Terra em disputa, figurinha 186 da Galeria dos brilhantes do álbum do Censo de THE FOUR EXILES, sátira de ficção científica em que quatro raças disputam a Terra e a Resistência humana conta os votos. Arte a partir das fichas oficiais dos personagens. Peça colecionável sem promessa de valor.",
+      "image": "ipfs://SUBSTITUIR_PELO_CID/186.png",
+      "external_url": "https://robsonfreitasadv.github.io/the-four-exiles/",
+      "attributes": [
+        {
+          "trait_type": "Coleção",
+          "value": "Álbum do Censo"
+        },
+        {
+          "trait_type": "Seção",
+          "value": "Galeria dos brilhantes"
+        },
+        {
+          "trait_type": "Número no álbum",
+          "value": "186"
+        },
+        {
+          "trait_type": "Raça",
+          "value": "O Censo"
+        },
+        {
+          "trait_type": "Tipo",
+          "value": "Documento"
+        },
+        {
+          "trait_type": "Acabamento",
+          "value": "Brilhante dourado"
+        },
+        {
+          "trait_type": "Fonte da arte",
+          "value": "Gráfico do projeto"
+        }
+      ]
+    }
+  ]
+}

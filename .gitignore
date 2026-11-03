@@ -9,3 +9,7 @@ dist/
 
 # Arquivos de impressão da loja: grandes, refeitos por design/store-art.cjs
 design/store/
+
+# Estampas de impressão e NFT em alta: grandes, refeitas por design/print-art.cjs e design/nft-art.cjs
+design/print/*.png
+design/nft/*.png
