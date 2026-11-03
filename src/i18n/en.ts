@@ -448,6 +448,10 @@ export const en = {
     forgotIntro: 'Type your e-mail. We send a link to create a new password.',
     forgotButton: 'Send link',
     forgotDone: 'If there is an account with {email}, the link is on its way. Check spam too.',
+    continueWith: 'Continue with {provider}',
+    socialOpening: 'Opening…',
+    socialFailed: 'Could not open that sign-in. Try again or use your e-mail.',
+    orEmail: 'or with e-mail',
   },
   missionForm: {
     title: 'Send your entry',

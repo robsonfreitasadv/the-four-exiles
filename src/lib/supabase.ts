@@ -14,7 +14,25 @@ export const supabase: SupabaseClient | null =
     ? createClient(SUPABASE_URL, SUPABASE_ANON_KEY, { auth: { persistSession: true, flowType: 'implicit', detectSessionInUrl: true, storageKey: 'four-exiles:auth' } })
     : null;
 
-export type Race = 'grays' | 'nordics' | 'reptilians' | 'mantis';
+export type OAuthProvider = 'google' | 'apple';
+
+/**
+ * Social sign-ins switched on in the Supabase dashboard (Authentication → Providers). The buttons only show for
+ * these, so a provider that is still off never sends people to an error page.
+ */
+export async function enabledOAuthProviders(): Promise<OAuthProvider[]> {
+  if (!supabase) return [];
+  try {
+    const res = await fetch(`${SUPABASE_URL}/auth/v1/settings`, { headers: { apikey: SUPABASE_ANON_KEY } });
+    if (!res.ok) return [];
+    const { external } = (await res.json()) as { external?: Record<string, boolean> };
+    return (['google', 'apple'] as const).filter((p) => external?.[p] === true);
+  } catch {
+    return [];
+  }
+}
+
+export type Race ='grays' | 'nordics' | 'reptilians' | 'mantis';
 
 export interface Profile {
   id: string;

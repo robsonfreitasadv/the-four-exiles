@@ -450,6 +450,10 @@ export const ptBR: Dictionary = {
     forgotIntro: 'Digite seu e-mail. Mandamos um link para você criar uma senha nova.',
     forgotButton: 'Enviar link',
     forgotDone: 'Se existir uma conta com {email}, o link já está a caminho. Veja também o spam.',
+    continueWith: 'Continuar com {provider}',
+    socialOpening: 'Abrindo…',
+    socialFailed: 'Não deu para abrir esse login. Tente de novo ou use seu e-mail.',
+    orEmail: 'ou com e-mail',
   },
   missionForm: {
     title: 'Envie sua missão',
