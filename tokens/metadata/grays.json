@@ -1,0 +1,23 @@
+{
+  "name": "Form 40,000",
+  "symbol": "F40K",
+  "decimals": 18,
+  "description": "Fan meme coin of the Grays, The Scribes of Hevra. Named after the 40,000 complaints they filed about human genetic chaos. Procedure is protection. A collectible joke from THE FOUR EXILES, a sci-fi satire: no utility, no promise of value.",
+  "description_pt_BR": "Meme coin de fã dos Grays, Os Escrivães de Hevra. O nome lembra as 40.000 reclamações que eles protocolaram contra o caos genético humano. Procedimento é proteção. Uma piada colecionável de THE FOUR EXILES, sátira de ficção científica: sem utilidade e sem promessa de valor.",
+  "image": "https://raw.githubusercontent.com/robsonfreitasadv/the-four-exiles/main/tokens/metadata/images/grays.png",
+  "external_url": "https://robsonfreitasadv.github.io/the-four-exiles/",
+  "attributes": [
+    {
+      "trait_type": "Universe",
+      "value": "THE FOUR EXILES"
+    },
+    {
+      "trait_type": "Side",
+      "value": "Race"
+    },
+    {
+      "trait_type": "Kind",
+      "value": "Fan meme coin, no utility"
+    }
+  ]
+}

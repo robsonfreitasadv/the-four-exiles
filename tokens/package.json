@@ -1,0 +1,22 @@
+{
+  "name": "four-exiles-tokens",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Fan meme coins for THE FOUR EXILES: one ERC-20 per race and one for the human Resistance.",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network baseSepolia",
+    "deploy:base": "hardhat run scripts/deploy.js --network base",
+    "logos": "node scripts/make-logos.cjs"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "5.4.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.26.0",
+    "sharp": "^0.34.3"
+  }
+}

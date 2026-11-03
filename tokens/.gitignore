@@ -1,0 +1,9 @@
+node_modules/
+artifacts/
+cache/
+coverage/
+typechain-types/
+.env
+# Local runs only; testnet/mainnet records are kept
+deployments/localhost.json
+deployments/hardhat.json
