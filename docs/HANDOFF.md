@@ -5,6 +5,7 @@ Atualize este arquivo no fim de cada sessão (chat ou código): o que foi feito,
 ## Estado atual — 2026-10-20
 
 **Feito**
+- **2026-11-12:** site também no Cloudflare Pages: https://the-four-exiles.pages.dev (projeto `the-four-exiles`, envio direto, sem Git). Republicar: `npm run build:static` e depois `npx wrangler pages deploy dist --project-name the-four-exiles --branch main`. Falta o dono incluir `https://the-four-exiles.pages.dev/**` nas Redirect URLs do Supabase (Auth > URL Configuration) para o login funcionar lá. O GitHub Pages continua no ar.
 - **2026-11-03:** plano de lançamento com foco em receita em `docs/PLANO_LANCAMENTO.md` (tokens por último). Próximo passo do dono: a lista "esta semana" no fim do plano.
 - Site Fase 1 completo e publicado em prévia privada: https://claude.ai/artifact/J6yY4A8qS5DLjFmF4qkBH6
 - Imagens oficiais das fichas aplicadas em todo o site; seção "raças em 3D" e seção da Resistência.
