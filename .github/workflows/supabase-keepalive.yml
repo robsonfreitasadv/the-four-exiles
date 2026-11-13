@@ -1,10 +1,10 @@
 # The Supabase Free plan pauses a project after a week without requests, which takes logins and the
-# leaderboard offline. A read of the public leaderboard twice a week keeps it awake.
+# leaderboard offline. A daily read of the public leaderboard and the auth settings keeps it awake.
 name: Supabase keep-alive
 
 on:
   schedule:
-    - cron: '17 9 * * 1,4'
+    - cron: '17 9 * * *'
   workflow_dispatch:
 
 permissions:
@@ -21,4 +21,5 @@ jobs:
           key=$(grep -oE "eyJ[A-Za-z0-9._-]+" src/lib/supabase.ts | head -1)
           curl -fsS -X POST "$url/rest/v1/rpc/season1_standings" \
             -H "apikey: $key" -H "Authorization: Bearer $key" -H "Content-Type: application/json" -d '{}' > /dev/null
+          curl -fsS "$url/auth/v1/settings" -H "apikey: $key" > /dev/null
           echo "Supabase answered."
