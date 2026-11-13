@@ -55,7 +55,9 @@ export type ApiError =
   | 'has_profile'
   | 'no_profile'
   | 'daily_limit'
+  | 'quota'
   | 'not_allowed'
+  | 'own_entry'
   | 'too_large'
   | 'server_error'
   | 'network';
@@ -101,7 +103,7 @@ export const api = {
   signOut: () => call<{ ok: true }>('POST', 'auth/logout'),
   changePassword: (current_password: string, new_password: string) =>
     call<{ ok: true }>('POST', 'me/password', { current_password, new_password }),
-  deleteAccount: () => call<{ ok: true }>('DELETE', 'me'),
+  deleteAccount: (password: string) => call<{ ok: true }>('DELETE', 'me', { password }),
   createProfile: (display_name: string, race: Race) => call<Me>('POST', 'profile', { display_name, race }),
   renameProfile: (display_name: string) => call<Me>('PUT', 'profile', { display_name }),
   mySubmissions: (mission?: string) =>
@@ -118,7 +120,9 @@ export const api = {
     }
     return call<{ id: string }>('POST', 'submissions', { ...rest, image: encoded });
   },
-  moderationQueue: () => call<{ submissions: Submission[] }>('GET', 'moderation/queue'),
+  /** Pending entries, 50 at a time; pass the `next` of one page to get the following one. */
+  moderationQueue: (cursor?: string | null) =>
+    call<{ submissions: Submission[]; next: string | null }>('GET', cursor ? `moderation/queue?cursor=${encodeURIComponent(cursor)}` : 'moderation/queue'),
   review: (id: string, status: 'approved' | 'rejected', moderator_note: string | null) =>
     call<{ ok: true }>('POST', 'moderation/review', { id, status, moderator_note }),
   standings: () => call<{ standings: Standing[] }>('GET', 'standings'),

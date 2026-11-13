@@ -1,7 +1,8 @@
 import { newSessionToken, sha256Hex } from './crypto';
 import { fail, type Env } from './http';
 
-export const SESSION_COOKIE = 'fe_session';
+/** The __Host- prefix makes browsers refuse this cookie unless it is Secure, Path=/ and has no Domain. */
+export const SESSION_COOKIE = '__Host-fe_session';
 export const SESSION_DAYS = 30;
 const SESSION_MS = SESSION_DAYS * 24 * 60 * 60 * 1000;
 

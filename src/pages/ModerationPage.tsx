@@ -7,11 +7,16 @@ import { useI18n } from '../i18n/I18nProvider';
 function Queue() {
   const { t } = useI18n();
   const [rows, setRows] = useState<Submission[]>([]);
+  const [next, setNext] = useState<string | null>(null);
   const [notes, setNotes] = useState<Record<string, string>>({});
+  const [error, setError] = useState('');
 
-  const load = useCallback(async () => {
-    const { data } = await api.moderationQueue();
-    setRows(data?.submissions ?? []);
+  /** First page, or the page after `cursor` added below the ones already shown. */
+  const load = useCallback(async (cursor?: string) => {
+    const { data } = await api.moderationQueue(cursor);
+    if (!data) return;
+    setRows((shown) => (cursor ? [...shown, ...data.submissions.filter((s) => !shown.some((o) => o.id === s.id))] : data.submissions));
+    setNext(data.next);
   }, []);
 
   useEffect(() => {
@@ -19,12 +24,21 @@ function Queue() {
   }, [load]);
 
   async function review(id: string, status: 'approved' | 'rejected') {
-    await api.review(id, status, notes[id]?.trim() || null);
-    void load();
+    setError('');
+    const { error: err } = await api.review(id, status, notes[id]?.trim() || null);
+    if (err) return setError(err === 'own_entry' ? t.moderation.ownEntry : t.account.failed);
+    // Reviewed entries leave the list; the pages already loaded stay where they are.
+    setRows((shown) => shown.filter((s) => s.id !== id));
   }
 
-  if (!rows.length) return <p className="text-bone-dim">{t.moderation.empty}</p>;
+  if (!rows.length && !next) return <p className="text-bone-dim">{t.moderation.empty}</p>;
   return (
+    <>
+    {error && (
+      <p className="mb-4 text-sm text-signal" role="alert">
+        {error}
+      </p>
+    )}
     <ul className="grid gap-4 md:grid-cols-2">
       {rows.map((s) => (
         <li key={s.id} className="rounded-[24px] bg-graphite-800 p-5">
@@ -57,6 +71,12 @@ function Queue() {
         </li>
       ))}
     </ul>
+    {next && (
+      <button type="button" className="btn-ghost mt-6 px-5 py-2.5 text-sm" onClick={() => void load(next)}>
+        {t.moderation.more}
+      </button>
+    )}
+    </>
   );
 }
 

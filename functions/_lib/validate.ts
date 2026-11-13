@@ -58,8 +58,18 @@ export function passwordAttempt(value: unknown): value is string {
   return typeof value === 'string' && value.length > 0 && chars(value) <= MAX_PASSWORD;
 }
 
+/** Invisible format characters (bidi overrides, zero-width joiners, soft hyphen…) that let names look alike. */
+const FORMAT = /\p{Cf}/u;
+
+/**
+ * Public nickname: NFKC-normalised (so full-width or styled letters become plain ones), 2 to 30 characters,
+ * one line, no invisible format characters.
+ */
 export function nickname(value: unknown): string | null {
-  return text(value, 2, 30);
+  if (typeof value !== 'string') return null;
+  const s = value.normalize('NFKC');
+  if (FORMAT.test(s)) return null;
+  return text(s, 2, 30);
 }
 
 /** Case-insensitive key that keeps two people from sharing a nickname ("Dora" and "dora"). */

@@ -1,7 +1,7 @@
 import { accountPayload } from '../../_lib/account';
 import { hashPassword } from '../../_lib/crypto';
 import { clientIp, fail, isUniqueViolation, json, readJson, type Handler } from '../../_lib/http';
-import { emailKey, hit, ipKey, isLocked, LOGIN_EMAIL, SIGNUP_IP } from '../../_lib/ratelimit';
+import { hit, ipKey, SIGNUP_IP } from '../../_lib/ratelimit';
 import { startSession } from '../../_lib/session';
 import { normalizeEmail, validPassword } from '../../_lib/validate';
 
@@ -14,9 +14,9 @@ export const onRequestPost: Handler = async ({ request, env }) => {
   const email = normalizeEmail(body?.email);
   if (!body || !email || !validPassword(body.password)) return fail('invalid', 400);
 
-  const ip = ipKey('signup', clientIp(request));
-  if (await isLocked(env, ip)) return fail('too_many', 429);
-  await hit(env, ip, SIGNUP_IP);
+  // Every attempt counts against this network; an e-mail that already has an account counts nowhere else,
+  // so trying someone's address here never locks that person's sign-in.
+  if (await hit(env, ipKey('signup', clientIp(request)), SIGNUP_IP)) return fail('too_many', 429);
 
   const id = crypto.randomUUID();
   try {
@@ -25,8 +25,6 @@ export const onRequestPost: Handler = async ({ request, env }) => {
       .run();
   } catch (err) {
     if (!isUniqueViolation(err)) throw err;
-    // Same answer as any other failure; the attempt also counts against that e-mail.
-    await hit(env, await emailKey(email), LOGIN_EMAIL);
     return fail('signup_failed', 400);
   }
 

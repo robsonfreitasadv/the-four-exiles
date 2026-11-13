@@ -3,7 +3,8 @@ import { defineConfig, type Plugin } from 'vite';
 import react from '@vitejs/plugin-react';
 
 /**
- * Content Security Policy for the published static site (a meta tag, so it travels with the build to any host).
+ * Content Security Policy for the published static site (a meta tag, so it travels with the build to any host;
+ * on Cloudflare Pages public/_headers sends the same policy as a header, plus frame-ancestors).
  * Everything the site loads is its own, including the API at /api, except Google Fonts. Left out of the dev
  * server, whose hot reload injects inline scripts.
  */
@@ -18,7 +19,7 @@ const csp = [
   "frame-src 'none'",
   "worker-src 'self' blob:",
   "object-src 'none'",
-  "base-uri 'self'",
+  "base-uri 'none'",
   "form-action 'self'",
 ].join('; ');
 

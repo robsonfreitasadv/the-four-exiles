@@ -1,5 +1,20 @@
+import { verifyPassword } from './crypto';
 import type { Env } from './http';
+import { clear, hit, PASSWORD_CHECK } from './ratelimit';
 import { isModerator, type User } from './session';
+
+/**
+ * Checks the signed-in person's current password before something serious (new password, deleting the account).
+ * The attempt is counted before the check and cleared on success.
+ */
+export async function checkCurrentPassword(env: Env, userId: string, password: string): Promise<'ok' | 'wrong' | 'locked'> {
+  const key = `password:${userId}`;
+  if (await hit(env, key, PASSWORD_CHECK)) return 'locked';
+  const row = await env.DB.prepare('select password_hash from users where id = ?').bind(userId).first<{ password_hash: string }>();
+  if (!row || !(await verifyPassword(password, row.password_hash))) return 'wrong';
+  await clear(env, key);
+  return 'ok';
+}
 
 export interface Profile {
   id: string;

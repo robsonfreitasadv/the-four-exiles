@@ -14,5 +14,6 @@ export const onRequestGet: Handler = async ({ env }) => {
      left join score_events e on e.race = r.race
      group by r.race`,
   ).all();
-  return json({ standings: results });
+  // Public totals: browsers and Cloudflare may keep them for a minute (the middleware leaves this route alone).
+  return json({ standings: results }, 200, { 'Cache-Control': 'public, max-age=60' });
 };

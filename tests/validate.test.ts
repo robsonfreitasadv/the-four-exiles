@@ -14,7 +14,7 @@ import {
   submission,
   validPassword,
 } from '../functions/_lib/validate';
-import { crossSiteRejection, readJson } from '../functions/_lib/http';
+import { crossSiteRejection, normalizeIp, readJson } from '../functions/_lib/http';
 
 const PNG = new Uint8Array([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a, 0, 0, 0, 0]);
 const b64 = (bytes: Uint8Array) => btoa(String.fromCharCode(...bytes));
@@ -52,6 +52,14 @@ describe('profile', () => {
     expect(nickname('x'.repeat(31))).toBeNull();
     expect(nickname('two\nlines')).toBeNull();
     expect(nickname('bell\u0007')).toBeNull();
+  });
+  it('nickname: NFKC and no invisible format characters', () => {
+    expect(nickname('Ｄｏｒａ')).toBe('Dora'); // full-width letters become plain ones
+    expect(nickname('Do​ra')).toBeNull(); // zero-width space
+    expect(nickname('Dora‮')).toBeNull(); // right-to-left override
+    expect(nickname('⁦Dora⁩')).toBeNull(); // bidi isolates
+    expect(nickname('Do­ra')).toBeNull(); // soft hyphen
+    expect(nickname('Dorá Ñ')).toBe('Dorá Ñ');
   });
   it('nickname key ignores case', () => {
     expect(nicknameKey('Dora')).toBe(nicknameKey('dORA'));
@@ -147,6 +155,21 @@ describe('request guards', () => {
     expect(crossSiteRejection(req({ 'Content-Type': 'application/json', Origin: 'https://evil.example' }))?.status).toBe(403);
     expect(crossSiteRejection(req({ 'Content-Type': 'application/json', Origin: 'null' }))?.status).toBe(403);
     expect(crossSiteRejection(req({ 'Content-Type': 'application/json', Origin: 'https://the-four-exiles.pages.dev.evil.example' }))?.status).toBe(403);
+    // same host, other scheme or port: a different origin
+    expect(crossSiteRejection(req({ 'Content-Type': 'application/json', Origin: 'http://the-four-exiles.pages.dev' }))?.status).toBe(403);
+    expect(crossSiteRejection(req({ 'Content-Type': 'application/json', Origin: 'https://the-four-exiles.pages.dev:8443' }))?.status).toBe(403);
+  });
+  it('limits counts IPv6 per /64 and keeps IPv4 whole', () => {
+    expect(normalizeIp('203.0.113.7')).toBe('203.0.113.7');
+    expect(normalizeIp('2001:db8:85a3:12:8a2e:370:7334:1')).toBe('2001:db8:85a3:12::/64');
+    expect(normalizeIp('2001:DB8:85A3:0012:ffff::9')).toBe('2001:db8:85a3:12::/64');
+    expect(normalizeIp('2001:db8::1')).toBe('2001:db8:0:0::/64');
+    expect(normalizeIp('2001:db8::2')).toBe(normalizeIp('2001:db8:0:0:abcd::1'));
+    expect(normalizeIp('::1')).toBe('0:0:0:0::/64');
+    expect(normalizeIp('::ffff:192.0.2.1')).toBe('0:0:0:0::/64');
+    expect(normalizeIp('')).toBe('unknown');
+    expect(normalizeIp('not an ip')).toBe('unknown');
+    expect(normalizeIp('1:2:3:4:5:6:7:8:9')).toBe('unknown');
   });
   it('reads only small JSON objects', async () => {
     const body = (text: string) => new Request(url, { method: 'POST', body: text });
@@ -154,5 +177,8 @@ describe('request guards', () => {
     expect(await readJson(body('[1,2]'))).toBeNull();
     expect(await readJson(body('not json'))).toBeNull();
     expect(await readJson(body(JSON.stringify({ a: 'x'.repeat(9000) })))).toBeNull();
+    // the cap is in bytes: 3000 three-byte characters are 9000 bytes
+    expect(await readJson(body(JSON.stringify({ a: '€'.repeat(3000) })))).toBeNull();
+    expect(await readJson(body(JSON.stringify({ a: '€'.repeat(2000) })))).toEqual({ a: '€'.repeat(2000) });
   });
 });

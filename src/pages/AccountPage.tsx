@@ -147,6 +147,7 @@ function PasswordPanel() {
 function DeleteAccount({ account }: { account: Account }) {
   const { t } = useI18n();
   const [confirm, setConfirm] = useState('');
+  const [password, setPassword] = useState('');
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
   const word = t.accountPage.deleteWord;
@@ -157,9 +158,11 @@ function DeleteAccount({ account }: { account: Account }) {
     setBusy(true);
     setError('');
     // The database removes the profile, entries, images and points together with the login.
-    const { error: err } = await api.deleteAccount();
+    const { error: err } = await api.deleteAccount(password);
     setBusy(false);
-    if (err) return setError(t.accountPage.deleteFailed);
+    if (err)
+      return setError(err === 'too_many' ? t.account.tooMany : err === 'bad_login' || err === 'invalid' ? t.accountPage.deleteWrongPassword : t.accountPage.deleteFailed);
+    setPassword('');
     await account.reload();
   }
 
@@ -167,10 +170,22 @@ function DeleteAccount({ account }: { account: Account }) {
     <form onSubmit={remove} className="space-y-3">
       <p className="text-sm text-bone-dim">{t.accountPage.deleteIntro}</p>
       <label className="block">
+        <span className="text-sm text-bone-muted">{t.accountPage.currentPassword}</span>
+        <input
+          type="password"
+          required
+          maxLength={256}
+          autoComplete="current-password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+          className={field}
+        />
+      </label>
+      <label className="block">
         <span className="text-sm text-bone-muted">{t.accountPage.deleteConfirm.replace('{word}', word)}</span>
         <input value={confirm} onChange={(e) => setConfirm(e.target.value)} className={field} autoComplete="off" />
       </label>
-      <button type="submit" disabled={busy || confirm.trim().toUpperCase() !== word} className="rounded-full border border-signal px-5 py-3 text-sm text-signal disabled:opacity-40">
+      <button type="submit" disabled={busy || !password || confirm.trim().toUpperCase() !== word} className="rounded-full border border-signal px-5 py-3 text-sm text-signal disabled:opacity-40">
         {t.accountPage.deleteButton}
       </button>
       {error && (

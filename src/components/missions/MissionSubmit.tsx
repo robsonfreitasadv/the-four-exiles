@@ -77,7 +77,7 @@ export function MissionSubmit({ slug }: { slug: string }) {
       image: file,
     });
     setBusy(false);
-    if (error) return setMessage(error === 'too_large' ? t.missionForm.badFile : t.missionForm.failed);
+    if (error) return setMessage(error === 'too_large' ? t.missionForm.badFile : error === 'quota' ? t.missionForm.quota : t.missionForm.failed);
     reset();
     setRefresh((n) => n + 1);
     setMessage(t.missionForm.sent);

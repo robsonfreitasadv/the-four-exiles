@@ -1,7 +1,12 @@
 import { ENTRY_COLUMNS } from '../../_lib/account';
-import { ENTRY_BODY, errorMessage, fail, json, readJson, type Handler } from '../../_lib/http';
+import { clientIp, ENTRY_BODY, errorMessage, fail, json, readJson, type Handler } from '../../_lib/http';
+import { consumeBytes } from '../../_lib/ratelimit';
 import { requireUser } from '../../_lib/session';
 import { missionSlug, submission } from '../../_lib/validate';
+
+/** Image bytes a day: four full-size images per person, eight per network. */
+const IMAGE_BYTES_PER_USER = 6 * 1024 * 1024;
+const IMAGE_BYTES_PER_IP = 12 * 1024 * 1024;
 
 /** GET /api/submissions[?mission=<slug>]: the signed-in person's own entries, newest first. */
 export const onRequestGet: Handler = async ({ request, env }) => {
@@ -32,6 +37,16 @@ export const onRequestPost: Handler = async ({ request, env }) => {
   if (!body) return fail('too_large', 413);
   const entry = submission(body);
   if (!entry) return fail('invalid', 400);
+
+  // Images have a daily allowance per person and per network, on top of the 10 entries a day.
+  if (entry.image) {
+    const size = entry.image.bytes.byteLength;
+    const [userOk, ipOk] = await Promise.all([
+      consumeBytes(env, `img-user:${current.user.id}`, size, IMAGE_BYTES_PER_USER),
+      consumeBytes(env, `img-ip:${clientIp(request)}`, size, IMAGE_BYTES_PER_IP),
+    ]);
+    if (!userOk || !ipOk) return fail('quota', 429);
+  }
 
   const id = crypto.randomUUID();
   const statements = [

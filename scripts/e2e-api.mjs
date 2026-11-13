@@ -93,14 +93,20 @@ check('e-mail inválido: 400', r.status === 400);
 r = await a.call('POST', 'auth/signup', { email: `  ${emailA.toUpperCase()} `, password });
 check('cadastro: 201 já com sessão', r.status === 201 && r.data.user?.email === emailA, JSON.stringify(r.data));
 check(
-  'cookie HttpOnly; Secure; SameSite=Lax; Path=/; 30 dias',
-  /HttpOnly/.test(r.setCookie) && /Secure/.test(r.setCookie) && /SameSite=Lax/.test(r.setCookie) && /Path=\//.test(r.setCookie) && /Max-Age=2592000/.test(r.setCookie),
+  'cookie __Host-fe_session; HttpOnly; Secure; SameSite=Lax; Path=/; 30 dias',
+  /^__Host-fe_session=/.test(r.setCookie) && /HttpOnly/.test(r.setCookie) && /Secure/.test(r.setCookie) && /SameSite=Lax/.test(r.setCookie) && /Path=\//.test(r.setCookie) && /Max-Age=2592000/.test(r.setCookie),
   r.setCookie,
 );
 check('resposta nunca traz password_hash', !JSON.stringify(r.data).includes('password'));
 check('API não guarda em cache', r.headers.get('cache-control') === 'no-store');
 r = await b.call('POST', 'auth/signup', { email: emailA, password });
 check('cadastro com e-mail repetido: erro genérico', r.status === 400 && r.data.error === 'signup_failed');
+// Locally, wrangler rewrites an Origin with the same host to the request's own scheme, so this only means
+// something against HTTPS (a preview URL); the unit tests cover it either way.
+if (BASE.startsWith('https://')) {
+  r = await a.call('POST', 'auth/signup', { email: emailA, password }, { Origin: BASE.replace('https://', 'http://') });
+  check('Origin com outro esquema (http x https): 403', r.status === 403 && r.data.error === 'bad_origin');
+}
 
 r = await a.call('GET', 'me');
 check('GET /api/me com sessão: e-mail, sem perfil, não moderador', r.data.user?.email === emailA && r.data.profile === null && r.data.moderator === false, JSON.stringify(r.data));
@@ -117,6 +123,8 @@ r = await b.call('POST', 'auth/signup', { email: emailB, password });
 check('segunda conta', r.status === 201);
 r = await b.call('POST', 'profile', { display_name: `DORA ${run}`.toLowerCase(), race: 'grays' });
 check('apelido repetido (outra caixa): 409', r.status === 409 && r.data.error === 'nickname_taken', JSON.stringify(r.data));
+r = await b.call('POST', 'profile', { display_name: `Ray​ ${run}`, race: 'grays' });
+check('apelido com caractere invisível: 400', r.status === 400 && r.data.error === 'invalid');
 r = await b.call('POST', 'profile', { display_name: `Ray ${run}`, race: 'grays' });
 check('perfil da segunda conta', r.status === 201);
 
@@ -201,6 +209,40 @@ if (PERSIST) {
   await b.call('POST', 'moderation/review', { id: linkEntry, status: 'approved' });
   r = await a.call('GET', 'submissions?mission=smile-audit');
   check('autor vê o status e o recado', r.data.submissions.some((s) => s.id === linkEntry && s.status === 'approved' && s.moderator_note === null));
+
+  // A moderator's own entry: not in their queue, and they can't review it.
+  r = await b.call('POST', 'submissions', { mission_slug: 'operation-triplicate', title: 'Da moderadora', link_url: 'https://example.com/mod', licence_ok: true });
+  const ownEntry = r.data.id;
+  r = await b.call('GET', 'moderation/queue');
+  check('fila não mostra o envio da própria moderadora', r.status === 200 && !r.data.submissions.some((s) => s.id === ownEntry) && 'next' in r.data);
+  r = await b.call('POST', 'moderation/review', { id: ownEntry, status: 'approved' });
+  check('moderadora não aprova o próprio envio: 403', r.status === 403 && r.data.error === 'own_entry', JSON.stringify(r.data));
+  r = await b.call('GET', 'moderation/queue?cursor=nada');
+  check('cursor inválido na fila: 400', r.status === 400);
+  r = await b.call('GET', `moderation/queue?cursor=${encodeURIComponent('2000-01-01T00:00:00.000Z|00000000-0000-4000-8000-000000000000')}`);
+  check('cursor válido pagina a fila', r.status === 200 && Array.isArray(r.data.submissions) && r.data.next === null);
+  // The database refuses it too, whatever the API does.
+  let dbRefused = false;
+  try {
+    execFileSync(
+      process.execPath,
+      [
+        'node_modules/wrangler/bin/wrangler.js',
+        'd1',
+        'execute',
+        'four-exiles',
+        '--local',
+        '--persist-to',
+        PERSIST,
+        '--command',
+        `update submissions set status = 'approved', reviewed_by = user_id where id = '${ownEntry}'`,
+      ],
+      { stdio: 'ignore' },
+    );
+  } catch {
+    dbRefused = true;
+  }
+  check('gatilho do banco recusa autoavaliação', dbRefused);
 } else {
   console.log('(moderação pulada: defina E2E_PERSIST com a pasta do D1 local)');
 }
@@ -247,14 +289,52 @@ brute.cookie = '';
 const statuses = [];
 for (let i = 0; i < 6; i++) statuses.push((await brute.call('POST', 'auth/login', { email: target, password: `errada-${i}-xxxx` })).status);
 r = await brute.call('POST', 'auth/login', { email: target, password });
-check('bloqueio após 5 erros, mesmo com a senha certa: 429', statuses.slice(0, 4).every((s) => s === 401) && statuses[4] === 429 && r.status === 429, `${statuses} / ${r.status}`);
+check('bloqueio após 5 erros na mesma rede, mesmo com a senha certa: 429', statuses.slice(0, 4).every((s) => s === 401) && statuses[4] === 429 && r.status === 429, `${statuses} / ${r.status}`);
+// The lock is per (network, e-mail): the owner on another network still gets in. Locally wrangler passes the
+// CF-Connecting-IP header through, which stands in for another network here (Cloudflare overwrites it in production).
+const elsewhere = client();
+r = await elsewhere.call('POST', 'auth/login', { email: target, password }, { 'CF-Connecting-IP': '2001:db8:aaaa:1::5' });
+check('dona da conta entra de outra rede apesar do bloqueio', r.status === 200, `${r.status} ${JSON.stringify(r.data)}`);
+// Many sign-ups with someone else's e-mail don't lock that person's sign-in.
+const squatter = client();
+for (let i = 0; i < 6; i++) await squatter.call('POST', 'auth/signup', { email: emailB, password }, { 'CF-Connecting-IP': '198.51.100.20' });
+r = await client().call('POST', 'auth/login', { email: emailB, password }, { 'CF-Connecting-IP': '198.51.100.21' });
+check('cadastros repetidos com o e-mail da vítima não travam o login dela', r.status === 200, `${r.status}`);
+
+// Daily image allowance ----------------------------------------------------------------------
+const uploader = client();
+await uploader.call('POST', 'auth/signup', { email: `e2e-d-${run}@example.com`, password }, { 'CF-Connecting-IP': '198.51.100.30' });
+await uploader.call('POST', 'profile', { display_name: `Upload ${run}`, race: 'reptilians' });
+const big = Buffer.alloc(1_572_864);
+PNG.copy(big);
+const uploads = [];
+for (let i = 0; i < 5; i++) {
+  r = await uploader.call('POST', 'submissions', {
+    mission_slug: 'the-dry-banquet',
+    title: `Imagem grande ${i}`,
+    licence_ok: true,
+    image: { type: 'image/png', data: big.toString('base64') },
+  });
+  uploads.push(r.status === 201 ? 'ok' : r.data.error);
+}
+check('teto diário de imagens: 4 de 1,5 MB passam, a 5ª não', uploads.slice(0, 4).every((u) => u === 'ok') && uploads[4] === 'quota', uploads.join(','));
+
+// Cache --------------------------------------------------------------------------------------
+r = await a.call('GET', 'standings');
+check('placar público em cache por 60 s', r.headers.get('cache-control') === 'public, max-age=60', r.headers.get('cache-control'));
+r = await a.call('GET', 'me');
+check('/api/me nunca em cache', r.headers.get('cache-control') === 'no-store');
 
 // Delete account ---------------------------------------------------------------------------
-r = await a.call('DELETE', 'me', {}, { Origin: 'https://evil.example' });
+r = await a.call('DELETE', 'me', { password: 'senha-nova-456789' }, { Origin: 'https://evil.example' });
 check('apagar conta de outro site: 403', r.status === 403);
 const nordicsBefore = (await a.call('GET', 'standings')).data.standings.find((s) => s.race === 'nordics').missions;
 r = await a.call('DELETE', 'me');
-check('apagar conta: 200', r.status === 200);
+check('apagar conta sem senha: 400', r.status === 400);
+r = await a.call('DELETE', 'me', { password: 'senha-errada-999' });
+check('apagar conta com senha errada: 401', r.status === 401 && r.data.error === 'bad_login');
+r = await a.call('DELETE', 'me', { password: 'senha-nova-456789' });
+check('apagar conta com a senha: 200', r.status === 200);
 check('depois de apagar: sem sessão', (await a.call('GET', 'me')).data.user === null);
 r = await a.call('POST', 'auth/login', { email: emailA, password: 'senha-nova-456789' });
 check('conta apagada não entra', r.status === 401);
