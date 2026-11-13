@@ -1,6 +1,6 @@
 /**
  * Typed content model. Every record is plain data so the mock layer in
- * `src/data/*` can later be swapped for Supabase queries returning the same shapes.
+ * `src/data/*` can later be swapped for API queries (functions/api/) returning the same shapes.
  */
 
 export type Lang = 'en' | 'pt-BR';

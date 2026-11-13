@@ -1,69 +1,62 @@
 import { createContext, createElement, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
-import type { Session } from '@supabase/supabase-js';
-import { supabase, type Profile } from '../../lib/supabase';
+import { api, type Me, type Profile, type User } from '../../lib/api';
 
 export interface Account {
+  /** False when the API can't be reached (e.g. `npm run dev` without wrangler): the site shows "coming soon". */
   enabled: boolean;
   loading: boolean;
-  session: Session | null;
+  user: User | null;
   profile: Profile | null;
   moderator: boolean;
   reload: () => Promise<void>;
+  /** Takes the answer of a sign-in, sign-up or profile call, so the page updates without asking again. */
+  apply: (me: Me) => void;
   signOut: () => Promise<void>;
 }
 
 const AccountContext = createContext<Account | null>(null);
 
-/** sessionStorage flag set when someone arrives from a "forgot password" e-mail link. */
-export const RECOVERY_KEY = 'four-exiles:recovery';
+const signedOut: Me = { user: null, profile: null, moderator: false };
 
 /** One shared sign-in state for the whole site (header, account page, missions, moderation). */
 export function AccountProvider({ children }: { children: ReactNode }) {
-  const [session, setSession] = useState<Session | null>(null);
-  const [profile, setProfile] = useState<Profile | null>(null);
-  const [moderator, setModerator] = useState(false);
-  const [loading, setLoading] = useState(Boolean(supabase));
+  const [me, setMe] = useState<Me>(signedOut);
+  const [enabled, setEnabled] = useState(true);
+  const [loading, setLoading] = useState(true);
 
-  const load = useCallback(async (s: Session | null) => {
-    setSession(s);
-    if (!supabase || !s) {
-      setProfile(null);
-      setModerator(false);
-      setLoading(false);
-      return;
+  const reload = useCallback(async () => {
+    const { data, error } = await api.me();
+    if (data) {
+      setMe(data);
+      setEnabled(true);
+    } else {
+      setMe(signedOut);
+      // Only an API that isn't there turns accounts off; a passing error keeps the sign-in form.
+      setEnabled(error !== 'network' && error !== 'not_found' && error !== 'server_error');
     }
-    const [{ data: p }, { data: m }] = await Promise.all([
-      supabase.from('profiles').select('id, display_name, race').eq('id', s.user.id).maybeSingle(),
-      supabase.from('moderators').select('user_id').eq('user_id', s.user.id).maybeSingle(),
-    ]);
-    setProfile((p as Profile | null) ?? null);
-    setModerator(Boolean(m));
     setLoading(false);
   }, []);
 
   useEffect(() => {
-    if (!supabase) return;
-    // The callback must not await other Supabase calls directly (it holds the auth lock), so defer the load.
-    const { data } = supabase.auth.onAuthStateChange(function changed(_event, s) {
-      setTimeout(() => void load(s), 0);
-    });
-    return () => data.subscription.unsubscribe();
-  }, [load]);
+    void reload();
+  }, [reload]);
 
   const value = useMemo<Account>(
     () => ({
-      enabled: Boolean(supabase),
+      enabled,
       loading,
-      session,
-      profile,
-      moderator,
-      reload: () => load(session),
+      user: me.user,
+      profile: me.profile,
+      moderator: me.moderator,
+      reload,
+      apply: setMe,
       signOut: async () => {
-        // 'local' clears this browser's session even when the network call fails.
-        await supabase?.auth.signOut({ scope: 'local' });
+        await api.signOut();
+        // Signed out here even when the network call failed; the cookie then just expires.
+        setMe(signedOut);
       },
     }),
-    [loading, session, profile, moderator, load],
+    [enabled, loading, me, reload],
   );
 
   return createElement(AccountContext.Provider, { value }, children);

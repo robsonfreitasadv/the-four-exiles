@@ -47,5 +47,6 @@ Tagline: *Four species. One planet. No shared destiny.* / *Quatro espécies. Um 
 
 - Site MVP (Fase 1) pronto: página inicial, raças em 3D, Resistência, páginas das raças, Guerra Galáctica (dados fictícios), missões, lore, personagens, colecionáveis, mercado, transparência, privacidade, termos.
 - Visual: estilo página de produto da Apple, escuro.
+- Site no ar: https://the-four-exiles.pages.dev (Cloudflare Pages). Contas, missões, moderação e placar da Temporada 1 rodam na própria Cloudflare (Pages Functions em `functions/api/` + banco D1 `four-exiles`, esquema em `migrations/`), com entrada por e-mail e senha. O Supabase saiu em 2026-11-13; o endereço do GitHub Pages só redireciona.
 - Prévia privada do site: https://claude.ai/artifact/J6yY4A8qS5DLjFmF4qkBH6
 - Detalhes e próximos passos: `docs/HANDOFF.md`.

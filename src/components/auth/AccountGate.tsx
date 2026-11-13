@@ -1,14 +1,15 @@
 import { useState, type FormEvent, type ReactNode } from 'react';
 import { factions } from '../../data/factions';
-import { supabase, type Race } from '../../lib/supabase';
+import { api, type Race } from '../../lib/api';
 import { useI18n } from '../../i18n/I18nProvider';
 import { useCensus } from '../choose/chosenRace';
 import { SignIn, field } from './SignIn';
 import { useAccount, type Account } from './useAccount';
 
 /** First visit after signing in: nickname and race (defaults to the one chosen on the site). */
-function ProfileSetup({ userId, onDone }: { userId: string; onDone: () => void }) {
+function ProfileSetup() {
   const { t, l } = useI18n();
+  const account = useAccount();
   const { entry } = useCensus();
   const [name, setName] = useState(entry?.name ?? '');
   const [race, setRace] = useState<Race>(entry?.race ?? 'grays');
@@ -17,12 +18,13 @@ function ProfileSetup({ userId, onDone }: { userId: string; onDone: () => void }
 
   async function save(e: FormEvent) {
     e.preventDefault();
-    if (!supabase) return;
     setBusy(true);
-    const { error: err } = await supabase.from('profiles').insert({ id: userId, display_name: name.trim(), race });
+    setError('');
+    const { data, error: err } = await api.createProfile(name.trim(), race);
     setBusy(false);
-    if (err) setError(t.account.profileFailed);
-    else onDone();
+    if (data) account.apply(data);
+    else if (err === 'has_profile') void account.reload();
+    else setError(err === 'nickname_taken' ? t.account.nicknameTaken : t.account.profileFailed);
   }
 
   return (
@@ -58,7 +60,7 @@ export function AccountGate({ children }: { children: (account: Account) => Reac
 
   if (!account.enabled) return <p className="panel p-5 text-sm text-bone-muted">{t.account.soon}</p>;
   if (account.loading) return <p className="text-sm text-bone-muted">{t.account.loading}</p>;
-  if (!account.session) return <SignIn />;
-  if (!account.profile) return <ProfileSetup userId={account.session.user.id} onDone={() => void account.reload()} />;
+  if (!account.user) return <SignIn />;
+  if (!account.profile) return <ProfileSetup />;
   return <>{children(account)}</>;
 }

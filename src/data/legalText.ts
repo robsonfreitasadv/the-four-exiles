@@ -58,8 +58,8 @@ export const privacyBlocks: InfoBlock[] = [
         'pt-BR': 'Finalidade e base legal: realizar o campeonato do qual você participa, conforme os termos (LGPD, art. 7º, V). Seu apelido, sua raça e os pontos aprovados aparecem no registro público de pontos; seu e-mail, nunca. Os envios são vistos só por você e pela moderação até o projeto repostá-los com crédito, como os termos permitem.',
       },
       {
-        en: 'Storage: Supabase, in its data centre in the United States (North Virginia), an international transfer made to run the service you asked for (LGPD, art. 33, IX). The sign-in session is kept in your browser. Data is kept while your account exists. You can delete the account, entries, images and their points yourself on the account page, or ask the contact below.',
-        'pt-BR': 'Armazenamento: Supabase, no data center dos Estados Unidos (Virgínia do Norte), uma transferência internacional feita para executar o serviço que você pediu (LGPD, art. 33, IX). A sessão de entrada fica no seu navegador. Os dados ficam guardados enquanto a conta existir. Você mesmo pode apagar a conta, os envios, as imagens e os pontos deles na página da conta, ou pedir ao contato abaixo.',
+        en: 'Storage: Cloudflare (D1 database), in its data centres in Western Europe, an international transfer made to run the service you asked for (LGPD, art. 33, IX). Your password is stored only as a one-way hash. The sign-in session is a cookie your browser keeps for 30 days, which page scripts cannot read. Data is kept while your account exists. You can delete the account, entries, images and their points yourself on the account page, or ask the contact below.',
+        'pt-BR': 'Armazenamento: Cloudflare (banco de dados D1), nos data centers da Europa Ocidental, uma transferência internacional feita para executar o serviço que você pediu (LGPD, art. 33, IX). Sua senha é guardada só como um resumo irreversível (hash). A sessão de entrada é um cookie que seu navegador guarda por 30 dias e que os scripts da página não conseguem ler. Os dados ficam guardados enquanto a conta existir. Você mesmo pode apagar a conta, os envios, as imagens e os pontos deles na página da conta, ou pedir ao contato abaixo.',
       },
       {
         en: 'Accounts are for people aged 13 or over; under 18, with the knowledge of a parent or guardian.',
@@ -79,8 +79,8 @@ export const privacyBlocks: InfoBlock[] = [
         'pt-BR': 'Fontes: as fontes do site são carregadas do Google Fonts, então seu navegador se conecta ao Google, que recebe seu endereço IP conforme a política de privacidade dele.',
       },
       {
-        en: 'Accounts: sign-in e-mails are sent by Supabase (and, when set up, by Resend, the e-mail service). If the bot check is on, the sign-in form loads Cloudflare Turnstile, which receives technical data from your browser to tell people from bots.',
-        'pt-BR': 'Contas: os e-mails de entrada são enviados pelo Supabase (e, quando configurado, pelo Resend, o serviço de e-mail). Se a verificação contra robôs estiver ligada, o formulário de entrada carrega o Cloudflare Turnstile, que recebe dados técnicos do seu navegador para distinguir pessoas de robôs.',
+        en: 'Accounts: sign-in and the account data run on Cloudflare (Pages Functions and D1), the same provider that hosts the site. The site sends no e-mails for now; when password recovery by e-mail arrives, it will be sent through Cloudflare too.',
+        'pt-BR': 'Contas: a entrada e os dados da conta rodam na Cloudflare (Pages Functions e D1), o mesmo provedor que hospeda o site. Por enquanto o site não envia e-mails; quando a recuperação de senha por e-mail chegar, ela também sairá pela Cloudflare.',
       },
       {
         en: 'Community: the community lives on Discord. Nothing is sent to Discord unless you click an invitation; once there, Discord’s own terms and privacy policy apply.',

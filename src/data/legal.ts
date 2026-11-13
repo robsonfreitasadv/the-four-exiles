@@ -10,8 +10,8 @@ export const legal = {
   /** Contact for privacy requests and the terms (also acts as the data protection contact). */
   contactEmail: '',
   /** Hosting provider, once chosen (e.g. Cloudflare Pages). */
-  hosting: 'GitHub Pages (GitHub, Inc., United States)',
-  lastUpdated: '2026-10-22',
+  hosting: 'Cloudflare Pages (Cloudflare, Inc., United States)',
+  lastUpdated: '2026-11-13',
 };
 
 export const toBeDefined: Localized = { en: 'to be defined before launch', 'pt-BR': 'a definir antes do lançamento' };

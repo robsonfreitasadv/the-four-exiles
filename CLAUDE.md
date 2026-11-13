@@ -52,14 +52,22 @@ Nada importante fica só na conversa ou na memória local: o que não está no r
 | `src/components/` | `RacesShowcase` (raças em 3D), `ResistanceSection`, cards, placar, layout |
 | `src/pages/` | Páginas |
 | `design/` | Fichas originais e script de recorte |
+| `functions/api/` | API do site (Cloudflare Pages Functions): conta, perfil, envios, moderação, placar; ajudantes em `functions/_lib/` |
+| `migrations/` | Esquema do banco Cloudflare D1 (`four-exiles`); `wrangler.toml` liga o banco ao projeto Pages |
+| `src/lib/api.ts` | Cliente do site para a API (`/api/...`, cookie de sessão HttpOnly) |
 
 ## Comandos
 
 ```
 npm install
-npm run dev            # http://localhost:5173
+npm run dev            # http://localhost:5173 (a API só responde se o wrangler pages dev estiver rodando, porta 8788)
 npm run build
-npm run build:static   # rotas com # e caminhos relativos, para qualquer hospedagem estática
+npm run build:static   # rotas com # e caminhos relativos
+npm test               # testes de senha e validação (vitest)
+npm run db:migrate:local && npm run pages:dev   # site + API + D1 local em http://127.0.0.1:8788
+npm run test:e2e       # ponta a ponta da API contra o pages dev local (ver docs/HANDOFF.md)
 ```
+
+Banco: mudança de esquema vira um arquivo novo em `migrations/` e é aplicada com `npx wrangler d1 migrations apply four-exiles --remote` antes do deploy. Login e dados ficam na Cloudflare (D1 + Pages Functions) desde 2026-11-13; não há mais Supabase.
 
 Visual: página de produto estilo Apple, escura (SF/Inter, frases sem caixa-alta, botões em pílula, superfícies arredondadas de 28–36 px).

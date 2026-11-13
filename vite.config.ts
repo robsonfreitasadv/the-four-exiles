@@ -1,23 +1,21 @@
+/// <reference types="vitest/config" />
 import { defineConfig, type Plugin } from 'vite';
 import react from '@vitejs/plugin-react';
 
-const SUPABASE = 'qcnomemkcjrhhzcsrabk.supabase.co';
-const TURNSTILE = 'https://challenges.cloudflare.com';
-
 /**
- * Content Security Policy for the published static site (GitHub Pages can't set headers, so it goes in a meta
- * tag). Only external hosts the site really uses are allowed. Left out of the dev server, whose hot reload
- * injects inline scripts.
+ * Content Security Policy for the published static site (a meta tag, so it travels with the build to any host).
+ * Everything the site loads is its own, including the API at /api, except Google Fonts. Left out of the dev
+ * server, whose hot reload injects inline scripts.
  */
 const csp = [
   "default-src 'self'",
-  `script-src 'self' ${TURNSTILE}`,
+  "script-src 'self'",
   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
   "font-src 'self' https://fonts.gstatic.com",
-  `img-src 'self' data: blob: https://${SUPABASE}`,
+  "img-src 'self' data: blob:",
   "media-src 'self' data: blob:",
-  `connect-src 'self' https://${SUPABASE} wss://${SUPABASE} ${TURNSTILE}`,
-  `frame-src ${TURNSTILE}`,
+  "connect-src 'self'",
+  "frame-src 'none'",
   "worker-src 'self' blob:",
   "object-src 'none'",
   "base-uri 'self'",
@@ -39,5 +37,7 @@ function securityMeta(): Plugin {
 
 export default defineConfig({
   plugins: [react(), securityMeta()],
-  server: { port: 5173 },
+  // `npm run dev` sends /api to `wrangler pages dev` (port 8788) when it is running; without it, accounts show "soon".
+  server: { port: 5173, proxy: { '/api': 'http://localhost:8788' } },
+  test: { include: ['tests/**/*.test.ts'] },
 });

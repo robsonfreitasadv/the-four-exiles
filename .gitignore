@@ -13,3 +13,6 @@ design/store/
 # Estampas de impressão e NFT em alta: grandes, refeitas por design/print-art.cjs e design/nft-art.cjs
 design/print/*.png
 design/nft/*.png
+
+# Estado local do wrangler (D1 local, cache)
+.wrangler/

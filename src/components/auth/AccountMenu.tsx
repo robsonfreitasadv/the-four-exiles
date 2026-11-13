@@ -13,7 +13,7 @@ export function AccountMenu({ className = '' }: { className?: string }) {
   const pill =
     'max-w-[9rem] truncate rounded-full border border-graphite-500 px-3 py-1.5 text-xs text-bone/80 transition-colors hover:border-bone hover:text-bone';
 
-  if (!account.session) {
+  if (!account.user) {
     return (
       <Link to="/account" className={`${pill} ${className}`}>
         {t.account.signIn}

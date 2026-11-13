@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { supabase } from '../lib/supabase';
+import { api } from '../lib/api';
 import { rankScores, scoresBySeason, seasons, totalScore } from '../data/championship';
 import { factionById } from '../data/factions';
 import type { FactionScore } from '../data/types';
@@ -105,23 +105,20 @@ export function LeaderboardTable({ rows }: { rows: FactionScore[] }) {
   );
 }
 
-interface StandingRow {
-  race: FactionScore['faction'];
-  community: number | string;
-  missions: number | string;
-  events: number | string;
-}
-
-/** Season table: Season 1 comes live from the database when it is connected; other seasons from local data. */
+/** Season table: Season 1 comes live from the database (/api/standings) when it answers; other seasons from local data. */
 export function SeasonTable({ season }: { season: string }) {
   const [live, setLive] = useState<FactionScore[] | null>(null);
 
   useEffect(() => {
-    if (season !== 's1' || !supabase) return;
-    void supabase.rpc('season1_standings').then(function loaded({ data }) {
-      const rows = (data as StandingRow[] | null) ?? null;
-      if (rows) setLive(rows.map((r) => ({ faction: r.race, community: Number(r.community), missions: Number(r.missions), events: Number(r.events) })));
+    if (season !== 's1') return;
+    let current = true;
+    void api.standings().then(function loaded({ data }) {
+      if (current && data)
+        setLive(data.standings.map((r) => ({ faction: r.race, community: Number(r.community), missions: Number(r.missions), events: Number(r.events) })));
     });
+    return () => {
+      current = false;
+    };
   }, [season]);
 
   return <LeaderboardTable rows={season === 's1' && live ? live : scoresBySeason[season]} />;

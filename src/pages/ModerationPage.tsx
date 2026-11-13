@@ -1,30 +1,17 @@
 import { useCallback, useEffect, useState } from 'react';
 import { AccountGate } from '../components/auth/AccountGate';
 import { SectionHeading } from '../components/ui/primitives';
-import { supabase, type Submission } from '../lib/supabase';
+import { api, type Submission } from '../lib/api';
 import { useI18n } from '../i18n/I18nProvider';
-
-interface Row extends Submission {
-  imageUrl?: string;
-}
 
 function Queue() {
   const { t } = useI18n();
-  const [rows, setRows] = useState<Row[]>([]);
+  const [rows, setRows] = useState<Submission[]>([]);
   const [notes, setNotes] = useState<Record<string, string>>({});
 
   const load = useCallback(async () => {
-    if (!supabase) return;
-    const { data } = await supabase.from('submissions').select('*').eq('status', 'pending').order('created_at').limit(50);
-    const list = (data as Submission[] | null) ?? [];
-    const withImages = await Promise.all(
-      list.map(async (s) => {
-        if (!s.image_path || !supabase) return s;
-        const { data: signed } = await supabase.storage.from('submissions').createSignedUrl(s.image_path, 3600);
-        return { ...s, imageUrl: signed?.signedUrl };
-      }),
-    );
-    setRows(withImages);
+    const { data } = await api.moderationQueue();
+    setRows(data?.submissions ?? []);
   }, []);
 
   useEffect(() => {
@@ -32,8 +19,7 @@ function Queue() {
   }, [load]);
 
   async function review(id: string, status: 'approved' | 'rejected') {
-    if (!supabase) return;
-    await supabase.from('submissions').update({ status, moderator_note: notes[id]?.trim() || null }).eq('id', id);
+    await api.review(id, status, notes[id]?.trim() || null);
     void load();
   }
 
@@ -46,7 +32,7 @@ function Queue() {
             {s.mission_slug} · {new Date(s.created_at).toLocaleString()}
           </p>
           <h3 className="mt-1 font-display text-xl font-semibold text-bone">{s.title}</h3>
-          {s.imageUrl && <img src={s.imageUrl} alt="" className="mt-3 max-h-80 rounded-xl object-contain" />}
+          {s.has_image && <img src={api.imageUrl(s.id)} alt="" loading="lazy" className="mt-3 max-h-80 rounded-xl object-contain" />}
           {s.link_url && (
             <a href={s.link_url} target="_blank" rel="noopener noreferrer nofollow" className="mt-2 block break-all text-sm text-link underline">
               {s.link_url}
@@ -74,7 +60,7 @@ function Queue() {
   );
 }
 
-/** Moderation queue: only people listed in public.moderators see entries (enforced by the database). */
+/** Moderation queue: only people listed in the moderators table see entries (checked by the API on every call). */
 export function ModerationPage() {
   const { t } = useI18n();
   return (

@@ -1,4 +1,6 @@
-# Builds the static site (hash URLs, relative paths) and publishes it to GitHub Pages and Cloudflare Pages on every push to main.
+# On every push to main: tests, builds the site (hash URLs, relative paths) and publishes it with its API
+# (functions/, database D1) to Cloudflare Pages. GitHub Pages can't run the API, so it only gets a page that
+# sends visitors (and old links, hash included) to https://the-four-exiles.pages.dev.
 name: GitHub Pages
 
 on:
@@ -25,15 +27,39 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
+      - run: npm test
       - run: npm run build:static
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
       - uses: actions/upload-artifact@v4
         with:
           name: dist
           path: dist
+      # The GitHub Pages copy is just a redirect; the hash (#/missions…) goes along, so old links still work.
+      - name: Redirect page for GitHub Pages
+        run: |
+          mkdir -p redirect
+          cat > redirect/index.html <<'HTML'
+          <!doctype html>
+          <html lang="en">
+          <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <meta name="robots" content="noindex">
+          <title>The Four Exiles</title>
+          <link rel="canonical" href="https://the-four-exiles.pages.dev/">
+          <meta http-equiv="refresh" content="0; url=https://the-four-exiles.pages.dev/">
+          <script>location.replace('https://the-four-exiles.pages.dev/' + location.hash);</script>
+          <style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#000;color:#f5f5f7;font:16px/1.5 system-ui,sans-serif}a{color:#f5f5f7}</style>
+          </head>
+          <body>
+          <p>The Four Exiles moved to <a href="https://the-four-exiles.pages.dev/">the-four-exiles.pages.dev</a>. · O site mudou para <a href="https://the-four-exiles.pages.dev/">the-four-exiles.pages.dev</a>.</p>
+          </body>
+          </html>
+          HTML
+          cp redirect/index.html redirect/404.html
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: redirect
 
   deploy:
     needs: build
@@ -45,8 +71,9 @@ jobs:
       - id: deployment
         uses: actions/deploy-pages@v4
 
-  # Same build to Cloudflare Pages (project the-four-exiles). Skipped until the
-  # CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID repository secrets exist.
+  # The real site: dist/ plus functions/ (the API) and wrangler.toml (the D1 binding), project the-four-exiles.
+  # Database changes are not applied here: run `npx wrangler d1 migrations apply four-exiles --remote` first.
+  # Skipped until the CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID repository secrets exist.
   cloudflare:
     needs: build
     runs-on: ubuntu-latest
@@ -55,9 +82,11 @@ jobs:
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
     steps:
       - if: env.CLOUDFLARE_API_TOKEN != ''
+        uses: actions/checkout@v4
+      - if: env.CLOUDFLARE_API_TOKEN != ''
         uses: actions/download-artifact@v4
         with:
           name: dist
           path: dist
       - if: env.CLOUDFLARE_API_TOKEN != ''
-        run: npx --yes wrangler@4 pages deploy dist --project-name the-four-exiles --branch main --commit-hash ${{ github.sha }}
+        run: npx --yes wrangler@4.161.0 pages deploy dist --project-name the-four-exiles --branch main --commit-hash ${{ github.sha }}

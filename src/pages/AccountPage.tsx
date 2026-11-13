@@ -2,11 +2,11 @@ import { useEffect, useState, type FormEvent } from 'react';
 import { Link } from 'react-router-dom';
 import { AccountGate } from '../components/auth/AccountGate';
 import { field, MIN_PASSWORD } from '../components/auth/SignIn';
-import { RECOVERY_KEY, type Account } from '../components/auth/useAccount';
+import type { Account } from '../components/auth/useAccount';
 import { SectionHeading } from '../components/ui/primitives';
 import { factionById } from '../data/factions';
 import { missions } from '../data/missions';
-import { supabase, type Submission } from '../lib/supabase';
+import { api, type Submission } from '../lib/api';
 import { useI18n } from '../i18n/I18nProvider';
 
 function Nickname({ account }: { account: Account }) {
@@ -16,10 +16,9 @@ function Nickname({ account }: { account: Account }) {
 
   async function save(e: FormEvent) {
     e.preventDefault();
-    if (!supabase) return;
-    const { error } = await supabase.from('profiles').update({ display_name: name.trim() }).eq('id', account.profile!.id);
-    setMessage(error ? t.account.profileFailed : t.accountPage.saved);
-    if (!error) void account.reload();
+    const { data, error } = await api.renameProfile(name.trim());
+    if (data) account.apply(data);
+    setMessage(data ? t.accountPage.saved : error === 'nickname_taken' ? t.account.nicknameTaken : t.account.profileFailed);
   }
 
   return (
@@ -40,21 +39,19 @@ function Nickname({ account }: { account: Account }) {
   );
 }
 
-function Entries({ userId }: { userId: string }) {
+function Entries() {
   const { t, l } = useI18n();
   const [items, setItems] = useState<Submission[] | null>(null);
 
   useEffect(() => {
-    if (!supabase) return;
-    void supabase
-      .from('submissions')
-      .select('*')
-      .eq('user_id', userId)
-      .order('created_at', { ascending: false })
-      .then(function loaded({ data }) {
-        setItems((data as Submission[] | null) ?? []);
-      });
-  }, [userId]);
+    let live = true;
+    void api.mySubmissions().then(function loaded({ data }) {
+      if (live) setItems(data?.submissions ?? []);
+    });
+    return () => {
+      live = false;
+    };
+  }, []);
 
   if (!items) return <p className="text-sm text-bone-muted">{t.account.loading}</p>;
   if (!items.length)
@@ -88,17 +85,10 @@ function Entries({ userId }: { userId: string }) {
   );
 }
 
-function readRecovery() {
-  try {
-    return sessionStorage.getItem(RECOVERY_KEY) === '1';
-  } catch {
-    return false;
-  }
-}
-
-/** Set or change the password; after a "forgot password" link it opens first, with its own intro. */
-function PasswordPanel({ recovery, onSaved }: { recovery: boolean; onSaved: () => void }) {
+/** Change the password (asks for the current one); other devices are signed out afterwards. */
+function PasswordPanel() {
   const { t } = useI18n();
+  const [current, setCurrent] = useState('');
   const [password, setPassword] = useState('');
   const [confirm, setConfirm] = useState('');
   const [busy, setBusy] = useState(false);
@@ -106,32 +96,41 @@ function PasswordPanel({ recovery, onSaved }: { recovery: boolean; onSaved: () =
 
   async function save(e: FormEvent) {
     e.preventDefault();
-    if (!supabase) return;
     if (password !== confirm) return setMessage(t.account.mismatch);
+    if ([...password].length < MIN_PASSWORD) return setMessage(t.account.passwordHint);
     setBusy(true);
-    const { error } = await supabase.auth.updateUser({ password });
+    const { error } = await api.changePassword(current, password);
     setBusy(false);
-    setMessage(error ? t.accountPage.passwordFailed : t.accountPage.passwordSaved);
+    setMessage(error === 'too_many' ? t.account.tooMany : error ? t.accountPage.passwordFailed : t.accountPage.passwordSaved);
     if (!error) {
+      setCurrent('');
       setPassword('');
       setConfirm('');
-      // Any other device still signed in (maybe the reason for the change) is signed out.
-      void supabase.auth.signOut({ scope: 'others' });
-      onSaved();
     }
   }
 
+  const input = (label: string, value: string, set: (v: string) => void, autoComplete: string, min?: number) => (
+    <label className="block">
+      <span className="text-sm text-bone-muted">{label}</span>
+      <input
+        type="password"
+        required
+        minLength={min}
+        maxLength={256}
+        autoComplete={autoComplete}
+        value={value}
+        onChange={(e) => set(e.target.value)}
+        className={field}
+      />
+    </label>
+  );
+
   return (
     <form onSubmit={save} className="space-y-3">
-      <p className="text-sm text-bone-dim">{recovery ? t.accountPage.recoveryIntro : t.accountPage.passwordIntro}</p>
-      <label className="block">
-        <span className="text-sm text-bone-muted">{t.accountPage.newPassword}</span>
-        <input type="password" required minLength={MIN_PASSWORD} autoComplete="new-password" value={password} onChange={(e) => setPassword(e.target.value)} className={field} />
-      </label>
-      <label className="block">
-        <span className="text-sm text-bone-muted">{t.account.passwordConfirm}</span>
-        <input type="password" required minLength={MIN_PASSWORD} autoComplete="new-password" value={confirm} onChange={(e) => setConfirm(e.target.value)} className={field} />
-      </label>
+      <p className="text-sm text-bone-dim">{t.accountPage.passwordIntro}</p>
+      {input(t.accountPage.currentPassword, current, setCurrent, 'current-password')}
+      {input(t.accountPage.newPassword, password, setPassword, 'new-password', MIN_PASSWORD)}
+      {input(t.account.passwordConfirm, confirm, setConfirm, 'new-password', MIN_PASSWORD)}
       <p className="text-xs text-bone-muted">{t.account.passwordHint}</p>
       <button type="submit" disabled={busy} className="btn-primary px-6 py-3 text-sm disabled:opacity-60">
         {t.accountPage.savePassword}
@@ -154,17 +153,14 @@ function DeleteAccount({ account }: { account: Account }) {
 
   async function remove(e: FormEvent) {
     e.preventDefault();
-    if (!supabase || confirm.trim().toUpperCase() !== word) return;
+    if (confirm.trim().toUpperCase() !== word) return;
     setBusy(true);
     setError('');
-    // Images first (the database cannot delete storage files), then the account and everything tied to it.
-    const folder = account.session!.user.id;
-    const { data: files } = await supabase.storage.from('submissions').list(folder, { limit: 1000 });
-    if (files?.length) await supabase.storage.from('submissions').remove(files.map((f) => `${folder}/${f.name}`));
-    const { error: err } = await supabase.rpc('delete_my_account');
+    // The database removes the profile, entries, images and points together with the login.
+    const { error: err } = await api.deleteAccount();
     setBusy(false);
     if (err) return setError(t.accountPage.deleteFailed);
-    await account.signOut();
+    await account.reload();
   }
 
   return (
@@ -186,24 +182,9 @@ function DeleteAccount({ account }: { account: Account }) {
   );
 }
 
-/** Sign in, see your entries and points, change your nickname or delete everything. */
+/** Sign in, see your entries and points, change your nickname or password, or delete everything. */
 export function AccountPage() {
   const { t, l } = useI18n();
-  const [recovery, setRecovery] = useState(readRecovery);
-  function recovered() {
-    try {
-      sessionStorage.removeItem(RECOVERY_KEY);
-    } catch {
-      /* nothing stored */
-    }
-    setRecovery(false);
-  }
-  const passwordSection = (
-    <section className={`panel space-y-4 p-5 ${recovery ? 'ring-1 ring-bone' : ''}`}>
-      <h2 className="font-display text-2xl font-semibold">{t.accountPage.passwordTitle}</h2>
-      <PasswordPanel recovery={recovery} onSaved={recovered} />
-    </section>
-  );
   return (
     <div className="container-x py-14 md:py-20">
       <SectionHeading as="h1" kicker={t.accountPage.kicker} title={t.accountPage.title} intro={t.accountPage.intro} />
@@ -213,10 +194,9 @@ export function AccountPage() {
             const race = factionById(account.profile!.race);
             return (
               <>
-                {recovery && passwordSection}
                 <section className="panel space-y-4 p-5">
                   <p className="text-sm text-bone-muted">
-                    {t.accountPage.email}: <span className="text-bone">{account.session!.user.email}</span>
+                    {t.accountPage.email}: <span className="text-bone">{account.user!.email}</span>
                   </p>
                   <p className="text-sm text-bone-muted">
                     {t.account.race}: <span className="text-bone">{race ? l(race.name) : account.profile!.race}</span> · {t.accountPage.raceLocked}
@@ -235,9 +215,12 @@ export function AccountPage() {
                 </section>
                 <section className="panel space-y-4 p-5">
                   <h2 className="font-display text-2xl font-semibold">{t.accountPage.entries}</h2>
-                  <Entries userId={account.session!.user.id} />
+                  <Entries />
                 </section>
-                {!recovery && passwordSection}
+                <section className="panel space-y-4 p-5">
+                  <h2 className="font-display text-2xl font-semibold">{t.accountPage.passwordTitle}</h2>
+                  <PasswordPanel />
+                </section>
                 <section className="panel space-y-4 p-5">
                   <h2 className="font-display text-2xl font-semibold">{t.accountPage.deleteTitle}</h2>
                   <DeleteAccount account={account} />

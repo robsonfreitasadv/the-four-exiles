@@ -15,7 +15,9 @@ npm run build:static   # hash routes + relative paths, for any static file host
 
 | Path | What |
 | --- | --- |
-| `src/data/types.ts` | Typed content model (shapes to keep when moving to Supabase) |
+| `src/data/types.ts` | Typed content model (shapes to keep when moving data to the API) |
+| `functions/api/` | API (Cloudflare Pages Functions): accounts, profiles, mission entries, moderation, standings |
+| `migrations/` | Database schema (Cloudflare D1), applied with `wrangler d1 migrations apply` |
 | `src/data/*.ts` | Mock data: factions, missions, championship (fictional), info pages |
 | `src/i18n/` | `en.ts` (source of keys), `pt-BR.ts` (typed against it), provider + `useI18n()` |
 | `src/components/art/` | Original SVG character art, emblems, hero scene, mission thumbnails |

@@ -1,0 +1,12 @@
+# Cloudflare Pages project "the-four-exiles": the static site (dist/) plus the API in functions/api/.
+# Local: npm run build:static && npx wrangler d1 migrations apply four-exiles --local && npx wrangler pages dev dist
+name = "the-four-exiles"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-11-01"
+
+# Accounts, profiles, mission entries and the Season 1 score log (schema in migrations/).
+[[d1_databases]]
+binding = "DB"
+database_name = "four-exiles"
+database_id = "072c72a7-c1c0-42b8-9fba-2b7e3f4c06ba"
+migrations_dir = "migrations"

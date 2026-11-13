@@ -1,30 +1,25 @@
 import { useCallback, useEffect, useState, type FormEvent } from 'react';
 import { Link } from 'react-router-dom';
-import { supabase, type Submission } from '../../lib/supabase';
+import { api, IMAGE_TYPES, MAX_IMAGE_BYTES, type Submission } from '../../lib/api';
 import { useI18n } from '../../i18n/I18nProvider';
 import { AccountGate } from '../auth/AccountGate';
 
-const MAX_BYTES = 5 * 1024 * 1024;
-const TYPES = ['image/png', 'image/jpeg', 'image/webp', 'image/gif'];
 const field =
   'mt-2 w-full rounded-2xl border border-graphite-500 bg-graphite-800 px-4 py-3 text-bone placeholder:text-bone-muted focus:border-bone focus:outline-none';
 
-function MyEntries({ slug, userId, refresh }: { slug: string; userId: string; refresh: number }) {
+function MyEntries({ slug, refresh }: { slug: string; refresh: number }) {
   const { t } = useI18n();
   const [items, setItems] = useState<Submission[]>([]);
 
   useEffect(() => {
-    if (!supabase) return;
-    void supabase
-      .from('submissions')
-      .select('*')
-      .eq('mission_slug', slug)
-      .eq('user_id', userId)
-      .order('created_at', { ascending: false })
-      .then(function loaded({ data }) {
-        setItems((data as Submission[] | null) ?? []);
-      });
-  }, [slug, userId, refresh]);
+    let live = true;
+    void api.mySubmissions(slug).then(function loaded({ data }) {
+      if (live) setItems(data?.submissions ?? []);
+    });
+    return () => {
+      live = false;
+    };
+  }, [slug, refresh]);
 
   if (!items.length) return null;
   const colour = { pending: 'text-[#ffd60a]', approved: 'text-[#5fe07f]', rejected: 'text-signal' };
@@ -50,6 +45,7 @@ export function MissionSubmit({ slug }: { slug: string }) {
   const [title, setTitle] = useState('');
   const [link, setLink] = useState('');
   const [file, setFile] = useState<File | null>(null);
+  const [fileKey, setFileKey] = useState(0);
   const [note, setNote] = useState('');
   const [licence, setLicence] = useState(false);
   const [busy, setBusy] = useState(false);
@@ -60,42 +56,28 @@ export function MissionSubmit({ slug }: { slug: string }) {
     setTitle('');
     setLink('');
     setFile(null);
+    setFileKey((n) => n + 1);
     setNote('');
     setLicence(false);
   }, []);
 
-  async function send(e: FormEvent, userId: string) {
+  async function send(e: FormEvent) {
     e.preventDefault();
-    if (!supabase) return;
     setMessage('');
     if (!link.trim() && !file) return setMessage(t.missionForm.needOne);
     if (link.trim() && !/^https:\/\/\S{4,500}$/.test(link.trim())) return setMessage(t.missionForm.badLink);
-    if (file && (!TYPES.includes(file.type) || file.size > MAX_BYTES)) return setMessage(t.missionForm.badFile);
+    if (file && (!IMAGE_TYPES.includes(file.type) || file.size > MAX_IMAGE_BYTES)) return setMessage(t.missionForm.badFile);
     setBusy(true);
-    let imagePath: string | null = null;
-    if (file) {
-      const ext = file.type.split('/')[1].replace('jpeg', 'jpg');
-      imagePath = `${userId}/${crypto.randomUUID()}.${ext}`;
-      const { error } = await supabase.storage.from('submissions').upload(imagePath, file, { contentType: file.type, upsert: false });
-      if (error) {
-        setBusy(false);
-        return setMessage(t.missionForm.failed);
-      }
-    }
-    const { error } = await supabase.from('submissions').insert({
+    const { error } = await api.submit({
       mission_slug: slug,
       title: title.trim(),
       link_url: link.trim() || null,
-      image_path: imagePath,
       note: note.trim() || null,
       licence_ok: licence,
+      image: file,
     });
     setBusy(false);
-    if (error) {
-      // Don't leave an orphan image behind when the entry itself was refused.
-      if (imagePath) await supabase.storage.from('submissions').remove([imagePath]);
-      return setMessage(t.missionForm.failed);
-    }
+    if (error) return setMessage(error === 'too_large' ? t.missionForm.badFile : t.missionForm.failed);
     reset();
     setRefresh((n) => n + 1);
     setMessage(t.missionForm.sent);
@@ -113,18 +95,24 @@ export function MissionSubmit({ slug }: { slug: string }) {
                 {t.account.signOut}
               </button>
             </p>
-            <form onSubmit={(e) => void send(e, account.session!.user.id)} className="space-y-3">
+            <form onSubmit={(e) => void send(e)} className="space-y-3">
               <label className="block">
                 <span className="text-sm text-bone-muted">{t.missionForm.entryTitle}</span>
                 <input required minLength={2} maxLength={120} value={title} onChange={(e) => setTitle(e.target.value)} className={field} />
               </label>
               <label className="block">
                 <span className="text-sm text-bone-muted">{t.missionForm.link}</span>
-                <input type="url" placeholder="https://" value={link} onChange={(e) => setLink(e.target.value)} className={field} />
+                <input type="url" placeholder="https://" maxLength={508} value={link} onChange={(e) => setLink(e.target.value)} className={field} />
               </label>
               <label className="block">
                 <span className="text-sm text-bone-muted">{t.missionForm.image}</span>
-                <input type="file" accept={TYPES.join(',')} onChange={(e) => setFile(e.target.files?.[0] ?? null)} className="mt-2 block w-full text-sm text-bone-dim" />
+                <input
+                  key={fileKey}
+                  type="file"
+                  accept={IMAGE_TYPES.join(',')}
+                  onChange={(e) => setFile(e.target.files?.[0] ?? null)}
+                  className="mt-2 block w-full text-sm text-bone-dim"
+                />
               </label>
               <label className="block">
                 <span className="text-sm text-bone-muted">{t.missionForm.note}</span>
@@ -148,7 +136,7 @@ export function MissionSubmit({ slug }: { slug: string }) {
                 </p>
               )}
             </form>
-            <MyEntries slug={slug} userId={account.session!.user.id} refresh={refresh} />
+            <MyEntries slug={slug} refresh={refresh} />
           </>
         )}
       </AccountGate>
